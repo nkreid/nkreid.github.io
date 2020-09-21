@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Neil Reid
-subtitle: Student, Tutor, Innovator
+title: Tutoring
+subtitle: Work with me!
 ---
