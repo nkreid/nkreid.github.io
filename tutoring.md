@@ -11,7 +11,7 @@ My rates range from $30-$40/hr depending on location, grade-level, and required 
 
 Please contact me directly for up-to-date pricing, plans, and schedules. 
 
-Math Coursework:  
+##Math Coursework:  
 6th, 7th, 8th grade  
 Pre-Algebra  
 Algebra I  
@@ -27,7 +27,7 @@ Differential Equations
 Linear Algebra  
 
 
-Science Coursework:  
+##Science Coursework:  
 Physics (Intro, Honors, or AP)  
 Chemistry (Intro, Honors or AP)  
 Biology (Intro, Honors, or AP)  
