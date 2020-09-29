@@ -11,24 +11,24 @@ My rates range from $30-$40/hr depending on location, grade-level, and required 
 
 Please contact me directly for up-to-date pricing, plans, and schedules. 
 
-Math Coursework:
-6th, 7th, 8th grade
-Pre-Algebra
-Algebra I
-Algebra II
-Geometry
-Trigonometry
-Introductory Statistics
-Pre-Calculus
-AP Caluclus AB
-AP Calculus BC
-Multivariable Calculus
-Differential Equations
-Linear Algebra
+Math Coursework:  
+6th, 7th, 8th grade  
+Pre-Algebra  
+Algebra I  
+Algebra II  
+Geometry  
+Trigonometry  
+Introductory Statistics  
+Pre-Calculus  
+AP Caluclus AB  
+AP Calculus BC  
+Multivariable Calculus  
+Differential Equations  
+Linear Algebra  
 
 
-Science Coursework:
-Physics (Intro, Honors, or AP)
-Chemistry (Intro, Honors or AP)
-Biology (Intro, Honors, or AP)
+Science Coursework:  
+Physics (Intro, Honors, or AP)  
+Chemistry (Intro, Honors or AP)  
+Biology (Intro, Honors, or AP)  
 
