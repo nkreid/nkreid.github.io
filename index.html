@@ -15,7 +15,12 @@ full-width: true
   position: relative;
 }
   
-
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
 /* three columns side by side */
 .column {
   float: left;
@@ -64,7 +69,8 @@ full-width: true
 </style>
 <body>
 
-<div class="container">    
+<div class="container">   
+  <div class="row">
     <div class="column">
     <img src="assets/img/TutorClipArt.png" alt="Pencil" class="image" style="width:100%">
       <div class="middle">
@@ -85,6 +91,7 @@ full-width: true
         <div class="text">Projects</div>
       </div>
     </div>
+  </div>
 </div>
   
 </body>
