@@ -39,7 +39,7 @@ title-img: "/assets/img/HomeIcon.png"
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "reid@alumnni.usc.edu"
+  email: "neil.k.reid@gmail.com"
 #   facebook: 
   github: nkreid
 #  twitter: kobster444
@@ -76,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "nkreid.github.io"
+url-pretty: "www.nkreid.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
