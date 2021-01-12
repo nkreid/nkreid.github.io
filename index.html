@@ -17,20 +17,10 @@ full-width: true
   
 
 /* three columns side by side */
-.columnLeft {
+.column {
   float: left;
-  width: 30%;
-  border-style: solid
-}
-  
-.columnCenter {
-  width: 30%;
-  border-style: solid
-}
-  
-.columnRight {
-  float: right;
-  width: 30%;
+  width: 33.33%;
+  padding: 20px
   border-style: solid
 }
   
@@ -46,6 +36,7 @@ full-width: true
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+  vertical-align: middle
   text-align: center;
 }
 
@@ -73,22 +64,22 @@ full-width: true
 </style>
 <body>
 
-<div class="container">
-    <div class="columnCenter">
-    <img src="assets/img/BookClipArt.png" alt="Book" class="image" style="width:100%">
-      <div class="middle">
-        <div class="text">Tutoring</div>
-      </div>
-    </div>
-    
-    <div class="columnLeft">
+<div class="container">    
+    <div class="column">
     <img src="assets/img/TutorClipArt.png" alt="Pencil" class="image" style="width:100%">
       <div class="middle">
         <div class="text">About Me</div>
       </div>
     </div>
   
-    <div class="columnRight">
+    <div class="column">
+    <img src="assets/img/BookClipArt.png" alt="Book" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Tutoring</div>
+      </div>
+    </div>
+  
+    <div class="column">
     <img src="assets/img/InovateClipArt.png" class="image" style="width:100%">
       <div class="middle">
         <div class="text">Projects</div>
