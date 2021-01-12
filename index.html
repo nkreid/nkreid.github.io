@@ -6,12 +6,12 @@ subtitle: Student, Tutor, Innovator
 full-width: true
 ---
 <style>
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 180px;
+.container {
+  position: relative;
+  width: 50%;
 }
-div.image {
+
+.image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -20,42 +20,52 @@ div.image {
   backface-visibility: hidden;
 }
 
-div.gallery:hover .image {
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
   opacity: 0.3;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+.container:hover .middle {
+  opacity: 1;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 </style>
-
+</head>
 <body>
 
-<div class="gallery">
-  <a target="_blank" href="aboutme">
-    <img src="assests/img/TutorClipArt.png" alt="Pencil" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<div class="container">
+  <img src="assests/img/TutorClipArt.png" alt="Pencil" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">About Me</div>
+  </div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="tutoring">
-    <img src="assests/img/BookClipArt.png" alt="Book" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<div class="container">
+  <img src="assests/img/BookClipArt.png" alt="Book" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Tutoring</div>
+  </div>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="projects">
-    <img src="assests/img/InovateClipArt.png" alt="Wrench" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+  
+<div class="container">
+  <img src="assests/img/InovateClipArt.png" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Projects</div>
+  </div>
 </div>
 
 <body>
