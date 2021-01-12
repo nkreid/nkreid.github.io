@@ -5,70 +5,57 @@ description: Student, Tutor, Innovator
 subtitle: Student, Tutor, Innovator
 full-width: true
 ---
-
 <style>
-.container {
-  float center;
-  width: 33%;
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+div.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.image {
-  display: block;
+div.gallery:hover .image {
+  opacity: 0.3;
+}
+
+div.gallery img {
   width: 100%;
   height: auto;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+div.desc {
+  padding: 15px;
   text-align: center;
 }
 </style>
-  <tr>
-<div class="container">
-  <img src="assets/img/TutorClipArt.png" alt="Pencil" class="image">
-  <div class="overlay">
-    <div class="text">About Me</div>
-  </div>
+
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="aboutme">
+    <img src="TutorClipArt.png" alt="Pencil" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
-    <div class="container">
-  <img src="assets/img/BookClipArt.png" alt="Book" class="image">
-  <div class="overlay">
-    <div class="text">Tutoring</div>
-  </div>
+
+<div class="gallery">
+  <a target="_blank" href="tutoring">
+    <img src="BookClipArt.png" alt="Book" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
-    <div class="container">
-  <img src="assets/img/InovateClipArt.png" alt="Wrench" class="image">
-  <div class="overlay">
-    <div class="text">Projects</div>
-  </div>
+
+<div class="gallery">
+  <a target="_blank" href="projects">
+    <img src="InovateClipArt.png" alt="Wrench" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
 </div>
-  </tr>
-  <tr>
-    <th><a href="aboutme"><img width=33% style="float:center" src="assets/img/TutorClipArt.png"></a></th>
-    <th>  <a href="tutoring"><img width=33% style="float:center" src="assets/img/BookClipArt.png"></a></th> 
-    <th>  <a href="projects"><img width=33% style="float:center" src="assets/img/InovateClipArt.png"></a></th>
-  </tr>
+
+<body>
