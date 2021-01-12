@@ -60,6 +60,15 @@ full-width: true
   font-size: 36px;
   padding: 16px 32px;
 }
+  
+@media all and (max-width:800px)
+  {.column,.row
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
 </style>
 <body>
 
@@ -88,11 +97,4 @@ full-width: true
   </div>
 </div>
   
-@media all and (max-width:800px)
-  {.column,.row
-    {
-    display:block;
-    float: none;
-    width: 100%
-    }
-  }
+</body>
