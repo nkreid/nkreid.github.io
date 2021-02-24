@@ -5,10 +5,6 @@ description: My Recent Projects
 subtitle: Click for a more detailed description!
 full-width: true
 ---
-
-
- <p align=left>Paragraph text.</p>
- 
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
