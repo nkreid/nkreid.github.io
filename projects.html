@@ -12,18 +12,23 @@ full-width: true
   
 .container {
   position: relative;
-}
+ }
 
-  
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+.image {
+  opacity: 1;
+  width: auto;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-right: 50px;
+ }
+ 
+ image:hover { opacity: 0.3
+ }
 </style>
 <body>
   <div class="container">
-    <img src="/assets/img/cleo.png" alt="Not found" style="float: left; padding-right: 50px;height: 400px: object-fit: cover" >
+    <img src="/assets/img/cleo.png" class = "image" alt="Not found" style="float: left" >
     <h1>Tendon-Driven Robotics</h1>
     <p class="ex1">As the field of robotics advances, the further robots stray from the likeness of humans.
     Our unique species has evolved over thousands of years, yet we still have four separate 
