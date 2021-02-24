@@ -5,6 +5,7 @@ description: My Prior and Ongoing Projects
 subtitle: Click for a more detailed description!
 full-width: true
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   * {
   box-sizing: border-box;
@@ -16,8 +17,8 @@ full-width: true
 
 .image {
   opacity: 1;
-  width: auto;
-  height: 350px;
+  width: 400px;
+  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
   padding-right: 50px;
@@ -32,7 +33,14 @@ full-width: true
 p.thin{
   margin-top: 0px;
 }
- 
+@media all and (max-width:800px)
+  {.column
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
 </style>
 <body>
   <div class="container">
