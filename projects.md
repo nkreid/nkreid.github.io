@@ -1,7 +1,87 @@
 ---
 layout: page
 title: Projects
-subtitle: 
+description: My Recent Projects
+subtitle: Click for a more detailed description!
+full-width: true
 ---
 
-#If you were wondering, this is my next project. . .
+
+ <p align=left>Paragraph text.</p>
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+  
+.container {
+  position: relative;
+}
+
+  
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+/* three columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+  
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(+30%,-375%)
+}
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: Black;
+  font-size: 36px;
+  pointer-events: none;
+}
+  
+@media all and (max-width:800px)
+  {.column
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
+</style>
+<body>
+
+<div class="container">   
+  <div class="row">
+    <div class="column">
+    <a href="aboutme"><img src="assets/img/cleo.png" alt="Tendon-driven Cat Leg" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">Tendon Driven Robotics</div>
+      </div>
+    </div>
+</div>
+<p align=left>As the field of robotics advances, the further robots stray from the likeness of humans. Our unique species has evolved over thousands of years, yet we still have four separate quadriceps muscles extending our knee. Most of society glosses over these observations as sources of inspiration, but we wrestle with these ideas every day at the Brain-Body Dynamics Lab. As a young undergraduate, I explored the fascinating world of tendon-driven robotics as a platform for affordable prosthetics and ongoing neuromorphic research. I set out to design the most versatile design of a tendon-driven arm. I defined a versatile arm to mean that it could be as strong as possible in all directions. This process produced what I coined a Multi-Moment Arm (MMA) joint. Through computational optimization, 3D modeling, and some thoughtful tendon routes, I prototyped the most versatile two joint arm possible. </p>
+</body>
