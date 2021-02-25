@@ -2,16 +2,65 @@
 layout: page
 title: Neil K. Reid
 subtitle: 
+full-width: true
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {
+  box-sizing: border-box;
+}
+  
+.container {
+  position: relative;
+ }
 
+.image {
+  opacity: 1;
+  width: 200;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-right: 50px;
+ }
+ 
+
+ h1.thin{
+  margin-bottom: 5px;
+}
+p.thin{
+  margin-top: 0px;
+}
+@media all and (max-width:800px)
+  {.column
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
+ 
+ hr {
+  height:2px;
+  width: 80%;
+  border-width:0;
+  color:gray;
+  background-color:gray
+ }
+</style>
 <body>
-<div align="center">My name is Neil Koby Reid.  <br />
-  I build robots, research the brain-body connection, and teach kids math.  <br />
-  And for those wondering, teaching is by far the most challenging. </div>  
-<div>
-<img src="/assets/img/MG_0373.jpg" alt= "photo of me" style= "float: left">
-</div>
+  
+  <div align="center">
+    My name is Neil Koby Reid.  <br />
+    I build robots, research the brain-body connection, and teach kids math.  <br />
+    And for those wondering, teaching is by far the most challenging. 
+  </div>  
+  
+  <div class="container">
+     <img src="/assets/img/MG_0373.jpg" class = "image" alt="Photo of Me" style="float: left">
+  </div>
 
-<p>I am currently a student at the University of Southern California where I am working on my master's in Biomedical Engineering. Prior to this I spent my undergradute getting a bachelors in Biophysics with a minor in Health Care Studies. I have been accepted to medical school to start Fall 2021 and I am working in a medical device start-up alongside my current work as a tutor.
+  <p>I am currently a student at the University of Southern California where I am working on my master's in Biomedical Engineering. Prior to this I spent my undergradute getting a bachelors in Biophysics with a minor in Health Care Studies. I have been accepted to medical school to start Fall 2021 and I am working in a medical device start-up alongside my current work as a tutor.
   </p>
 </body>
+
+
