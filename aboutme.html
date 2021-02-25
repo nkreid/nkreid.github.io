@@ -53,9 +53,10 @@ full-width: true
 /* The circles on the timeline */
 .container::after {
   content: '';
-  position: relative;
+  position: absolute;
   width: 25px;
   height: 25px;
+  right: -17px;
   background-color: orange;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -98,7 +99,7 @@ full-width: true
   left: 30px;
   border: medium solid gray;
   border-width: 10px 10px 10px 0;
-  border-color: transparent gray transparent transparent;
+  border-color: transparent blue transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -131,9 +132,9 @@ full-width: true
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
-  border: medium solid white;
+  border: medium solid gray;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent blue transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
