@@ -3,8 +3,11 @@ layout: page
 title: Tutoring
 subtitle: No Committment, Flexible Scheduling, Competitive Rates 
 ---
-### Distance learning not going as planned?
+### Please note that all tutoring has been suspended while I relocate to Houston. 
 
+
+
+### Distance learning not going as planned?
 ### Need a break from your child's homework?
 
 Lets be real, distance learning does not work for everyone. Sometimes, some extra 1-on-1 instruction is needed. I am currently working in-person and virtually with students around OC. 
