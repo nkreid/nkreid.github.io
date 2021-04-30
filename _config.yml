@@ -91,7 +91,16 @@ feed_show_tags: false
 # --- Colours / background image --- #
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
+# navbar-col: "#183343"
+# navbar-text-col: "#587e76"
+# navbar-border-col: "#183343"
+# page-col: "#FFFFFF"
+# text-col: "#183343"
+# link-col: "#587e76"
+# hover-col: "##587e76"
+# footer-col: "#183343"
+# footer-text-col: "#587e76"
+# footer-link-col: "#587e76"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -183,21 +192,6 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      navbar-col: "#183343"
-      navbar-text-col: "#587e76"
-      navbar-border-col: "#183343"
-      page-col: "#FFFFFF"
-      text-col: "#183343"
-      link-col: "#587e76"
-      hover-col: "##587e76"
-      footer-col: "#183343"
-      footer-text-col: "#587e76"
-      footer-link-col: "#587e76"
   -
     scope:
       path: ""
@@ -211,20 +205,6 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
-#   -
-#       scope:
-#         path: ""
-#       values:
-#         navbar-col: "#183343"
-#         navbar-text-col: "#587e76"
-#         navbar-border-col: "#183343"
-#         page-col: "#FFFFFF"
-#         text-col: "#183343"
-#         link-col: "#587e76"
-#         hover-col: "##587e76"
-#         footer-col: "#183343"
-#         footer-text-col: "#587e76"
-#         footer-link-col: "#587e76"
 
 # Exclude these files from production site
 exclude:
