@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#777777" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
@@ -53,7 +53,7 @@ a:focus {
   color: {{ site.hover-col | default: "#FFCC00" }};
 }
 blockquote {
-  color: #808080;
+  color: #777777;
   font-style: italic;
 }
 blockquote p:first-child {
