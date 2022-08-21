@@ -157,8 +157,8 @@ img {
 .navbar-custom .navbar-brand-logo,
 .navbar-custom.top-nav-short .navbar-brand-logo,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.0125rem;
+  padding-bottom: 0.0125rem;
 }
 
 .navbar-custom .navbar-brand-logo img {
@@ -170,7 +170,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 4rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
