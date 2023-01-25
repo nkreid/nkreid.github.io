@@ -1,0 +1,98 @@
+---
+layout: home
+title: Austere Surgical
+description: Inventing Solutions for Austere Environments
+subtitle: Inventing Solutions for Austere Environments
+full-width: true
+---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+  
+.container {
+  position: relative;
+}
+
+  
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+/* three columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+  
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(+30%,-375%)
+}
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: Black;
+  font-size: 36px;
+  pointer-events: none;
+}
+  
+@media all and (max-width:800px)
+  {.column
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
+</style>
+<body>
+
+<div class="container">   
+  <div class="row">
+    <div class="column">
+    <a href="aboutme"><img src="assets/img/TutorClipArt.png" alt="Pencil" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">About Me</div>
+      </div>
+    </div>
+  
+    <div class="column">
+    <a href="tutoring"><img src="assets/img/BookClipArt.png" alt="Book" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">Consulting</div>
+      </div>
+    </div>
+  
+    <div class="column">
+    <a href="projects"><img src="assets/img/InovateClipArt.png" class="image" style="width:100%"></a>
+      <div class="middle">
+        <div class="text">Projects</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
