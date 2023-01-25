@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#173F5F" }};
+  color: {{ site.text-col | default: "#284524" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FCFBF4" }};
   {% if site.page-img %}
@@ -162,6 +162,7 @@ img {
 }
 
 .navbar-custom .navbar-brand-logo img {
+  src="/assets/img/austeresurgical_logo_yellow.png";
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
