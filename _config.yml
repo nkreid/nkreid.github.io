@@ -17,6 +17,10 @@ navbar-links:
   About Me: "aboutme"
   Consulting: "consulting"
   Projects: "projects"
+  
+navbar-links-austeresurgical:
+  Invasive Procedure System: "IPS"
+  Contact Us!: "austeresurgical_contact"
 
 # --- Logo --- #
 
