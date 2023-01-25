@@ -384,7 +384,7 @@ footer p.text-muted {
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#FFCC00" }};
+  color: {{ site.footer-link-col | default: "#A97F2C" }};
 }
 
 footer .list-inline {
