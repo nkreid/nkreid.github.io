@@ -19,7 +19,7 @@
       {% if site.url-pretty_as %}
         &nbsp;&bull;&nbsp;
         <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty_as }}</a>
+          <a href="https://www.nkreid.com/austeresurgical">{{ site.url-pretty_as }}</a>
         </span>
       {% endif %}
 
@@ -29,9 +29,6 @@
           <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
         {% endif %}
       {% endif%}
-      </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-      </p>{% endunless %}
       </div>
     </div>
   </div>
