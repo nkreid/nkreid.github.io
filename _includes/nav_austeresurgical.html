@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
   {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img-austeresurgical }}" style="width:250px;height:100px;padding-top:2px;padding-bottom:2px;"/></a>
+    <a class="navbar-brand navbar-brand-logo" href="{{ '' | relative_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img-austeresurgical }}" style="width:250px;height:100px;padding-top:2px;padding-bottom:2px;"/></a>
   {%- elsif site.title -%}
     <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
   {%- endif -%}
