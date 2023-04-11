@@ -13,13 +13,13 @@ In fact, these two fields complement each other more than they conflict. I have 
 Contact me at koby@nkreid.com to hear more about how I might be able to help your growing team's needs. 
 
 ### Areas of Expertise
-Early Stage Prototyping
-Design for Manufacturability
-Injection Molding
+Early Stage Prototyping <br>
+Design for Manufacturability<br>
+Injection Molding<br>
 
 
 ### Prior Grant Experience
-NIH Phase I/II SBIR Grant Work
+NIH Phase I/II SBIR Grant Work<br>
 NASA HRP Grant Work
 
 
