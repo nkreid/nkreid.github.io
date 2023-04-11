@@ -1,41 +1,25 @@
 ---
 layout: page
-title: Tutoring
-subtitle: No Committment, Flexible Scheduling, Competitive Rates 
----
-### Please note that all tutoring has been suspended while I relocate to Houston. 
+title: Consulting
+subtitle: Tailored Product Development to Meet Your Company's Needs
+--- 
 
 
+### The Emerging Role of the Physician Innovator
+People dream of becoming a physician, but I never thought of myself as one of them. I am passionate about medicine, and I know I want to work with patients daily, but I was scared that I would have to give up my engineering background to be a physician. As I got older, I began to see engineering in medicine prevail. I remember seeing teleconsults with neurologists in the ED and first thought it would never catch on. Two years later, the entire healthcare system moved to telemedicine in a week because of COVID-19. I realized that my interests weren’t mutually exclusive. I didn’t need to sacrifice my love for finding new solutions because I wanted to be a physician. 
+ 
+In fact, these two fields complement each other more than they conflict. I have seen my own engineered devices work to advance research about the body and I constantly stumble upon opportunites for innovative treatments in my line of work. As an engineer, I have learned how to take existing pieces to create a new solution. Sometimes these pieces are hardware and devices; other times, the pieces are time, opportunity, and people. I started NKR Solutions in my first year of medical school to begin working with early-stage startups in the medical device field and have thrived filling the role of translator between the clinicians and engineers that suddenly must work together in their new endeavor. 
+ 
+Contact me at koby@nkreid.com to hear more about how I might be able to help your growing team's needs. 
 
-### Distance learning not going as planned?
-### Need a break from your child's homework?
-
-Lets be real, distance learning does not work for everyone. Sometimes, some extra 1-on-1 instruction is needed. I am currently working in-person and virtually with students around OC. 
-
-I have been tutoring students for over 6 years in math and science classes from 6th grade through college. I work with students in rememdial classes, excellerated programs, and everything in between. My hours and availabilty are constantly changing so give me a call to find out more!
-
-Most of my students meet weekly or biweekly as this is the best way to stay on track in their course. However, I do work with some families on an as needed basis.
-My rates range from $30-$40/hr depending on location, grade-level, and required preparation. 
-
-Please contact me directly for up-to-date pricing, plans, and schedules. 
-
-## Math Coursework:  
-6th, 7th, 8th grade math  
-Pre-Algebra  
-Algebra I  
-Algebra II  
-Geometry  
-Trigonometry  
-Introductory Statistics  
-Pre-Calculus  
-AP Caluclus AB  
-AP Calculus BC  
-Multivariable Calculus  
-Differential Equations  
-Linear Algebra  
+### Areas of Expertise
+Early Stage Prototyping
+Design for Manufacturability
+Injection Molding
 
 
-## Science Coursework:  
-Physics (Intro, Honors, or AP)  
-Chemistry (Intro, Honors or AP)  
-Biology (Intro, Honors, or AP)  
+### Prior Grant Experience
+NIH Phase I/II SBIR Grant Work
+NASA HRP Grant Work
+
+
