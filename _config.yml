@@ -21,6 +21,9 @@ navbar-links:
   
 navbar-links-austeresurgical:
   RAHkit: "IPS"
+  Military Medicine: "military"
+  Space Surgery: "nasa"
+  Disaster Relief: "disaster"
   Contact Us!: "austeresurgical_contact"
 
 # --- Logo --- #
