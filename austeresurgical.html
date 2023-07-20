@@ -37,11 +37,23 @@ full-width: true
   backface-visibility: hidden;
 }
 
+
 .middle {
   transition: .5s ease;
   opacity: 0;
   left: 50%;
   top: 50%;
+  transform: translate(+50%,-300%)
+}
+
+.logo {
+  transition: .5s ease;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(+50%,-350%)
 }
 
 .column:hover .image {
@@ -52,11 +64,16 @@ full-width: true
   opacity: 1;
 }
 
+.column:hover .logo {
+  opacity: 1;
+}
+
 .text {
   color: Black;
   font-size: 36px;
   pointer-events: none;
 }
+
   
 @media all and (max-width:800px)
   {.column
@@ -75,7 +92,9 @@ full-width: true
     <div class="column">
     <a href="/IPS"><img src="/assets/img/IPS_triple.png" alt="IPS_Uses" class="image" style="width:100%"></a>
       <div class="middle">
-        <div class="text"> The RAHkit System <br> by Austere Surgical</div>
+        <div class="image"> </div>
+        <img src="/assets/img/rahkit_blue.png" alt="RAHkit Logo" class="logo" style="width:100%">
+        <div class="text"> by Austere Surgical</div>
       </div>
       
     </div>
