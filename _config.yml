@@ -20,7 +20,7 @@ navbar-links:
   Projects: "projects"
   
 navbar-links-austeresurgical:
-  Invasive Procedure System: "IPS"
+  RAHkit: "IPS"
   Contact Us!: "austeresurgical_contact"
 
 # --- Logo --- #
