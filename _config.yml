@@ -18,6 +18,7 @@ navbar-links:
   About Me: "aboutme"
   Consulting: "consulting"
   Projects: "projects"
+  Austere Surgical: "austeresurgical"
   
 navbar-links-austeresurgical:
   RAHkit: "IPS"
