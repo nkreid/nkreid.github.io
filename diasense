@@ -1,0 +1,39 @@
+---
+layout: page
+title: DiaSense: A low-cost wearable for preventing the progression of diabetic foot ulcers
+description: 
+subtitle: 
+full-width: true
+---
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,320px);
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .box {
+      flex-basis: 25%;
+      width: 100%;
+      padding: 10px;
+      margin: 2px;
+  }
+
+  .img-gallery {
+	width: 100%;
+  height: 180px;
+	object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<body>
+{% include image-gallery.html folder="/assets/img/DiaSense/" %}
+</body>
