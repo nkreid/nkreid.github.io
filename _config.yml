@@ -18,9 +18,9 @@ navbar-links:
   About Me: "aboutme"
   Consulting: "consulting"
   Projects: "projects"
-  Guides: "survival_guide"
-    Survival Guide: "survival_guide"
-    First Aid Guide: "firstaid_guide"
+  Guides:
+    - Survival Guide: "survival_guide"
+    - First Aid Guide: "firstaid_guide"
   Austere Surgical: "austeresurgical"
   
 navbar-links-austeresurgical:
