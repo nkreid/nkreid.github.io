@@ -18,6 +18,7 @@ navbar-links:
   About Me: "aboutme"
   Consulting: "consulting"
   Projects: "projects"
+  Guides: "survival_guide"
   Austere Surgical: "austeresurgical"
   
 navbar-links-austeresurgical:
