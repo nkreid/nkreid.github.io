@@ -1,15 +1,98 @@
 ---
 layout: austeresurgical
-title: WildOR: A Wilderness Operating Room
-description: by Austere Surgical LLC
+title: The Wild OR
+description: 
 subtitle: by Austere Surgical LLC
 full-width: true
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+  
+.container {
+  position: relative;
+}
 
-<div class="text-center">
-  <h1>The Wild OR</h1>
-  <h1>by Austere Surgical LLC</h1>
-  <br/>
+  
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+/* three columns side by side */
+.column {
+  float: center;
+  width: 100%;
+  padding: 10px;
+}
+  
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 
-  <img src="{{ 'assets/img/wildor.jpg' | relative_url }}" alt="wildor" />
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(+35%,-900%)
+}
+
+.logo {
+  transition: .5s ease;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+  transform: translate(0%,-125%)
+}
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.column:hover .logo {
+  opacity: 1;
+}
+
+.text {
+  color: Black;
+  font-size: 36px;
+  pointer-events: none;
+}
+
+  
+@media all and (max-width:800px)
+  {.column
+    {
+    display:block;
+    float: none;
+    width: 100%
+    }
+  }
+</style>
+<body>
+
+<div class="container">   
+  <div class="row">
+  
+    <div class="column">
+    <a href="/IPS"><img src="/assets/img/wildor.jpg" alt="IPS_Uses" class="image" style="width:100%"></a>
+    </div>
+  </div>
 </div>
+  
+</body>
