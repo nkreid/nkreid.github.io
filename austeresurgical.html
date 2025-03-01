@@ -15,6 +15,7 @@ full-width: true
     padding: 0;
   }
 
+  /* Container for the content layout */
   .container {
     position: relative;
     width: 100%;
@@ -23,24 +24,28 @@ full-width: true
     padding: 20px;
   }
 
+  /* Row for the layout */
   .row {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  /* Column for content */
   .column {
     width: 100%;
     padding: 10px;
     text-align: center;
   }
 
+  /* Video Wrapper for responsive iframe */
   .video-wrapper {
     position: relative;
     padding-top: 56.25%;
     border: 5px solid #284524;
   }
 
+  /* Styling for the iframe (video) */
   .video-wrapper iframe {
     position: absolute;
     top: 0;
@@ -49,16 +54,19 @@ full-width: true
     height: 100%;
   }
 
+  /* Image Styling */
   .image {
     width: 100%;
     height: auto;
     transition: opacity 0.5s ease;
   }
 
+  /* Hover Effect for Column */
   .column:hover .image {
     opacity: 0.3;
   }
 
+  /* Middle and Logo styling */
   .middle, .logo {
     transition: 0.5s ease;
     opacity: 0;
@@ -73,10 +81,25 @@ full-width: true
     opacity: 1;
   }
 
+  /* Text styling */
   .text {
     color: black;
     font-size: 36px;
     pointer-events: none;
+  }
+
+  /* Title and Subtitle styles */
+  .title {
+    text-align: center; /* Center the title */
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .subtitle {
+    text-align: center; /* Center the subtitle */
+    font-size: 24px;
+    color: #555;
   }
 
   @media (max-width: 800px) {
@@ -90,8 +113,14 @@ full-width: true
 <body>
 
   <div class="container">
+    <!-- Row for video and title section -->
     <div class="row">
       <div class="column">
+        <!-- Centered Title and Subtitle -->
+        <h1 class="title">Austere Surgical</h1>
+        <p class="subtitle">Inventing Solutions for Austere Environments</p>
+
+        <!-- Video Wrapper (Embedded Vimeo Video) -->
         <div class="video-wrapper">
           <iframe src="https://player.vimeo.com/video/1061582502?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
             frameborder="0" 
