@@ -19,6 +19,11 @@ full-width: true
     text-align: center;
   }
 
+  /* Flexbox layout for the team sections */
+  .team-section {
+    margin-bottom: 40px;
+  }
+
   /* Styling for team member images */
   .team-member {
     opacity: 1;
@@ -29,9 +34,18 @@ full-width: true
     margin-bottom: 20px;
   }
 
-  /* Layout for team member sections */
-  .team-section {
-    margin-bottom: 40px;
+  /* Flexbox row layout for founders and advisors */
+  .team-members-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  /* Style for the individual team members */
+  .team-member > div {
+    text-align: center;
   }
 
   .team-name {
@@ -45,17 +59,30 @@ full-width: true
     font-size: 16px;
   }
 
-  /* Responsive Design: Adjust container and images for smaller screens */
+  /* List styling for R&D Team Members */
+  ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  /* Responsive Design: Adjust layout for smaller screens */
   @media all and (max-width: 600px) {
     .container1 {
       position: relative;
       margin-left: 0px;
       margin-right: 0px;
     }
+
     .team-member {
       width: 150px;
     }
+
+    .team-members-row {
+      flex-direction: column;
+    }
   }
+
 </style>
 
 <body>
@@ -69,25 +96,27 @@ full-width: true
     <!-- Founders Section -->
     <div class="team-section">
       <h2>Co-Founders</h2>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Neil Koby Reid" class="team-member">
-        <div class="team-name">Neil Koby Reid</div>
-        <div class="team-role">Interim CEO</div>
-      </div>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="William Drew Hendricks" class="team-member">
-        <div class="team-name">William Drew Hendricks</div>
-        <div class="team-role">Co-Founder</div>
-      </div>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Brayden Raper" class="team-member">
-        <div class="team-name">Brayden Raper</div>
-        <div class="team-role">Co-Founder</div>
-      </div>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Jacob Paris" class="team-member">
-        <div class="team-name">Jacob Paris</div>
-        <div class="team-role">Co-Founder</div>
+      <div class="team-members-row">
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Neil Koby Reid" class="team-member">
+          <div class="team-name">Neil Koby Reid</div>
+          <div class="team-role">Interim CEO</div>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="William Drew Hendricks" class="team-member">
+          <div class="team-name">William Drew Hendricks</div>
+          <div class="team-role">Co-Founder</div>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Brayden Raper" class="team-member">
+          <div class="team-name">Brayden Raper</div>
+          <div class="team-role">Co-Founder</div>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Jacob Paris" class="team-member">
+          <div class="team-name">Jacob Paris</div>
+          <div class="team-role">Co-Founder</div>
+        </div>
       </div>
     </div>
 
@@ -96,20 +125,22 @@ full-width: true
     <!-- Advisors Section -->
     <div class="team-section">
       <h2>Advisors</h2>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Rebecca Lee, MD" class="team-member">
-        <div class="team-name">Rebecca Lee, MD</div>
-        <div class="team-role">Advisor</div>
-      </div>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Walter Cromer, PhD" class="team-member">
-        <div class="team-name">Walter Cromer, PhD</div>
-        <div class="team-role">Advisor</div>
-      </div>
-      <div class="team-member">
-        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Nick Sears, PhD" class="team-member">
-        <div class="team-name">Nick Sears, PhD</div>
-        <div class="team-role">Advisor</div>
+      <div class="team-members-row">
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Rebecca Lee, MD" class="team-member">
+          <div class="team-name">Rebecca Lee, MD</div>
+          <div class="team-role">Advisor</div>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Walter Cromer, PhD" class="team-member">
+          <div class="team-name">Walter Cromer, PhD</div>
+          <div class="team-role">Advisor</div>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Nick Sears, PhD" class="team-member">
+          <div class="team-name">Nick Sears, PhD</div>
+          <div class="team-role">Advisor</div>
+        </div>
       </div>
     </div>
 
