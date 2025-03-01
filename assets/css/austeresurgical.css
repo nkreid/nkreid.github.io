@@ -113,11 +113,26 @@ img {
   margin-top: 1.875rem;
 }
 
-@media (min-width: 768px) {
-  .disqus-comments {
-    margin-top: 2.5rem;
+/* Fix header overlapping title on mobile */
+@media (max-width: 768px) {
+  body {
+    padding-top: 80px; /* Adjust based on your header height */
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Ensure visibility */
+    height: 80px; /* Set header height */
+  }
+
+  .title {
+    margin-top: 100px; /* Adjust this value based on header height */
   }
 }
+
 
 /* --- Navbar --- */
 
