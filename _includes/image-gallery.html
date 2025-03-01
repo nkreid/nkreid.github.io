@@ -16,9 +16,9 @@
 </div>
 
 <!-- Lightbox Modal -->
-<div id="lightbox" class="lightbox">
-  <span class="close" onclick="closeLightbox()">×</span>
-  <div class="lightbox-content">
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <span class="close" onclick="closeLightbox()">×</span>
     <img id="lightbox-image" src="" alt="" />
     <span class="prev" onclick="changeImage(-1)">&#10094;</span>
     <span class="next" onclick="changeImage(1)">&#10095;</span>
@@ -75,6 +75,10 @@
     position: relative;
     max-width: 80%;
     max-height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   #lightbox-image {
@@ -113,14 +117,20 @@
     transform: translateY(-50%);
   }
 
-  /* Click-out Area (Fading Edges) */
+  /* Make the whole lightbox background clickable to close */
   .lightbox:active {
     opacity: 1;
   }
 
+  /* Stop the lightbox-content from being clicked */
   .lightbox-content {
     transition: transform 0.5s ease;
     transform: translateY(0);
+  }
+
+  /* Hover Effect for Arrows */
+  .prev:hover, .next:hover {
+    color: #a97f2c;
   }
 </style>
 
@@ -144,10 +154,13 @@
   }
 
   // Close Lightbox
-  function closeLightbox() {
-    const lightbox = document.getElementById('lightbox');
-    lightbox.style.opacity = 0;
-    setTimeout(() => { lightbox.style.display = "none"; }, 300);
+  function closeLightbox(event) {
+    // Prevent the event from closing the lightbox if clicked on content
+    if (event.target === event.currentTarget || event.target.className === 'close') {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.style.opacity = 0;
+      setTimeout(() => { lightbox.style.display = "none"; }, 300);
+    }
   }
 
   // Change Image in Lightbox
