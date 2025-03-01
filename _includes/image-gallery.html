@@ -5,8 +5,9 @@
       {% if file.extname == '.png' %}
         {% assign filenameparts = file.path | split: "/" %}
         {% assign filename = filenameparts | last | replace: file.extname,"" %}
+        
         <div class="box">
-          <a href="javascript:void(0);" onclick="openLightbox('{{ file.path }}')">
+          <a href="{{ file.path | relative_url }}" title="{{ filename }}" class="lightbox-trigger">
             <img src="{{ file.path }}" alt="{{ filename }}" class="img-gallery" />
           </a>
         </div>
@@ -15,166 +16,125 @@
   {% endfor %}
 </div>
 
-<!-- Lightbox Modal -->
-<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-  <div class="lightbox-content" onclick="event.stopPropagation()">
-    <span class="close" onclick="closeLightbox()">×</span>
-    <img id="lightbox-image" src="" alt="" />
-    <span class="prev" onclick="changeImage(-1)">&#10094;</span>
-    <span class="next" onclick="changeImage(1)">&#10095;</span>
+<!-- Lightbox modal structure -->
+<div class="lightbox-overlay" id="lightbox-overlay">
+  <div class="lightbox-content">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <img class="lightbox-image" id="lightbox-image" />
+    <a href="#" class="prev" id="prev-arrow">&#10094;</a>
+    <a href="#" class="next" id="next-arrow">&#10095;</a>
   </div>
 </div>
 
-<!-- Styles for Lightbox and Gallery -->
+<script>
+  // Handle opening of lightbox on image click
+  const images = document.querySelectorAll('.lightbox-trigger');
+  const lightboxImage = document.getElementById('lightbox-image');
+  const lightboxOverlay = document.getElementById('lightbox-overlay');
+  const closeBtn = document.getElementById('close-btn');
+  const prevArrow = document.getElementById('prev-arrow');
+  const nextArrow = document.getElementById('next-arrow');
+  
+  let currentIndex = 0;
+  let imageArray = [];
+
+  // Store all the images in an array
+  images.forEach((image, index) => {
+    imageArray.push(image.querySelector('img').src);
+  });
+
+  // Open the lightbox when an image is clicked
+  images.forEach((image, index) => {
+    image.addEventListener('click', (e) => {
+      e.preventDefault();
+      currentIndex = index; // Set current image index
+      lightboxImage.src = imageArray[currentIndex];
+      lightboxOverlay.style.display = 'block';
+    });
+  });
+
+  // Close the lightbox
+  closeBtn.addEventListener('click', () => {
+    lightboxOverlay.style.display = 'none';
+  });
+
+  // Close the lightbox when clicking outside the image area
+  lightboxOverlay.addEventListener('click', (e) => {
+    if (e.target === lightboxOverlay) {
+      lightboxOverlay.style.display = 'none';
+    }
+  });
+
+  // Navigate to the previous image
+  prevArrow.addEventListener('click', (e) => {
+    e.preventDefault();
+    currentIndex = (currentIndex === 0) ? imageArray.length - 1 : currentIndex - 1;
+    lightboxImage.src = imageArray[currentIndex];
+  });
+
+  // Navigate to the next image
+  nextArrow.addEventListener('click', (e) => {
+    e.preventDefault();
+    currentIndex = (currentIndex === imageArray.length - 1) ? 0 : currentIndex + 1;
+    lightboxImage.src = imageArray[currentIndex];
+  });
+</script>
+
 <style>
-  /* Gallery Grid Layout */
-  .image-gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 320px);
-    justify-content: center;
-    padding: 4px;
-  }
-
-  .box {
-    width: 100%;
-    padding: 10px;
-    margin: 2px;
-  }
-
-  .img-gallery {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
-
-  .img-gallery:hover {
-    transform: scale(1.05);
-  }
-
-  /* Lightbox Modal */
-  .lightbox {
-    display: none;
+  /* Lightbox Styles */
+  .lightbox-overlay {
     position: fixed;
-    z-index: 999;
-    left: 0;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
   }
 
   .lightbox-content {
     position: relative;
+    text-align: center;
+  }
+
+  .lightbox-image {
     max-width: 80%;
-    max-height: 80%;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 80vh;
+    object-fit: contain;
   }
 
-  #lightbox-image {
-    width: 100%;
-    height: auto;
-    border: 5px solid white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  }
-
-  .close {
+  .close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 40px;
     color: white;
+    font-size: 30px;
     cursor: pointer;
   }
 
   .prev, .next {
     position: absolute;
     top: 50%;
-    font-size: 30px;
     color: white;
-    padding: 16px;
+    font-size: 30px;
     cursor: pointer;
-    user-select: none;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 10;
   }
 
   .prev {
-    left: 0;
-    transform: translateY(-50%);
+    left: 10px;
   }
 
   .next {
-    right: 0;
-    transform: translateY(-50%);
+    right: 10px;
   }
 
-  /* Make the whole lightbox background clickable to close */
-  .lightbox:active {
-    opacity: 1;
-  }
-
-  /* Stop the lightbox-content from being clicked */
-  .lightbox-content {
-    transition: transform 0.5s ease;
-    transform: translateY(0);
-  }
-
-  /* Hover Effect for Arrows */
-  .prev:hover, .next:hover {
-    color: #a97f2c;
+  /* Hide the arrows when there’s only one image */
+  .prev, .next {
+    display: block;
   }
 </style>
-
-<!-- JavaScript for Lightbox Navigation -->
-<script>
-  let currentImageIndex = 0;
-  let images = [];
-
-  // Open Lightbox
-  function openLightbox(imagePath) {
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImage = document.getElementById('lightbox-image');
-    
-    // Clear previous images and set the current image
-    images = Array.from(document.querySelectorAll('.img-gallery'));
-    currentImageIndex = images.findIndex(img => img.src === imagePath);
-    
-    lightboxImage.src = imagePath;
-    lightbox.style.display = "flex";
-    setTimeout(() => { lightbox.style.opacity = 1; }, 10);
-  }
-
-  // Close Lightbox
-  function closeLightbox(event) {
-    // Prevent the event from closing the lightbox if clicked on content
-    if (event.target === event.currentTarget || event.target.className === 'close') {
-      const lightbox = document.getElementById('lightbox');
-      lightbox.style.opacity = 0;
-      setTimeout(() => { lightbox.style.display = "none"; }, 300);
-    }
-  }
-
-  // Change Image in Lightbox
-  function changeImage(direction) {
-    currentImageIndex += direction;
-    
-    // Loop images (if at the end or start)
-    if (currentImageIndex >= images.length) {
-      currentImageIndex = 0;
-    } else if (currentImageIndex < 0) {
-      currentImageIndex = images.length - 1;
-    }
-
-    const lightboxImage = document.getElementById('lightbox-image');
-    lightboxImage.src = images[currentImageIndex].src;
-  }
-</script>
