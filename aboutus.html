@@ -1,52 +1,130 @@
 ---
 layout: austeresurgical
 title: Our Team
-subtitle: 
+subtitle: Meet the talented individuals driving our mission
 full-width: true
 ---
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   * {
-  box-sizing: border-box;
-}
-  
-.container1 {
-  position: relative;
-  margin-left: 150px;
-  margin-right: 150px;
- }
+    box-sizing: border-box;
+  }
 
-.image {
-  opacity: 1;
-  width: 400px;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  padding-right: 50px;
- }
+  /* Container for the overall team layout */
+  .container1 {
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+  }
 
+  /* Styling for team member images */
+  .team-member {
+    opacity: 1;
+    width: 200px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 20px;
+  }
 
-@media all and (max-width:600px)
-     {
-      .container1 {
-  position: relative;
-  margin-left: 0px;
-  margin-right: 0px;
- }
-     }
+  /* Layout for team member sections */
+  .team-section {
+    margin-bottom: 40px;
+  }
+
+  .team-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .team-role {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  /* Responsive Design: Adjust container and images for smaller screens */
+  @media all and (max-width: 600px) {
+    .container1 {
+      position: relative;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .team-member {
+      width: 150px;
+    }
+  }
 </style>
-<body>
-  
-  <div align="center">
-    This is our Team
-  </div>  
-  
-  <div class="container1">
-    
-     <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" class = "image" alt="Photo of Founders" style="float: center">
-  
 
-</div>
-<hr style = "border: none">
+<body>
+
+  <div align="center">
+    <h1>Meet Our Team</h1>
+    <p>These are the talented individuals who are driving our mission forward.</p>
+  </div>  
+
+  <div class="container1">
+    <!-- Founders Section -->
+    <div class="team-section">
+      <h2>Co-Founders</h2>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Neil Koby Reid" class="team-member">
+        <div class="team-name">Neil Koby Reid</div>
+        <div class="team-role">Interim CEO</div>
+      </div>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="William Drew Hendricks" class="team-member">
+        <div class="team-name">William Drew Hendricks</div>
+        <div class="team-role">Co-Founder</div>
+      </div>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Brayden Raper" class="team-member">
+        <div class="team-name">Brayden Raper</div>
+        <div class="team-role">Co-Founder</div>
+      </div>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Jacob Paris" class="team-member">
+        <div class="team-name">Jacob Paris</div>
+        <div class="team-role">Co-Founder</div>
+      </div>
+    </div>
+
+    <hr style="border: none;">
+
+    <!-- Advisors Section -->
+    <div class="team-section">
+      <h2>Advisors</h2>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Rebecca Lee, MD" class="team-member">
+        <div class="team-name">Rebecca Lee, MD</div>
+        <div class="team-role">Advisor</div>
+      </div>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Walter Cromer, PhD" class="team-member">
+        <div class="team-name">Walter Cromer, PhD</div>
+        <div class="team-role">Advisor</div>
+      </div>
+      <div class="team-member">
+        <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Nick Sears, PhD" class="team-member">
+        <div class="team-name">Nick Sears, PhD</div>
+        <div class="team-role">Advisor</div>
+      </div>
+    </div>
+
+    <hr style="border: none;">
+
+    <!-- R&D Team Section -->
+    <div class="team-section">
+      <h2>R&D Team Members</h2>
+      <ul>
+        <li>Kerry Anderson</li>
+        <li>Connor Dolan</li>
+        <li>Quinn Smith</li>
+        <li>Katie Stephenson</li>
+      </ul>
+    </div>
+  </div>
 
 </body>
