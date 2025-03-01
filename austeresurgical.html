@@ -5,98 +5,103 @@ description: Inventing Solutions for Austere Environments
 subtitle: Inventing Solutions for Austere Environments
 full-width: true
 ---
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-* {
-  box-sizing: border-box;
-}
-  
-.container {
-  position: relative;
-}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-  
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-  
-/* three columns side by side */
-.column {
-  float: center;
-  width: 100%;
-  padding: 10px;
-}
-  
-.image {
-  opacity: 1;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
 
-}
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .column {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  left: 50%;
-  top: 50%;
-  transform: translate(+35%,-900%)
-}
+  .video-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+    border: 5px solid #284524;
+  }
 
-.logo {
-  transition: .5s ease;
-  opacity: 0;
-  width: 100%;
-  height: auto;
-  backface-visibility: hidden;
-  transform: translate(0%,-125%)
-}
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-.column:hover .image {
-  opacity: 0.3;
-}
+  .image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+  }
 
-.column:hover .middle {
-  opacity: 1;
-}
+  .column:hover .image {
+    opacity: 0.3;
+  }
 
-.column:hover .logo {
-  opacity: 1;
-}
+  .middle, .logo {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.text {
-  color: Black;
-  font-size: 36px;
-  pointer-events: none;
-}
+  .column:hover .middle,
+  .column:hover .logo {
+    opacity: 1;
+  }
 
-  
-@media all and (max-width:800px)
-  {.column
-    {
-    display:block;
-    float: none;
-    width: 100%
+  .text {
+    color: black;
+    font-size: 36px;
+    pointer-events: none;
+  }
+
+  @media (max-width: 800px) {
+    .column {
+      width: 100%;
+      display: block;
     }
   }
 </style>
+
 <body>
 
-<div class="container">   
-  <div class="row">
-  
-    <div class="column">
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1061582502?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Wild OR by Austere Surgical"></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-      <div class="middle">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div class="video-wrapper">
+          <iframe src="https://player.vimeo.com/video/1061582502?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+            title="Wild OR by Austere Surgical">
+          </iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
   </div>
-</div>
-  
+
 </body>
