@@ -1,108 +1,57 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/css/landmark.css">
-  <style>
-    body {
-      font-family: Georgia, serif;
-      line-height: 1.6;
-      background: #ffffff;
-      color: #111;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #fff;
-      border-bottom: 1px solid #ddd;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #000;
-      text-decoration: none;
-    }
-    nav {
-      display: flex;
-      gap: 1rem;
-      align-items: center;
-    }
-    .dropdown {
-      position: relative;
-    }
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      z-index: 1;
-      top: 100%;
-      left: 0;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-    .dropdown-content a {
-      padding: 10px 16px;
-      display: block;
-      text-decoration: none;
-      color: #000;
-    }
-    .dropdown-content a:hover {
-      background-color: #eee;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="/assets/js/search.js" defer></script>
 </head>
 <body>
-  <header>
-    <a href="/landmark" class="logo">
+  <header style="padding:1rem; background-color:#f5f5f5; border-bottom:1px solid #ccc; display:flex; justify-content:space-between; align-items:center;">
+    <a href="/landmark/" style="text-decoration:none; font-size:1.5rem; font-weight:bold; color:#000;">
       <img src="/assets/img/logo.png" alt="Logo" style="height:40px; vertical-align:middle;">
     </a>
     <nav>
-      <a href="/landmark">Table of Contents</a>
-      <div class="dropdown">
-        <span>Papers ▾</span>
-        <div class="dropdown-content">
-          <a href="/landmark/focus/">FOCUS</a>
-          <a href="/landmark/trics-iii/">TRICS III</a>
-          <a href="/landmark/appac/">APPAC</a>
-          <a href="/landmark/acosog-z0011/">ACOSOG Z0011</a>
-          <a href="/landmark/poise/">POISE</a>
-          <a href="/landmark/poise-2-asa/">POISE-2 ASA</a>
-          <a href="/landmark/acas/">ACAS</a>
-          <a href="/landmark/crest/">CREST</a>
-          <a href="/landmark/ecst/">ECST</a>
-          <a href="/landmark/nascet/">NASCET</a>
-          <a href="/landmark/nett/">NETT</a>
-          <a href="/landmark/syntax/">SYNTAX</a>
-          <a href="/landmark/stampede/">STAMPEDE</a>
-          <a href="/landmark/ease/">EASE</a>
-          <a href="/landmark/rescueicp/">RESCUEICP</a>
-          <a href="/landmark/mslt-1/">MSLT-1</a>
-          <a href="/landmark/meteor/">METEOR</a>
-          <a href="/landmark/moseley-trial/">MOSELEY TRIAL</a>
-          <a href="/landmark/panter/">PANTER</a>
-          <a href="/landmark/swog-8949/">SWOG 8949</a>
-          <a href="/landmark/crash-2/">CRASH-2</a>
+      <a href="/landmark/" style="margin-right:1rem; font-weight:500;">Table of Contents</a>
+      <div style="display:inline-block; position:relative;">
+        <button onclick="document.getElementById('dropdown').classList.toggle('show')" style="font-weight:500;">Papers</button>
+        <div id="dropdown" class="dropdown-content" style="display:none; position:absolute; background-color:#fff; border:1px solid #ccc; z-index:1; min-width:200px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+          {% assign pages_sorted = site.pages | where_exp:"p","p.permalink contains '/landmark/'" | sort: "title" %}
+          {% for page in pages_sorted %}
+            {% if page.title and page.title != "Landmark Trials in Surgery" %}
+              <a href="{{ page.url }}" style="display:block; padding:0.5rem 1rem;">{{ page.title | upcase }}</a>
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
     </nav>
   </header>
-  <main>
+
+  <main style="padding:1.5rem;">
+    {% if page.url == '/landmark/' %}
+      <!-- Search bar only appears on the index page -->
+      <div style="margin-bottom:1.5rem;">
+        <input type="text" id="search-input" placeholder="Search landmark articles..." style="width:100%; padding:0.5rem; font-size:1rem;">
+        <div id="search-results" style="margin-top:1rem;"></div>
+      </div>
+    {% endif %}
+
     {{ content }}
   </main>
+
+  <style>
+    .dropdown-content a:hover {
+      background-color: #f0f0f0;
+    }
+    .dropdown-content.show {
+      display: block !important;
+    }
+  </style>
 </body>
 </html>
