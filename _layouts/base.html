@@ -28,7 +28,11 @@ common-js:
 
   {% include gtm_body.html %}
 
+  {% if page.layout == "landmark" %}
+  {% include landmark-nav.html %}
+  {% else %}
   {% include nav.html %}
+  {% endif %}
 
   {{ content }}
 
