@@ -47,7 +47,6 @@ layout: none
       text-decoration: underline;
     }
 
-    /* ============ NAVBAR ============ */
     header {
       background: var(--navy);
       color: white;
@@ -129,7 +128,6 @@ layout: none
       display: block;
     }
 
-    /* ============ CONTENT AREA ============ */
     main {
       max-width: 960px;
       margin: 3rem auto;
@@ -192,7 +190,12 @@ layout: none
       font-family: monospace;
     }
 
-    /* ============ TOC + FLEX ============ */
+    h2[id], h3[id] {
+      scroll-margin-top: 100px;
+      position: relative;
+    }
+
+    /* TOC and Layout */
     .content-wrapper {
       display: flex;
       flex-direction: column;
@@ -216,34 +219,55 @@ layout: none
       .toc-box {
         flex: 1;
         max-width: 250px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         background: var(--mint);
-        padding: 1rem;
+        padding: 0.5rem;
         border-left: 4px solid var(--navy);
-        border-radius: 8px;
+        border-radius: 6px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        position: sticky;
-        top: 120px;
+        align-self: flex-start;
       }
 
       .toc-box ul {
-        padding-left: 1rem;
+        padding-left: 0.5rem;
         list-style: none;
         margin: 0;
       }
 
       .toc-box li {
-        margin-bottom: 0.4rem;
+        margin: 0.25rem 0;
+        line-height: 1.4;
       }
 
       .toc-box a {
         color: var(--navy);
-        text-decoration: none;
-        font-weight: 500;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
       }
 
       .toc-box a:hover {
         color: var(--green);
+      }
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+
+      .dropdown-content {
+        right: auto;
+        left: 0;
       }
     }
   </style>
@@ -294,12 +318,11 @@ layout: none
     </div>
 
     <nav class="toc-box">
-      <strong>Contents</strong>
       <ul></ul>
     </nav>
   </main>
 
-  <!-- TOC Script -->
+  <!-- TOC JS -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const tocList = document.querySelector(".toc-box ul");
