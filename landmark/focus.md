@@ -1,5 +1,4 @@
 ---
-title: FOCUS
 layout: landmark
 permalink: /landmark/focus
 ---
