@@ -1,6 +1,7 @@
 ---
 layout: landmark
 permalink: /landmark/focus
+toc: true
 ---
 
 # FOCUS  
