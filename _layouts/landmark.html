@@ -250,12 +250,23 @@ layout: none
   </header>
 
   <!-- MAIN CONTENT -->
-  <main>
+<main class="content-wrapper">
+  <div class="main-article">
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}
       <p class="page-subtitle">{{ page.subtitle }}</p>
     {% endif %}
     {{ content }}
-  </main>
+  </div>
+
+  {% if page.toc %}
+  <nav class="toc-box">
+    <strong>Contents</strong>
+    <ul>
+      {{ page.toc }}
+    </ul>
+  </nav>
+  {% endif %}
+</main>
 </body>
 </html>
