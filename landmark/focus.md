@@ -4,8 +4,13 @@ layout: landmark
 permalink: /landmark/focus
 ---
 
-**Published**  
-Carson JL, et al. "Liberal or Restrictive Transfusion in High‑Risk Patients after Hip Surgery". *The New England Journal of Medicine.* 2011. 365(26):2453‑62.  
+# FOCUS  
+**Liberal vs. Restrictive Transfusion in High-Risk Patients After Hip Surgery**  
+2011 | *New England Journal of Medicine*  
+Carson JL, et al.
+
+RCT | Multicenter, USA & Canada
+
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/) • [Full text](https://www.nejm.org/doi/full/10.1056/NEJMoa1012452) • [PDF](https://www.nejm.org/doi/pdf/10.1056/NEJMoa1012452)
 
 ## Contents  
