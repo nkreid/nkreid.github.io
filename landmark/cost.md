@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: COST
+title: "COST"
 permalink: /landmark/cost
 ---
 
-The COST trial compared laparoscopic-assisted colectomy to open colectomy for colon cancer.
+<!-- Replace this with article content for COST -->
+

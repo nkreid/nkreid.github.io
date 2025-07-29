@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: LUNG
+title: "LUNG"
 permalink: /landmark/lung
 ---
 
-This trial compared lobectomy vs wedge resection for small, early-stage non–small cell lung cancer.
+<!-- Replace this with article content for LUNG -->
+

@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: HEMOTHORAX
+title: "RETROPERITONEAL HEMOTHORAX"
 permalink: /landmark/hemothorax
 ---
 
-Management of retained post-traumatic hemothorax.
+<!-- Replace this with article content for RETROPERITONEAL HEMOTHORAX -->
+

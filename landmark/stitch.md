@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: STITCH
+title: "STITCH"
 permalink: /landmark/stitch
 ---
 
-The STITCH trial compared small-bite vs large-bite fascial closure techniques to prevent incisional hernias.
+<!-- Replace this with article content for STITCH -->
+

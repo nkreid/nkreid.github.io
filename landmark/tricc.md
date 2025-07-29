@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: TRICC
+title: "TRICC"
 permalink: /landmark/tricc
 ---
 
-The TRICC trial compared restrictive vs liberal transfusion strategies in critically ill patients to evaluate 30-day mortality.
+<!-- Replace this with article content for TRICC -->
+

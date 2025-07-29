@@ -1,7 +1,8 @@
 ---
 layout: landmark
-title: CROSS
+title: "CROSS"
 permalink: /landmark/cross
 ---
 
-The CROSS trial examined neoadjuvant chemoradiotherapy followed by surgery vs surgery alone for esophageal or gastroesophageal junction cancer.
+<!-- Replace this with article content for CROSS -->
+
