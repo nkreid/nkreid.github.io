@@ -2,7 +2,115 @@
 layout: base
 ---
 
-<!-- Content will be inserted into base.html -->
-<main class="container mt-4 mb-5">
-  {{ content }}
+<!-- Landmark Styles -->
+<style>
+  .landmark-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+    color: #1a1a1a;
+  }
+
+  .landmark-body h1, .landmark-body h2, .landmark-body h3 {
+    font-weight: 600;
+    margin-top: 2rem;
+    line-height: 1.25;
+  }
+
+  .landmark-body h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+  }
+
+  .landmark-body a {
+    color: #1e4d91;
+    text-decoration: none;
+  }
+
+  .landmark-body a:hover {
+    text-decoration: underline;
+  }
+
+  .landmark-body ul {
+    padding-left: 1.4rem;
+  }
+
+  .landmark-body code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 90%;
+  }
+
+  .landmark-body blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 1rem;
+    color: #555;
+    font-style: italic;
+  }
+
+  /* Optional TOC sidebar on desktop */
+  @media screen and (min-width: 992px) {
+    .landmark-wrapper {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .landmark-toc {
+      flex: 0 0 220px;
+      position: sticky;
+      top: 80px;
+      align-self: flex-start;
+      border-right: 1px solid #eee;
+      padding-right: 1rem;
+    }
+
+    .landmark-content {
+      flex: 1 1 auto;
+    }
+
+    .landmark-toc h4 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .landmark-toc ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .landmark-toc li {
+      margin-bottom: 0.3rem;
+    }
+
+    .landmark-toc a {
+      color: #1e4d91;
+      font-size: 0.95rem;
+    }
+  }
+</style>
+
+<main class="landmark-body">
+
+  <div class="landmark-wrapper">
+
+    <!-- Optional Sidebar TOC for large screens -->
+    {% if page.toc %}
+    <aside class="landmark-toc d-none d-lg-block">
+      <h4>Contents</h4>
+      {{ page.toc }}
+    </aside>
+    {% endif %}
+
+    <article class="landmark-content">
+      {{ content }}
+    </article>
+
+  </div>
+
 </main>
