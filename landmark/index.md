@@ -1,6 +1,5 @@
 ---
 layout: landmark
-title: Landmark Papers in Surgery
 permalink: /landmark/
 ---
 
@@ -9,10 +8,6 @@ permalink: /landmark/
 Welcome to the Landmark Papers collection — a curated set of high-impact surgical trials used for education and clinical reference.
 
 ---
-
-## Table of Contents
-
-### WikiJournalClub Articles
 
 - [FOCUS](/landmark/focus)
 - [TRICC](/landmark/tricc)
@@ -35,9 +30,6 @@ Welcome to the Landmark Papers collection — a curated set of high-impact surgi
 - [NSABP-B32](/landmark/nsabp-b32)
 - [FAME](/landmark/fame)
 - [SMART](/landmark/smart)
-
-### Additional BTK Journal Club Trials
-
 - [STAMPEDE](/landmark/stampede)
 - [AAA EVAR](/landmark/aaa-evar)
 - [LUNG](/landmark/lung)
