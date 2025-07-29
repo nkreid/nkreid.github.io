@@ -13,61 +13,7 @@ layout: none
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
-  <!-- Styles -->
   <style>
-    .content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-article {
-  width: 100%;
-}
-
-@media (min-width: 1024px) {
-  .content-wrapper {
-    flex-direction: row;
-    gap: 3rem;
-    align-items: flex-start;
-  }
-
-  .main-article {
-    flex: 2;
-  }
-
-  .toc-box {
-    flex: 1;
-    max-width: 250px;
-    font-size: 0.9rem;
-    background: var(--mint);
-    padding: 1rem;
-    border-left: 4px solid var(--navy);
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 120px;
-  }
-
-  .toc-box ul {
-    padding-left: 1rem;
-    list-style: none;
-  }
-
-  .toc-box li {
-    margin-bottom: 0.4rem;
-  }
-
-  .toc-box a {
-    color: var(--navy);
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .toc-box a:hover {
-    color: var(--green);
-  }
-}
-
     :root {
       --navy: #0C2C47;
       --green: #2D5652;
@@ -76,7 +22,6 @@ layout: none
       --pink: #EFEAE6;
       --mint: #E4F2EA;
       --beige: #F8F5F0;
-
       --text: #1a1a1a;
       --muted: #555;
       --card: #ffffff;
@@ -124,7 +69,7 @@ layout: none
     }
 
     .brand img {
-      height: 90px; /* 3x taller logo */
+      height: 90px;
       width: auto;
       object-fit: contain;
     }
@@ -184,7 +129,7 @@ layout: none
       display: block;
     }
 
-    /* ============ MAIN ============ */
+    /* ============ CONTENT AREA ============ */
     main {
       max-width: 960px;
       margin: 3rem auto;
@@ -247,21 +192,58 @@ layout: none
       font-family: monospace;
     }
 
-    @media (max-width: 600px) {
-      main {
-        margin: 1rem;
-        padding: 1.5rem;
-      }
+    /* ============ TOC + FLEX ============ */
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
 
-      header {
-        flex-direction: column;
+    .main-article {
+      width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+      .content-wrapper {
+        flex-direction: row;
+        gap: 3rem;
         align-items: flex-start;
-        gap: 0.75rem;
       }
 
-      .dropdown-content {
-        right: auto;
-        left: 0;
+      .main-article {
+        flex: 2;
+      }
+
+      .toc-box {
+        flex: 1;
+        max-width: 250px;
+        font-size: 0.9rem;
+        background: var(--mint);
+        padding: 1rem;
+        border-left: 4px solid var(--navy);
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        position: sticky;
+        top: 120px;
+      }
+
+      .toc-box ul {
+        padding-left: 1rem;
+        list-style: none;
+        margin: 0;
+      }
+
+      .toc-box li {
+        margin-bottom: 0.4rem;
+      }
+
+      .toc-box a {
+        color: var(--navy);
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .toc-box a:hover {
+        color: var(--green);
       }
     }
   </style>
@@ -296,30 +278,51 @@ layout: none
           <a href="/landmark/acst">ACST</a>
           <a href="/landmark/chip">CHIP</a>
           <a href="/landmark/tacs">TACS</a>
-          <!-- Add any more from your index -->
         </div>
       </div>
     </nav>
   </header>
 
   <!-- MAIN CONTENT -->
-<main class="content-wrapper">
-  <div class="main-article">
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}
-      <p class="page-subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-    {{ content }}
-  </div>
+  <main class="content-wrapper">
+    <div class="main-article">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      {{ content }}
+    </div>
 
-  {% if page.toc %}
-  <nav class="toc-box">
-    <strong>Contents</strong>
-    <ul>
-      {{ page.toc }}
-    </ul>
-  </nav>
-  {% endif %}
-</main>
+    <nav class="toc-box">
+      <strong>Contents</strong>
+      <ul></ul>
+    </nav>
+  </main>
+
+  <!-- TOC Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tocList = document.querySelector(".toc-box ul");
+      if (!tocList) return;
+
+      const headings = document.querySelectorAll(".main-article h2, .main-article h3");
+      headings.forEach((heading) => {
+        if (!heading.id) {
+          heading.id = heading.textContent.trim().toLowerCase().replace(/\s+/g, "-");
+        }
+
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = `#${heading.id}`;
+        a.textContent = heading.textContent;
+        if (heading.tagName === "H3") {
+          a.style.marginLeft = "1rem";
+          a.style.fontSize = "0.95em";
+        }
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+    });
+  </script>
 </body>
 </html>
