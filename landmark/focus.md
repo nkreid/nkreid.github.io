@@ -12,26 +12,6 @@ RCT | Multicenter, USA & Canada
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/) • [Full text](https://www.nejm.org/doi/full/10.1056/NEJMoa1012452) • [PDF](https://www.nejm.org/doi/pdf/10.1056/NEJMoa1012452)
 
-## Contents  
-1. [Clinical Question](#clinical-question)  
-2. [Bottom Line](#bottom-line)  
-3. [Major Points](#major-points)  
-4. [Guidelines](#guidelines)  
-5. [Design](#design)  
-6. [Population](#population)  
-    - [Inclusion Criteria](#inclusion-criteria)  
-    - [Exclusion Criteria](#exclusion-criteria)  
-    - [Baseline Characteristics](#baseline-characteristics)  
-7. [Interventions](#interventions)  
-8. [Outcomes](#outcomes)  
-    - [Primary Outcomes](#primary-outcomes)  
-    - [Secondary Outcomes](#secondary-outcomes)  
-    - [Subgroup Analysis](#subgroup-analysis)  
-    - [Adverse Events](#adverse-events)  
-9. [Criticisms](#criticisms)  
-10. [Funding](#funding)  
-11. [Further Reading](#further-reading)  
-
 ## Clinical Question  
 Among high‑risk patients undergoing hip surgery, does a liberal transfusion strategy (target hemoglobin >10 g/dL) improve survival or functional outcomes at 60 days compared to a restrictive strategy (target hemoglobin >8 g/dL)?  
 
