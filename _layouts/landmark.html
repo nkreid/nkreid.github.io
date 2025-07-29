@@ -163,7 +163,7 @@ layout: none
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-top: 2rem;
     }
 
@@ -218,7 +218,7 @@ layout: none
 
       .toc-box {
         flex: 1;
-        max-width: 250px;
+        max-width: 300px;
         font-size: 0.8rem;
         background: var(--mint);
         padding: 0.5rem;
@@ -241,11 +241,19 @@ layout: none
 
       .toc-box a {
         color: var(--navy);
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
+        margin-bottom: 0.2rem;
+      }
+
+      .toc-box a.h3-link {
+        margin-left: 1rem;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+        opacity: 0.9;
       }
 
       .toc-box a:hover {
@@ -286,22 +294,47 @@ layout: none
         <button>Papers <i class="fas fa-caret-down"></i></button>
         <div class="dropdown-content">
           <a href="/landmark/focus">FOCUS</a>
-          <a href="/landmark/crash-2">CRASH-2</a>
-          <a href="/landmark/abcs">ABCs</a>
-          <a href="/landmark/patch">PATCH</a>
-          <a href="/landmark/proppr">PROPPR</a>
+          <a href="/landmark/tricc">TRICC</a>
+          <a href="/landmark/triss">TRISS</a>
           <a href="/landmark/corticus">CORTICUS</a>
-          <a href="/landmark/scarlet">SCARLET</a>
-          <a href="/landmark/assist">ASSIST</a>
-          <a href="/landmark/drafft">DRAFFT</a>
-          <a href="/landmark/cash">CASH</a>
-          <a href="/landmark/titan">TITAN</a>
-          <a href="/landmark/titan-2">TITAN-2</a>
-          <a href="/landmark/fame">FAME</a>
-          <a href="/landmark/fame-2">FAME-2</a>
-          <a href="/landmark/acst">ACST</a>
-          <a href="/landmark/chip">CHIP</a>
+          <a href="/landmark/proppr">PROPPR</a>
+          <a href="/landmark/dcl">DCL</a>
           <a href="/landmark/tacs">TACS</a>
+          <a href="/landmark/patch">PATCH</a>
+          <a href="/landmark/titre2">TITRe2</a>
+          <a href="/landmark/react2">REACT-2</a>
+          <a href="/landmark/drool">DROOL</a>
+          <a href="/landmark/stitch">STITCH</a>
+          <a href="/landmark/tavr">TAVR</a>
+          <a href="/landmark/nascet">NASCET</a>
+          <a href="/landmark/cost">COST</a>
+          <a href="/landmark/stopit">STOP-IT</a>
+          <a href="/landmark/cross">CROSS</a>
+          <a href="/landmark/acosog-z0011">ACOSOG-Z0011</a>
+          <a href="/landmark/nsabp-b32">NSABP-B32</a>
+          <a href="/landmark/fame">FAME</a>
+          <a href="/landmark/smart">SMART</a>
+          <a href="/landmark/stampede">STAMPEDE</a>
+          <a href="/landmark/aaa-evar">AAA EVAR</a>
+          <a href="/landmark/lung">LUNG</a>
+          <a href="/landmark/appendix-irrigate">APPENDIX IRRIGATE</a>
+          <a href="/landmark/chest-tube">CHEST TUBE SIZE</a>
+          <a href="/landmark/mangled-extremity">FRACTURE: MESS</a>
+          <a href="/landmark/ij-access">IJ CATHETERIZATION</a>
+          <a href="/landmark/platysma">PLATYSMA CLOSURE</a>
+          <a href="/landmark/parathyroid-af">PARATHYROID AUTOFLUORESCENCE</a>
+          <a href="/landmark/pancreatic-trauma">PANCREATIC TRAUMA</a>
+          <a href="/landmark/esophageal-trauma">ESOPHAGEAL TRAUMA</a>
+          <a href="/landmark/colitis-crc">COLITIS AND CRC</a>
+          <a href="/landmark/hemothorax">RETROPERITONEAL HEMOTHORAX</a>
+          <a href="/landmark/hernia-mesh">HERNIA BIOLOGIC MESH</a>
+          <a href="/landmark/stepup-pancreatitis">NECROTIZING PANCREATITIS</a>
+          <a href="/landmark/pecarn">BRAIN INJURY PEDIATRICS</a>
+          <a href="/landmark/foley-timing">FOLEY REMOVAL TIMING</a>
+          <a href="/landmark/ileus">ILEUS RCTs</a>
+          <a href="/landmark/stab-wound">STAB WOUND MANAGEMENT</a>
+          <a href="/landmark/hpylori-surgery">HPYLORI AFTER SURGERY</a>
+          <a href="/landmark/uc-surgery">ULCERATIVE COLITIS SURGERY</a>
         </div>
       </div>
     </nav>
@@ -338,10 +371,7 @@ layout: none
         const a = document.createElement("a");
         a.href = `#${heading.id}`;
         a.textContent = heading.textContent;
-        if (heading.tagName === "H3") {
-          a.style.marginLeft = "1rem";
-          a.style.fontSize = "0.95em";
-        }
+        a.classList.add(heading.tagName.toLowerCase() + "-link");
         li.appendChild(a);
         tocList.appendChild(li);
       });
