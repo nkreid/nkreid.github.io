@@ -1,116 +1,193 @@
 ---
-layout: base
+layout: none
 ---
 
-<!-- Landmark Styles -->
-<style>
-  .landmark-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.65;
-    max-width: 900px;
-    margin: auto;
-    padding: 2rem 1rem;
-    color: #1a1a1a;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} – Landmark Trials</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <style>
+    :root {
+      --primary: #0055a5;
+      --bg: #f9f9fb;
+      --text: #1a1a1a;
+      --subtext: #555;
+      --accent: #e2e8f0;
+      --card: #ffffff;
+    }
 
-  .landmark-body h1, .landmark-body h2, .landmark-body h3 {
-    font-weight: 600;
-    margin-top: 2rem;
-    line-height: 1.25;
-  }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-  .landmark-body h2 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.3rem;
-  }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
 
-  .landmark-body a {
-    color: #1e4d91;
-    text-decoration: none;
-  }
+    a:hover {
+      text-decoration: underline;
+    }
 
-  .landmark-body a:hover {
-    text-decoration: underline;
-  }
-
-  .landmark-body ul {
-    padding-left: 1.4rem;
-  }
-
-  .landmark-body code {
-    background: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 90%;
-  }
-
-  .landmark-body blockquote {
-    border-left: 4px solid #ddd;
-    padding-left: 1rem;
-    color: #555;
-    font-style: italic;
-  }
-
-  /* Optional TOC sidebar on desktop */
-  @media screen and (min-width: 992px) {
-    .landmark-wrapper {
+    header {
+      background: white;
+      border-bottom: 1px solid #ddd;
       display: flex;
-      gap: 2rem;
-    }
-
-    .landmark-toc {
-      flex: 0 0 220px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.5rem;
       position: sticky;
-      top: 80px;
-      align-self: flex-start;
-      border-right: 1px solid #eee;
-      padding-right: 1rem;
+      top: 0;
+      z-index: 1000;
     }
 
-    .landmark-content {
-      flex: 1 1 auto;
+    header .logo {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: var(--primary);
     }
 
-    .landmark-toc h4 {
-      font-size: 1rem;
+    header nav {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown button {
+      background: none;
+      border: none;
+      font: inherit;
+      color: var(--primary);
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background: white;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      z-index: 10;
+      padding: 0.5rem 0;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: var(--text);
+    }
+
+    .dropdown-content a:hover {
+      background: var(--accent);
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+
+    h1, h2, h3 {
+      margin-top: 2.5rem;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.25rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+
+    pre, code {
+      background: #f1f1f1;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    blockquote {
+      border-left: 4px solid #ccc;
+      margin: 1.5rem 0;
+      padding-left: 1rem;
+      color: var(--subtext);
+      font-style: italic;
+    }
+
+    .contents-list {
+      padding-left: 1rem;
+    }
+
+    .toc-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 2rem;
       margin-bottom: 0.5rem;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
     }
 
-    .landmark-toc ul {
-      list-style: none;
-      padding-left: 0;
+    @media (max-width: 600px) {
+      main {
+        padding: 1.2rem;
+        margin: 1rem;
+      }
+
+      header nav {
+        flex-direction: column;
+        align-items: flex-end;
+      }
     }
+  </style>
+</head>
 
-    .landmark-toc li {
-      margin-bottom: 0.3rem;
-    }
+<body>
+  <header>
+    <a class="logo" href="/landmark">Landmark Trials</a>
+    <nav>
+      <a href="/landmark">Table of Contents</a>
+      <div class="dropdown">
+        <button>Papers <i class="fas fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="/landmark/focus">FOCUS</a>
+          <a href="/landmark/crash-2">CRASH-2</a>
+          <a href="/landmark/abcs">ABCs</a>
+          <!-- Add more acronyms here -->
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    .landmark-toc a {
-      color: #1e4d91;
-      font-size: 0.95rem;
-    }
-  }
-</style>
-
-<main class="landmark-body">
-
-  <div class="landmark-wrapper">
-
-    <!-- Optional Sidebar TOC for large screens -->
-    {% if page.toc %}
-    <aside class="landmark-toc d-none d-lg-block">
-      <h4>Contents</h4>
-      {{ page.toc }}
-    </aside>
-    {% endif %}
-
-    <article class="landmark-content">
-      {{ content }}
-    </article>
-
-  </div>
-
-</main>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
