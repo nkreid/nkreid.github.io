@@ -15,6 +15,59 @@ layout: none
 
   <!-- Styles -->
   <style>
+    .content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content-wrapper {
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-start;
+  }
+
+  .main-article {
+    flex: 2;
+  }
+
+  .toc-box {
+    flex: 1;
+    max-width: 250px;
+    font-size: 0.9rem;
+    background: var(--mint);
+    padding: 1rem;
+    border-left: 4px solid var(--navy);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 120px;
+  }
+
+  .toc-box ul {
+    padding-left: 1rem;
+    list-style: none;
+  }
+
+  .toc-box li {
+    margin-bottom: 0.4rem;
+  }
+
+  .toc-box a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .toc-box a:hover {
+    color: var(--green);
+  }
+}
+
     :root {
       --navy: #0C2C47;
       --green: #2D5652;
