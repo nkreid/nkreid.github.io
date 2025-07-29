@@ -112,38 +112,38 @@ Comparisons are liberal vs. restrictive transfusion strategy.
 
 ### Primary Outcomes  
 Death or inability to walk 10 feet without assistance at 60 day follow‑up  
-35.2% vs. 34.7% (OR 1.01; 95% CI 0.84‑1.22; P=0.90)  
+  35.2% vs. 34.7% (OR 1.01; 95% CI 0.84‑1.22; P=0.90)  
 
 ### Secondary Outcomes  
 Death at 60 days  
-7.6% vs. 6.6% (OR 1.17; 99% CI 0.75‑1.83)  
+  7.6% vs. 6.6% (OR 1.17; 99% CI 0.75‑1.83)  
 
 Inability to walk 10 feet without assistance at 60 days  
-27.6% vs. 28.1%  
+  27.6% vs. 28.1%  
 
 MI, unstable angina, or in‑hospital death  
-4.3% vs. 5.2% (OR 0.82; 99% CI 0.48‑1.42)  
+  4.3% vs. 5.2% (OR 0.82; 99% CI 0.48‑1.42)  
 
 MI  
-2.3% vs. 3.8% (OR 0.60, 99% CI 0.30‑1.19)  
+  2.3% vs. 3.8% (OR 0.60, 99% CI 0.30‑1.19)  
 
 Unstable angina  
-0.2% vs. 0.3% (OR 0.67, 99% CI 0.06‑7.03)  
+  0.2% vs. 0.3% (OR 0.67, 99% CI 0.06‑7.03)  
 
 In‑hospital death  
-2.0% vs 1.4% (OR 1.44, 99% CI 0.58‑3.56)  
+  2.0% vs 1.4% (OR 1.44, 99% CI 0.58‑3.56)  
 
 Number of RBC units transfused (median)  
-2 vs. 0  
+  2 vs. 0  
 
 Lower extremity physical ADLs  
-5.1 vs. 4.3 (P=0.85)  
+  5.1 vs. 4.3 (P=0.85)  
 
 Instrumental ADLs  
-3.7 vs. 3.7 (P=0.94)  
+  3.7 vs. 3.7 (P=0.94)  
 
 FACIT‑Fatigue scale  
-41.8 vs. 42.3 (P=0.26)  
+  41.8 vs. 42.3 (P=0.26)  
 
 ## Subgroup Analysis  
 Subgroup analysis of the primary outcome demonstrated a difference based on patient sex. In the liberal vs. restrictive transfusion strategy groups, the OR for having a primary outcome event was 1.45 in men versus 0.91 in women (P=0.03). There were no significant interactions with age, race, and cardiovascular disease status  
