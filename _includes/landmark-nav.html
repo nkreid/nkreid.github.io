@@ -8,22 +8,29 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarLandmark">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="papersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Papers
           </a>
           <div class="dropdown-menu" aria-labelledby="papersDropdown">
-            {% assign landmark_pages = site.pages | where: "layout", "landmark" %}
-            {% for page in landmark_pages %}
-              <a class="dropdown-item" href="{{ page.url | relative_url }}">{{ page.title | upcase }}</a>
-            {% endfor %}
+            <!-- Add your fixed TOC links here -->
+            <a class="dropdown-item" href="/landmark/focus">FOCUS</a>
+            <a class="dropdown-item" href="/landmark/tricc">TRICC</a>
+            <a class="dropdown-item" href="/landmark/proppr">PROPPR</a>
+            <!-- ... -->
           </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/landmark">Table of Contents</a>
         </li>
       </ul>
+
+      <!-- Search bar -->
+      <form class="form-inline my-2 my-lg-0" action="/landmark/search.html" method="get">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search papers" aria-label="Search" name="query">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </div>
 </nav>
