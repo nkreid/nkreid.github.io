@@ -7,46 +7,53 @@ layout: none
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }} – Landmark Trials</title>
+  <title>{{ page.title }} – Landmark Articles</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
+  <!-- Styles -->
   <style>
     :root {
-      --primary: #0070f3;
-      --dark: #1a1a1a;
-      --light: #f9f9fb;
-      --card: #ffffff;
+      --navy: #0C2C47;
+      --green: #2D5652;
+      --yellow: #E2A54D;
+      --aqua: #97D3CD;
+      --pink: #EFEAE6;
+      --mint: #E4F2EA;
+      --beige: #F8F5F0;
+
       --text: #1a1a1a;
-      --muted: #777;
-      --accent: #eaf2f8;
+      --muted: #555;
+      --card: #ffffff;
       --border: #e0e0e0;
     }
 
     html, body {
       margin: 0;
       padding: 0;
-      background: var(--light);
-      font-family: 'Source Serif 4', serif;
+      background: var(--beige);
       color: var(--text);
+      font-family: 'Source Serif 4', serif;
       line-height: 1.7;
     }
 
     a {
-      color: var(--primary);
+      color: var(--green);
       text-decoration: none;
     }
 
     a:hover {
-      color: #339dff;
+      color: var(--aqua);
+      text-decoration: underline;
     }
 
     /* ============ NAVBAR ============ */
     header {
-      background: var(--dark);
+      background: var(--navy);
       color: white;
-      padding: 1rem 2rem;
+      padding: 1.25rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -58,20 +65,21 @@ layout: none
     .brand {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
-      color: white;
+      gap: 1rem;
       text-decoration: none;
+      color: white;
     }
 
     .brand img {
-      height: 36px;
+      height: 90px; /* 3x taller logo */
       width: auto;
+      object-fit: contain;
     }
 
     .brand-text {
-      font-family: 'Inter', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 600;
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
     }
 
     nav {
@@ -89,8 +97,9 @@ layout: none
       border: none;
       font: inherit;
       color: white;
-      cursor: pointer;
       font-weight: 500;
+      cursor: pointer;
+      font-family: 'Manrope', sans-serif;
     }
 
     .dropdown-content {
@@ -104,49 +113,50 @@ layout: none
       z-index: 10;
       max-height: 300px;
       overflow-y: auto;
-      min-width: 180px;
+      min-width: 200px;
     }
 
     .dropdown-content a {
       display: block;
-      padding: 0.5rem 1rem;
+      padding: 0.6rem 1rem;
       color: var(--text);
       font-size: 0.95rem;
     }
 
     .dropdown-content a:hover {
-      background: var(--accent);
+      background: var(--mint);
     }
 
     .dropdown:hover .dropdown-content {
       display: block;
     }
 
-    /* ============ PAGE CONTENT ============ */
+    /* ============ MAIN ============ */
     main {
       max-width: 960px;
       margin: 3rem auto;
       background: var(--card);
       padding: 2.5rem;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
-    h1, h2, h3 {
-      font-family: 'Inter', sans-serif;
-      font-weight: 600;
-      color: var(--primary);
+    h1, h2, h3, h4 {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      color: var(--navy);
     }
 
     h1 {
-      font-size: 2rem;
-      margin-bottom: 0.25rem;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
     }
 
     .page-subtitle {
       font-size: 1rem;
       color: var(--muted);
       margin-bottom: 2rem;
+      font-style: italic;
     }
 
     h2 {
@@ -170,14 +180,15 @@ layout: none
     }
 
     blockquote {
-      border-left: 4px solid var(--border);
+      border-left: 4px solid var(--yellow);
       padding-left: 1rem;
       color: var(--muted);
       font-style: italic;
+      margin: 2rem 0;
     }
 
     code, pre {
-      background: #f1f1f1;
+      background: #f4f4f4;
       padding: 0.2rem 0.4rem;
       border-radius: 5px;
       font-family: monospace;
@@ -192,7 +203,7 @@ layout: none
       header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.5rem;
+        gap: 0.75rem;
       }
 
       .dropdown-content {
@@ -208,7 +219,7 @@ layout: none
   <!-- NAVBAR -->
   <header>
     <a class="brand" href="/landmark">
-      <img src="/assets/img/NKR_white.png" alt="NKR logo">
+      <img src="/assets/images/NKR_white.png" alt="NKR logo">
       <span class="brand-text">Landmark Articles</span>
     </a>
     <nav>
@@ -232,7 +243,7 @@ layout: none
           <a href="/landmark/acst">ACST</a>
           <a href="/landmark/chip">CHIP</a>
           <a href="/landmark/tacs">TACS</a>
-          <!-- add all remaining trial URLs -->
+          <!-- Add any more from your index -->
         </div>
       </div>
     </nav>
