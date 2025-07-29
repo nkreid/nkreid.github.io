@@ -9,28 +9,25 @@ layout: none
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }} – Landmark Trials</title>
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
-  <!-- Theme Styles -->
   <style>
     :root {
-      --primary: #0055a5;
-      --text: #2b2b2b;
-      --muted: #777;
-      --bg: #f9f9fb;
+      --primary: #0070f3;
+      --dark: #1a1a1a;
+      --light: #f9f9fb;
       --card: #ffffff;
-      --border: #e4e4e7;
+      --text: #1a1a1a;
+      --muted: #777;
       --accent: #eaf2f8;
+      --border: #e0e0e0;
     }
 
     html, body {
       margin: 0;
       padding: 0;
-      background: var(--bg);
+      background: var(--light);
       font-family: 'Source Serif 4', serif;
       color: var(--text);
       line-height: 1.7;
@@ -42,28 +39,39 @@ layout: none
     }
 
     a:hover {
-      color: #0077cc;
-      text-decoration: underline;
+      color: #339dff;
     }
 
-    /* HEADER */
+    /* ============ NAVBAR ============ */
     header {
-      background: white;
+      background: var(--dark);
+      color: white;
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 1000;
     }
 
-    .logo {
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    .brand img {
+      height: 36px;
+      width: auto;
+    }
+
+    .brand-text {
       font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
       font-weight: 600;
-      font-size: 1.3rem;
-      color: var(--primary);
     }
 
     nav {
@@ -80,8 +88,9 @@ layout: none
       background: none;
       border: none;
       font: inherit;
-      color: var(--primary);
+      color: white;
       cursor: pointer;
+      font-weight: 500;
     }
 
     .dropdown-content {
@@ -91,16 +100,18 @@ layout: none
       top: 100%;
       background: white;
       border: 1px solid var(--border);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      z-index: 100;
-      padding: 0.5rem 0;
-      min-width: 160px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      z-index: 10;
+      max-height: 300px;
+      overflow-y: auto;
+      min-width: 180px;
     }
 
     .dropdown-content a {
       display: block;
       padding: 0.5rem 1rem;
       color: var(--text);
+      font-size: 0.95rem;
     }
 
     .dropdown-content a:hover {
@@ -111,9 +122,9 @@ layout: none
       display: block;
     }
 
-    /* MAIN CONTENT */
+    /* ============ PAGE CONTENT ============ */
     main {
-      max-width: 900px;
+      max-width: 960px;
       margin: 3rem auto;
       background: var(--card);
       padding: 2.5rem;
@@ -121,22 +132,28 @@ layout: none
       box-shadow: 0 4px 12px rgba(0,0,0,0.04);
     }
 
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
-      margin-top: 2.5rem;
       color: var(--primary);
     }
 
     h1 {
       font-size: 2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .page-subtitle {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
     }
 
     h2 {
+      margin-top: 2.5rem;
       font-size: 1.5rem;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 0.3rem;
+      padding-bottom: 0.25rem;
     }
 
     h3 {
@@ -146,7 +163,6 @@ layout: none
 
     p, li {
       font-size: 1.05rem;
-      margin-bottom: 1rem;
     }
 
     ul, ol {
@@ -158,23 +174,15 @@ layout: none
       padding-left: 1rem;
       color: var(--muted);
       font-style: italic;
-      margin: 2rem 0;
     }
 
-    pre, code {
-      background: #f4f4f4;
+    code, pre {
+      background: #f1f1f1;
       padding: 0.2rem 0.4rem;
       border-radius: 5px;
       font-family: monospace;
     }
 
-    .page-subtitle {
-      font-size: 1rem;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-
-    /* Mobile tweaks */
     @media (max-width: 600px) {
       main {
         margin: 1rem;
@@ -186,13 +194,23 @@ layout: none
         align-items: flex-start;
         gap: 0.5rem;
       }
+
+      .dropdown-content {
+        right: auto;
+        left: 0;
+      }
     }
   </style>
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
   <header>
-    <a class="logo" href="/landmark">Landmark Trials</a>
+    <a class="brand" href="/landmark">
+      <img src="/assets/images/NKR_white.png" alt="NKR logo">
+      <span class="brand-text">Landmark Articles</span>
+    </a>
     <nav>
       <div class="dropdown">
         <button>Papers <i class="fas fa-caret-down"></i></button>
@@ -200,16 +218,31 @@ layout: none
           <a href="/landmark/focus">FOCUS</a>
           <a href="/landmark/crash-2">CRASH-2</a>
           <a href="/landmark/abcs">ABCs</a>
-          <!-- Add more as needed -->
+          <a href="/landmark/patch">PATCH</a>
+          <a href="/landmark/proppr">PROPPR</a>
+          <a href="/landmark/corticus">CORTICUS</a>
+          <a href="/landmark/scarlet">SCARLET</a>
+          <a href="/landmark/assist">ASSIST</a>
+          <a href="/landmark/drafft">DRAFFT</a>
+          <a href="/landmark/cash">CASH</a>
+          <a href="/landmark/titan">TITAN</a>
+          <a href="/landmark/titan-2">TITAN-2</a>
+          <a href="/landmark/fame">FAME</a>
+          <a href="/landmark/fame-2">FAME-2</a>
+          <a href="/landmark/acst">ACST</a>
+          <a href="/landmark/chip">CHIP</a>
+          <a href="/landmark/tacs">TACS</a>
+          <!-- add all remaining trial URLs -->
         </div>
       </div>
     </nav>
   </header>
 
+  <!-- MAIN CONTENT -->
   <main>
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}
-      <div class="page-subtitle">{{ page.subtitle }}</div>
+      <p class="page-subtitle">{{ page.subtitle }}</p>
     {% endif %}
     {{ content }}
   </main>
