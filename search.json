@@ -1,1 +1,142 @@
-{ "example": "data" }
+[
+  {
+    "title": "FOCUS",
+    "url": "/landmark/focus",
+    "content": "The FOCUS trial investigated whether a liberal or restrictive transfusion threshold affected outcomes in patients undergoing hip fracture surgery with cardiovascular risk factors."
+  },
+  {
+    "title": "TRICC",
+    "url": "/landmark/tricc",
+    "content": "The TRICC trial compared restrictive vs liberal transfusion strategies in critically ill patients to evaluate 30-day mortality."
+  },
+  {
+    "title": "PROPPR",
+    "url": "/landmark/proppr",
+    "content": "PROPPR compared 1:1:1 vs 1:1:2 ratios of plasma, platelets, and RBCs in trauma patients predicted to require massive transfusion."
+  },
+  {
+    "title": "DRASTIC",
+    "url": "/landmark/drastic",
+    "content": "The DRASTIC trial evaluated percutaneous vs surgical drainage of infected pancreatic necrosis."
+  },
+  {
+    "title": "REACT-2",
+    "url": "/landmark/react-2",
+    "content": "The REACT-2 trial assessed immediate whole-body CT vs standard imaging in trauma patients to evaluate mortality and morbidity."
+  },
+  {
+    "title": "COST",
+    "url": "/landmark/cost",
+    "content": "The COST trial compared laparoscopic-assisted colectomy to open colectomy for colon cancer."
+  },
+  {
+    "title": "CROSS",
+    "url": "/landmark/cross",
+    "content": "The CROSS trial examined neoadjuvant chemoradiotherapy followed by surgery vs surgery alone for esophageal or gastroesophageal junction cancer."
+  },
+  {
+    "title": "STITCH",
+    "url": "/landmark/stitch",
+    "content": "The STITCH trial compared small-bite vs large-bite fascial closure techniques to prevent incisional hernias."
+  },
+  {
+    "title": "STOP-IT",
+    "url": "/landmark/stop-it",
+    "content": "STOP-IT compared fixed 4-day vs longer-duration antibiotics after source control of intraabdominal infection."
+  },
+  {
+    "title": "DIVERTI",
+    "url": "/landmark/diverti",
+    "content": "The DIVERTI trial assessed Hartmann’s procedure vs primary anastomosis with diverting ileostomy in perforated diverticulitis."
+  },
+  {
+    "title": "LUNG",
+    "url": "/landmark/lung",
+    "content": "This trial compared lobectomy vs wedge resection for small, early-stage non–small cell lung cancer."
+  },
+  {
+    "title": "AAA",
+    "url": "/landmark/aaa",
+    "content": "This trial compared open surgical repair vs endovascular repair (EVAR) for abdominal aortic aneurysm."
+  },
+  {
+    "title": "BARI",
+    "url": "/landmark/bari",
+    "content": "The STAMPEDE trial showed bariatric surgery improves diabetes control over medical therapy alone."
+  },
+  {
+    "title": "SPLENIC",
+    "url": "/landmark/splenic",
+    "content": "Explored operative vs nonoperative management of blunt splenic trauma."
+  },
+  {
+    "title": "MESH",
+    "url": "/landmark/mesh",
+    "content": "Evaluated biologic vs synthetic mesh use in hiatal hernia repair."
+  },
+  {
+    "title": "NASCET",
+    "url": "/landmark/nascet",
+    "content": "The NASCET trial compared carotid endarterectomy vs medical therapy for symptomatic carotid stenosis."
+  },
+  {
+    "title": "PACIFIC",
+    "url": "/landmark/pacific",
+    "content": "Looked at postoperative strategies after pancreaticoduodenectomy."
+  },
+  {
+    "title": "MANGLED",
+    "url": "/landmark/mangled",
+    "content": "Reexamined the utility of the Mangled Extremity Severity Score in trauma-related limb salvage."
+  },
+  {
+    "title": "INTRAVASCULAR ULTRASOUND",
+    "url": "/landmark/intravascular-ultrasound",
+    "content": "Compared ultrasound vs landmark technique for central line placement."
+  },
+  {
+    "title": "ESOPHAGEAL PERFORATION",
+    "url": "/landmark/esophageal-perforation",
+    "content": "Examined management of penetrating esophageal injuries."
+  },
+  {
+    "title": "COLON",
+    "url": "/landmark/colon",
+    "content": "Assessed early vs delayed surgery in colon cancer and the impact of neoadjuvant treatment."
+  },
+  {
+    "title": "HERNIA",
+    "url": "/landmark/hernia",
+    "content": "Analyzed suture technique for fascial closure and rates of hernia recurrence."
+  },
+  {
+    "title": "NECROSE",
+    "url": "/landmark/necrose",
+    "content": "Step-up vs open approach in necrotizing pancreatitis."
+  },
+  {
+    "title": "HEMOTHORAX",
+    "url": "/landmark/hemothorax",
+    "content": "Management of retained post-traumatic hemothorax."
+  },
+  {
+    "title": "HEADTRAUMA",
+    "url": "/landmark/headtrauma",
+    "content": "Children at low risk of brain injuries after head trauma."
+  },
+  {
+    "title": "ULCERATIVE COLITIS",
+    "url": "/landmark/uc",
+    "content": "Ulcerative colitis and colorectal cancer relationship."
+  },
+  {
+    "title": "B-32",
+    "url": "/landmark/b-32",
+    "content": "Sentinel lymph node biopsy and breast cancer trial."
+  },
+  {
+    "title": "RADIATION STS",
+    "url": "/landmark/soft-tissue-sarcoma",
+    "content": "Adjuvant radiation in extremity soft tissue sarcoma."
+  }
+]
