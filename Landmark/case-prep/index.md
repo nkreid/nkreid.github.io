@@ -5,8 +5,6 @@ permalink: /landmark/case-prep/
 hide_page_subtitle: true
 ---
 
-# Case Prep
-
 Compact operative roadmaps that make it easy to add new cases—drop a Markdown file in this directory and the page updates automatically.
 
 {% assign cases = site.pages | where_exp: "c", "c.path contains 'Landmark/case-prep/surgeries/'" %}
