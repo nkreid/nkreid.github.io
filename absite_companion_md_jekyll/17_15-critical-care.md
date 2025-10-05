@@ -1,0 +1,408 @@
+---
+layout: landmark
+permalink: /absite/17_15-critical-care/
+title: "15 CRITICAL CARE"
+---
+
+# 15 CRITICAL CARE
+
+
+
+
+---
+
+<!-- Page 203 -->
+
+203
+15 CRITICAL CARE
+
+
+
+---
+
+<!-- Page 204 -->
+
+204
+15 CRITICAL CARE
+Ventilator Settings and Management
+•	 Most physiologic ventilator mode? 
+o Iron lung (Negative Pressure Ventilation)
+•	 Ventilator induced lung injury
+o Volume
+o Pressure (Barotrauma)
+o Oxygen Toxicity
+•	 Oxygenation vs Ventilation
+o Oxygenation affected by:
+o Fi02, PEEP, Mean Airway Pressure
+o Ventilation affected by:
+o RR, Tidal Volume
+o RR x TV = Minute Ventilation
+•	 Peak pressure – reflects pressure in large airways
+•	 Plateau pressure – must do inspiratory pause . This allows 
+pressures to equilibrate and better reflects alveolar pressure
+•	 What if there is large differential between peak and plateau 
+pressure (e .g . Peak 50, Plateau 30)?
+o Large airway obstruction 
+o Bronchospasm
+•	 What if peak and plateau are both high?
+o Alveolar lung disease (e .g . ARDS)
+•	 Negative inspiratory Force (NIF) – Must do expiratory pause to 
+check this .
+•	 Vent Modes
+o Continuous mandatory ventilation (CMV)/Assist Control (AC)
+• Respiratory Rate (RR) and Volume are set
+• Every breath is fully supported
+• Problems: Volume is set regardless of pressure and can 
+result in barotrauma; hyperventilation if patient RR is high .
+
+
+
+---
+
+<!-- Page 205 -->
+
+205
+15 CRITICAL CARE
+o Pressure Support (PS)
+• Pressure is set
+• Advantages: Limits barotrauma
+• Disadvantages: Hypoventilation
+o Synchronized Intermittent Mandatory Ventilations (SIMV)
+• RR and Volume set
+• Spontaneous breaths above set rate are not fully 
+supported
+• Delivered breaths are synchronized – typically a more 
+comfortable mode of breathing
+• Problems: Patients can tire out 
+o Extubation criteria
+o Spontaneous Breathing Trial (SBT) should be done every 
+day
+o Follows commands (i .e . neurologically able to protect airway)
+o Minimal Vent Settings for extubation (in general):
+• Fi02 50% or less
+• PEEP <10
+• Rapid shallow RR/TV < 100 (Best Predictor)
+• NIF > 20 (Good predictor of who will fail if <20; However 
+>20 is poorly predictive of who will do well)
+Acute Respiratory Distress Syndrome (ARDS) 
+•	 Definition: Within 1 week of insult, characteristic radiographic 
+finding, not cardiogenic
+o Mild: P:F ratio = 200-300 
+o Moderate: P:F ratio = 100-200
+o Severe: P:F ratio = <100
+•	 Ventilator strategies for ARDS
+o Lung protection ARDSNET protocol – Low tidal volume (4-
+6cc/kg)
+
+
+
+---
+
+<!-- Page 206 -->
+
+206
+15 CRITICAL CARE
+o Permissive hypercapnia
+• Generally, as long as pH above 7 .20 it is recommended to 
+allow hypercapnia as long as the patient is oxygenating . 
+This avoids further lung injury .
+o Strategies for ARDS patients that are failing
+• Airway Pressure Release Ventilation (APRV)
+• Long inhalation period with short extubation
+• Set P-high (Pressure High) and P-Low (Pressure Low) 
+as well as T-high (Time High) and T-Low (Time Low)
+o Want long T-high and short T-low
+• Patient can breathe spontaneously throughout
+• Proning 
+• Nitrous Oxide, NM blockade 
+• Proning and neuromuscular blockade have proven 
+benefits for ARDS in prospective RCTs
+Sepsis
+•	 Old definition – Focused on inflammation (SIRS Criteria)
+o Sepsis = SIRS + infection source
+o Severe Sepsis = SIRS + source + end organ dysfunction
+o Septic Shock = SIRS + end organ dysfunction + 
+hypotension/pressor requirement
+o New Definition – Focuses more on organ dysfunction with 
+infection (SOFA Score)
+o SOFA = Sequential Organ Function Assessment 
+o Sepsis = If SOFA score increases by 2 or more points, or a 
+score of 2 or more on a patient initial presentation
+o Septic Shock = Pressor requirement AND lactate of 2 or 
+more despite resuscitation 
+•	 Diagnostic adjuncts
+o Procalcitonin – when normalizes can be a guide to stop 
+antibiotics
+
+
+
+---
+
+<!-- Page 207 -->
+
+207
+15 CRITICAL CARE
+• Better at ruling out sepsis if negative; More sensitive than 
+specific 
+o 1,3 beta-d-glucan assay for fungal infections
+o Mannan antigen and anti-mannan antibody for invasive 
+candidiasis 
+•	 Sepsis management
+o Send cultures before starting antibiotics
+o Within 3 hours  Start antibiotic (send cultures prior), bolus 
+with 30cc/kg crystalloid if lactate >4
+o Within 6 hours  Start pressors (norepinephrine 
+recommended over dopamine, vasopressin added as 
+secondary) if needed to maintain MAP, repeat lactate
+o Activated protein C is no longer recommended (Never 
+choose as an answer)
+o Adrenal insufficiency in Septic Shock?
+• Generally do not do a stimulation test – if refractory shock 
+and suspect adrenal insufficiency, you should empirically 
+treat with hydrocortisone 
+o Glucose control in the ICU
+• Tight glucose control is associated with worse outcomes; 
+shoot for <180
+Vasoactive agents
+•	 Dopamine
+o Receptors:
+• Low dose: Dopamine receptors in kidney
+• Medium dose: Beta 1
+• High dose: Alpha
+•	 Norepinephrine (Levophed)
+o Receptors:
+• Alpha and some Beta 1
+
+
+
+---
+
+<!-- Page 208 -->
+
+208
+15 CRITICAL CARE
+•	 Epinephrine
+o Receptors:
+• Alpha and Beta 1 
+•	 Phenylephrine
+o Receptors:
+• Purely alpha 
+o Used in neurogenic shock from spinal cord injury
+•	 Vasopressin
+o Receptors:
+• V1 receptor 
+•	 Dobutamine
+o Receptors:
+• Beta 1 
+o Increases cardiac output
+o Can have vasodilatory effects
+•	 Milrinone
+o Phosphodiesterase inhibitor
+o Increases cardiac output
+o Increases cAMP
+o Inotropic, Vasodilatory 
+Pulmonary Embolism (PE)
+•	 Most common vital sign change?
+o Tachycardia, Tachypnea
+o Respiratory alkalosis
+•	 Most common EKG findings with PE?
+o Sinus tachycardia
+o Classic S1Q3T3 finding is uncommon
+•	 Diagnosis
+
+
+
+---
+
+<!-- Page 209 -->
+
+209
+15 CRITICAL CARE
+o CT Pulmonary Arteriogram is study of choice
+o Role of D-Dimer?
+• Sensitive -- Good for ruling out PE . High false positive rate .
+•	 Treatment
+o Anticoagulation – Heparin bolus followed by drip for goal 
+PTT 60-90
+o Indications for thrombolytics with PE?
+• Hemodynamic instability 
+• Right heart strain on echocardiogram
+o Pulmonary embolectomy (Trendelenburg Procedure)
+• Uncommon
+• Surgical option if there is a contraindication for lytics
+Cardiovascular physiology
+•	 Central Venous Pressure (CVP) – surrogate for end diastolic 
+right ventricular volume
+•	 Pulmonary Wedge Pressure (PWP) – surrogate for end 
+diastolic left ventricular volume
+•	 Cardiac Output (CO)= Stroke volume x Heart Rate
+•	 Cardiac index (CI)= Cardiac Output/Body Surface Area
+•	 Swan Ganz Patterns – Less commonly used but good to know 
+principles
+o Hemorrhagic shock
+o Low CO, High Systemic vascular resistance (SVR), Low 
+filling pressures (CVP/PWP)
+o Septic shock
+• High CO (may be low in late septic shock), Low SVR, Low/
+Normal filling pressures (CVP, PWP)
+o Cardiogenic shock
+• Low CO, High SVR, High filling pressures (CVP, PWP)
+
+
+
+---
+
+<!-- Page 210 -->
+
+210
+15 CRITICAL CARE
+•	 Formulas you need to know
+o Oxygen Delivery = CO x [Hb x 02 Saturation x 1 .34 + (Pa02 
+x 0 .003)] 
+o Oxygen Consumption = CO x (Arterial-Venous 02 difference)
+o Extraction Ratio = O2 Consumption/O2 Delivery
+• What decreases the Extraction Ratio? 
+• Sepsis, cardiac failure, anemia/hypoxia, fever, seizure 
+can affect extraction ratios
+Anticoagulation Agents and reversal
+•	 Coumadin – Inhibits Vit K dependent factors
+o Reversal:
+• FFP, Vit K
+• If emergent reversal needed    PCC
+• Less volume than FFP
+• Reversal is faster and more predictable than FFP 
+•	 Dabigatran (Pradaxa) – Direct Thrombin inhibitors
+o Reversal:
+• Dialysis 
+• Praxbind – New monoclonal antibody against Pradaxa
+•	 Apixaban (Eliquis), Rivaroxaban (Xarelto) – Factor Xa 
+inhibitors
+o Reversal:
+• PCC will give partial reversal
+Nutrition
+•	 Metabolic Cart (Indirect Calorimetry)
+o Measures 02 Consumption and C02 production
+o Respiratory Quotient (RQ) = C02 production/02 consumption
+o RQ is useful to identify carbohydrate overfeeding in 
+intubated patients, which results in higher C02 production 
+and difficulty weaning from the ventilator. 
+
+
+
+---
+
+<!-- Page 211 -->
+
+211
+15 CRITICAL CARE
+• Fat 0 .7
+• Protein 0 .8
+• Carb 1 .0
+•	 Nitrogen balance
+o Requires 24-hour collection and measurement of urine 
+Nitrogen 
+o Nitrogen Balance = Protein intake /6 .25 – (Urine nitrogen + 
+4)
+• Negative Nitrogen Balance = Catabolic State
+• Positive Nitrogen Balance = Anabolic State
+•	 Caloric contents
+o Carb: 4 kcal/g
+• Should make up 75% of non-protein calories
+• Toxicity: C02 production, hyperglycemia, 
+immunosuppressant
+o Dextrose: 3 .4kCal/g
+o Lipids: 9 kcal/g
+• Should make up 25% of non-protein calories
+• Essential Fatty Acids
+• Linoleic acid
+• Alpha-Linolenic acid
+• Toxicity: pro-inflammatory (Omega 3 Fatty Acids are less 
+inflammatory and immunogenic)
+o Protein: 4 kcal/g
+• 1-2 g/kg/day requirement
+•	 Always prefer enteral nutrition over TPN if possible
+o Start enteral nutrition within 24-48hrs (after resuscitation/
+stabilization)
+o If unable to tolerate enteral nutrition, start TPN at day 5-7
+
+
+
+---
+
+<!-- Page 212 -->
+
+212
+15 CRITICAL CARE
+•	 Nutritional Deficiencies
+o Thiamine – Beri Beri
+o Folate – Macrocytic anemia
+o Vit D – Rickets
+o Vit C- Scurvy
+o Vit K – Coagulopathy
+o Zinc – rash, alopecia, vision changes
+o Copper – Microcytic anemia, pancytopenia, osteopenia
+•	 Nutrition in pancreatitis patient
+o Classic teaching is to avoid gastric feeds and provide enteral 
+nutrition with distal feeding access . More and more evidence 
+showing gastric or small bowel enteral feeds generally 
+acceptable . Trend is towards early enteral feeding . 
+•	 Immunonutrition – Contain Omega 3 fatty acids, Glutamine, 
+Arginine
+o Associated with lower infectious complications 
+QUICK HITS
+•	 Hemoptysis after Swan Ganz Balloon Inflation?
+o Ruptured pulmonary artery
+o Treatment: Angioembolization
+•	 Tachyarrhythmia, Torsades de Pointes on EKG?
+o IV Magnesium
+•	 No brainstem reflexes, fixed and dilated pupils, normotensive, 
+normothermic. What’s next to declare brain death?
+o Apnea Test
+•	 Who should discuss organ donation with a brain dead patient’s 
+family?
+o The organ donation representative, not the physician .
+•	 Hyperacute rejection of a transplanted organ is mediated by?
+o Antibodies
+
+
+
+---
+
+<!-- Page 213 -->
+
+213
+15 CRITICAL CARE
+•	 Acute rejection of a transplanted organ is mediated by?
+o T-cells
+•	 Cyclosporine/Tacrolimus mechanism of action?
+o Calcineurin inhibitor, blocks IL2
+•	 Post Op Day 2 CABG patient with decreased chest tube output 
+followed by PEA?
+o Cardiac Tamponade
+o Treatment: Cut wires and open chest in ICU
+•	 Frequent IV Haldol doses for ETOH withdrawal followed by 
+arrhythmia?
+o Prolonged QT
+•	 Patient with positive UA with MAP of 60 and lactate of 4 .5?
+o Septic Shock
+•	 5yo trauma patient with bradycardia during attempted 
+intubation?
+o Atropine
+•	 Post Op CABG patient with hypotension with CVP and wedge 
+pressure of 20?
+o Cardiac Tamponade
+•	 Critically ill patient in sudden drop in end tidal CO2?
+o Decreased cardiac output or cardiac arrest
+•	 Large volume paracentesis for ascites in a cirrhotic patient 
+followed by oliguria and elevated Cr, Urine Na is less than 10?
+o Hepatorenal syndrome
+o Treatment: Albumin and vasopressin; transplant
+
+
+
+---
+
+<!-- Page 214 -->
+
+214
+15 CRITICAL CARE
