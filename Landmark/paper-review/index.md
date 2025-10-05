@@ -5,8 +5,6 @@ permalink: /landmark/paper-review/
 hide_page_subtitle: true
 ---
 
-# Paper Review
-
 Landmark trials organized by service line so you can move directly into the data that matters for your next call shift, journal club, or oral boards session.
 
 {% assign papers = site.pages | where_exp: "p", "p.path contains 'Landmark/paper-review/papers/'" %}
