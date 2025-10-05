@@ -133,13 +133,6 @@ layout: none
       margin-bottom: 0.5rem;
     }
 
-    .page-subtitle {
-      font-size: 1rem;
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-style: italic;
-    }
-
     h2 {
       margin-top: 2.5rem;
       font-size: 1.5rem;
@@ -310,9 +303,6 @@ layout: none
       {% unless page.hide_page_title %}
         <h1>{{ page.title }}</h1>
       {% endunless %}
-      {% if page.subtitle and page.hide_page_subtitle != true %}
-        <p class="page-subtitle">{{ page.subtitle }}</p>
-      {% endif %}
       {{ content }}
     </div>
 
