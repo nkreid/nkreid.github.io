@@ -2,11 +2,9 @@
 layout: landmark
 title: "Landmark Learning Hub"
 permalink: /landmark/
+hide_page_title: true
+hide_page_subtitle: true
 ---
-
-# Landmark Learning Hub
-
-Build your study plan around three focused tracks. Choose a workflow to dive into critical trials, streamline topic refreshers, or polish your operative scripts.
 
 <div class="landing-grid">
   <a class="landing-card" href="/landmark/paper-review/">
@@ -22,16 +20,16 @@ Build your study plan around three focused tracks. Choose a workflow to dive int
   <a class="landing-card" href="/landmark/case-prep/">
     <h2>Case Prep</h2>
     <p>Drill operative strategy with structured briefs covering anatomy, simplified steps, and quick pimp questions for common cases.</p>
-    <span class="cta">Practice cases →</span>
+    <span class="cta">Prep for Cases →</span>
   </a>
 </div>
 
 <style>
 .landing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.75rem;
-  margin-top: 2.5rem;
+  margin-top: 0;
 }
 
 .landing-card {
@@ -64,5 +62,17 @@ Build your study plan around three focused tracks. Choose a workflow to dive int
 .landing-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 36px rgba(12,44,71,0.18);
+}
+
+@media (max-width: 900px) {
+  .landing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

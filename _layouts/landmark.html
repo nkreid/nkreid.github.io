@@ -54,127 +54,63 @@ layout: none
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 2rem;
       position: sticky;
       top: 0;
       z-index: 1000;
     }
 
     .brand {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      gap: 1rem;
+      gap: 0.85rem;
       text-decoration: none;
       color: white;
     }
 
     .brand img {
-      height: 90px;
+      height: 64px;
       width: auto;
       object-fit: contain;
     }
 
     .brand-text {
       font-family: 'Manrope', sans-serif;
-      font-size: 1.5rem;
+      font-size: 1.65rem;
       font-weight: 700;
+      letter-spacing: 0.01em;
     }
 
-    header nav {
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .nav-groups {
+    .nav-actions {
       display: flex;
       gap: 1rem;
-      align-items: flex-start;
+      align-items: center;
+      margin-left: auto;
       flex-wrap: wrap;
       font-family: 'Manrope', sans-serif;
     }
 
-    .nav-group {
-      position: relative;
-      color: white;
-    }
-
-    .nav-group > summary {
-      list-style: none;
-      cursor: pointer;
-      color: inherit;
+    .nav-button {
+      background: white;
+      color: var(--navy);
+      padding: 0.6rem 1.4rem;
+      border-radius: 999px;
       font-weight: 600;
       font-size: 0.95rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      box-shadow: 0 8px 18px rgba(12, 44, 71, 0.16);
       display: inline-flex;
       align-items: center;
       gap: 0.35rem;
     }
 
-    .nav-group > summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .nav-group > summary::after {
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900;
-      content: "\f0d7";
-      font-size: 0.75rem;
-      transition: transform 0.2s ease;
-    }
-
-    .nav-group[open] > summary::after {
-      transform: rotate(180deg);
-    }
-
-    .nav-group ul {
-      list-style: none;
-      margin: 0;
-      padding: 0.5rem 0;
-      background: white;
-      border: 1px solid var(--border);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      min-width: 210px;
-      max-height: 300px;
-      overflow-y: auto;
-      position: absolute;
-      top: calc(100% + 0.4rem);
-      left: 0;
-      border-radius: 10px;
-      display: none;
-    }
-
-    .nav-group[open] ul {
-      display: block;
-    }
-
-    .nav-group li a {
-      display: block;
-      padding: 0.6rem 1rem;
-      color: var(--text);
-      font-size: 0.95rem;
-    }
-
-    .nav-group li a:hover,
-    .nav-group li a:focus {
-      background: var(--mint);
+    .nav-button:hover,
+    .nav-button:focus {
+      background: var(--aqua);
       color: var(--navy);
-    }
-
-    @media (hover: hover) {
-      .nav-group:hover ul,
-      .nav-group:focus-within ul {
-        display: block;
-      }
-
-      .nav-group:hover > summary,
-      .nav-group:focus-within > summary {
-        color: var(--aqua);
-      }
-
-      .nav-group:hover > summary::after,
-      .nav-group:focus-within > summary::after {
-        transform: rotate(180deg);
-      }
+      transform: translateY(-1px);
+      text-decoration: none;
+      box-shadow: 0 12px 24px rgba(12, 44, 71, 0.22);
     }
 
     main {
@@ -224,6 +160,12 @@ layout: none
       padding-left: 1.5rem;
     }
 
+    .toc-box ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
     blockquote {
       border-left: 4px solid var(--yellow);
       padding-left: 1rem;
@@ -254,6 +196,14 @@ layout: none
       width: 100%;
     }
 
+    .toc-box {
+      display: none;
+    }
+
+    .toc-box.is-visible {
+      display: block;
+    }
+
     @media (min-width: 1024px) {
       .content-wrapper {
         flex-direction: row;
@@ -275,6 +225,10 @@ layout: none
         border-radius: 6px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.05);
         align-self: flex-start;
+      }
+
+      .toc-box.is-visible {
+        display: block;
       }
 
       .toc-box ul {
@@ -319,37 +273,22 @@ layout: none
       header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
       }
 
-      .nav-groups {
+      .nav-actions {
         width: 100%;
-        flex-direction: column;
+        justify-content: flex-start;
         gap: 0.75rem;
       }
-
-      .nav-group {
-        width: 100%;
+    }
+    @media (max-width: 600px) {
+      .nav-actions {
+        gap: 0.6rem;
       }
 
-      .nav-group > summary {
+      .nav-button {
         width: 100%;
-        justify-content: space-between;
-        padding: 0.4rem 0;
-      }
-
-      .nav-group ul {
-        position: static;
-        width: 100%;
-        max-height: none;
-        box-shadow: none;
-        border-radius: 8px;
-        border: 1px solid rgba(12, 44, 71, 0.15);
-        margin-top: 0.35rem;
-      }
-
-      .nav-group li a {
-        padding: 0.65rem 0.75rem;
+        justify-content: center;
       }
     }
   </style>
@@ -361,124 +300,22 @@ layout: none
   <header>
     <a class="brand" href="/landmark">
       <img src="/assets/img/NKR_white.png" alt="NKR logo">
-      <span class="brand-text">Landmark Articles</span>
+      <span class="brand-text">Surgery Study Hub</span>
     </a>
-    {% assign papers = site.landmark %}
-    {% if papers == nil or papers == empty %}
-      {% assign papers_collection = site.collections | where: 'label', 'landmark' | first %}
-      {% if papers_collection %}
-        {% assign papers = papers_collection.docs %}
-      {% endif %}
-    {% endif %}
-    {% if papers == nil or papers == empty %}
-      {% assign papers = site.pages | where: 'layout', 'landmark' %}
-    {% endif %}
-    {% if papers %}
-      {% assign papers = papers | uniq %}
-      {% assign papers = papers | where_exp: 'item', 'item.nav_exclude != true' %}
-      {% assign ordered_papers = papers | where_exp: 'item', 'item.nav_order != nil' %}
-      {% if ordered_papers and ordered_papers != empty %}
-        {% assign papers = papers | sort: 'nav_order' %}
-      {% else %}
-        {% assign papers = papers | sort_natural: 'title' %}
-      {% endif %}
-    {% endif %}
-
-    {% assign topic_reviews = site.topic_reviews %}
-    {% if topic_reviews == nil or topic_reviews == empty %}
-      {% assign topic_collection = site.collections | where: 'label', 'topic_reviews' | first %}
-      {% if topic_collection %}
-        {% assign topic_reviews = topic_collection.docs %}
-      {% endif %}
-    {% endif %}
-    {% if topic_reviews == nil or topic_reviews == empty %}
-      {% assign topic_reviews = site.pages | where: 'layout', 'topic_review' %}
-    {% endif %}
-    {% if topic_reviews %}
-      {% assign topic_reviews = topic_reviews | uniq %}
-      {% assign topic_reviews = topic_reviews | where_exp: 'item', 'item.nav_exclude != true' %}
-      {% assign ordered_topics = topic_reviews | where_exp: 'item', 'item.nav_order != nil' %}
-      {% if ordered_topics and ordered_topics != empty %}
-        {% assign topic_reviews = topic_reviews | sort: 'nav_order' %}
-      {% else %}
-        {% assign topic_reviews = topic_reviews | sort_natural: 'title' %}
-      {% endif %}
-    {% endif %}
-
-    {% assign case_preps = site.case_preps %}
-    {% if case_preps == nil or case_preps == empty %}
-      {% assign case_collection = site.collections | where: 'label', 'case_preps' | first %}
-      {% if case_collection %}
-        {% assign case_preps = case_collection.docs %}
-      {% endif %}
-    {% endif %}
-    {% if case_preps == nil or case_preps == empty %}
-      {% assign case_preps = site.pages | where: 'layout', 'case_prep' %}
-    {% endif %}
-    {% if case_preps %}
-      {% assign case_preps = case_preps | uniq %}
-      {% assign case_preps = case_preps | where_exp: 'item', 'item.nav_exclude != true' %}
-      {% assign ordered_cases = case_preps | where_exp: 'item', 'item.nav_order != nil' %}
-      {% if ordered_cases and ordered_cases != empty %}
-        {% assign case_preps = case_preps | sort: 'nav_order' %}
-      {% else %}
-        {% assign case_preps = case_preps | sort_natural: 'title' %}
-      {% endif %}
-    {% endif %}
-
-    <nav class="nav-groups" aria-label="Landmark navigation">
-      {% if papers and papers != empty %}
-        <details class="nav-group">
-          <summary>Papers</summary>
-          <ul>
-            {% for paper in papers %}
-              {% assign paper_label = paper.nav_title | default: paper.title %}
-              {% if paper_label == nil or paper_label == '' %}
-                {% assign paper_label = paper.slug | replace: '-', ' ' | capitalize %}
-              {% endif %}
-              <li><a href="{{ paper.url | relative_url }}">{{ paper_label }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
-      {% endif %}
-
-      {% if topic_reviews and topic_reviews != empty %}
-        <details class="nav-group">
-          <summary>Topic Review</summary>
-          <ul>
-            {% for topic in topic_reviews %}
-              {% assign topic_label = topic.nav_title | default: topic.title %}
-              {% if topic_label == nil or topic_label == '' %}
-                {% assign topic_label = topic.slug | replace: '-', ' ' | capitalize %}
-              {% endif %}
-              <li><a href="{{ topic.url | relative_url }}">{{ topic_label }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
-      {% endif %}
-
-      {% if case_preps and case_preps != empty %}
-        <details class="nav-group">
-          <summary>Case Prep</summary>
-          <ul>
-            {% for case in case_preps %}
-              {% assign case_label = case.nav_title | default: case.title %}
-              {% if case_label == nil or case_label == '' %}
-                {% assign case_label = case.slug | replace: '-', ' ' | capitalize %}
-              {% endif %}
-              <li><a href="{{ case.url | relative_url }}">{{ case_label }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
-      {% endif %}
+    <nav class="nav-actions" aria-label="Primary navigation">
+      <a class="nav-button" href="/landmark/paper-review/">Papers</a>
+      <a class="nav-button" href="/landmark/topic-review/">Topics</a>
+      <a class="nav-button" href="/landmark/case-prep/">Surgeries</a>
     </nav>
   </header>
 
   <!-- MAIN CONTENT -->
   <main class="content-wrapper">
     <div class="main-article">
-      <h1>{{ page.title }}</h1>
-      {% if page.subtitle %}
+      {% unless page.hide_page_title %}
+        <h1>{{ page.title }}</h1>
+      {% endunless %}
+      {% if page.subtitle and page.hide_page_subtitle != true %}
         <p class="page-subtitle">{{ page.subtitle }}</p>
       {% endif %}
       {{ content }}
@@ -494,6 +331,8 @@ layout: none
     document.addEventListener("DOMContentLoaded", function () {
       const tocList = document.querySelector(".toc-box ul");
       if (!tocList) return;
+      const tocBox = tocList.closest(".toc-box");
+      if (!tocBox) return;
 
       const headings = document.querySelectorAll(".main-article h2, .main-article h3");
       headings.forEach((heading) => {
@@ -509,6 +348,12 @@ layout: none
         li.appendChild(a);
         tocList.appendChild(li);
       });
+
+      if (!tocList.children.length) {
+        tocBox.classList.remove("is-visible");
+      } else {
+        tocBox.classList.add("is-visible");
+      }
     });
   </script>
 </body>
