@@ -5,7 +5,7 @@ permalink: /landmark/topic-review/
 hide_page_subtitle: true
 ---
 
-BTK ABSITE review notes transcribed below with edits and additions from BUMC education conferences. Pick a topic below to open a clean, continuous page without the old PDF artifacts.
+BTK ABSITE review notes transcribed below with edits and additions from BUMC education conferences. Pick a topic below to open a clean, continuous page with many resources combined in one. 
 
 <ul class="topic-toc">
 {% assign topics = site.pages | where_exp: "p", "p.path contains 'Landmark/topic-review/topics/'" | sort: 'title' %}
