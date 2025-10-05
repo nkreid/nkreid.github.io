@@ -2,6 +2,7 @@
 layout: landmark
 title: "Topic Review"
 permalink: /landmark/topic-review/
+hide_page_subtitle: true
 ---
 
 # Topic Review
