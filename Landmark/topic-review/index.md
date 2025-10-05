@@ -5,8 +5,6 @@ permalink: /landmark/topic-review/
 hide_page_subtitle: true
 ---
 
-# Topic Review
-
 Every ABSITE heading from the companion manual is now available as streamlined Markdown. Pick a topic below to open a clean, continuous page without the old PDF artifacts.
 
 <ul class="topic-toc">
