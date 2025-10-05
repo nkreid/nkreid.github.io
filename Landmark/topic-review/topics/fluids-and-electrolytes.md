@@ -1,0 +1,235 @@
+---
+layout: topic-review
+title: "Fluids And Electrolytes"
+redirect_from:
+  - /absite/18_16-fluids-and-electrolytes/
+permalink: /landmark/topic-review/fluids-and-electrolytes/
+---
+
+16 FLUIDS AND ELECTROLYTES
+
+- What is the percentage of total body water by weight in an adult? What percent of total body water is intracellular?
+ - Body weight in Kg x 0 .6 = L of water
+ - 2/3rds is intracellular
+- If 1/3rd of our total body water is extracellular, what percentage of that is intravascular?
+ - ¼ is intravascular
+ - ¾ is extravascular
+- What is blood volume of 70 kg male?
+ - 5 L
+ - 7% by body weight
+ - In pediatric it is 80 cc/kg
+- What are our common maintenance fluids?
+ - D5 ½ NS + 20 Meq of K
+ - D5 ¼ NS in babies
+- Resuscitative fluids?
+ - Balanced crystalloid (LR or NS)
+ - Colloids
+- Electrolyte concentrations of NS and LR in 1L
+ - NS = 154 mEq of Na and Cl
+ - LR = 130 mEq sodium, 4 mEq potassium, 2.7 mEq calcium, 109 mEq chloride and 28 mEq of HCO3
+- Maintenance fluids
+ - 4, 2, 1 rule = hourly rate
+ - 4 cc/kg for first 10 kg, 2 cc/kg for second 10, every 1 cc for every kg over 20 kg
+ - Simplified version(for adults) = weight in kg + 40 = hourly rate of fluids
+
+- How much sodium does a person need a day?
+ - 1-2 mEq/kg
+ - 70 kg person = 70-140 mEq/day
+- How much potassium does a person need a day?
+ - 0.5 -1 mEq/kg
+ - 70 kg person = 35-70 mEq/day
+- When to use D5 ½ NS?
+ - Patients that are NPO
+ - Protein sparing for fasting patients
+ - D5 = 5% per liter = 50 Grams
+ - 50 Grams x 3 .4 kcal = 170 kcals per liter of D5 saline solution
+- What fluid do you give to someone that has been copiously vomiting?
+ - Resuscitative fluids (no D5), generally NS
+ - 1 L at a time to see if they respond
+ - ¼ of it stays intravascular
+- How do colloids increase intravascular volume?
+ - Oncotic pressure in vessel that draws fluids intravascular
+ - Concern in sepsis/trauma/burns is with increased capillary permeability is colloid will leak out to interstitial space and draw fluid with it
+- What colloids are available?
+ - Albumin
+ - Plasmanate
+ - Hetastarch, Hespand
+- Side effects of coagulopathy
+- Negatively effects platelet function
+- Also can cause acute kidney injury
+
+- What increases insensible losses?
+ - Burns
+ - Fevers
+ - Ventilators
+ - Open abdomen
+ - Large open wounds
+- What fluid do you replace with?
+ - High NG tube output
+- Normal Saline
+ - High volume bile leak (lose bicarb in bile)
+- LR or D5 solution with bicarb
+ - Patient with diarrhea (lose K for colon)
+- LR or NS with K
+- Patient 2 days s/p open procedure now hyponatremic what are possibilities?
+ - Excess free water
+ - SIADH
+ - Pseudohyponatermia due to hyperglycemia or other high protein state
+ - How to differentiate
+ - Determine measured serum osmoles and calculated serum osmoles
+ - Serum osmolality is calculated by looking at chemistry
+- Na, Glucose and BUN
+- (2 x Na) + Glucose/18 + BUN/2 .8
+- Simplified (Na x 2) + 10
+- Compare to urine osmolality
+- If it is SIADH your serum osmolality will be less than urine (very concentrated urine)
+- If it is excess free water urine osmolality will be very low (trying to excrete excess water)
+
+ - If it is excess free water how do you treat?
+- Fluid restriction
+ - If it is SIADH?
+- Fluid restriction
+- Give NS (don’t correct sodium too quickly, no more than 1 mEq/hour)
+- Vaptans (vasopressin antagonist)
+- Demeclocycline
+- How to determine sodium deficit?
+ - Desired sodium - actual sodium x TBW = Sodium deficit in mEq
+- Primary causes of hypernatremia?
+ - Iatrogenic
+ - Diabetes insipidus
+ - Pt with head injury and urine output increases to 700 cc/hr and now hypernatremic how to confirm its DI?
+- Compare serum osmolality to urine osmolality
+- Serum osmolality will be high and urine will be low in DI
+ - How to treat DI?
+- Desmopressin (DDAVP)
+ - How to calculate free water deficit
+- (Actual Na - Desired Na)/ Desired Na x TBW = Volume in liters
+- What is hypophosphatemia associated with?
+ - Refeeding syndrome due to P04 shift extracellular to intracellular
+ - Can lead to failure to wean from ventilator
+- How do you manage patient with hyperkalemia?
+ - Likely renal failure, could be medication induced
+ - EKG looking for peaked T waves
+
+ - Treatment
+- Give calcium to stabilize myocardium
+- NaHCO3
+- Glucose with IV Insulin
+- Lasix
+- Kayexalate
+- Albuterol
+- Emergent Dialysis
+- How to treat hypokalemia?
+ - Causes - Iatrogenic such as over diuresis
+ - 40 mEq of K should increase total K 0.4
+- Hypocalcemia symptoms
+ - Weakness
+ - Perioral Tingling
+ - Chovstek’s sign - tap on facial nerve and get perioral twitching
+ - Trousseau’s sign - Carpal pedal spasm with blood pressure cuff
+- Treatment of hypocalcemia?
+ - IV Calcium
+ - Vit D and Mg
+- If hypocalcemia patient has low serum albumin, how do we correct serum calcium?
+ - Normal Albumin = 4
+ - Every point below 4 add 0 .8 to calcium level
+ - If Albumin = 2, add 1 .6 to serum calcium level
+- What are main causes of hypercalcemia?
+ - MC cause of hypercalcemia in outpatient = hyperparathyroidism
+ - MC cause of hypercalcemia in an inpatient = malignancy
+
+- Symptoms of hypercalcemia?
+ - Stones, bones, groans, and psychiatric overtones
+ - Kidney stones, bone pain, abdominal pain, and psychosis
+- Treatment of hypercalcemia?
+ - Crystalloid resuscitation
+ - Loop diuretic second line
+ - Bisphosphonates are helpful for hypercalcemia due to cancer
+ - Calcitonin
+ - Glucocorticoids
+ - Dialysis
+- Most important parts of ABG?
+ - pCO2, Bicarb, Base Excess/Base Deficit
+- Normal values of ABG (to remember for exam)
+ - pCO2 = 40
+ - pH = 7 .4
+ - Bicarb = 24
+- A change in pCO2 what change in pH would you expect?
+ - 0.8 x DCO2 = DpH for acute changes
+ - pH change by .1 for every 12 point change in CO2
+- Dr . Matthew Martin Tips When Looking at ABG
+ - Looks at CO2 first
+- If high writes resp acidosis . If low, writes resp alkalosis
+ - Then looks at bicarb
+- If high, writes metabolic alkalosis . If low, writes metabolic acidosis
+ - Then he looks at pH and their history to put it all together
+
+- Metabolic acidosis
+ - Start with calculating anion gap
+ - (Na + K) - (Cl + HCO3)
+ - Gap Acidosis = MUDPILES
+ - Non-Anion Gap = Ileal conduit, Fistulas, Hyperchloremic (Too much NaCL), Renal Tubular Acidosis, Diarrhea, Acetazolamide
+- Metabolic alkalosis
+ - NG suction - Hyperchloremic, hypokalemic metabolic alkalosis
+ - Contraction alkalosis from over diuresis
+- Give chloride back is most important Table 1: Common Electrolyte Abnormalities and Treatment
+
+Acid Base Practice Problems
+- Patient undergoes surgery and has 3L NG Suction, postop ABG shows 7 .55, pCO2= 52, HCO3 = 40
+ - What is his primary disorder?
+- He is alkalotic with a metabolic alkalosis (HCO3 of 40)
+- Respiratory acidosis is compensatory
+- Primary metabolic alkalosis with respiratory compensation
+- Patient who is admitted in a coma, pCO2 = 16, HCO3 = 5, pH = 7 .1
+ - Metabolic acidosis with a respiratory compensation
+ - Respiratory alkalosis is compensatory as overall disorder is acidotic
+- Climber climbing a mountain, he is at 5000 meters, what is his going to happen to his pCO2 and his pH?
+ - pCO2 will go down and pH will go up
+ - Respiratory alkalosis
+- Patient whose pH is 7 .5, PCO2 = 50, HCO3 is 35
+ - Primarily metabolic alkalosis with respiratory compensation Quick Hits
+- Cation that determines serum osmolarity
+ - Na
+- Primary intracellular cation
+ - K
+- Sepsis resuscitation bolus amount cc/kg
+ - 30cc/kg
+- Pediatric patient who needs bolus
+ - 20 cc/kg
+ - Blood products = 10 cc/kg
+
+- Pt with K of 6 .5 and peaked T waves on EKG, what medication do you give first
+ - Calcium gluconate
+- Pt on liver transplant list, who was started on a “water pill” by his PCP, now has K of 2 .5
+ - Lasix
+- Pt on liver transplant list, who was started on a “water pill” by his PCP, now his K is 5 .5
+ - Spironolactone
+- Pt came in hyponatremic getting 3% NS, and now they develop spastic quadriplegia
+ - Central pontine myelinolysis
+- Pt is hyponatremic, they are on free water restriction, still hyponatremic
+ - Can give vaptans (acts on V2 receptor in the kidney) or demeclocycline
+ - Or hypertonic saline
+- Baby with pyloric stenosis who has been having emesis for 1 week
+ - Hypochloremic, hypokalemic, metabolic acidosis
+ - Paradoxical aciduria
+- Effect of acidosis on oxygen-hemoglobin disassociation curve
+ - Right shift - oxygen will unload easier
+- Surgical patient gets hextend and is now bleeding in OR, what coagulation disorder do they have
+ - Platelet dysfunction
+- Pt with marked metabolic alkalosis, now has decreased respiratory drive, what drug could you give
+ - Acetazolamide
+- Pt with high NG output, or vomiting
+ - Hypochloremic, metabolic alkaloses
+
+- Pt with diarrhea
+ - Hypokalemic metabolic acidosis
+- Mountain climber
+ - Respiratory alkalosis
+- POD 2 after whipple is now somnolent with pinpoint pupils
+ - Respiratory acidosis, due to overdose on narcotics
+- Ileal conduit and high output
+ - Metabolic acidosis, non-gap
+
+## Figures
+
+![Figure from page 222](./images/18_16-fluids-and-electrolytes_p222_i1.png)

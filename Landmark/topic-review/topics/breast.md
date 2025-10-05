@@ -1,0 +1,335 @@
+---
+layout: topic-review
+title: "Breast"
+redirect_from:
+  - /absite/14_12-breast/
+permalink: /landmark/topic-review/breast/
+---
+
+High Yield Anatomy
+- What are the surgical boundaries of the axillary lymph nodes?
+ - Level I - Lateral to pec minor
+ - Level II - Posterior to pec minor
+ - Level III - Medial to pec minor Figure 1. Surgical Levels of The Axillary Lymph Nodes
+- Name the nerve that can be injured during an axillary dissection based on the clinical sequela
+ - Results in winged scapula:
+- Long thoracic innervating the serratus anterior
+ - Results in weakness in pullups and arm adduction:
+- Thoracodorsal nerve innervating the latissimus dorsi
+
+ - This nerve results in sensory deficits to the medial arm:
+- Intercostobrachial
+- What nerve innervates both pec major and pec minor:
+ - Medial pectoral nerve
+ - Lateral pectoral nerve only innervates pec major Lateral pectoral nerve only innervates pec major
+
+- What is the blood supply to the breast?
+ - Internal thoracic (aka mammary)
+ - Intercostals
+ - Lateral thoracic
+ - Thoracoacromial arteries
+- What is Batson’s plexus?
+ - Valveless venous plexus that allows direct hematogenous spread to the spine Benign Breast Disease
+- Breast Pain
+ - Common, self-limited in most cases
+ - Most frequent during the late luteal phase of the menstrual cycle
+ - Treatment
+- Reassurance
+- For severe pain, the following have been studied with variable results:
+- danazol, bromocriptine, tamoxifen, primrose oil, vitamin E
+- What is Mondor’s disease and what is the treatment?
+ - Superficial thrombophlebitis of the lateral thoracic vein or a tributary
+
+- MC secondary to recent surgery, trauma, or other inflammatory process
+- Rarely associated with carcinoma
+ - Presentation: tender, palpable subcutaneous cord
+ - Treatment: NSAIDs
+- Fibrocystic disease
+ - Most common in perimenopausal women
+ - Symptoms: breast pain, nipple discharge, lumps that vary throughout menstrual cycle
+ - Treatment:
+- Simple cysts → observe
+- Symptomatic → aspirate
+- If aspirate is bloody or recurrent → cytology
+- Bloody aspirate → surgical excision
+- Unresolved after aspiration → surgical excision
+- Recurrence → surgical excision
+ - Is there a risk of cancer?
+- If cytology demonstrates atypical ductal or lobular hyperplasia
+- Fibroadenoma and Phyllodes tumors
+ - Presentation: dominant mass
+ - Dx:
+- Imaging
+- If <35 yo → ultrasound (density of breast tissue)
+- If >35 yo → mammography
+- If findings are consistent with a benign fibroadenoma AND no risk factors → bi-annual ultrasound
+- If any uncertainty → core needle biopsy (CNB)
+- What if the mass continues to enlarge?
+- Need excisional biopsy
+ - Fibroadenoma variants
+
+- Giant fibroadenoma
+- >6 cm, can be difficult to distinguish from phyllodes tumor
+- Complex fibroadenoma = risk for developing carcinoma
+- Fibroadenoma with sclerosing adenosis, papillary apocrine hyperplasia, cysts, or epithelial calcifications
+- Tubular adenoma = benign
+- Variant of peri canalicular fibroadenoma with adenosis- like epithelial proliferation
+ - Phyllodes tumor
+- Subclassifications: benign, borderline, malignant
+- 10% become malignant (greater potential if >5 mitoses per high power field)
+ - Rare hematogenous metastasis (does not go to nodes, so no sentinel lymph node biopsy (SLN) or Axillary dissection)
+- Treatment: Wide local excision (1 cm margins)
+- Do you need to perform SLN or axillary dissection?
+ - No . Hematogenous metastasis (rare)
+- Nipple discharge
+ - What is the MC cause of bloody nipple discharge?
+- Intraductal papilloma (not premalignant)
+ - What findings are more concerning for malignancy?
+- Bloody, spontaneous, persistent, unilateral
+- <40 yo → 3% associated with cancer
+- >60 yo → 32% associated with malignancy
+ - Diagnosis:
+- Ductal fluid cytology, contrast ductogram, ductoscopy - minimally helpful
+- Best diagnostic test = Duct excision
+ - Treatment: subareolar resection of involved duct and papilloma
+
+- Duct Ectasia
+ - Dilation of the subareolar duct in peri- and post- menopausal women
+ - Symptoms: cheesy, viscous nipple discharge
+ - Treatment:
+- Asymptomatic → observe
+- Symptomatic → duct excision
+- Breast Infections
+ - What are the most common bacteria to cause both breast abscesses and mastitis?
+- Staphylococcus aureus
+ - 2 groups:
+- Lactational - Most likely from blockage of the lactiferous ducts
+- If no abscess → antibiotics alone, continue breastfeeding
+- If abscess → aspiration and antibiotics, continue breastfeeding
+ - I&D if does not resolve promptly
+- AE = concern for development of milk fistula
+- Nonlactational - Periductal infections associated with smoking and ductal ectasia
+- Tx: antibiotics, I&D if abscess present
+ - Patient presents with recurrent, unresolving mastitis . What else do you need to do?
+- Biopsy of the skin to rule out inflammatory breast cancer
+- Sclerosing Adenosis
+ - Presentation: microcalcifications
+ - Diagnosis: core needle biopsy
+ - Treatment: if no atypia and concordant with imaging → observe
+
+ - Not a precursor to cancer
+- Radial Scar
+ - Alternate names: sclerosing papillary proliferations, benign sclerosing ductal proliferation
+ - Diagnosis: mammogram - appears similar to small, invasive cancer
+ - Treatment: excisional biopsy
+- Associated with a small increased risk of cancer and the difference between invasive breast carcinoma may be difficult to determine on core biopsy alone High Risk Breast Lesions
+- Atypical lobular hyperplasia (ALH)
+ - Less well developed but morphologically similar to LCIS
+ - Not pre-malignant, but marker of increased risk
+- 8-12-fold greater lifetime risk, or ~1% per year
+ - Diagnosis: CNB
+ - Treatment: excisional biopsy
+- Why excise if not pre-malignant?
+- Discordant finding as these lesions are often incidental to the radiographic abnormality that prompted the biopsy
+- Atypical ductal hyperplasia (ADH)
+ - Associated with a 4-5-fold increased risk of invasive cancer
+ - Diagnosis: CNB
+ - Treatment: Excisional biopsy
+- 9-30% incidence of DCIS on excisional biopsy
+- 3% chance of invasive ductal carcinoma (IDC)
+
+- Lobular carcinoma in situ (LCIS)
+ - Multifocal and bilateral, genetic predisposition
+ - 90% ER/PR+ and HER2-
+ - What is the malignancy risk?
+- Marker for 40% risk of CA development in EITHER breast
+ - What type of cancer do they develop?
+- Ductal carcinoma
+ - Treatment:
+- Wire localized excision
+- What if there is a positive margin?
+- No re-excision, adjuvant hormonal therapy
+ - Pleomorphic LCIS = variant that is treated like DCIS No re-excision needed for LCIS when margin comes back positive
+- Ductal carcinoma in situ (DCIS)
+ - Malignant cells of the ductal epithelium without invasion of the basement membrane (premalignant lesion)
+ - What is the malignancy risk?
+- 50% in ipsilateral breast
+- 5% in contralateral breast
+ - Presentation: majority are non-palpable
+ - Diagnosis: Mammography, CNB
+ - Treatment:
+- Breast conserving therapy (BCT) = lumpectomy (1 cm margins) with adjuvant radiation (XRT)
+- Post op whole breast XRT reduces risk of local recurrence by 50% but does not affect overall survival
+- Large, multiquadrant, or contraindication to BCT → simple mastectomy + SLN
+
+- Up to 25% DCIS may show invasive component on final pathology, so SLN sampling required before removing all breast tissue
+- Skin and nipple-sparing procedures with immediate reconstruction are options
+- Adjuvant therapy
+- Premenopausal → tamoxifen
+- Postmenopausal → aromatase inhibitor (anastrazole)
+ - What is the most aggressive subtype of DCIS?
+- Comedo
+- Characterized by necrosis
+- Treatment: simple mastectomy + adjuvant hormone therapy DCIS excision need 2mm margin Breast Cancer
+- Screening
+ - When should you start screening mammography?
+- Low risk: Age 40 every 2-3 years → annually after age 50
+- High risk: 10 years before youngest age of diagnosis in first-degree relative
+- Hereditary disorders with increased risk: BRCA 1/2, Li-Fraumeni (p53), Cowden syndrome (PTEN), Peutz- Jeghers (STK11), CDH1
+ - BRCA 1/2 mutations → 10-20-fold increased risk → 30-60% risk by age 60
+ - Screening age 25 with annual mammogram AND MRI + pelvic exam and CA-125
+ - Findings on mammography that are concerning for malignancy: irregular borders, spiculated, distortion of breast, or small/thin linear branching calcification
+ - BIRADS classification
+
+Risk Management Incomplete Further imaging Negative Routine follow-up Benign Routine follow-up Probably Benign 6 month follow-up Suspicious for Malignancy Biopsy Highly Suggestive of Malignancy Biopsy Biopsy-Confirmed Malignancy Excision
+- Gail Model
+ - Prediction model that calculates a woman’s risk of developing breast cancer within the next 5 years and within her lifetime .
+ - Variables:
+- Age
+- Age at first period
+- Age at the time of the birth of a first child (or has not given birth)
+- Family history of breast cancer (mother, sister or daughter)
+- Number of past breast biopsies
+- Number of breast biopsies showing atypical hyperplasia
+- Race/ethnicity
+ - Underestimates risk for patients with strong family history (BRCA), personal hx of DCIS, LCIS, or invasive CA
+- Invasive breast cancer
+ - NCCN staging pearls T1 0-2 cm N1 1-3 nodes T2 2-5 cm N2 4-9 nodes T3 >5 cm N3 >10 nodes or supra/ infraclavicular T4 Chest wall or skin involvement
+
+Stage 1 Small tumor, no nodes (T1N0M0) Surgery + Adjuvant chemoXRT if indicated Stage 2 Larger tumor, minor nodal involvement (T3N0 or T2N1) Surgery + Adjuvant chemoXRT if indicated Stage 3a/3b Local invasion or more nodes (T4N0 or T3N2) Surgery first vs neoadjuvant therapy Stage 3c Clavicular nodes (Any T, N3, M0) Neoadjuvant + surgery if responds Stage 4 Distal mets Definitive chemotherapy
+- Categories of breast cancer
+ - What is the most common type of breast cancer?
+- Ductal carcinoma
+ - What type of breast cancer is less common and does not typically form calcifications?
+- Lobular
+ - Which subtype has the worse prognosis?
+- Signet ring cells
+ - Inflammatory breast cancer
+- What is the typical presentation?
+- Inflamed, angry breast that is erythematous and warm
+- Characterized by rapid diffuse involvement of entire breast with cutaneous erythema and peau d’orange changes in the breast skin
+- What is the hallmark biopsy result?
+- Dermal lymphatic invasion
+- Staging: T4d by definition = at least Stage IIIb
+- Treatment = Neoadjuvant chemotherapy → modified radical mastectomy → adjuvant chemoXRT
+- NO BCT
+
+ - What are you concerned about if a patient presents with eczematous changes with scaling and ulceration of the skin and nipple?
+- Paget’s disease
+- What are the hallmarks of this disease?
+ - Cells with clear cytoplasm and enlarged nucleoli
+ - Marker of underlying malignancy - DCIS or IDC (generally ER-/PR- and HER2+
+- Treatment = Mastectomy including nipple-areolar complex + SLN
+ - Breast CA in men
+- <1% of breast CA, usually ductal
+- Risk factors: family history, Klinefelter’s, BRCA 2 (15% of breast CA in men)
+- What is the procedure of choice for a male with breast cancer?
+- Modified radical mastectomy
+- Usually poor prognosis due to late presentation (same prognosis as women at similar stages)
+ - Breast CA in pregnancy
+- Treatment in 1st trimester = modified radical mastectomy
+- Late 2nd and 3rd trimester = BCT is an option
+- SLN with modified isotope dosing, post-op chemotherapy, and post-delivery breast radiation
+- Treatment Options
+ - Breast conserving (BCT): lumpectomy + whole breast irradiation
+- “No ink on tumor” = negative lumpectomy margin
+- Contraindications
+- Absolute
+ - Pregnant and would require radiation during pregnancy
+
+ - Multi-centric disease
+ - Positive pathologic margins after re-excision
+- Relative - previous radiation, active connective tissue disease, tumors >5cm For lumpectomy only margin needed is no ink on tumor
+ - Simple mastectomy
+- BCT equivalent to simple mastectomy
+ - Chemotherapy
+- Who gets chemotherapy?
+- For the ABSITE:
+ - Tumors >1cm
+- Exception = hormone receptor positive, node negative tumors with favorable oncotype characteristics can receive postop hormonal therapy alone
+ - Positive nodes
+ - Triple negative tumors
+- What is the most common chemotherapy regimen?
+- TAC
+ - Taxane (Docetaxel) → AE = peripheral neuropathy
+ - Adriamycin (Doxorubicin) → AE = cardiomyopathy
+ - Cyclophosphamide → AE = Hemorrhagic cystitis
+- Mesna reduces risk of hemorrhagic cystitis
+- Who is a candidate for neoadjuvant chemotherapy?
+- Locally advanced/inoperable tumors: inflammatory, N2/N3, T4
+- If tumor is too large relative to rest of breast for BCT and patient desires BCT
+ - Radiotherapy
+
+- Whole breast irradiation decreases local recurrence and improves survival
+- After lumpectomy whole breast irradiation with boost to tumor bead is strongly recommended
+- What are the indications for XRT after mastectomy?
+- Advanced nodal disease (>4 nodes), fixed nodes, internal mammary nodes
+- Skin/chest wall involvement
+- Positive margins
+- T3/T4 tumor, which is greater than 5cm
+- Regional node irradiation
+- >4 positive lymph nodes → XRT to supraclavicular, infraclavicular, and axillary LN
+- Tumor central to inner area of breast → internal mammary node radiation
+- 1-3 positive LN → grey zone, depends on individual characteristics
+- Radiation is given AFTER chemotherapy
+- Radiation in older adults
+- NCCN guidelines allow for the use of lumpectomy with negative margins plus hormonal therapy WITHOUT radiation in women >70 with clinically negative nodes and ER+ T1 breast CA
+ - Endocrine therapy
+- For Estrogen/Progesterone receptor (ER/PR) positivity
+- Which has better prognosis receptor positive or receptor negative patients?
+- Receptor positive
+- More common in post-menopausal women
+- Which has the better prognosis, ER or PR+?
+- PR+
+- Both is even better!
+
+- Treatment = 5 years of tamoxifen (pre-menopausal) or aromatase inhibitor (post-menopausal women)
+ - HER2 targeted therapy
+- With HER2/neu receptor, is prognosis better or worse if positive?
+- Worse
+- Treatment = traztuzumab (Herceptin) for 1 year
+- Axillary staging
+ - What is the most prognostic factor in staging of breast cancer?
+- Nodal status
+- 0 positive nodes → 75% 5-year survival
+- 4-10 nodes → 40% 5-year survival
+ - SLN indicated for all invasive tumors
+- ACOSOG Z0011 Trial = RCT comparing SLN to axillary dissection
+- Women > 18yo with T1/T2 tumors, <3 positive SLN, BCT + whole breast XRT
+- No difference in local recurrence, disease free survival, overall survival at median follow up of 6 .3 years Z11 is critical especially for oral boards If T1-T2 with < 3 positive SLN AND patient is going to receive whole-breast radiation No benefit to axillary dissection
+ - Axillary dissection recommended for:
+- Clinically positive nodes confirmed by FNA or CNB
+- Sentinel nodes not identified
+- What nodes do you take?
+- Level 1 and 2
+- What nodes do you take in an axillary dissection for melanoma?
+- Levels 1-3
+
+Quick Hits
+- Patient presents with a dominant breast mass . Next step?
+ - IMAGING — Bilateral mammography and/or U/S
+- Concerning lesion on mammography - core needle biopsy returns normal?
+ - Excisional biopsy for discordant findings
+- Most common sites for breast cancer metastases?
+ - Bone, lung, brain, and liver
+ - Isolated tumor cell deposits (<0 .2mm) do NOT constitute metastatic disease
+- Valveless venous system responsible for bony metastasis to spine?
+ - Batson’s plexus
+- What is the cumulative risk of breast and ovarian CA with BRCA1 and BRCA2?
+ - BRCA1 - 65% breast, 40% ovary
+ - BRCA2 - 45% breast, 10% ovary
+- Side effects of tamoxifen?
+ - Thromboembolism
+ - Increased risk of uterine CA
+- Chronic lymphedema for 10 years following axillary dissection, now with dark purple lesion on upper arm?
+ - Stewart-Treves Syndrome (lymphangiosarcoma)
+- What is Poland’s syndrome?
+ - Hypoplasia of the chest wall, amastia, hypoplastic shoulder, no pectoralis muscle
+- What are the nodes between the pectoralis major and minor called?
+ - Rotter’s nodes
+
+## Figures
+
+![Figure from page 164](./images/14_12-breast_p164_i1.png)
+
+![Figure from page 177](./images/14_12-breast_p177_i1.png)
