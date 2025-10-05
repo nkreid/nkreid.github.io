@@ -1,0 +1,120 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+{% assign computed_case_id = page.case_id | default: page.slug | default: page.title %}
+{% assign case_id = computed_case_id | slugify %}
+{% assign updates_root = site.data['case-prep-updates'] %}
+{% if updates_root == nil %}
+  {% assign updates_root = {} %}
+{% endif %}
+{% assign case_updates_map = updates_root[case_id] %}
+{% assign case_updates_list = "" | split: "" %}
+{% if case_updates_map %}
+  {% for update_entry in case_updates_map %}
+    {% assign case_updates_list = case_updates_list | push: update_entry[1] %}
+  {% endfor %}
+{% endif %}
+{% assign approved_updates = case_updates_list | where_exp: "item", "item.approved == true" %}
+{% assign sorted_updates = approved_updates | sort: 'date' | reverse %}
+
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      <article class="case-prep-canonical">
+        {{ content }}
+      </article>
+
+      <section id="case-prep-community-updates" class="case-prep-updates mt-5">
+        <h2>Community Updates</h2>
+        {% if sorted_updates and sorted_updates.size > 0 %}
+          {% for entry in sorted_updates %}
+            <article class="case-prep-update mb-4 pb-4 border-bottom">
+              <header class="mb-2">
+                <h3 class="h5 mb-1">{% if entry.name %}{{ entry.name }}{% else %}Community submission{% endif %}</h3>
+                <p class="text-muted small mb-0">
+                  Submitted on {{ entry.date | date: "%B %-d, %Y" }}
+                  {% if entry.attending_comments %}
+                    · Includes attending commentary
+                  {% endif %}
+                </p>
+              </header>
+
+              {% if entry.steps %}
+                <h4 class="h6 mt-3">Updated Steps</h4>
+                <div class="case-prep-update-steps">{{ entry.steps | markdownify }}</div>
+              {% endif %}
+
+              {% if entry.pimp_questions %}
+                <h4 class="h6 mt-3">Pimp Questions</h4>
+                <div class="case-prep-update-questions">{{ entry.pimp_questions | markdownify }}</div>
+              {% endif %}
+
+              {% if entry.anatomy_pearls %}
+                <h4 class="h6 mt-3">Anatomy Pearls</h4>
+                <div class="case-prep-update-anatomy">{{ entry.anatomy_pearls | markdownify }}</div>
+              {% endif %}
+
+              {% if entry.attending_comments %}
+                <h4 class="h6 mt-3">Attending Comments</h4>
+                <div class="case-prep-update-attending">{{ entry.attending_comments | markdownify }}</div>
+              {% endif %}
+            </article>
+          {% endfor %}
+        {% else %}
+          <p class="text-muted">No approved community updates have been published for this case yet. Submit your insights below!</p>
+        {% endif %}
+      </section>
+
+      <section id="submit-case-prep-update" class="case-prep-form mt-5">
+        <h2>Submit an Update</h2>
+        <p class="lead">Share refinements to the operative steps, pimp questions, anatomy pearls, or attending insights so future learners benefit.</p>
+        <p class="text-muted">All submissions are held for moderation before appearing on this page.</p>
+
+        {% if site.staticman and site.staticman.endpoint and site.staticman.repository and site.staticman.branch %}
+          <form method="POST" action="{{ site.staticman.endpoint }}{{ site.staticman.repository }}/{{ site.staticman.branch }}/case-prep" class="needs-validation" novalidate>
+            <input type="hidden" name="options[redirect]" value="{{ page.url | absolute_url }}#submit-case-prep-update">
+            <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" name="options[case_id]" value="{{ case_id }}">
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="case-prep-name">Name <span class="text-muted">(optional)</span></label>
+                <input type="text" id="case-prep-name" name="fields[name]" class="form-control" placeholder="Your name or team">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="case-prep-email">Email <span class="text-muted">(optional, kept private)</span></label>
+                <input type="email" id="case-prep-email" name="fields[email]" class="form-control" placeholder="name@example.com">
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="case-prep-steps">Updated Steps <span class="text-danger">*</span></label>
+                <textarea id="case-prep-steps" name="fields[steps]" class="form-control" rows="5" required placeholder="Walk through the refined steps, instruments, or decision points."></textarea>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="case-prep-questions">Pimp Questions</label>
+                <textarea id="case-prep-questions" name="fields[pimp_questions]" class="form-control" rows="4" placeholder="List rapid-fire questions or oral board prompts."></textarea>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="case-prep-anatomy">Anatomy Pearls</label>
+                <textarea id="case-prep-anatomy" name="fields[anatomy_pearls]" class="form-control" rows="4" placeholder="Highlight must-know anatomy or exposures."></textarea>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="case-prep-attending">Attending Comments</label>
+                <textarea id="case-prep-attending" name="fields[attending_comments]" class="form-control" rows="3" placeholder="Share memorable quotes, mantras, or preferences from attendings."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit Update</button>
+              </div>
+            </div>
+          </form>
+        {% else %}
+          <div class="alert alert-warning" role="alert">
+            Staticman is not configured. Please contact the site maintainer to enable community submissions.
+          </div>
+        {% endif %}
+      </section>
+    </div>
+  </div>
+</div>
