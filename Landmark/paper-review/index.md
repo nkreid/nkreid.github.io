@@ -2,6 +2,7 @@
 layout: landmark
 title: "Paper Review"
 permalink: /landmark/paper-review/
+hide_page_subtitle: true
 ---
 
 # Paper Review
