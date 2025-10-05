@@ -25,7 +25,7 @@ comments:
   #
   # Name of the branch being used. Must match the `branch` in the theme config
   # file.
-  branch: "master"   #  use "master" for user page or "gh-pages" for project pages
+  branch: "work"   #  use "master" for user page or "gh-pages" for project pages
 
   commitMessage: "New comment by {fields.name}"
 
@@ -108,3 +108,22 @@ comments:
     # i.e. https://{STATICMAN API INSTANCE}/v3/encrypt/{your-site-secret}
     # For more information, visit https://staticman.net/docs/encryption
     #secret: ""
+
+case-prep:
+  allowedFields: ["name", "email", "steps", "pimp_questions", "anatomy_pearls", "attending_comments"]
+  branch: "work"
+  commitMessage: "Case Prep update for {options.case_id}"
+  filename: "{options.case_id}-{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  path: "_data/case-prep-updates/{options.case_id}"
+  requiredFields: ["steps"]
+  transforms:
+    email: md5
+  reCaptcha:
+    enabled: false
