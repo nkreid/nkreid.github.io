@@ -2,6 +2,7 @@
 layout: landmark
 title: "Case Prep"
 permalink: /landmark/case-prep/
+hide_page_subtitle: true
 ---
 
 # Case Prep
