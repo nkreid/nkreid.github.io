@@ -297,17 +297,12 @@ layout: none
 <body>
 
   <!-- NAVBAR -->
-  <header>
-    <a class="brand" href="/landmark">
-      <img src="/assets/img/NKR_white.png" alt="NKR logo">
-      <span class="brand-text">Surgery Study Hub</span>
-    </a>
-    <nav class="nav-actions" aria-label="Primary navigation">
-      <a class="nav-button" href="/landmark/paper-review/">Papers</a>
-      <a class="nav-button" href="/landmark/topic-review/">Topics</a>
-      <a class="nav-button" href="/landmark/case-prep/">Surgeries</a>
-    </nav>
-  </header>
+  {% include landmark-nav.html %}
+
+  {% assign show_toc = page.toc %}
+  {% if show_toc == nil %}
+    {% assign show_toc = true %}
+  {% endif %}
 
   <!-- MAIN CONTENT -->
   <main class="content-wrapper">
@@ -321,11 +316,14 @@ layout: none
       {{ content }}
     </div>
 
+    {% if show_toc %}
     <nav class="toc-box">
       <ul></ul>
     </nav>
+    {% endif %}
   </main>
 
+  {% if show_toc %}
   <!-- TOC JS -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -356,5 +354,6 @@ layout: none
       }
     });
   </script>
+  {% endif %}
 </body>
 </html>

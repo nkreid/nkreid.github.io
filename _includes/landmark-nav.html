@@ -1,45 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="/landmark">
-      <img src="{{ '/assets/img/NKR_white.png' | relative_url }}" alt="NKR Logo" style="height: 30px;" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLandmark" aria-controls="navbarLandmark" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarLandmark">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="papersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Papers
-          </a>
-          <div class="dropdown-menu" aria-labelledby="papersDropdown">
-            <!-- Add your fixed TOC links here -->
-            <a class="dropdown-item" href="/landmark/focus">FOCUS</a>
-            <a class="dropdown-item" href="/landmark/tricc">TRICC</a>
-            <a class="dropdown-item" href="/landmark/proppr">PROPPR</a>
-            <!-- ... -->
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/landmark">Table of Contents</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="studyToolsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Study Tools
-          </a>
-          <div class="dropdown-menu" aria-labelledby="studyToolsDropdown">
-            <a class="dropdown-item" href="/landmark/topic-review/">Topic Reviews</a>
-            <a class="dropdown-item" href="/landmark/case-prep/">Case Prep Library</a>
-          </div>
-        </li>
-      </ul>
-
-      <!-- Search bar -->
-      <form class="form-inline my-2 my-lg-0" action="/landmark/search.html" method="get">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search papers" aria-label="Search" name="query">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+<header>
+  <a class="brand" href="/landmark">
+    <img src="/assets/img/NKR_white.png" alt="NKR logo">
+    <span class="brand-text">Surgery Study Hub</span>
+  </a>
+  <nav class="nav-actions" aria-label="Primary navigation">
+    <a class="nav-button" href="/landmark/paper-review/">Papers</a>
+    <a class="nav-button" href="/landmark/topic-review/">Topics</a>
+    <a class="nav-button" href="/landmark/case-prep/">Surgeries</a>
+  </nav>
+</header>
