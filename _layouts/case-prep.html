@@ -118,51 +118,10 @@ layout: none
       box-shadow: 0 4px 18px rgba(0,0,0,0.08);
     }
 
-    header.study-header {
-      display: grid;
-      gap: 1.25rem;
-      margin-bottom: 2.5rem;
-    }
-
-    h1 {
+    .case-title {
       font-family: 'Manrope', sans-serif;
       font-size: 2.5rem;
-      margin: 0;
-      color: var(--navy);
-    }
-
-    .study-eyebrow {
-      font-family: 'Manrope', sans-serif;
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1rem;
-      color: var(--muted);
-    }
-
-    .meta-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-
-    .meta-card {
-      background: var(--mint);
-      border-radius: 14px;
-      padding: 1.25rem 1.5rem;
-      font-family: 'Manrope', sans-serif;
-    }
-
-    .meta-card h3 {
-      margin: 0 0 0.35rem 0;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08rem;
-      color: var(--green);
-    }
-
-    .meta-card p {
-      margin: 0;
-      font-size: 1.05rem;
+      margin: 0 0 2rem;
       color: var(--navy);
     }
 
@@ -225,7 +184,7 @@ layout: none
         padding: 2.25rem;
       }
 
-      h1 {
+      .case-title {
         font-size: 2.1rem;
       }
 
@@ -256,38 +215,7 @@ layout: none
 <body>
   {% include landmark-nav.html %}
   <main class="study-page case-prep">
-    <header class="study-header">
-      {% if page.exam_focus %}
-        <div class="study-eyebrow">{{ page.exam_focus }}</div>
-      {% endif %}
-      <h1>{{ page.title }}</h1>
-      <div class="meta-grid">
-        {% if page.difficulty %}
-          <div class="meta-card">
-            <h3>Complexity</h3>
-            <p>{{ page.difficulty }}</p>
-          </div>
-        {% endif %}
-        {% if page.time_goal %}
-          <div class="meta-card">
-            <h3>Time Goal</h3>
-            <p>{{ page.time_goal }}</p>
-          </div>
-        {% endif %}
-        {% if page.attending_notes %}
-          <div class="meta-card">
-            <h3>Attending Notes</h3>
-            <p>{{ page.attending_notes }}</p>
-          </div>
-        {% endif %}
-        {% if page.patient_profile %}
-          <div class="meta-card">
-            <h3>Patient Snapshot</h3>
-            <p>{{ page.patient_profile }}</p>
-          </div>
-        {% endif %}
-      </div>
-    </header>
+    <h1 class="case-title">{{ page.title }}</h1>
 
     {% if page.high_yield_pearls %}
       <section class="high-yield-pearls">
