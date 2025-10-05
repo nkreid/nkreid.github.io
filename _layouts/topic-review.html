@@ -6,7 +6,7 @@ layout: none
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title }} – Case Prep</title>
+  <title>{{ page.title }} – Topic Review</title>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
   <style>
@@ -44,25 +44,19 @@ layout: none
     }
 
     main {
-      max-width: 1024px;
+      max-width: 960px;
       margin: 4rem auto;
       background: var(--card);
-      padding: 3rem;
+      padding: 2.75rem;
       border-radius: 20px;
       box-shadow: 0 4px 18px rgba(0,0,0,0.08);
     }
 
     header.study-header {
-      display: grid;
-      gap: 1.25rem;
-      margin-bottom: 2.5rem;
-    }
-
-    h1 {
-      font-family: 'Manrope', sans-serif;
-      font-size: 2.5rem;
-      margin: 0;
-      color: var(--navy);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
     }
 
     .study-eyebrow {
@@ -73,24 +67,32 @@ layout: none
       color: var(--muted);
     }
 
+    h1 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 2.4rem;
+      margin: 0;
+      color: var(--navy);
+    }
+
     .meta-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 1rem;
+      margin-top: 1.5rem;
     }
 
     .meta-card {
       background: var(--mint);
       border-radius: 14px;
-      padding: 1.25rem 1.5rem;
+      padding: 1rem 1.25rem;
       font-family: 'Manrope', sans-serif;
     }
 
     .meta-card h3 {
-      margin: 0 0 0.35rem 0;
+      margin: 0 0 0.25rem 0;
       font-size: 0.85rem;
-      text-transform: uppercase;
       letter-spacing: 0.08rem;
+      text-transform: uppercase;
       color: var(--green);
     }
 
@@ -114,7 +116,7 @@ layout: none
     }
 
     ul, ol {
-      padding-left: 1.5rem;
+      padding-left: 1.4rem;
     }
 
     ul li, ol li {
@@ -134,49 +136,44 @@ layout: none
       margin-bottom: 0.75rem;
     }
 
+    .reading-list ul {
+      list-style: square;
+    }
+
     .content-notes {
       background: var(--pink);
       border-left: 4px solid var(--yellow);
-      padding: 1.5rem 1.75rem;
-      border-radius: 16px;
-    }
-
-    .checklist {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .checklist li::before {
-      content: "\2713";
-      color: var(--green);
-      margin-right: 0.75rem;
-      font-weight: 700;
+      padding: 1.25rem 1.5rem;
+      border-radius: 14px;
     }
 
     @media (max-width: 768px) {
       main {
         margin: 2rem 1rem;
-        padding: 2.25rem;
+        padding: 2rem;
       }
 
       h1 {
-        font-size: 2.1rem;
+        font-size: 2rem;
       }
     }
   </style>
 </head>
 <body>
   {% include landmark-nav.html %}
-  <main class="study-page case-prep">
+  <main class="study-page topic-review">
     <header class="study-header">
       {% if page.exam_focus %}
         <div class="study-eyebrow">{{ page.exam_focus }}</div>
       {% endif %}
       <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
       <div class="meta-grid">
         {% if page.difficulty %}
           <div class="meta-card">
-            <h3>Complexity</h3>
+            <h3>Difficulty</h3>
             <p>{{ page.difficulty }}</p>
           </div>
         {% endif %}
@@ -190,12 +187,6 @@ layout: none
           <div class="meta-card">
             <h3>Attending Notes</h3>
             <p>{{ page.attending_notes }}</p>
-          </div>
-        {% endif %}
-        {% if page.patient_profile %}
-          <div class="meta-card">
-            <h3>Patient Snapshot</h3>
-            <p>{{ page.patient_profile }}</p>
           </div>
         {% endif %}
       </div>
@@ -220,17 +211,6 @@ layout: none
             <li>{{ step }}</li>
           {% endfor %}
         </ol>
-      </section>
-    {% endif %}
-
-    {% if page.preop_checklist %}
-      <section class="preop-checklist">
-        <h2>Pre-Op Checklist</h2>
-        <ul class="checklist">
-          {% for item in page.preop_checklist %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
       </section>
     {% endif %}
 

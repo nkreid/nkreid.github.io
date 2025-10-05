@@ -197,6 +197,13 @@ date_format: "%B %-d, %Y"
 # Output options (more information on Jekyll's site)
 timezone: "America/Toronto"
 markdown: kramdown
+collections:
+  topic_reviews:
+    output: true
+    permalink: /landmark/topic-review/:name/
+  case_preps:
+    output: true
+    permalink: /landmark/case-prep/:name/
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
