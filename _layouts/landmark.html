@@ -79,53 +79,102 @@ layout: none
       font-weight: 700;
     }
 
-    nav {
+    header nav {
       display: flex;
       gap: 1.5rem;
       align-items: center;
+      flex-wrap: wrap;
     }
 
-    .dropdown {
-      position: relative;
-    }
-
-    .dropdown button {
-      background: none;
-      border: none;
-      font: inherit;
-      color: white;
-      font-weight: 500;
-      cursor: pointer;
+    .nav-groups {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
       font-family: 'Manrope', sans-serif;
     }
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      right: 0;
-      top: 100%;
-      background: white;
-      border: 1px solid var(--border);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      z-index: 10;
-      max-height: 300px;
-      overflow-y: auto;
-      min-width: 200px;
+    .nav-group {
+      position: relative;
+      color: white;
     }
 
-    .dropdown-content a {
+    .nav-group > summary {
+      list-style: none;
+      cursor: pointer;
+      color: inherit;
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .nav-group > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .nav-group > summary::after {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f0d7";
+      font-size: 0.75rem;
+      transition: transform 0.2s ease;
+    }
+
+    .nav-group[open] > summary::after {
+      transform: rotate(180deg);
+    }
+
+    .nav-group ul {
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem 0;
+      background: white;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      min-width: 210px;
+      max-height: 300px;
+      overflow-y: auto;
+      position: absolute;
+      top: calc(100% + 0.4rem);
+      left: 0;
+      border-radius: 10px;
+      display: none;
+    }
+
+    .nav-group[open] ul {
+      display: block;
+    }
+
+    .nav-group li a {
       display: block;
       padding: 0.6rem 1rem;
       color: var(--text);
       font-size: 0.95rem;
     }
 
-    .dropdown-content a:hover {
+    .nav-group li a:hover,
+    .nav-group li a:focus {
       background: var(--mint);
+      color: var(--navy);
     }
 
-    .dropdown:hover .dropdown-content {
-      display: block;
+    @media (hover: hover) {
+      .nav-group:hover ul,
+      .nav-group:focus-within ul {
+        display: block;
+      }
+
+      .nav-group:hover > summary,
+      .nav-group:focus-within > summary {
+        color: var(--aqua);
+      }
+
+      .nav-group:hover > summary::after,
+      .nav-group:focus-within > summary::after {
+        transform: rotate(180deg);
+      }
     }
 
     main {
@@ -261,21 +310,46 @@ layout: none
       }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
       main {
         margin: 1rem;
-        padding: 1.5rem;
+        padding: 1.75rem 1.5rem;
       }
 
       header {
         flex-direction: column;
         align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .nav-groups {
+        width: 100%;
+        flex-direction: column;
         gap: 0.75rem;
       }
 
-      .dropdown-content {
-        right: auto;
-        left: 0;
+      .nav-group {
+        width: 100%;
+      }
+
+      .nav-group > summary {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0.4rem 0;
+      }
+
+      .nav-group ul {
+        position: static;
+        width: 100%;
+        max-height: none;
+        box-shadow: none;
+        border-radius: 8px;
+        border: 1px solid rgba(12, 44, 71, 0.15);
+        margin-top: 0.35rem;
+      }
+
+      .nav-group li a {
+        padding: 0.65rem 0.75rem;
       }
     }
   </style>
@@ -289,54 +363,114 @@ layout: none
       <img src="/assets/img/NKR_white.png" alt="NKR logo">
       <span class="brand-text">Landmark Articles</span>
     </a>
-    <nav>
-      <div class="dropdown">
-        <button>Papers <i class="fas fa-caret-down"></i></button>
-        <div class="dropdown-content">
-          <a href="/landmark/focus">FOCUS</a>
-          <a href="/landmark/tricc">TRICC</a>
-          <a href="/landmark/triss">TRISS</a>
-          <a href="/landmark/corticus">CORTICUS</a>
-          <a href="/landmark/proppr">PROPPR</a>
-          <a href="/landmark/dcl">DCL</a>
-          <a href="/landmark/tacs">TACS</a>
-          <a href="/landmark/patch">PATCH</a>
-          <a href="/landmark/titre2">TITRe2</a>
-          <a href="/landmark/react2">REACT-2</a>
-          <a href="/landmark/drool">DROOL</a>
-          <a href="/landmark/stitch">STITCH</a>
-          <a href="/landmark/tavr">TAVR</a>
-          <a href="/landmark/nascet">NASCET</a>
-          <a href="/landmark/cost">COST</a>
-          <a href="/landmark/stopit">STOP-IT</a>
-          <a href="/landmark/cross">CROSS</a>
-          <a href="/landmark/acosog-z0011">ACOSOG-Z0011</a>
-          <a href="/landmark/nsabp-b32">NSABP-B32</a>
-          <a href="/landmark/fame">FAME</a>
-          <a href="/landmark/smart">SMART</a>
-          <a href="/landmark/stampede">STAMPEDE</a>
-          <a href="/landmark/aaa-evar">AAA EVAR</a>
-          <a href="/landmark/lung">LUNG</a>
-          <a href="/landmark/appendix-irrigate">APPENDIX IRRIGATE</a>
-          <a href="/landmark/chest-tube">CHEST TUBE SIZE</a>
-          <a href="/landmark/mangled-extremity">FRACTURE: MESS</a>
-          <a href="/landmark/ij-access">IJ CATHETERIZATION</a>
-          <a href="/landmark/platysma">PLATYSMA CLOSURE</a>
-          <a href="/landmark/parathyroid-af">PARATHYROID AUTOFLUORESCENCE</a>
-          <a href="/landmark/pancreatic-trauma">PANCREATIC TRAUMA</a>
-          <a href="/landmark/esophageal-trauma">ESOPHAGEAL TRAUMA</a>
-          <a href="/landmark/colitis-crc">COLITIS AND CRC</a>
-          <a href="/landmark/hemothorax">RETROPERITONEAL HEMOTHORAX</a>
-          <a href="/landmark/hernia-mesh">HERNIA BIOLOGIC MESH</a>
-          <a href="/landmark/stepup-pancreatitis">NECROTIZING PANCREATITIS</a>
-          <a href="/landmark/pecarn">BRAIN INJURY PEDIATRICS</a>
-          <a href="/landmark/foley-timing">FOLEY REMOVAL TIMING</a>
-          <a href="/landmark/ileus">ILEUS RCTs</a>
-          <a href="/landmark/stab-wound">STAB WOUND MANAGEMENT</a>
-          <a href="/landmark/hpylori-surgery">HPYLORI AFTER SURGERY</a>
-          <a href="/landmark/uc-surgery">ULCERATIVE COLITIS SURGERY</a>
-        </div>
-      </div>
+    {% assign papers = site.landmark %}
+    {% if papers == nil or papers == empty %}
+      {% assign papers_collection = site.collections | where: 'label', 'landmark' | first %}
+      {% if papers_collection %}
+        {% assign papers = papers_collection.docs %}
+      {% endif %}
+    {% endif %}
+    {% if papers == nil or papers == empty %}
+      {% assign papers = site.pages | where: 'layout', 'landmark' %}
+    {% endif %}
+    {% if papers %}
+      {% assign papers = papers | uniq %}
+      {% assign papers = papers | where_exp: 'item', 'item.nav_exclude != true' %}
+      {% assign ordered_papers = papers | where_exp: 'item', 'item.nav_order != nil' %}
+      {% if ordered_papers and ordered_papers != empty %}
+        {% assign papers = papers | sort: 'nav_order' %}
+      {% else %}
+        {% assign papers = papers | sort_natural: 'title' %}
+      {% endif %}
+    {% endif %}
+
+    {% assign topic_reviews = site.topic_reviews %}
+    {% if topic_reviews == nil or topic_reviews == empty %}
+      {% assign topic_collection = site.collections | where: 'label', 'topic_reviews' | first %}
+      {% if topic_collection %}
+        {% assign topic_reviews = topic_collection.docs %}
+      {% endif %}
+    {% endif %}
+    {% if topic_reviews == nil or topic_reviews == empty %}
+      {% assign topic_reviews = site.pages | where: 'layout', 'topic_review' %}
+    {% endif %}
+    {% if topic_reviews %}
+      {% assign topic_reviews = topic_reviews | uniq %}
+      {% assign topic_reviews = topic_reviews | where_exp: 'item', 'item.nav_exclude != true' %}
+      {% assign ordered_topics = topic_reviews | where_exp: 'item', 'item.nav_order != nil' %}
+      {% if ordered_topics and ordered_topics != empty %}
+        {% assign topic_reviews = topic_reviews | sort: 'nav_order' %}
+      {% else %}
+        {% assign topic_reviews = topic_reviews | sort_natural: 'title' %}
+      {% endif %}
+    {% endif %}
+
+    {% assign case_preps = site.case_preps %}
+    {% if case_preps == nil or case_preps == empty %}
+      {% assign case_collection = site.collections | where: 'label', 'case_preps' | first %}
+      {% if case_collection %}
+        {% assign case_preps = case_collection.docs %}
+      {% endif %}
+    {% endif %}
+    {% if case_preps == nil or case_preps == empty %}
+      {% assign case_preps = site.pages | where: 'layout', 'case_prep' %}
+    {% endif %}
+    {% if case_preps %}
+      {% assign case_preps = case_preps | uniq %}
+      {% assign case_preps = case_preps | where_exp: 'item', 'item.nav_exclude != true' %}
+      {% assign ordered_cases = case_preps | where_exp: 'item', 'item.nav_order != nil' %}
+      {% if ordered_cases and ordered_cases != empty %}
+        {% assign case_preps = case_preps | sort: 'nav_order' %}
+      {% else %}
+        {% assign case_preps = case_preps | sort_natural: 'title' %}
+      {% endif %}
+    {% endif %}
+
+    <nav class="nav-groups" aria-label="Landmark navigation">
+      {% if papers and papers != empty %}
+        <details class="nav-group">
+          <summary>Papers</summary>
+          <ul>
+            {% for paper in papers %}
+              {% assign paper_label = paper.nav_title | default: paper.title %}
+              {% if paper_label == nil or paper_label == '' %}
+                {% assign paper_label = paper.slug | replace: '-', ' ' | capitalize %}
+              {% endif %}
+              <li><a href="{{ paper.url | relative_url }}">{{ paper_label }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+
+      {% if topic_reviews and topic_reviews != empty %}
+        <details class="nav-group">
+          <summary>Topic Review</summary>
+          <ul>
+            {% for topic in topic_reviews %}
+              {% assign topic_label = topic.nav_title | default: topic.title %}
+              {% if topic_label == nil or topic_label == '' %}
+                {% assign topic_label = topic.slug | replace: '-', ' ' | capitalize %}
+              {% endif %}
+              <li><a href="{{ topic.url | relative_url }}">{{ topic_label }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+
+      {% if case_preps and case_preps != empty %}
+        <details class="nav-group">
+          <summary>Case Prep</summary>
+          <ul>
+            {% for case in case_preps %}
+              {% assign case_label = case.nav_title | default: case.title %}
+              {% if case_label == nil or case_label == '' %}
+                {% assign case_label = case.slug | replace: '-', ' ' | capitalize %}
+              {% endif %}
+              <li><a href="{{ case.url | relative_url }}">{{ case_label }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
     </nav>
   </header>
 
