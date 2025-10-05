@@ -1,0 +1,295 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} – Case Prep</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <style>
+    :root {
+      --navy: #0C2C47;
+      --green: #2D5652;
+      --yellow: #E2A54D;
+      --aqua: #97D3CD;
+      --pink: #EFEAE6;
+      --mint: #E4F2EA;
+      --beige: #F8F5F0;
+      --text: #1a1a1a;
+      --muted: #555;
+      --card: #ffffff;
+      --border: #e0e0e0;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--beige);
+      color: var(--text);
+      font-family: 'Source Serif 4', serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--green);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--aqua);
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1024px;
+      margin: 4rem auto;
+      background: var(--card);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    header.study-header {
+      display: grid;
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h1 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+      color: var(--navy);
+    }
+
+    .study-eyebrow {
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      color: var(--muted);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .meta-card {
+      background: var(--mint);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .meta-card h3 {
+      margin: 0 0 0.35rem 0;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08rem;
+      color: var(--green);
+    }
+
+    .meta-card p {
+      margin: 0;
+      font-size: 1.05rem;
+      color: var(--navy);
+    }
+
+    section {
+      margin-top: 2.5rem;
+    }
+
+    section h2 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: var(--navy);
+      border-bottom: 2px solid var(--mint);
+      padding-bottom: 0.35rem;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+
+    ul li, ol li {
+      margin-bottom: 0.6rem;
+      font-size: 1.05rem;
+    }
+
+    .pimp-questions dt {
+      font-weight: 700;
+      font-family: 'Manrope', sans-serif;
+      color: var(--navy);
+      margin-top: 1rem;
+    }
+
+    .pimp-questions dd {
+      margin-left: 0;
+      margin-bottom: 0.75rem;
+    }
+
+    .content-notes {
+      background: var(--pink);
+      border-left: 4px solid var(--yellow);
+      padding: 1.5rem 1.75rem;
+      border-radius: 16px;
+    }
+
+    .checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .checklist li::before {
+      content: "\2713";
+      color: var(--green);
+      margin-right: 0.75rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        margin: 2rem 1rem;
+        padding: 2.25rem;
+      }
+
+      h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include landmark-nav.html %}
+  <main class="study-page case-prep">
+    <header class="study-header">
+      {% if page.exam_focus %}
+        <div class="study-eyebrow">{{ page.exam_focus }}</div>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <div class="meta-grid">
+        {% if page.difficulty %}
+          <div class="meta-card">
+            <h3>Complexity</h3>
+            <p>{{ page.difficulty }}</p>
+          </div>
+        {% endif %}
+        {% if page.time_goal %}
+          <div class="meta-card">
+            <h3>Time Goal</h3>
+            <p>{{ page.time_goal }}</p>
+          </div>
+        {% endif %}
+        {% if page.attending_notes %}
+          <div class="meta-card">
+            <h3>Attending Notes</h3>
+            <p>{{ page.attending_notes }}</p>
+          </div>
+        {% endif %}
+        {% if page.patient_profile %}
+          <div class="meta-card">
+            <h3>Patient Snapshot</h3>
+            <p>{{ page.patient_profile }}</p>
+          </div>
+        {% endif %}
+      </div>
+    </header>
+
+    {% if page.high_yield_pearls %}
+      <section class="high-yield-pearls">
+        <h2>High-Yield Pearls</h2>
+        <ul>
+          {% for pearl in page.high_yield_pearls %}
+            <li>{{ pearl }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.workflow_steps %}
+      <section class="workflow">
+        <h2>10-Step Workflow</h2>
+        <ol>
+          {% for step in page.workflow_steps %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </section>
+    {% endif %}
+
+    {% if page.preop_checklist %}
+      <section class="preop-checklist">
+        <h2>Pre-Op Checklist</h2>
+        <ul class="checklist">
+          {% for item in page.preop_checklist %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.pimp_questions %}
+      <section class="pimp-questions">
+        <h2>Pimp Questions</h2>
+        <dl>
+          {% for item in page.pimp_questions %}
+            <dt>{{ item.question }}</dt>
+            {% if item.answer %}
+              <dd>{{ item.answer }}</dd>
+            {% endif %}
+          {% endfor %}
+        </dl>
+      </section>
+    {% endif %}
+
+    {% if page.anatomy_maps %}
+      <section class="anatomy">
+        <h2>Anatomy Maps</h2>
+        <ul>
+          {% for map in page.anatomy_maps %}
+            {% assign label = map.title | default: map %}
+            {% assign details = map.details %}
+            <li>
+              <strong>{{ label }}</strong>{% if details %}: {{ details }}{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.attending_specific_comments %}
+      <section class="attending-comments">
+        <h2>Attending-Specific Comments</h2>
+        <ul>
+          {% for comment in page.attending_specific_comments %}
+            <li>{{ comment }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.reading_list %}
+      <section class="reading-list">
+        <h2>Suggested Reading</h2>
+        <ul>
+          {% for ref in page.reading_list %}
+            <li>{{ ref }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if content %}
+      <section class="content-notes">
+        {{ content }}
+      </section>
+    {% endif %}
+  </main>
+</body>
+</html>
