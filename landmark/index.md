@@ -7,6 +7,11 @@ permalink: /landmark/
 
 Welcome to the Landmark Papers collection — a curated set of high-impact surgical trials used for education and clinical reference.
 
+## Study Tools
+
+- [Topic Reviews](/landmark/topic-review/)
+- [Case Prep Library](/landmark/case-prep/)
+
 ---
 
 ## Landmark Papers
