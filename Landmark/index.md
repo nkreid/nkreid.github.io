@@ -4,6 +4,7 @@ title: "Landmark Learning Hub"
 permalink: /landmark/
 hide_page_title: true
 hide_page_subtitle: true
+toc: false
 ---
 
 <div class="landing-grid">

@@ -43,6 +43,72 @@ layout: none
       text-decoration: underline;
     }
 
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.85rem;
+      text-decoration: none;
+      color: white;
+    }
+
+    .brand img {
+      height: 64px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      font-family: 'Manrope', sans-serif;
+      font-size: 1.65rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .nav-actions {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin-left: auto;
+      flex-wrap: wrap;
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .nav-button {
+      background: white;
+      color: var(--navy);
+      padding: 0.6rem 1.4rem;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      box-shadow: 0 8px 18px rgba(12, 44, 71, 0.16);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .nav-button:hover,
+    .nav-button:focus {
+      background: var(--aqua);
+      color: var(--navy);
+      transform: translateY(-1px);
+      text-decoration: none;
+      box-shadow: 0 12px 24px rgba(12, 44, 71, 0.22);
+    }
+
     main {
       max-width: 960px;
       margin: 4rem auto;
@@ -155,6 +221,28 @@ layout: none
 
       h1 {
         font-size: 2rem;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-actions {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 0.75rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .nav-actions {
+        gap: 0.6rem;
+      }
+
+      .nav-button {
+        width: 100%;
+        justify-content: center;
       }
     }
   </style>
