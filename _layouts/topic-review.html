@@ -86,6 +86,37 @@ layout: none
       font-family: 'Manrope', sans-serif;
     }
 
+    .nav-toggle {
+      display: none;
+      margin-left: auto;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 999px;
+      padding: 0.45rem 1rem;
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+    }
+
+    .nav-toggle:focus-visible {
+      outline: 3px solid var(--aqua);
+      outline-offset: 2px;
+    }
+
+    .nav-toggle-icon {
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .nav-actions.is-open {
+      display: flex;
+    }
+
     .nav-button {
       background: white;
       color: var(--navy);
@@ -234,25 +265,41 @@ layout: none
       }
 
       .landmark-nav {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .nav-toggle {
+        display: inline-flex;
       }
 
       .nav-actions {
+        display: none;
         width: 100%;
-        justify-content: flex-start;
+        flex-direction: column;
+        align-items: stretch;
         gap: 0.75rem;
-      }
-    }
-
-    @media (max-width: 600px) {
-      .nav-actions {
-        gap: 0.6rem;
+        margin-left: 0;
       }
 
       .nav-button {
         width: 100%;
         justify-content: center;
+      }
+
+      .study-header {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 1.5rem 0.75rem;
+        padding: 1.75rem;
+      }
+
+      .nav-actions {
+        gap: 0.6rem;
       }
     }
   </style>
@@ -366,5 +413,21 @@ layout: none
       </section>
     {% endif %}
   </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var actions = document.getElementById('landmark-nav-actions');
+
+      if (!toggle || !actions) {
+        return;
+      }
+
+      toggle.addEventListener('click', function () {
+        var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!isExpanded));
+        actions.classList.toggle('is-open');
+      });
+    });
+  </script>
 </body>
 </html>
