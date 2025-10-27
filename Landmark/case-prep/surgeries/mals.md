@@ -88,21 +88,52 @@ permalink: /landmark/mals/
 
 ---
 
-## Quick Reference Table  
-*(scrolls horizontally on mobile)*
+## Quick Reference Table
 
-<div style="overflow-x:auto">
-
-| Parameter | Laparoscopic | Open |
-|------------|--------------|------|
-| Time to feeding | **1.0 day¹** | **2.8 days¹** |
-| Length of stay | **2.0 days¹** | **7.0 days¹** |
-| Conversion rate | **20 %¹** | — |
-| Immediate symptom relief | **100 %¹** | **83 %¹** |
-| Persistent pain | **38 %¹** | **50 %¹** |
-| Narcotic cessation | **88 %¹** | **100 %¹** |
-
+<div class="w-full max-w-2xl mx-auto my-4 border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+  <table class="w-full text-sm text-left border-collapse">
+    <thead class="bg-gray-50 text-gray-800 font-semibold">
+      <tr>
+        <th class="px-4 py-2 w-1/2">Parameter</th>
+        <th class="px-4 py-2 w-1/4 text-center">Laparoscopic</th>
+        <th class="px-4 py-2 w-1/4 text-center">Open</th>
+      </tr>
+    </thead>
+    <tbody class="text-gray-700">
+      <tr class="border-t">
+        <td class="px-4 py-2">Time to feeding</td>
+        <td class="px-4 py-2 text-center">1.0 day¹</td>
+        <td class="px-4 py-2 text-center">2.8 days¹</td>
+      </tr>
+      <tr class="border-t bg-gray-50">
+        <td class="px-4 py-2">Length of stay</td>
+        <td class="px-4 py-2 text-center">2.0 days¹</td>
+        <td class="px-4 py-2 text-center">7.0 days¹</td>
+      </tr>
+      <tr class="border-t">
+        <td class="px-4 py-2">Conversion rate</td>
+        <td class="px-4 py-2 text-center">20 %¹</td>
+        <td class="px-4 py-2 text-center">—</td>
+      </tr>
+      <tr class="border-t bg-gray-50">
+        <td class="px-4 py-2">Immediate symptom relief (POD 1)</td>
+        <td class="px-4 py-2 text-center">100 %¹</td>
+        <td class="px-4 py-2 text-center">83 %¹</td>
+      </tr>
+      <tr class="border-t">
+        <td class="px-4 py-2">Persistent pain at follow-up</td>
+        <td class="px-4 py-2 text-center">38 %¹</td>
+        <td class="px-4 py-2 text-center">50 %¹</td>
+      </tr>
+      <tr class="border-t bg-gray-50">
+        <td class="px-4 py-2">Narcotic cessation at follow-up</td>
+        <td class="px-4 py-2 text-center">88 %¹</td>
+        <td class="px-4 py-2 text-center">100 %¹</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 ---
 
