@@ -8,7 +8,7 @@ permalink: /landmark/mals/
 - **Indication:** Median arcuate ligament syndrome (MALS) — chronic postprandial pain from extrinsic compression of the celiac artery with a possible neurogenic component.  
 - **Expected duration:** 2–4 hours (laparoscopic).  
 - **Special instruments:** Harmonic scalpel, laparoscopic liver retractor, vessel loops, Doppler probe.
-- **Robotic (Celisnki setup)** subxyphoid liver retractor, from patient right to left: bipolar maryland, camera, monopolar hook, tip up grasper, LLQ assit port for laparoscopic suction
+- **Robotic (Celisnki setup)** subxyphoid liver retractor, from patient right to left: bipolar maryland, camera, monopolar hook, tip up grasper, LLQ assist port for laparoscopic suction
 
 ---
 
