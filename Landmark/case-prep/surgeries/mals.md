@@ -56,7 +56,7 @@ permalink: /landmark/mals/
 ## Critical Anatomy
 - **Landmarks:** Aortic hiatus, celiac trunk, left gastric, splenic, and common hepatic arteries; diaphragmatic crura.  
 - **Danger zones:** Celiac trunk (subadventitial dissection risk), left gastric artery (bleeding/possible conversion), pancreas (avoid deep inferior dissection).¹
-- **Alternate anatomy:** Replaced left hepatic artery, most common first branch is phrenic arteries (supply bottom third of esophagus)
+- **Alternate anatomy:** Replaced left hepatic artery, most common first branch of celiax trunk is phrenic arteries (supply bottom third of esophagus)
   
 ---
 
