@@ -110,46 +110,58 @@ details > *:not(summary) {
   padding: 0.8rem 1rem 1rem;
 }
 
-/* ---------- Quick-reference tables (SELF-CONTAINED MOBILE SCROLL) ---------- */
-/* Apply to any Markdown table by adding `{:.qr-table}` on the line after the table. */
-table.qr-table {
-  display: block;                   /* needed for overflow to apply on the element itself */
-  width: 100%;
-  max-width: 100%;
-  min-width: 620px;                 /* keeps columns readable; adjust per table complexity */
-  overflow-x: auto;                 /* horizontal scroll lives INSIDE the table */
-  -webkit-overflow-scrolling: touch;/* momentum scroll on iOS */
-  overscroll-behavior: contain;     /* prevent scroll chaining to the page */
-  touch-action: pan-x;              /* allow horizontal pans without dragging the page */
+/* --- Self-contained horizontal scrolling for QR tables --- */
+/* Wrap each Markdown table with:
+   <div class="qr-wrap" markdown="1">
+   | ...table... |
+   {:.qr-table}
+   </div>
+*/
+
+/* The scroll container (prevents scroll chaining to the page) */
+.qr-wrap{
+  position: relative;
+  margin: .5rem 0 1rem;
+  overflow-x: auto;                  /* horizontal scroll lives here */
+  -webkit-overflow-scrolling: touch; /* momentum on iOS */
+  overscroll-behavior: contain;      /* stop page from moving while swiping */
+  touch-action: pan-x;               /* horizontal pans go to this element */
+  background:
+    linear-gradient(to right, rgba(0,0,0,0.04), rgba(0,0,0,0.00)) 0 0/16px 100% no-repeat,
+    linear-gradient(to left,  rgba(0,0,0,0.04), rgba(0,0,0,0.00)) 100% 0/16px 100% no-repeat; /* subtle edge cue */
+  background-attachment: local, local; /* edge cue moves with scroll */
+}
+
+/* The table itself expands to its content width; wrapper handles the scroll */
+.qr-wrap > table.qr-table{
   border-collapse: collapse;
+  width: max-content;                /* grow to fit columns instead of stretching page */
+  min-width: 620px;                  /* tune per table complexity */
+  max-width: none;
   font-size: 0.95rem;
 }
 
-/* Optional wider variant: wrap a table in a div.qr-wide if you need more min width
-   <div class="qr-wide" markdown="1">|...table...|{:.qr-table}</div>
-*/
-.qr-wide > table.qr-table { min-width: 760px; }
-
-table.qr-table th,
-table.qr-table td {
+/* Cells */
+.qr-wrap > table.qr-table th,
+.qr-wrap > table.qr-table td{
   padding: .4rem .5rem;
   border-top: 1px solid #e5e7eb;
   vertical-align: top;
-  word-break: break-word;           /* prevents long tokens from blowing out */
+  word-break: break-word;
 }
 
-table.qr-table th {
+.qr-wrap > table.qr-table th{
   text-align: left;
   font-weight: 600;
 }
 
-/* Use a standalone line above a table for captions:  
-   `**Caption text**` followed by `{:.qr-note}`  */
-.qr-note {
-  display: block;
-  font-weight: 600;
-  margin: .25rem 0 .5rem;
-}
+/* Optional wider variant:
+   <div class="qr-wrap qr-wide" markdown="1"> ... </div> */
+.qr-wrap.qr-wide > table.qr-table{ min-width: 760px; }
+
+/* Safety: never let the page itself scroll sideways due to wide content */
+html, body{ overflow-x: hidden; }
+
 
 /* ---------- Utility & polish ---------- */
 /* Soft rule to separate major sections (use `---` in Markdown or wrap <hr>) */
