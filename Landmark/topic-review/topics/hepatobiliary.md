@@ -1,6 +1,5 @@
 ---
 layout: landmark
-layout: topic-review
 title: "Hepatobiliary"
 redirect_from:
   - /absite/09_07-hepatobiliary/
