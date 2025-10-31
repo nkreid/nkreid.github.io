@@ -1,10 +1,29 @@
-/* landmark.scss: custom styles for landmark articles section */
-body {
-  font-family: Georgia, serif;
-  background: #ffffff;
-  color: #111111;
+/* landmark.scss — unified styles for Landmark Articles, Topics, and Case pages
+   - Keeps existing floating TOC
+   - Adds mobile-friendly, self-contained horizontal scroll for quick-reference tables
+   - Works with kramdown tables using:  `{:.qr-table}`  and table captions using `.qr-note` above a table
+*/
+
+/* ---------- Base ---------- */
+:root {
+  /* expects these to already exist in your site-wide CSS; keeping here for reference only */
+  /* --navy: #0C2C47; --green: #2D5652; --mint: #E7F4EF; */
 }
 
+html, body {
+  overflow-x: hidden;                /* prevent any page-wide horizontal scrolling */
+  background: #ffffff;
+  color: #111111;
+  font-family: Georgia, serif;
+}
+
+/* Increase anchor target comfort when using a sticky header/TOC */
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 110px;          /* so headings aren’t hidden under sticky nav/TOC */
+}
+
+/* ---------- Shared page layout for Articles / Topics / Cases ---------- */
+/* Use these classes on all Landmark pages to get the same layout */
 .content-wrapper {
   display: flex;
   flex-direction: column;
@@ -14,6 +33,7 @@ body {
   width: 100%;
 }
 
+/* Desktop and large-tablet layout: float the TOC to the right */
 @media (min-width: 1024px) {
   .content-wrapper {
     flex-direction: row;
@@ -23,6 +43,7 @@ body {
 
   .main-article {
     flex: 2;
+    min-width: 0; /* prevent flex item from forcing overflow */
   }
 
   .toc-box {
@@ -35,16 +56,18 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     position: sticky;
-    top: 120px;
+    top: 120px;              /* adjust to match your site header height */
   }
 
   .toc-box ul {
     padding-left: 1rem;
     list-style: none;
+    margin: 0;
   }
 
   .toc-box li {
     margin-bottom: 0.4rem;
+    line-height: 1.3;
   }
 
   .toc-box a {
@@ -53,8 +76,119 @@ body {
     font-weight: 500;
   }
 
-  .toc-box a:hover {
+  .toc-box a:hover,
+  .toc-box a:focus {
     color: var(--green);
+    text-decoration: underline;
   }
 }
 
+/* ---------- Collapsible sections (<details>) ---------- */
+details {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  margin: 1rem 0 1.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+details > summary {
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  font-weight: 700;
+  color: #0c2c47;
+  display: list-item; /* keeps default disclosure triangle where supported */
+  list-style: disclosure-closed inside;
+}
+
+details[open] > summary {
+  list-style: disclosure-open inside;
+  border-bottom: 1px solid #eef2f7;
+}
+
+details > *:not(summary) {
+  padding: 0.8rem 1rem 1rem;
+}
+
+/* ---------- Quick-reference tables (SELF-CONTAINED MOBILE SCROLL) ---------- */
+/* Apply to any Markdown table by adding `{:.qr-table}` on the line after the table. */
+table.qr-table {
+  display: block;                   /* needed for overflow to apply on the element itself */
+  width: 100%;
+  max-width: 100%;
+  min-width: 620px;                 /* keeps columns readable; adjust per table complexity */
+  overflow-x: auto;                 /* horizontal scroll lives INSIDE the table */
+  -webkit-overflow-scrolling: touch;/* momentum scroll on iOS */
+  overscroll-behavior: contain;     /* prevent scroll chaining to the page */
+  touch-action: pan-x;              /* allow horizontal pans without dragging the page */
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+/* Optional wider variant: wrap a table in a div.qr-wide if you need more min width
+   <div class="qr-wide" markdown="1">|...table...|{:.qr-table}</div>
+*/
+.qr-wide > table.qr-table { min-width: 760px; }
+
+table.qr-table th,
+table.qr-table td {
+  padding: .4rem .5rem;
+  border-top: 1px solid #e5e7eb;
+  vertical-align: top;
+  word-break: break-word;           /* prevents long tokens from blowing out */
+}
+
+table.qr-table th {
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Use a standalone line above a table for captions:  
+   `**Caption text**` followed by `{:.qr-note}`  */
+.qr-note {
+  display: block;
+  font-weight: 600;
+  margin: .25rem 0 .5rem;
+}
+
+/* ---------- Utility & polish ---------- */
+/* Soft rule to separate major sections (use `---` in Markdown or wrap <hr>) */
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+/* Inline “clinical pearl” callout (use <em>…</em> or **…**) */
+.pearl {
+  display: inline-block;
+  background: #fff7e6;
+  border: 1px solid #f5d19a;
+  color: #7a4a00;
+  border-radius: 6px;
+  padding: .15rem .4rem;
+  font-weight: 600;
+}
+
+/* Images: keep responsive and centered when used as Figures */
+.main-article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: .75rem auto;
+}
+
+/* Code blocks inside landmark pages (optional readability) */
+.main-article pre {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: .8rem 1rem;
+  overflow: auto;
+}
+
+/* Avoid long URLs causing overflow in paragraphs/lists */
+.main-article p, .main-article li {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
