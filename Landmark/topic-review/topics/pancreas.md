@@ -8,14 +8,6 @@ permalink: /landmark/topic-review/pancreas/
 
 # Pancreas Review
 
-Use the collapsible section below. The floating Table of Contents on the right lists all major headings (≤20) for quick navigation.
-
-<!-- Compact, mobile-friendly table styling (works with Markdown tables) -->
-<style>
-.qr-table { width:100%; }
-.qr-table th, .qr-table td { padding:.4rem .5rem; border-top:1px solid #e5e7eb; vertical-align:top; }
-.qr-note { margin:.25rem 0 .5rem; font-weight:600; }
-</style>
 
 ---
 
@@ -48,6 +40,7 @@ Use the collapsible section below. The floating Table of Contents on the right l
 - **Abx:** **not indicated** for uncomplicated pancreatitis or **sterile** necrosis. Use for **infected** necrosis (fever, leukocytosis, sepsis, gas on CT, positive cultures). **Imipenem** commonly used.  
 - **Imaging:** CT for complications (necrosis, collections). US to assess stones/CBD.
 
+<div class="qr-wrap" markdown="1">
 **Ranson Criteria (Non-Gallstone; initial & 48 h)**  
 {:.qr-note}
 
@@ -56,9 +49,11 @@ Use the collapsible section below. The floating Table of Contents on the right l
 | **Admission** | Age >55; WBC >16; Glucose >200; AST >250; LDH >350 |
 | **At 48 h** | Hct ↓ >10%; BUN ↑ >5; Ca <8; PaO₂ <60; Base deficit >4; Fluid sequestration >6 L |
 {:.qr-table}
-
+</div>
 *Interpretation:* more criteria → higher mortality; use for trend/comparison (not sole management driver).
 
+
+<div class="qr-wrap" markdown="1">
 **Revised Atlanta – Post-Pancreatitis Fluid Collections**  
 {:.qr-note}
 
@@ -67,12 +62,14 @@ Use the collapsible section below. The floating Table of Contents on the right l
 | Acute **peri-pancreatic fluid collection** | **Pseudocyst** | Fluid only | None → Mature | Pseudocyst | Many resolve; treat if symptomatic, infected, or >6 cm persisting |
 | **Acute necrotic collection** | **Walled-off necrosis (WON)** | Fluid **+** necrosis | None → Mature | WON | Intervene if infected or symptomatic |
 {:.qr-table}
+</div>
 
 ### Necrotizing Pancreatitis & Step-Up
 - **Infected necrosis** suspected with sepsis, persistent organ failure, **gas in collection**, or positive culture (FNA rarely required if obvious).  
 - **Preferred strategy:** **delay** until demarcation → **percutaneous or endoscopic drainage** → **VARD/endoscopic necrosectomy** if needed → **open** necrosectomy only if failure/instability.  
 - **Nutrition:** enteral (post-pyloric if needed).
 
+<div class="qr-wrap" markdown="1">
 **Infected Necrosis – Step-Up Pathway**  
 {:.qr-note}
 
@@ -80,6 +77,8 @@ Use the collapsible section below. The floating Table of Contents on the right l
 |---|---|---|---|---|
 | Stable, suspected infection | Broad-spectrum abx; **percutaneous or EUS-guided drainage** | **VARD** / endoscopic necrosectomy | **Open** necrosectomy | Staged source control lowers morbidity/mortality |
 {:.qr-table}
+
+</div>
 
 ### Pancreatic Pseudocyst
 - More common with **chronic** pancreatitis; can follow acute.  
@@ -115,6 +114,8 @@ Use the collapsible section below. The floating Table of Contents on the right l
 - **IPMN:** main-duct, branch-duct, or mixed; mucin at **fish-mouth papilla** pathognomonic for main-duct.  
 - **Cyst fluid:** **CEA >192** → mucinous; **high amylase** → duct communication (pseudocyst/IPMN).
 
+
+<div class="qr-wrap" markdown="1">
 **IPMN – Fukuoka-Guided Management**  
 {:.qr-note}
 
@@ -124,7 +125,7 @@ Use the collapsible section below. The floating Table of Contents on the right l
 | **Worrisome features** | Cyst **>3 cm**; thickened/enhancing wall; non-enhancing mural nodule; lymphadenopathy; **MPD 5–9 mm**; abrupt MPD change with distal atrophy; rapid growth; pancreatitis | **EUS** ± FNA → **Resect** if concerning EUS/cytology or patient/size risk (e.g., young with >2 cm) |
 | **Low-risk BD-IPMN** | None of the above | **Surveillance** (interval by size/center protocol) |
 {:.qr-table}
-
+</div>
 *Age heuristic:* **Daughter = solid pseudopapillary**, **Mother = mucinous**, **Grandmother = serous**.
 
 ### Pancreatic Neuroendocrine Tumors (PNETs)
@@ -132,6 +133,8 @@ Use the collapsible section below. The floating Table of Contents on the right l
 - **Localization:** multiphase CT/MRI → **EUS**; somatostatin receptor imaging for most (not great for insulinoma); selective arterial testing if needed.  
 - **Principles:** resect locoregional disease; **enucleate** small benign-appearing tumors away from duct; formal resection for malignant/high-risk; **cholecystectomy** if long-term somatostatin analogs anticipated.
 
+
+<div class="qr-wrap" markdown="1">
 **Functional PNET Snapshot**  
 {:.qr-note}
 
@@ -143,6 +146,7 @@ Use the collapsible section below. The floating Table of Contents on the right l
 | **Somatostatinoma** | Cholecystitis, DM, steatorrhea; often malignant | SSTR imaging | **Head/duodenum** | Formal resection + nodes; **cholecystectomy** |
 | **VIPoma** | **WDHA** (watery diarrhea, hypokalemia, achlorhydria) | ↑ VIP during diarrhea | Body/tail; extra-pancreatic possible | Formal resection + nodes; **cholecystectomy** |
 {:.qr-table}
+</div>
 
 ### Pancreatic Adenocarcinoma
 - **Risk factors:** smoking, heavy alcohol, chronic pancreatitis, ↑BMI, long-standing DM; common mutations **KRAS, TP53, CDKN2A, SMAD4**. **CA 19-9** most useful marker (not screening).  
@@ -153,6 +157,8 @@ Use the collapsible section below. The floating Table of Contents on the right l
 - **Adjuvant therapy:** **everyone** after R0/R1 (e.g., modified FOLFIRINOX).  
 - **Borderline-resectable:** consider **neoadjuvant chemo-RT** (tissue via EUS-FNA first).
 
+
+<div class="qr-wrap" markdown="1">
 **Resectability Criteria (CT-based)**  
 {:.qr-note}
 
@@ -162,6 +168,7 @@ Use the collapsible section below. The floating Table of Contents on the right l
 | **Borderline-resectable** | Contact **<180°** with **SMA or celiac**; or **common hepatic** contact permitting safe resection/recon | Involvement **amenable** to resection/recon; short-segment occlusion allowed if reconstructible | **Absent** |
 | **Unresectable** | **>180°** contact with **SMA/celiac** or unreconstructable arterial involvement | **Unreconstructable** PV/SMV involvement | **Present** (or peritoneal/liver mets) |
 {:.qr-table}
+</div>
 
 </details>
 
