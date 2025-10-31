@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Pancreas"
 redirect_from:
   - /absite/11_09-pancreas/
