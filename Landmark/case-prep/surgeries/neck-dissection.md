@@ -56,7 +56,7 @@ permalink: /landmark/neck-dissection/
 
 9. **Completion**  
    - Strip specimen off strap muscles and deliver en bloc.¹  
-   - Irrigate, Valsalva, drain placement.¹  
+   - Irrigate, Valsalva, drain placement (10fr round).¹  
 
 ---
 
