@@ -2,6 +2,7 @@
 layout: landmark
 title: "Tracheostomy"
 permalink: /landmark/tracheostomy/
+pdf: /assets/pdfs/TRACHEOSTOMY.pdf
 ---
 
 ## Procedure Snapshot
