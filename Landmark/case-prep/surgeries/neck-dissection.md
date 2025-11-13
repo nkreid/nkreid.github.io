@@ -2,6 +2,7 @@
 layout: landmark
 title: "Neck Dissection (Selective Neck Dissection)"
 permalink: /landmark/neck-dissection/
+pdf: /assets/pdfs/neck_dissection.pdf
 ---
 
 ## Procedure Snapshot
