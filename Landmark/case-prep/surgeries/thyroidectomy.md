@@ -2,6 +2,7 @@
 layout: landmark
 title: "Thyroidectomy (Lobectomy / Total)"
 permalink: /landmark/thyroidectomy/
+pdf: /assets/pdfs/Thyroidectomy.pdf
 ---
 
 ## Procedure Snapshot
