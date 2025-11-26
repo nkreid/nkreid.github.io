@@ -26,3 +26,10 @@ The Case Prep series distills go-to operative steps, anatomy pearls, and pimp qu
 Questions about the workflow or a pending update? Email [neil.k.reid@gmail.com](mailto:neil.k.reid@gmail.com) and include the case name plus submission date so we can track it down quickly.
 
 Ready to dive in? Explore the cases from the main surgery curriculum and keep the knowledge fresh for the next call night.
+
+{% assign case_pages = site.case_preps | sort: 'title' %}
+<ul>
+{% for case in case_pages %}
+  <li><a href="{{ case.url | relative_url }}">{{ case.title }}</a></li>
+{% endfor %}
+</ul>

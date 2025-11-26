@@ -2,6 +2,9 @@
 layout: landmark
 title: "Median Arcuate Ligament Release with Celiac Gangliotomy"
 permalink: /landmark/mals/
+redirect_from:
+  - /Landmark/case-prep/surgeries/mals/
+  - /landmark/case-prep/surgeries/mals/
 ---
 
 ## Procedure Snapshot
