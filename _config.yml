@@ -203,7 +203,7 @@ collections:
     permalink: /landmark/topic-review/:name/
   case_preps:
     output: true
-    permalink: /landmark/case-prep/:name/
+    permalink: /case-prep/:name/
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5

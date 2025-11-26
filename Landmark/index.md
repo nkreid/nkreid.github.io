@@ -18,7 +18,7 @@ toc: false
     <p>Use the ABSITE table of contents to launch polished study notes. Clean, continuous Markdown keeps the focus on high-yield facts.</p>
     <span class="cta">Open the outline →</span>
   </a>
-  <a class="landing-card" href="/landmark/case-prep/">
+  <a class="landing-card" href="/case-prep/">
     <h2>Case Prep</h2>
     <p>Drill operative strategy with structured briefs covering anatomy, simplified steps, and quick pimp questions for common cases.</p>
     <span class="cta">Prep for Cases →</span>

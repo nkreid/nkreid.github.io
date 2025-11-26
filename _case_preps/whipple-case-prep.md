@@ -1,6 +1,8 @@
 ---
 layout: case-prep
 title: "Pancreaticoduodenectomy (Whipple)"
+redirect_from:
+  - /landmark/case-prep/whipple-case-prep/
 exam_focus: "OR Case Prep"
 difficulty: "Complex"
 attending_notes: "Dr. Alvarez prioritizes vascular control plans and post-op drain strategy."
