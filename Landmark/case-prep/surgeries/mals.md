@@ -94,49 +94,56 @@ redirect_from:
 
 ## Quick Reference Table
 
-<div class="w-full max-w-2xl mx-auto my-4 border border-gray-200 rounded-xl overflow-hidden shadow-sm">
-  <table class="w-full text-sm text-left border-collapse">
-    <thead class="bg-gray-50 text-gray-800 font-semibold">
-      <tr>
-        <th class="px-4 py-2 w-1/2">Parameter</th>
-        <th class="px-4 py-2 w-1/4 text-center">Laparoscopic</th>
-        <th class="px-4 py-2 w-1/4 text-center">Open</th>
-      </tr>
-    </thead>
-    <tbody class="text-gray-700">
-      <tr class="border-t">
-        <td class="px-4 py-2">Time to feeding</td>
-        <td class="px-4 py-2 text-center">1.0 day¹</td>
-        <td class="px-4 py-2 text-center">2.8 days¹</td>
-      </tr>
-      <tr class="border-t bg-gray-50">
-        <td class="px-4 py-2">Length of stay</td>
-        <td class="px-4 py-2 text-center">2.0 days¹</td>
-        <td class="px-4 py-2 text-center">7.0 days¹</td>
-      </tr>
-      <tr class="border-t">
-        <td class="px-4 py-2">Conversion rate</td>
-        <td class="px-4 py-2 text-center">20 %¹</td>
-        <td class="px-4 py-2 text-center">—</td>
-      </tr>
-      <tr class="border-t bg-gray-50">
-        <td class="px-4 py-2">Immediate symptom relief (POD 1)</td>
-        <td class="px-4 py-2 text-center">100 %¹</td>
-        <td class="px-4 py-2 text-center">83 %¹</td>
-      </tr>
-      <tr class="border-t">
-        <td class="px-4 py-2">Persistent pain at follow-up</td>
-        <td class="px-4 py-2 text-center">38 %¹</td>
-        <td class="px-4 py-2 text-center">50 %¹</td>
-      </tr>
-      <tr class="border-t bg-gray-50">
-        <td class="px-4 py-2">Narcotic cessation at follow-up</td>
-        <td class="px-4 py-2 text-center">88 %¹</td>
-        <td class="px-4 py-2 text-center">100 %¹</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<style>
+.qr-table{width:100%;max-width:720px;margin:1rem auto;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
+.qr-table th.label,.qr-table td.label{text-align:left;width:50%;}
+.qr-table th.value,.qr-table td.value{text-align:center;width:25%;}
+.qr-table thead th{background:#f8fafc;font-weight:700;}
+.qr-table tbody tr:nth-child(even){background:#f8fafc;}
+</style>
+
+<table class="qr-table">
+  <thead>
+    <tr>
+      <th class="label">Parameter</th>
+      <th class="value">Laparoscopic</th>
+      <th class="value">Open</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="label">Time to feeding</td>
+      <td class="value">1.0 day¹</td>
+      <td class="value">2.8 days¹</td>
+    </tr>
+    <tr>
+      <td class="label">Length of stay</td>
+      <td class="value">2.0 days¹</td>
+      <td class="value">7.0 days¹</td>
+    </tr>
+    <tr>
+      <td class="label">Conversion rate</td>
+      <td class="value">20 %¹</td>
+      <td class="value">—</td>
+    </tr>
+    <tr>
+      <td class="label">Immediate symptom relief (POD 1)</td>
+      <td class="value">100 %¹</td>
+      <td class="value">83 %¹</td>
+    </tr>
+    <tr>
+      <td class="label">Persistent pain at follow-up</td>
+      <td class="value">38 %¹</td>
+      <td class="value">50 %¹</td>
+    </tr>
+    <tr>
+      <td class="label">Narcotic cessation at follow-up</td>
+      <td class="value">88 %¹</td>
+      <td class="value">100 %¹</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ---
@@ -144,9 +151,9 @@ redirect_from:
 ## Quick-Reference Cards
 
 <style>
-.quick-cards .qr-card{border:1px solid var(--border-color,#e5e7eb);border-radius:10px;margin:12px 0;background:#fff;overflow:hidden;}
+.quick-cards .qr-card{border:1px solid var(--border,#e5e7eb);border-radius:10px;margin:12px 0;background:#fff;overflow:hidden;}
 .quick-cards .qr-card summary{cursor:pointer;list-style:none;padding:12px 14px;font-weight:700;}
-.quick-cards .qr-card[open] summary{border-bottom:1px solid var(--border-color,#e5e7eb);}
+.quick-cards .qr-card[open] summary{border-bottom:1px solid var(--border,#e5e7eb);}
 .quick-cards .qr-body{padding:10px 14px;}
 .quick-cards .kv{margin:0;padding:0;}
 .quick-cards .kv li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #f1f5f9;}
