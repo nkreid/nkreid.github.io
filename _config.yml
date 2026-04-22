@@ -134,19 +134,6 @@ feed_show_tags: false
 #site-js:
 #  - "/assets/js/custom-script.js"
 
-# --- Comments --- #
-
-# Staticman-based comments/contribution submissions. The upstream
-# staticman3.herokuapp.com endpoint is defunct (Heroku's free tier
-# ended in late 2022); this block is kept for now but should be
-# removed or replaced with a working alternative.
-staticman:
-  repository: nkreid/nkreid.github.io
-  branch: work
-  endpoint: https://staticman3.herokuapp.com/v3/entry/github/
-  reCaptcha:
-    enabled: false
-
 # --- Misc --- #
 
 # Ruby Date Format to show dates of posts
@@ -175,7 +162,6 @@ default:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:

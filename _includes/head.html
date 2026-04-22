@@ -130,10 +130,6 @@
   <meta name="twitter:image" content="{{ img | absolute_url }}">
   {% endif %}
 
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
-  {% endif %}
-
   {% if page.head-extra %}
     {% for file in page.head-extra %}
       {% include {{ file }} %}
