@@ -5,8 +5,6 @@ permalink: /case-prep/
 hide_page_subtitle: true
 ---
 
-Operative prep briefs for the cases you're most likely to see on service — indications, step-by-step workflow, critical anatomy, informed-consent highlights, and pimp questions worth having rehearsed the night before.
-
 {% assign cases = site.pages | where_exp: "p", "p.path contains 'Landmark/case-prep/surgeries/'" | sort: 'title' %}
 
 <ul class="case-list">
@@ -14,6 +12,12 @@ Operative prep briefs for the cases you're most likely to see on service — ind
   <li><a href="{{ case.url | relative_url }}">{{ case.title | default: case.slug }}</a></li>
 {% endfor %}
 </ul>
+
+---
+
+## About Case Prep
+
+Operative prep briefs for the cases you're most likely to see on service — indications, step-by-step workflow, critical anatomy, informed-consent highlights, and pimp questions worth having rehearsed the night before. Each page follows the canonical section order established in `mals` so you always know where to find what you need.
 
 <style>
 .case-list {
