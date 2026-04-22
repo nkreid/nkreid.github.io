@@ -11,3 +11,8 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+
+# patches / diffs that should never be committed
+*.patch
+patch_*
+*.diff
