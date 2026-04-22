@@ -1,35 +1,41 @@
 ---
-layout: page
-title: Case Prep
+layout: landmark
+title: "Case Prep"
 permalink: /case-prep/
+hide_page_subtitle: true
 ---
 
-# Case Prep
+Operative prep briefs for the cases you're most likely to see on service — indications, step-by-step workflow, critical anatomy, informed-consent highlights, and pimp questions worth having rehearsed the night before.
 
-The Case Prep series distills go-to operative steps, anatomy pearls, and pimp questions for high-yield surgical scenarios. Each case page now includes a community contribution form so the playbook continues to evolve alongside modern practice.
+{% assign cases = site.pages | where_exp: "p", "p.path contains 'Landmark/case-prep/surgeries/'" | sort: 'title' %}
 
-## How to share an update
-
-1. Open the specific case page you want to refine.
-2. Scroll to the "Submit an Update" form beneath the canonical content.
-3. Add refreshed operative steps, rapid-fire questions, anatomy pearls, or attending comments. Markdown formatting is supported for bullets and emphasis.
-4. Hit **Submit Update** to send it for review.
-
-## What happens next?
-
-- **Moderation cadence:** New submissions are reviewed in batches every Friday. Expect approved updates to publish within 7 days of submission.
-- **Notification:** Staticman does not automatically email status changes. If you include an email, it is only used for follow-up questions from the editorial team.
-- **Approval standard:** Updates should cite contemporary practice patterns, highlight safety pearls, or clarify decision points. Submissions that lack clear educational value may be declined.
-
-## Need help?
-
-Questions about the workflow or a pending update? Email [neil.k.reid@gmail.com](mailto:neil.k.reid@gmail.com) and include the case name plus submission date so we can track it down quickly.
-
-Ready to dive in? Explore the cases from the main surgery curriculum and keep the knowledge fresh for the next call night.
-
-{% assign case_pages = site.case_preps | sort: 'title' %}
-<ul>
-{% for case in case_pages %}
-  <li><a href="{{ case.url | relative_url }}">{{ case.title }}</a></li>
+<ul class="case-list">
+{% for case in cases %}
+  <li><a href="{{ case.url | relative_url }}">{{ case.title | default: case.slug }}</a></li>
 {% endfor %}
 </ul>
+
+<style>
+.case-list {
+  columns: 2;
+  column-gap: 2.5rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 1.25rem 0 0 0;
+}
+
+.case-list li {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+}
+
+.case-list a {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .case-list {
+    columns: 1;
+  }
+}
+</style>
