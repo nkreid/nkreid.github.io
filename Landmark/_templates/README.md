@@ -28,8 +28,11 @@ starts with an underscore, so files here will not be published.
 - **Citations**: use superscript digits in-line (`¹`, `²`, `³`) and
   a numbered `## References` section at the bottom. No PDFs for
   paper reviews (copyright).
-- **Tables / cards**: prefer the shared styles from
-  `assets/css/landmark.scss` over ad-hoc Tailwind classes (Tailwind
-  isn't compiled). The templates below use the scoped `<style>` +
-  `<details>` card pattern from `surgeries/mals.md`, which works
-  without any extra build step.
+- **Tables / cards**: the templates use scoped `<style>` blocks
+  (`.qr-table`, `.quick-cards`) inline in each page. This pattern
+  renders correctly without needing Tailwind or a compiled
+  stylesheet. There's a `landmark.scss` file in `assets/css/` that
+  predates this and is currently not loaded anywhere — future
+  cleanup should either wire it into `_layouts/landmark.html` or
+  delete it. For now, copy the `<style>` blocks from the templates
+  verbatim and every Landmark page will look consistent.
