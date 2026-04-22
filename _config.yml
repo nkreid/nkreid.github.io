@@ -179,6 +179,11 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  # absite_companion_md_jekyll/ is the raw PDF-extracted ABSITE source.
+  # Kept in the repo as an archive but excluded from the built site —
+  # the cleaned-up pages at /landmark/topic-review/ are the published
+  # version. Delete this block once the content has been merged.
+  - absite_companion_md_jekyll/
 
 plugins:
   - jekyll-paginate
