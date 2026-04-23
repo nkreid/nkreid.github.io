@@ -9,6 +9,15 @@ redirect_from:
 
 > Open Lichtenstein tension-free mesh repair is the default workflow below; laparoscopic (TEP/TAPP) and robotic are covered as shorter parallel sections. For the underlying anatomy and pimp-level background, see the [hernias topic review](/landmark/topic-review/hernias/).
 
+<div style="border:1px solid #E2A54D;background:#FDF6E8;border-radius:10px;padding:14px 18px;margin:1.25rem 0;display:flex;gap:14px;align-items:flex-start;">
+  <div style="font-size:1.6rem;line-height:1;">🎥</div>
+  <div>
+    <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:4px;">Must Watch — Inguinal Anatomy</div>
+    <div style="margin-bottom:6px;">Walk through the canal, cord, floor, and preperitoneal view before your next case. This is the single highest-yield groin-anatomy video for pimp prep.</div>
+    <a href="https://www.youtube.com/watch?v=lscA6BPhE70" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Manrope',sans-serif;font-weight:600;color:#2D5652;"><i class="fa-brands fa-youtube"></i> youtube.com/watch?v=lscA6BPhE70</a>
+  </div>
+</div>
+
 ## Procedure Snapshot
 - **Indication:** Symptomatic or incarcerated inguinal hernia. Watchful waiting is acceptable for asymptomatic/minimally symptomatic men per Fitzgibbons 2006¹ — but most cross over to repair within ~10 years.
 - **Expected duration:** 45–75 min open unilateral; 60–90 min lap/robotic unilateral; +30–45 min for bilateral.
@@ -117,17 +126,114 @@ redirect_from:
 
 ---
 
-## Critical Anatomy
-- **Landmarks:** External ring, pubic tubercle, inguinal ligament (from ASIS to pubic tubercle), inferior epigastric vessels, Hesselbach's triangle, internal ring.
-- **Layers of the inguinal canal** (superficial → deep): skin, Scarpa's, external oblique aponeurosis (**roof**), cord + floor (transversalis fascia), preperitoneal fat, peritoneum.
-- **Floor = transversalis fascia** reinforced by the conjoint tendon (transversus abdominis + internal oblique) medially.
-- **Danger zones:**
-  - Ilioinguinal nerve on the anterior surface of the cord — most commonly injured at opening the external oblique.
-  - Iliohypogastric nerve superior to the canal — at risk during superior mesh suturing.
-  - Femoral vessels deep to the inguinal ligament — femoral vein injury from deep bites in the floor during McVay or aggressive floor repair.
-  - Bladder medially — especially on a sliding direct hernia.
-  - Vas deferens and testicular vessels — aggressive skeletonization causes ischemic orchitis.
-- **Corona mortis:** anastomosis between the obturator and external iliac (or inferior epigastric) arteries, crossing Cooper's ligament. Source of dramatic bleeding if injured during suture or tack placement at Cooper's.
+## Critical Anatomy — Buzzword Glossary
+
+Groin anatomy is dense with eponyms and near-identical-sounding structures. Every one of these gets pimped. Learn them cold.
+
+### Bony landmarks
+
+- **ASIS (anterior superior iliac spine)** — lateral attachment of the inguinal ligament. Reference for lap port placement and for the lateral edge of the inguinal canal incision.
+- **Pubic tubercle** — the palpable bony bump ~1.5–2 cm lateral to the midline on the superior pubic ramus. Medial attachment of the inguinal ligament. **This is the landmark you must overlap by ≥ 1.5 cm with the medial edge of your Lichtenstein mesh.** A repair that "looks pretty but doesn't overlap the tubercle" recurs medially.
+- **Pubic symphysis** — the midline fibrocartilaginous joint between the two pubic bones. **Not the same as the tubercle.** The symphysis is *at the midline*; the tubercle is ~1.5–2 cm lateral on each side. Classic pimp distinction — mesh overlap is measured from the tubercle, not the symphysis.
+- **Pecten pubis** — the sharp ridge running laterally along the superior pubic ramus from the tubercle. Cooper's ligament sits on this ridge.
+
+### Ligaments of the groin
+
+- **Inguinal (Poupart's) ligament** — the rolled-under inferior edge of the external oblique aponeurosis, from ASIS to pubic tubercle. Its deep surface forms the **shelving edge** — this is where you run your inferior mesh suture in Lichtenstein.
+- **Lacunar (Gimbernat's) ligament** — the triangular medial reflection of the inguinal ligament as it inserts onto the pecten pubis. Forms the **medial border of the femoral canal / femoral ring**. Classic teaching: **to release a strangulated femoral hernia, divide the lacunar ligament medially** (aberrant obturator artery may cross here — corona mortis risk).
+- **Cooper's (pectineal) ligament** — the thick white fibrous reinforcement of the periosteum along the pecten pubis, named for **Sir Astley Cooper**. A continuation of the lacunar ligament laterally along the superior ramus. **The anchor of the McVay repair** and **the inferomedial fixation point for all posterior mesh repairs (TEP/TAPP/robotic).**
+- **Iliopubic tract** — the posterior (preperitoneal) analog of the inguinal ligament. A thickening of the transversalis fascia from ASIS/iliopsoas fascia medially to Cooper's ligament. You see the **iliopubic tract** — not the inguinal ligament — when you're looking from behind. **Tacks fixed *above* the iliopubic tract are safe; tacks *below* it put you in the Triangle of Doom / Triangle of Pain.**
+- **Reflected inguinal ligament (Colles' ligament)** — fibers from the contralateral side crossing behind the superficial ring to the linea alba. Minor surgical significance; occasional buzzword.
+
+### Aponeurosis, muscle, and tendon
+
+- **External oblique aponeurosis** — the **roof** of the inguinal canal. Contains the superficial (external) inguinal ring at its medial inferior end. First layer you open in Lichtenstein.
+- **Internal oblique** — the middle muscle layer; contributes to the conjoint tendon medially. Gives rise to the cremaster muscle fibers that sheath the cord.
+- **Transversus abdominis** — the deepest muscle layer; contributes the other half of the conjoint tendon. Its lower arch forms the superior margin of the internal ring.
+- **Conjoint tendon (inguinal falx)** — the **fused tendinous insertion of internal oblique + transversus abdominis** onto the superior pubic ramus medially. Forms the **medial floor** of the inguinal canal. **This is what your superior mesh edge is sewn to in Lichtenstein** — take aponeurotic bites only, *not* deep into muscle (iliohypogastric entrapment).
+- **Transversalis fascia** — the true **floor** of the inguinal canal. Failure of this layer medial to the inferior epigastrics = **direct hernia** pushing through Hesselbach's.
+- **Cremaster muscle** — slips of internal oblique that descend with the cord, envelop the cord, and retract the testis. Innervated by the **genital branch of the genitofemoral nerve**. Swept off the cord during mobilization; some surgeons divide it circumferentially at the internal ring.
+
+### Inguinal canal (open view)
+
+- **Boundaries:**
+  - *Roof* — external oblique aponeurosis (laterally also internal oblique).
+  - *Floor* — transversalis fascia (reinforced medially by the conjoint tendon).
+  - *Anterior wall* — external oblique aponeurosis ± reinforcement by internal oblique laterally.
+  - *Posterior wall* — transversalis fascia ± reinforcement by the conjoint tendon medially.
+- **Openings:**
+  - *Superficial (external) ring* — opening in the external oblique aponeurosis just above and lateral to the pubic tubercle.
+  - *Deep (internal) ring* — opening in the transversalis fascia just lateral to the inferior epigastric vessels. Indirect hernias pass through here, lateral to the epigastrics.
+- **Contents of the spermatic cord** — the **"rule of threes"**:
+  - *Three arteries:* testicular, cremasteric, artery to the vas.
+  - *Three nerves:* ilioinguinal (*technically runs alongside, not within, the cord*), genital branch of genitofemoral (on the posterior cord), autonomic/sympathetic fibers.
+  - *Three other structures:* vas deferens, pampiniform venous plexus, lymphatics.
+- **Hesselbach's triangle** — medial: lateral border of rectus; inferior: inguinal ligament; lateral: inferior epigastric vessels. Direct hernias push through the floor of this triangle.
+
+### Nerves seen during open (anterior) repair — with function
+
+- **Ilioinguinal nerve (L1)** — *sensory to the medial thigh, mons pubis / base of penis, anterior scrotum (or labia majora) in women*. Runs **within the inguinal canal**, anterior to the cord, deep to the external oblique aponeurosis. **First nerve you see when you open the external oblique** — and the most commonly injured nerve in open repair. Protect during mesh placement (avoid burying in sutures). If unavoidable, clean transection → bury the proximal stump in muscle (pragmatic neurectomy) — produces less chronic pain than a stretched or partially injured nerve.
+- **Iliohypogastric nerve (L1)** — *sensory to the skin over the suprapubic area and lateral upper buttock*. Runs **on the surface of the internal oblique**, cephalad to the inguinal canal. At risk during the **superior mesh sutures to the conjoint tendon** — take aponeurotic bites, not deep muscle, to avoid entrapment.
+- **Genital branch of the genitofemoral nerve (L1–L2)** — *motor to the cremaster muscle* (mediates the cremasteric reflex) and *sensory to the scrotum (or mons / labia majora)*. Runs **within the cord, on its posterior surface** (deep to the cord when you lift it up). Protected during cremaster sweep and sac mobilization. Injury → loss of cremasteric reflex + scrotal dysesthesia.
+
+**Pragmatic point:** all three of these nerves are L1-predominant and their sensory territories overlap heavily in the groin/scrotum. Clinical differentiation after injury is often imprecise; triple neurectomy (all three) is the definitive operation for refractory post-herniorrhaphy neuralgia.
+
+### Nerves seen during posterior (laparoscopic / robotic / TEP / TAPP) repair — with function
+
+When you're in the preperitoneal space looking at the back wall of the groin, you see a different set of nerves. Most of them live **below the iliopubic tract**, which is why *no tacks go below the iliopubic tract lateral to the cord structures*.
+
+- **Genitofemoral nerve (L1–L2)** — emerges from the surface of the psoas and descends on the psoas muscle as a **shiny thin white line**. Splits into:
+  - *Genital branch* — enters the internal ring with the cord (see above).
+  - *Femoral branch* — passes **under the inguinal ligament** lateral to the femoral artery to supply skin of the upper anterior thigh (femoral triangle). Sensory only. **Classic Triangle of Pain nerve.**
+  Injury → anterior upper-thigh numbness ± chronic neuropathic pain. Caused by **tacks placed into psoas** lateral to the spermatic vessels.
+- **Lateral femoral cutaneous nerve (L2–L3)** — *pure sensory — anterolateral thigh*. Emerges from the lateral border of the psoas, runs over the iliacus toward the ASIS, passes **under the inguinal ligament ~1–2 cm medial to the ASIS**. Entrapment here = **meralgia paresthetica** (burning, tingling, numb anterolateral thigh). **Second classic Triangle of Pain nerve** — injured by lateral tacks below the iliopubic tract.
+- **Femoral nerve (L2–L4)** — *motor to the quadriceps; sensory to anteromedial thigh and medial leg via saphenous branch*. Lies **deep to the iliopsoas fascia, lateral to the femoral artery** — usually protected if the iliopubic tract is respected. Aggressive deep lateral fixation can still injure it → quadriceps weakness + saphenous anesthesia.
+
+**The "Three P's" of posterior nerves** — each of these runs *posterior* to the preperitoneal view and is protected by staying *above* the iliopubic tract:
+
+1. **P**sychosocial disaster if you tack it → **L**ateral femoral cutaneous (meralgia).
+2. Anterior thigh numbness → **G**enitofemoral (femoral branch).
+3. Quadriceps weakness → **F**emoral nerve.
+
+### Myopectineal orifice of Fruchaud
+
+The single weak opening in the posterior abdominal wall through which *all* groin hernias emerge. Remembered as the target that posterior mesh must cover in its entirety.
+
+- *Superior:* internal oblique + transversus abdominis arch (conjoint region).
+- *Medial:* lateral edge of rectus abdominis.
+- *Inferior:* pecten pubis (Cooper's ligament).
+- *Lateral:* iliopsoas.
+- *Divided horizontally* by the iliopubic tract:
+  - Above the tract → **indirect** (lateral to epigastrics) and **direct** (medial to epigastrics through Hesselbach's) inguinal hernias.
+  - Below the tract → **femoral** hernia (medial to the femoral vein).
+- **Posterior mesh (≥ 10 × 15 cm, overlap ≥ 3 cm on all sides) must cover the entire orifice to prevent all three hernia types.**
+
+### Triangles to commit to memory
+
+- **Hesselbach's triangle** — *medial*: lateral rectus; *inferior*: inguinal ligament; *lateral*: inferior epigastrics. Floor of direct hernias.
+- **Triangle of Doom** — *medial*: vas deferens; *lateral*: spermatic vessels; *apex*: internal ring. **Contents:** external iliac artery and vein. **No tacks. No cautery.**
+- **Triangle of Pain** — *medial*: spermatic vessels; *lateral/superior*: iliopubic tract; *inferior*: inferior border of iliopubic tract. **Contents:** lateral femoral cutaneous, femoral branch of genitofemoral, and (deeper) femoral nerve. **No tacks.**
+
+### Corona mortis ("crown of death")
+
+Aberrant anastomosis between the **obturator artery/vein** and the **external iliac** (or **inferior epigastric**) vessels, crossing the superior pubic ramus behind Cooper's ligament. Present in ~**20–30%** of patients. Injured by:
+
+- Aggressive suture or tack placement at Cooper's ligament in McVay or TEP/TAPP.
+- Dividing the lacunar ligament medially to release an incarcerated femoral hernia.
+
+If torn, bleeding is brisk and retracts into the obturator foramen — **pack, pressure, sutured control. Do not blindly cauterize.**
+
+### Danger zones summary (all approaches)
+
+- Ilioinguinal at opening of external oblique (open).
+- Iliohypogastric on superior mesh bites (open).
+- Genital branch of genitofemoral on the posterior cord (open).
+- Lateral femoral cutaneous and femoral branch of genitofemoral in Triangle of Pain (lap/robotic).
+- External iliac vessels in Triangle of Doom (lap/robotic).
+- Corona mortis behind Cooper's (any Cooper's-fixation repair).
+- Femoral vein with deep floor bites in McVay or aggressive Bassini.
+- Bladder medially on sliding direct hernias.
+- Vas / testicular vessels with aggressive cord skeletonization → ischemic orchitis.
 
 ---
 
