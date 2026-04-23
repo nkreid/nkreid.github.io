@@ -26,6 +26,32 @@ Landmark trials organized by service line so you can move directly into the data
   {% endif %}
 {% endfor %}
 
+{% comment %}
+  Catch-all for any paper whose landmark_category isn't in the
+  ordered list above (including papers missing the frontmatter
+  field entirely). New categories show up here automatically;
+  promote them into the ordered list when you're ready.
+{% endcomment %}
+{% assign other_papers = "" | split: "" %}
+{% for paper in papers %}
+  {% assign cat = paper.landmark_category | default: "Uncategorized" %}
+  {% unless ordered_categories contains cat %}
+    {% assign other_papers = other_papers | push: paper %}
+  {% endunless %}
+{% endfor %}
+
+{% if other_papers.size > 0 %}
+<section class="paper-section">
+  <h2>Other</h2>
+  <ul>
+  {% assign sorted_other = other_papers | sort: "title" %}
+  {% for paper in sorted_other %}
+    <li><a href="{{ paper.url | relative_url }}">{{ paper.title | default: paper.slug }}</a>{% if paper.landmark_category %} <span style="color:#888;font-size:0.9em;">— {{ paper.landmark_category }}</span>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <style>
 .paper-section {
   margin-top: 2.5rem;
