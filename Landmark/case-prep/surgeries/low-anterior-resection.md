@@ -2,12 +2,27 @@
 layout: landmark
 title: "Low Anterior Resection (LAR)"
 permalink: /landmark/low-anterior-resection/
+pdf: /assets/pdfs/Robotic_LAR_OpNote.pdf
 redirect_from:
   - /Landmark/case-prep/surgeries/low-anterior-resection/
   - /landmark/case-prep/surgeries/low-anterior-resection/
 ---
 
 > Robotic LAR with total mesorectal excision is the default workflow below; laparoscopic and open approaches are covered as shorter parallel notes. For rectal cancer staging, neoadjuvant decisions, and related eponyms, see the [colorectal topic review](/landmark/topic-review/colorectal/).
+
+<div style="border:1px solid #E2A54D;background:#FDF6E8;border-radius:10px;padding:14px 18px;margin:1.25rem 0;display:flex;gap:14px;align-items:flex-start;">
+  <div style="font-size:1.6rem;line-height:1;">🎥</div>
+  <div>
+    <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:4px;">Must Watch — Robotic LAR / TME</div>
+    <div style="margin-bottom:6px;">Step-by-step robotic LAR narration. Excellent source of intra-operative pearls, including the EEA anvil-through-edge-of-staple-line trick reproduced in the pearls section below.</div>
+    <a href="https://www.youtube.com/watch?v=LpzxfMRlBVk" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Manrope',sans-serif;font-weight:600;color:#2D5652;"><i class="fa-brands fa-youtube"></i> youtube.com/watch?v=LpzxfMRlBVk</a>
+  </div>
+</div>
+
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Op Note Template</div>
+  <div>This page is mapped to the 13-step dictation template from Bhama & Cleary's <em>Operative Dictations in General and Vascular Surgery</em> (Springer, 2017). Use the <strong>Read More from the Source PDF</strong> button above to download the full dictation template — or <a href="/assets/pdfs/Robotic_LAR_OpNote.pdf" target="_blank" rel="noopener" style="font-weight:600;">click here</a>.</div>
+</div>
 
 ## Procedure Snapshot
 - **Indication:** Mid- and upper-rectal adenocarcinoma (lesion ≥ 5 cm from anal verge and ≥ 1 cm above the anorectal ring), typically after neoadjuvant chemoradiation for stage II/III disease. Also used for select benign disease (severe diverticulitis, prolapse, radiation injury).
@@ -17,6 +32,34 @@ redirect_from:
 - **Robotic platform:** da Vinci Xi most commonly. Single-dock, multi-quadrant operation — mobilize splenic flexure, pelvic dissection, and (if performed) ileostomy creation from one dock via boom rotation.
 - **Special instruments:** Robotic monopolar scissors / hook, fenestrated bipolar, Cadiere grasper, robotic stapler (SureForm 45 blue and green reloads), circular EEA stapler (28 or 29 mm typical), Alexis wound protector, Lone Star retractor for low cases.
 - **Ureteral stents:** Case-by-case — low threshold for prior pelvic radiation, bulky tumor, or reoperative pelvis.
+
+---
+
+## Template Dictation — 13 Essential Steps (Bhama & Cleary)
+
+Standardized from the Springer *Operative Dictations* chapter; the Step Workflow below expands on each. Use this as your pre-case mental checklist and as a scaffold for dictation.
+
+<style>
+.dictation-steps{counter-reset:dstep;list-style:none;padding-left:0;margin:1rem 0;}
+.dictation-steps li{counter-increment:dstep;position:relative;padding:8px 10px 8px 44px;border-bottom:1px solid #f1f5f9;}
+.dictation-steps li:before{content:counter(dstep);position:absolute;left:10px;top:8px;width:26px;height:26px;background:#0C2C47;color:#fff;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-family:'Manrope',sans-serif;font-weight:700;font-size:0.85rem;}
+</style>
+
+<ol class="dictation-steps">
+  <li>Combined lithotomy–supine position.</li>
+  <li>Place laparoscopic / robotic cannulas.</li>
+  <li>Explore the abdomen for metastatic disease (liver, peritoneum, ovaries in females).</li>
+  <li>Mobilize the mesentery from the retroperitoneum, medial to lateral.</li>
+  <li>Identify the left ureter.</li>
+  <li>Identify and ligate the inferior mesenteric artery.</li>
+  <li>Mobilize the splenic flexure.</li>
+  <li>Mobilize the sigmoid and descending colon from remaining lateral attachments.</li>
+  <li>Total mesorectal excision of the rectum.</li>
+  <li>Staple at the pelvic floor.</li>
+  <li>Check the anastomosis for patency and integrity using a leak test.</li>
+  <li>Diverting loop ileostomy if indicated.</li>
+  <li>Close the abdomen.</li>
+</ol>
 
 ---
 
@@ -59,6 +102,7 @@ redirect_from:
 
 8. **Circular Stapled Colorectal Anastomosis**
    - Re-insufflate the abdomen. Pass the EEA stapler (28 or 29 mm typical) transanally under direct vision. Align and dock with the anvil.
+   - **Spike placement — through the edge, not the middle, of the distal staple line.** Advance the circular stapler spike so it exits the rectal stump through one of the *corners* of the transverse staple line rather than through its center. This way the circular anastomotic ring crosses the linear staple line only **once** (at that corner) instead of bisecting it into two ischemic "dog-ears." Intersecting staple lines are the classic nidus for early leak — this single maneuver is the highest-yield technical pearl from the LAR video.
    - Fire; retrieve the stapler. **Inspect both donuts** — must be complete and intact. Partial donuts = incomplete anastomosis.
    - **Air leak test (flexible sigmoidoscopy or bulb insufflation under saline):** pelvis filled with saline, clamp the proximal colon, insufflate rectum — look for bubbles. A positive air leak mandates repair (Lembert sutures) or takedown with redo anastomosis.
 
@@ -193,6 +237,7 @@ redirect_from:
 - **The deepest, lowest bite of the TME is often the hardest.** Consider a transanal-assisted (TaTME) approach for very low tumors in a narrow male pelvis.
 - **Diverting ileostomy doesn't prevent leaks, it softens their consequences.** Low threshold in post-radiation or ultra-low cases.
 - **Single-firing the distal stapler** matters — each additional firing roughly doubles leak risk in observational data.¹⁵
+- **Spike the anvil through the *edge* of the distal staple line, not the middle.** The circular anastomotic line will intersect the linear staple line only once instead of bisecting it, sparing the two ischemic "dog-ear" corners that leak. (Key pearl from the LAR video linked at the top.)
 - **Mesorectal grade** is a key path finding that belongs in the op note and goes to tumor board.
 - **Rectal washout** before transection reduces implantation of luminal tumor cells at the anastomosis — low cost, some oncologic benefit.
 - **LARS syndrome discussion preoperatively** — set expectations; 50–90% of ultra-low anastomosis patients will have some degree of it.
