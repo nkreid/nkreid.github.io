@@ -2,6 +2,7 @@
 layout: landmark
 title: "Inguinal Hernia Repair"
 permalink: /landmark/inguinal-hernia/
+pdf: /assets/pdfs/InguinalHernia_OpNotes.pdf
 redirect_from:
   - /Landmark/case-prep/surgeries/inguinal-hernia/
   - /landmark/case-prep/surgeries/inguinal-hernia/
@@ -16,6 +17,21 @@ redirect_from:
     <div style="margin-bottom:6px;">Walk through the canal, cord, floor, and preperitoneal view before your next case. This is the single highest-yield groin-anatomy video for pimp prep.</div>
     <a href="https://www.youtube.com/watch?v=lscA6BPhE70" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Manrope',sans-serif;font-weight:600;color:#2D5652;"><i class="fa-brands fa-youtube"></i> youtube.com/watch?v=lscA6BPhE70</a>
   </div>
+</div>
+
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Op Note Templates — Every Open &amp; Lap Repair</div>
+  <div style="margin-bottom:6px;">Compiled chapters from Hoballah &amp; colleagues, <em>Operative Dictations in General and Vascular Surgery</em> (Springer, 2017). Each chapter has essential steps, variations, complications, and a full template dictation:</div>
+  <ul style="margin:4px 0 8px 1.25rem;">
+    <li>Ch 122 — <strong>Bassini repair</strong> (Garrett)</li>
+    <li>Ch 123 — <strong>Shouldice repair</strong> (Arshava)</li>
+    <li>Ch 124 — <strong>McVay repair</strong> (Garrett)</li>
+    <li>Ch 125 — <strong>Lichtenstein mesh hernioplasty</strong> (Scott-Conner)</li>
+    <li>Ch 126 — <strong>Laparoscopic TEP</strong> (Smith)</li>
+    <li>Ch 127 — <strong>Laparoscopic TAPP</strong> (Smith)</li>
+    <li>Ch 128 — <strong>Open femoral hernia repair</strong> (Welsh)</li>
+  </ul>
+  <div>Use the <strong>Read More from the Source PDF</strong> button above to download the full compilation — or <a href="/assets/pdfs/InguinalHernia_OpNotes.pdf" target="_blank" rel="noopener" style="font-weight:600;">click here</a>.</div>
 </div>
 
 ## Procedure Snapshot
