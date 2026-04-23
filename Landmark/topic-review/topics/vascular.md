@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Vascular"
 redirect_from:
   - /absite/13_11-vascular/

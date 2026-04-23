@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Pediatric Surgery"
 redirect_from:
   - /absite/21_19-pediatric-surgery/

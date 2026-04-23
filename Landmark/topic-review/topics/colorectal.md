@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Colorectal"
 redirect_from:
   - /absite/12_10-colorectal/

@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Adrenal"
 redirect_from:
   - /absite/10_08-adrenal/

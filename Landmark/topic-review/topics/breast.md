@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Breast"
 redirect_from:
   - /absite/14_12-breast/

@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Fluids And Electrolytes"
 redirect_from:
   - /absite/18_16-fluids-and-electrolytes/

@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Biostatistics"
 redirect_from:
   - /absite/22_20-biostatistics/

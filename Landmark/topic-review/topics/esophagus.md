@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Esophagus"
 redirect_from:
   - /absite/06_04-esophagus/

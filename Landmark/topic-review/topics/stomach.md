@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Stomach"
 redirect_from:
   - /absite/07_05-stomach/

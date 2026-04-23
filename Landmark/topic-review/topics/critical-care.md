@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Critical Care"
 redirect_from:
   - /absite/17_15-critical-care/

@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Hematology"
 redirect_from:
   - /absite/15_13-hematology/

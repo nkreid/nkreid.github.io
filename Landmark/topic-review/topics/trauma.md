@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Trauma"
 redirect_from:
   - /absite/16_14-trauma/

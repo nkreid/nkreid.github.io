@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Head And Neck"
 redirect_from:
   - /absite/03_01-head-and-neck/

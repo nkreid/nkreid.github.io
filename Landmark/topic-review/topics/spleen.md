@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Spleen"
 redirect_from:
   - /absite/08_06-spleen/

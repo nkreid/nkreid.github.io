@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Thoracic"
 redirect_from:
   - /absite/20_18-thoracic/

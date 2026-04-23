@@ -1,5 +1,5 @@
 ---
-layout: topic-review
+layout: landmark
 title: "Thyroid"
 redirect_from:
   - /absite/05_03-parathyroid/
