@@ -152,9 +152,52 @@ full-width: true
     margin: 40px auto;
     max-width: 700px;
   }
+
+  /* Group photo banner */
+  .team-banner {
+    max-width: 980px;
+    margin: 8px auto 32px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(40, 69, 36, 0.18);
+    background: #000;
+  }
+
+  .team-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .team-banner-caption {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 40px;
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3a4a36;
+  }
+
+  .team-banner-caption .credit {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: #6b7a66;
+    font-style: italic;
+  }
 </style>
 
 <div class="as-team">
+
+  <!-- Group photo banner -->
+  <figure class="team-banner">
+    <img src="/assets/img/team/cofounders-web.jpg" alt="Austere Surgical co-founders Koby Reid, Drew Hendricks, Jacob Paris, and Brayden Raper at graduation">
+  </figure>
+  <p class="team-banner-caption">
+    Austere Surgical was founded by four engineers and clinicians who met at the Texas A&amp;M EnMed program — a joint MD / Master of Engineering pathway built specifically for physician-engineers. Different specialties, one shared problem: the tools we use to operate haven&rsquo;t kept up with where care actually needs to happen.
+    <span class="credit">From left: Koby Reid, Drew Hendricks, Jacob Paris, Brayden Raper. <!-- [NEEDS INPUT: confirm left-to-right order if I have it wrong, and the year/event if you'd like it called out.] --></span>
+  </p>
 
   <!-- Co-founders -->
   <h2>Co-Founders</h2>
