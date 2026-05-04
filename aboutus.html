@@ -1,172 +1,241 @@
 ---
 layout: austeresurgical
 title: Meet Our Team
-subtitle: These are the talented individuals who are driving our mission forward.
+subtitle: The people building the operating room for everywhere else.
 full-width: true
 ---
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-  * {
-    box-sizing: border-box;
+  .as-team * { box-sizing: border-box; }
+
+  .as-team {
+    color: #284524;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 20px 64px;
   }
 
-  /* Container for the overall team layout */
-  .container1 {
-    position: relative;
-    margin-left: 150px;
-    margin-right: 150px;
+  .as-team h2 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #284524;
     text-align: center;
+    margin: 32px 0 24px;
+    font-size: clamp(1.4rem, 2.5vw, 1.85rem);
   }
 
-  /* Flexbox layout for the team sections */
-  .team-section {
-    margin-bottom: 40px;
-  }
-
-  /* Styling for team member images */
-  .team-member {
-    opacity: 1;
-    width: 200px;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    margin-bottom: 20px;
-  }
-
-  /* Flexbox row layout for founders and advisors */
-  .team-members-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  /* Card grid */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-    margin-bottom: 30px;
+    justify-items: center;
+    max-width: 980px;
+    margin: 0 auto;
   }
 
-  /* Style for the individual team members */
-  .team-member > div {
+  .team-card {
+    background: #fff;
+    border: 1px solid rgba(40, 69, 36, 0.15);
+    border-radius: 8px;
+    padding: 20px 16px;
     text-align: center;
+    width: 100%;
+    max-width: 240px;
+    box-shadow: 0 2px 8px rgba(40, 69, 36, 0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .team-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(40, 69, 36, 0.12);
+  }
+
+  /* SVG initial-avatar styles (placeholder until real headshots) */
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #284524;
+    color: #FCFBF4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 14px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 2.4rem;
+    letter-spacing: 0.02em;
+    border: 3px solid #a97f2c;
+  }
+
+  .avatar.gold { background: #a97f2c; color: #FCFBF4; border-color: #284524; }
+
+  /* Real photo support — same dimensions as avatar so swap-in is trivial */
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
   }
 
   .team-name {
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 10px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: #284524;
+    margin: 0 0 4px;
   }
 
   .team-role {
+    font-family: 'Lora', 'Times New Roman', serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: 0.95rem;
+    color: #5a6857;
+    margin: 0;
+    line-height: 1.4;
   }
 
-  /* List styling for R&D Team Members */
-  ul {
-    text-align: left;
-    display: inline-block;
-    font-size: 18px;
+  /* R&D pill list */
+  .rd-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
-   /* Styling for Hyperlink */
-  a {
+  .rd-list li {
+    background: #fff;
+    border: 1px solid rgba(40, 69, 36, 0.15);
+    border-radius: 999px;
+    padding: 8px 18px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #284524;
+    font-size: 1rem;
+  }
+
+  /* Join CTA */
+  .join-cta {
+    text-align: center;
+    margin-top: 56px;
+    padding: 32px 20px;
+    background: #284524;
+    color: #FCFBF4;
+    border-radius: 8px;
+  }
+
+  .join-cta h2 {
+    color: #FCFBF4;
+    margin-top: 0;
+  }
+
+  .join-cta a {
     color: #a97f2c;
-    text-decoration: none; /* Optional: remove underline */
-  }
-  a:hover {
-    text-decoration: underline; /* Optional: underline on hover */
-  }
-  /* Responsive Design: Adjust layout for smaller screens */
-  @media all and (max-width: 600px) {
-    .container1 {
-      position: relative;
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-
-    .team-member {
-      width: 150px;
-      margin-left: auto;
-      margin-right: auto; /* Center images horizontally */
-    }
-
-    .team-members-row {
-      flex-direction: column;
-    }
+    font-weight: 700;
   }
 
+  .join-cta a:hover {
+    color: #FCFBF4;
+    text-decoration: underline;
+  }
+
+  hr.team-divider {
+    border: 0;
+    height: 1px;
+    background: rgba(40, 69, 36, 0.15);
+    margin: 40px auto;
+    max-width: 700px;
+  }
 </style>
 
-<body>
+<div class="as-team">
 
-  <div class="container1">
-    <!-- Founders Section -->
-    <div class="team-section">
-      <h2>Co-Founders</h2>
-      <div class="team-members-row">
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Neil Koby Reid" class="team-member">
-          <div class="team-name">Neil Koby Reid</div>
-          <div class="team-role">Interim CEO</div>
-        </div>
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="William Drew Hendricks" class="team-member">
-          <div class="team-name">William Drew Hendricks</div>
-          <div class="team-role">Co-Founder</div>
-        </div>
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Brayden Raper" class="team-member">
-          <div class="team-name">Brayden Raper</div>
-          <div class="team-role">Co-Founder</div>
-        </div>
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Jacob Paris" class="team-member">
-          <div class="team-name">Jacob Paris</div>
-          <div class="team-role">Co-Founder</div>
-        </div>
-      </div>
+  <!-- Co-founders -->
+  <h2>Co-Founders</h2>
+  <div class="team-grid">
+
+    <div class="team-card">
+      <div class="avatar">NR</div>
+      <p class="team-name">Neil Koby Reid</p>
+      <p class="team-role">Interim CEO</p>
     </div>
 
-    <hr style="border: none;">
-
-    <!-- Advisors Section -->
-    <div class="team-section">
-      <h2>Advisors</h2>
-      <div class="team-members-row">
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Rebecca Lee, MD" class="team-member">
-          <div class="team-name">Rebecca Lee, MD</div>
-          <div class="team-role">Clinical & University Relations</div>
-        </div>
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Walter Cromer, PhD" class="team-member">
-          <div class="team-name">Walter Cromer, PhD</div>
-          <div class="team-role">Microbiology & Sanitization</div>
-        </div>
-        <div class="team-member">
-          <img src="/assets/img/Reid_Neil_03_EnMed_19July21.jpg" alt="Nick Sears, PhD" class="team-member">
-          <div class="team-name">Nick Sears, PhD</div>
-          <div class="team-role">Technical Engineering & Manufacturing</div>
-        </div>
-      </div>
+    <div class="team-card">
+      <div class="avatar gold">WH</div>
+      <p class="team-name">William Drew Hendricks</p>
+      <p class="team-role">Co-Founder<br><!-- [NEEDS INPUT: specialty/title, e.g. "Chief Engineering Officer"] --></p>
     </div>
 
-    <hr style="border: none;">
-
-    <!-- R&D Team Section -->
-    <div class="team-section">
-      <h2>R&D Team Members</h2>
-      <ul>
-        <li>Kerry Anderson</li>
-        <li>Connor Dolan</li>
-        <li>Quinn Smith</li>
-        <li>Katie Stephenson</li>
-      </ul>
+    <div class="team-card">
+      <div class="avatar">BR</div>
+      <p class="team-name">Brayden Raper</p>
+      <p class="team-role">Co-Founder<br><!-- [NEEDS INPUT: specialty/title] --></p>
     </div>
+
+    <div class="team-card">
+      <div class="avatar gold">JP</div>
+      <p class="team-name">Jacob Paris</p>
+      <p class="team-role">Co-Founder<br><!-- [NEEDS INPUT: specialty/title] --></p>
+    </div>
+
   </div>
 
- 
-  <div class="team-section" style="margin-top: 40px; text-align: center;">
+  <hr class="team-divider">
+
+  <!-- Advisors -->
+  <h2>Advisors</h2>
+  <div class="team-grid">
+
+    <div class="team-card">
+      <div class="avatar">RL</div>
+      <p class="team-name">Rebecca Lee, MD</p>
+      <p class="team-role">Clinical &amp; University Relations</p>
+    </div>
+
+    <div class="team-card">
+      <div class="avatar gold">WC</div>
+      <p class="team-name">Walter Cromer, PhD</p>
+      <p class="team-role">Microbiology &amp; Sanitization</p>
+    </div>
+
+    <div class="team-card">
+      <div class="avatar">NS</div>
+      <p class="team-name">Nick Sears, PhD</p>
+      <p class="team-role">Technical Engineering &amp; Manufacturing</p>
+    </div>
+
+  </div>
+
+  <hr class="team-divider">
+
+  <!-- R&D Team Members -->
+  <h2>R&amp;D Team</h2>
+  <ul class="rd-list">
+    <li>Kerry Anderson</li>
+    <li>Connor Dolan</li>
+    <li>Quinn Smith</li>
+    <li>Katie Stephenson</li>
+  </ul>
+
+  <!-- Join CTA -->
+  <div class="join-cta">
     <h2>Want to Join Our Team?</h2>
-    <p>Email us at <a href="mailto:info@austeresurgical.com">info@austeresurgical.com</a></p>
+    <p>We’re always looking for engineers, clinicians, and operators who’ve seen what care looks like outside the four walls of a hospital.</p>
+    <p>Email us at <a href="mailto:info@austeresurgical.com?subject=Joining%20the%20team">info@austeresurgical.com</a></p>
   </div>
- 
-</body>
+
+</div>
+
+<!--
+  Placeholder strategy:
+  Each .avatar uses the person's initials inside an SVG-styled circle.
+  When real headshots are ready, swap the inner contents like:
+    <div class="avatar"><img src="/assets/img/team/drew-hendricks.jpg" alt="William Drew Hendricks"></div>
+  The image will fill the circle automatically (object-fit: cover).
+-->

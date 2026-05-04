@@ -9,128 +9,267 @@ full-width: true
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  /* Scoped landing page styles */
+  .as-landing * { box-sizing: border-box; }
+
+  .as-landing {
+    color: #284524;
   }
 
-  /* Container for the content layout */
-  .container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  /* Row for the layout */
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Column for content */
-  .column {
-    width: 100%;
-    padding: 10px;
+  .as-hero {
     text-align: center;
+    padding: 32px 16px 16px;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
-  /* Video Wrapper for responsive iframe */
+  .as-hero h1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    color: #284524;
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+
+  .as-hero .lede {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
+    color: #3a4a36;
+    margin: 0 auto;
+    max-width: 720px;
+    line-height: 1.6;
+  }
+
+  .as-video-wrap {
+    max-width: 1100px;
+    margin: 32px auto 16px;
+    padding: 0 16px;
+  }
+
   .video-wrapper {
     position: relative;
     padding-top: 56.25%;
     border: 5px solid #284524;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #000;
   }
 
-  /* Styling for the iframe (video) */
   .video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
   }
 
-  /* Image Styling */
-  .image {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.5s ease;
+  /* Section blocks */
+  .as-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 56px 24px;
   }
 
-  /* Hover Effect for Column */
-  .column:hover .image {
-    opacity: 0.3;
+  .as-section h2 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    color: #284524;
+    margin: 0 0 24px;
+    text-align: center;
   }
 
-  /* Middle and Logo styling */
-  .middle, .logo {
-    transition: 0.5s ease;
-    opacity: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  .as-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
   }
 
-  .column:hover .middle,
-  .column:hover .logo {
-    opacity: 1;
+  .as-mission {
+    background: #FCFBF4;
   }
 
-  /* Text styling */
-  .text {
-    color: black;
-    font-size: 36px;
-    pointer-events: none;
+  .as-mission p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
   }
 
-  /* Title and Subtitle styles */
-  .title {
-    text-align: center; /* Center the title */
-    font-size: 48px;
-    font-weight: bold;
+  /* What we build — product cards */
+  .as-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 16px;
+  }
+
+  .as-product {
+    background: #fff;
+    border: 1px solid rgba(40, 69, 36, 0.15);
+    border-left: 5px solid #a97f2c;
+    border-radius: 6px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(40, 69, 36, 0.06);
+  }
+
+  .as-product h3 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #284524;
+    margin: 0 0 12px;
+    font-size: 1.4rem;
+  }
+
+  .as-product p {
+    font-size: 1.02rem;
+    margin: 0 0 12px;
+  }
+
+  /* Use case grid */
+  .as-cases {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
     margin-top: 20px;
   }
 
-  .subtitle {
-    text-align: center; /* Center the subtitle */
-    font-size: 24px;
-    color: #555;
+  .as-case {
+    text-align: center;
+    padding: 24px 16px;
+    background: #fff;
+    border: 1px solid rgba(40, 69, 36, 0.15);
+    border-radius: 6px;
   }
 
-  @media (max-width: 800px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
+  .as-case .icon {
+    font-size: 2rem;
+    color: #a97f2c;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .as-case .label {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #284524;
+    font-size: 1rem;
+  }
+
+  /* CTAs */
+  .as-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .as-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    border: 2px solid #284524;
+  }
+
+  .as-btn-primary {
+    background: #284524;
+    color: #FCFBF4;
+  }
+
+  .as-btn-primary:hover, .as-btn-primary:focus {
+    background: #1d3319;
+    color: #FCFBF4;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(40, 69, 36, 0.25);
+  }
+
+  .as-btn-ghost {
+    background: transparent;
+    color: #284524;
+  }
+
+  .as-btn-ghost:hover, .as-btn-ghost:focus {
+    background: #284524;
+    color: #FCFBF4;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 600px) {
+    .as-section { padding: 40px 16px; }
   }
 </style>
 
-<body>
+<div class="as-landing">
 
-  <div class="container">
-    <!-- Row for video and title section -->
-    <div class="row">
-      <div class="column">
-        <!-- Centered Title and Subtitle -->
-        <h1> </h1>
-        <p> </p>
+  <section class="as-hero">
+    <h1>Surgical readiness, anywhere on Earth — or off it.</h1>
+    <p class="lede">Austere Surgical builds rugged equipment systems for invasive medical procedures in remote, resource-limited, and extreme environments — from rural emergency rooms to the back of a mobile ICU to the lunar surface.</p>
+  </section>
 
-        <!-- Video Wrapper (Embedded Vimeo Video) -->
-        <div class="video-wrapper">
-          <iframe src="https://player.vimeo.com/video/1061582502?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-            frameborder="0" 
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-            title="Wild OR by Austere Surgical">
-          </iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
+  <div class="as-video-wrap">
+    <div class="video-wrapper">
+      <iframe src="https://player.vimeo.com/video/1061582502?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              title="Wild OR by Austere Surgical">
+      </iframe>
     </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
   </div>
 
-</body>
+  <section class="as-section as-mission">
+    <h2>Our Mission</h2>
+    <p>Care happens where the patient is — not where the operating room used to be. We design tools that let trained providers sterilize, organize, and deploy the equipment they need for invasive procedures in the field, on the move, and outside the four walls of a traditional OR.</p>
+  </section>
+
+  <section class="as-section">
+    <h2>What We Build</h2>
+    <div class="as-products">
+
+      <div class="as-product">
+        <h3>The RAHKit</h3>
+        <p><strong>Rugged Austere Health Kit.</strong> A self-contained system to sterilize, store, and display every instrument and supply needed for an invasive procedure — including a setup for the first assist. Replaces the mayo tray for environments where stability, time, and space are constrained.</p>
+        <p>Built for field medics, crew medical officers, and anyone whose “OR” is a Pelican case in the back of a vehicle.</p>
+      </div>
+
+      <div class="as-product">
+        <h3>The Wild OR</h3>
+        <p>Our broader concept of operating-room-on-demand: integrated workflow, sterilization, lighting, and instrument access designed from scratch for environments where a fixed OR isn’t coming.</p>
+        <p><a href="/IPS" style="color:#a97f2c;font-weight:700;">See the Wild OR &rarr;</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="as-section" style="background:#FCFBF4;">
+    <h2>Where We Operate</h2>
+    <p style="text-align:center;max-width:760px;margin:0 auto 8px;">Anywhere care has to happen and a fully-resourced hospital isn’t available.</p>
+    <div class="as-cases">
+      <div class="as-case"><span class="icon"><i class="fas fa-mountain"></i></span><div class="label">Backcountry &amp; remote rescue</div></div>
+      <div class="as-case"><span class="icon"><i class="fas fa-shield-alt"></i></span><div class="label">Combat &amp; forward surgical</div></div>
+      <div class="as-case"><span class="icon"><i class="fas fa-snowflake"></i></span><div class="label">Polar research stations</div></div>
+      <div class="as-case"><span class="icon"><i class="fas fa-rocket"></i></span><div class="label">Spaceflight &amp; lunar surface</div></div>
+      <div class="as-case"><span class="icon"><i class="fas fa-truck-medical"></i></span><div class="label">Mobile ICUs &amp; field hospitals</div></div>
+      <div class="as-case"><span class="icon"><i class="fas fa-hospital"></i></span><div class="label">Rural &amp; critical-access hospitals</div></div>
+    </div>
+  </section>
+
+  <section class="as-section">
+    <h2>Get in Touch</h2>
+    <p style="text-align:center;max-width:720px;margin:0 auto;">Working on a use case we haven’t named yet? Looking to partner, pilot, or join the team? We’d like to hear from you.</p>
+    <div class="as-cta-row">
+      <a class="as-btn as-btn-primary" href="/austeresurgical_contact"><i class="fas fa-envelope"></i> Contact Us</a>
+      <a class="as-btn as-btn-ghost" href="/aboutus"><i class="fas fa-users"></i> Meet the Team</a>
+    </div>
+  </section>
+
+</div>
