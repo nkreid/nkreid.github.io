@@ -9,8 +9,8 @@ landmark_category: "Organ system or theme"
 ---
 
 <!--
-  Topic review template — ABSITE-focused notes plus common pimp
-  questions the team asks med students on service.
+  Topic review template — ABSITE-focused notes plus rapid-fire
+  questions the team asks on service.
 
   Copy this file into `Landmark/topic-review/topics/<slug>.md`,
   update the title / permalink / redirect_from, and fill in each
@@ -71,7 +71,7 @@ landmark_category: "Organ system or theme"
 
 ---
 
-## Common Pimp Questions
+## Rapid-Fire Questions
 
 <!--
   Aim for the actual questions students get asked on service.

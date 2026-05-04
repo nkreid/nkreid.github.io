@@ -17,7 +17,7 @@ permalink: /landmark/gastrojejunostomy/
 5. Close common enterotomy in two layers.  
 6. Leak test; ensure no torsion or kink.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Why Roux vs loop GJ?    
   **A:** Roux reduces bile reflux (PMID 32701694).  
 - **Q:** Typical site?    

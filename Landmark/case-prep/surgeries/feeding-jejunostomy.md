@@ -17,7 +17,7 @@ permalink: /landmark/feeding-jejunostomy/
 5. Tie purse-string and fix bowel to abdominal wall with Witzel tunnel (~5 cm).  
 6. Mature stoma to skin.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Why jejunostomy instead of gastrostomy?    
   **A:** When stomach contraindicated (e.g., gastric resection, reflux risk).  
 - **Q:** Complications?    

@@ -8,13 +8,13 @@ redirect_from:
   - /landmark/case-prep/surgeries/inguinal-hernia/
 ---
 
-> Open Lichtenstein tension-free mesh repair is the default workflow below; laparoscopic (TEP/TAPP) and robotic are covered as shorter parallel sections. For the underlying anatomy and pimp-level background, see the [hernias topic review](/landmark/topic-review/hernias/).
+> Open Lichtenstein tension-free mesh repair is the default workflow below; laparoscopic (TEP/TAPP) and robotic are covered as shorter parallel sections. For the underlying anatomy and board-level background, see the [hernias topic review](/landmark/topic-review/hernias/).
 
 <div style="border:1px solid #E2A54D;background:#FDF6E8;border-radius:10px;padding:14px 18px;margin:1.25rem 0;display:flex;gap:14px;align-items:flex-start;">
   <div style="font-size:1.6rem;line-height:1;">🎥</div>
   <div>
     <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:4px;">Must Watch — Inguinal Anatomy</div>
-    <div style="margin-bottom:6px;">Walk through the canal, cord, floor, and preperitoneal view before your next case. This is the single highest-yield groin-anatomy video for pimp prep.</div>
+    <div style="margin-bottom:6px;">Walk through the canal, cord, floor, and preperitoneal view before your next case. This is the single highest-yield groin-anatomy video for oral-board prep.</div>
     <a href="https://www.youtube.com/watch?v=lscA6BPhE70" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Manrope',sans-serif;font-weight:600;color:#2D5652;"><i class="fa-brands fa-youtube"></i> youtube.com/watch?v=lscA6BPhE70</a>
   </div>
 </div>
@@ -97,7 +97,7 @@ redirect_from:
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Direct vs indirect — how do you tell?  
   **A:** Relative to the **inferior epigastric vessels**: lateral = indirect (through the internal ring, congenital, patent processus vaginalis); medial = direct (through Hesselbach's floor, acquired from chronic pressure).
 
@@ -144,13 +144,13 @@ redirect_from:
 
 ## Critical Anatomy — Buzzword Glossary
 
-Groin anatomy is dense with eponyms and near-identical-sounding structures. Every one of these gets pimped. Learn them cold.
+Groin anatomy is dense with eponyms and near-identical-sounding structures. Every one of these gets asked on rounds. Learn them cold.
 
 ### Bony landmarks
 
 - **ASIS (anterior superior iliac spine)** — lateral attachment of the inguinal ligament. Reference for lap port placement and for the lateral edge of the inguinal canal incision.
 - **Pubic tubercle** — the palpable bony bump ~1.5–2 cm lateral to the midline on the superior pubic ramus. Medial attachment of the inguinal ligament. **This is the landmark you must overlap by ≥ 1.5 cm with the medial edge of your Lichtenstein mesh.** A repair that "looks pretty but doesn't overlap the tubercle" recurs medially.
-- **Pubic symphysis** — the midline fibrocartilaginous joint between the two pubic bones. **Not the same as the tubercle.** The symphysis is *at the midline*; the tubercle is ~1.5–2 cm lateral on each side. Classic pimp distinction — mesh overlap is measured from the tubercle, not the symphysis.
+- **Pubic symphysis** — the midline fibrocartilaginous joint between the two pubic bones. **Not the same as the tubercle.** The symphysis is *at the midline*; the tubercle is ~1.5–2 cm lateral on each side. Classic oral-board distinction — mesh overlap is measured from the tubercle, not the symphysis.
 - **Pecten pubis** — the sharp ridge running laterally along the superior pubic ramus from the tubercle. Cooper's ligament sits on this ridge.
 
 ### Ligaments of the groin
@@ -298,7 +298,8 @@ If torn, bleeding is brisk and retracts into the obturator foramen — **pack, p
 ## Quick Reference Table
 
 <style>
-.qr-table{width:100%;max-width:860px;margin:1rem auto;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:860px;}
+.qr-table{width:100%;min-width:640px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
 .qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
 .qr-table th.label,.qr-table td.label{text-align:left;width:34%;}
 .qr-table th.value,.qr-table td.value{text-align:center;width:22%;}
@@ -306,6 +307,7 @@ If torn, bleeding is brisk and retracts into the obturator foramen — **pack, p
 .qr-table tbody tr:nth-child(even){background:#f8fafc;}
 </style>
 
+<div class="qr-table-wrap">
 <table class="qr-table">
   <thead>
     <tr>
@@ -325,6 +327,7 @@ If torn, bleeding is brisk and retracts into the obturator foramen — **pack, p
     <tr><td class="label">Best for</td><td class="value">Primary unilateral, thin pt</td><td class="value">Bilateral, recurrent after open</td><td class="value">Complex, bilateral, teaching</td></tr>
   </tbody>
 </table>
+</div>
 
 ---
 

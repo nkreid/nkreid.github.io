@@ -19,7 +19,7 @@ permalink: /landmark/rectal-prolapse-repair/
 1. Delorme: mucosectomy + plication of muscular layer.  
 2. Altemeier: perineal rectosigmoidectomy with coloanal anastomosis.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Recurrence higher with which approach?   
   **A:** Perineal (~20–30%) > Abdominal (~5–10%) (PMID 31560152).  
 - **Q:** When prefer perineal?  Elderly or frail patients.  

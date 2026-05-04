@@ -15,7 +15,7 @@ permalink: /landmark/parastomal-hernia/
 3. Close defect primarily or place mesh intraperitoneally (Sugarbaker).  
 4. Re-mature stoma.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Recurrence rate after primary repair?   **A:** Up to 50 % (PMID 30308340).  
 - **Q:** Mesh technique advantages?   **A:** Sugarbaker reduces recurrence (PMID 30415660).
 

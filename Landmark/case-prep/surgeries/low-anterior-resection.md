@@ -128,7 +128,7 @@ Standardized from the Springer *Operative Dictations* chapter; the Step Workflow
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** What is TME?  
   **A:** Total mesorectal excision — sharp dissection in Heald's avascular plane between the visceral mesorectal fascia and the parietal presacral fascia, removing the rectum and its entire lymphovascular envelope en bloc. Reduced local recurrence from ~30% to ~5%.⁶
 
@@ -247,7 +247,8 @@ Standardized from the Springer *Operative Dictations* chapter; the Step Workflow
 ## Quick Reference Table
 
 <style>
-.qr-table{width:100%;max-width:860px;margin:1rem auto;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:860px;}
+.qr-table{width:100%;min-width:640px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
 .qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
 .qr-table th.label,.qr-table td.label{text-align:left;width:34%;}
 .qr-table th.value,.qr-table td.value{text-align:center;width:22%;}
@@ -255,6 +256,7 @@ Standardized from the Springer *Operative Dictations* chapter; the Step Workflow
 .qr-table tbody tr:nth-child(even){background:#f8fafc;}
 </style>
 
+<div class="qr-table-wrap">
 <table class="qr-table">
   <thead>
     <tr>
@@ -274,6 +276,7 @@ Standardized from the Springer *Operative Dictations* chapter; the Step Workflow
     <tr><td class="label">Return to work</td><td class="value">3–4 wk</td><td class="value">3–4 wk</td><td class="value">6–8 wk</td></tr>
   </tbody>
 </table>
+</div>
 
 ---
 

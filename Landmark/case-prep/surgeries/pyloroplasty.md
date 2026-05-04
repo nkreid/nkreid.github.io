@@ -16,7 +16,7 @@ permalink: /landmark/pyloroplasty/
 4. Close transversely in two layers (inner mucosa, outer seromuscular).  
 5. Test for leak with saline.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Purpose of transverse closure?  
   **A:** Widens outlet by converting longitudinal to transverse axis.  
 - **Q:** When combined with vagotomy?   

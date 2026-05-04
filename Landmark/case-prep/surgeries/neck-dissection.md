@@ -61,7 +61,7 @@ pdf: /assets/pdfs/neck_dissection.pdf
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 
 - **Q:** What are the boundaries of Level II?  
   **A:** Skull base → hyoid; between stylohyoid (anterior) and posterior SCM (posterior).¹  

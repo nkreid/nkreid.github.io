@@ -15,7 +15,7 @@ permalink: /landmark/epigastric-hernia/
 3. Close primarily (< 2 cm) or place mesh.  
 4. Layered closure.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Contents of sac? Preperitoneal fat.  
 - **Q:** Mesh indication? > 2 cm defect (PMID 31648391).  
 - **Q:** Recurrence rate? ___ (PMID 31648391).

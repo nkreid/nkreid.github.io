@@ -22,7 +22,7 @@ permalink: /landmark/left-colectomy/
 3. Identify ureter; mobilize colon; divide vessels.  
 4. Exteriorize and staple anastomosis extracorporeally.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Blood supply to left colon?  
   **A:** IMA → left colic → marginal artery of Drummond.  
 - **Q:** Leak risk factors?   **A:** Hypoperfusion, tension, malnutrition (PMID 32847953).

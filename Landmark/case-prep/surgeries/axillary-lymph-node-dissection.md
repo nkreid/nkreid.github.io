@@ -17,7 +17,7 @@ permalink: /landmark/axillary-lymph-node-dissection/
 5. Preserve long thoracic and thoracodorsal nerves.  
 6. Place drain.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Levels I–III?  
   **A:** I lateral, II behind, III medial to pectoralis minor (PMID 28865216).  
 - **Q:** Lymphedema rate? ___ (PMID 31178992).  

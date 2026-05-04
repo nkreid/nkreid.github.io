@@ -15,7 +15,7 @@ permalink: /landmark/umbilical-hernia/
 3. Close defect primarily (< 2 cm) or place mesh.  
 4. Recreate umbilical dimple.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Common contents? Preperitoneal fat > omentum.  
 - **Q:** Recurrence risk factors? Obesity, ascites (PMID 33052291).  
 

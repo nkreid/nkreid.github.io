@@ -14,7 +14,7 @@ permalink: /landmark/sigmoid-colectomy/
 2. Ligate sigmoid branches of IMA.  
 3. Divide colon & rectosigmoid junction; perform anastomosis.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Preferred approach for diverticulitis?  Laparoscopic if not perforated (PMID 33034328).  
 - **Q:** When Hartmann’s?  In purulent/fecal peritonitis.
 

@@ -17,7 +17,7 @@ permalink: /landmark/anal-fistula-fistulotomy-seton/
 5. Curette granulation; hemostasis.  
 6. Leave open for secondary healing.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Definition of “high”?  
   **A:** Involvement of > 30–50% external sphincter (PMID 29503456).  
 - **Q:** Etiology? Cryptoglandular > 90%.  

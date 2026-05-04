@@ -16,7 +16,7 @@ permalink: /landmark/wound-debridement/
 4. Apply VAC sponge to fit wound cavity; seal with adhesive drape.  
 5. Connect to negative pressure (-125 mmHg continuous).  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Mechanism of VAC? Increases perfusion, granulation, reduces edema (PMID 31584092).  
 
 ## Critical Anatomy

@@ -15,7 +15,7 @@ permalink: /landmark/pilonidal-excision/
 3. **Open:** pack for secondary healing.  
 4. **Closed:** Bascom cleft-lift flap with off-midline closure reduces recurrence.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Recurrence rate open vs flap?   **A:** Lower with off-midline (2–7 %) (PMID 31637579).  
 
 ## Critical Anatomy

@@ -13,7 +13,7 @@ licensed — see `LICENSE`).
 - **Austere Surgical** — `/austeresurgical` and sub-pages (own custom domain)
 - **NKR Landmark** — `/Landmark` study site
   - `paper-review/` — WikiJournalClub-style summaries (no PDFs, copyright)
-  - `topic-review/` — ABSITE-focused topic notes + common pimp questions
+  - `topic-review/` — ABSITE-focused topic notes + rapid-fire questions
   - `case-prep/surgeries/` — operative prep briefs (see
     `case-prep/surgeries/mals.md` for the canonical format)
 

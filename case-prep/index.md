@@ -17,7 +17,7 @@ hide_page_subtitle: true
 
 ## About Case Prep
 
-Operative prep briefs for the cases you're most likely to see on service — indications, step-by-step workflow, critical anatomy, informed-consent highlights, and pimp questions worth having rehearsed the night before. Each page follows the canonical section order established in `mals` so you always know where to find what you need.
+Operative prep briefs for the cases you're most likely to see on service — indications, step-by-step workflow, critical anatomy, informed-consent highlights, and rapid-fire questions worth having rehearsed the night before. Each page follows the canonical section order established in `mals` so you always know where to find what you need.
 
 <style>
 .case-list {

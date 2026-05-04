@@ -16,7 +16,7 @@ permalink: /landmark/hartmanns-procedure/
 4. Exteriorize proximal end as end colostomy.  
 5. Close distal rectal stump (Hartmann’s pouch).  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Indication for Hartmann vs primary anastomosis?    
   **A:** Gross contamination or instability.  
 - **Q:** Reversal success rate?    

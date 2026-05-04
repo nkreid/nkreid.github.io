@@ -8,7 +8,7 @@ absite_chapter: "17"
 landmark_category: "General Surgery"
 ---
 
-> **High-yield ABSITE review** organized by hernia type. Anatomy first, then inguinal, femoral, umbilical, ventral/incisional, and the eponymous zebras you'll get pimped on.
+> **High-yield ABSITE review** organized by hernia type. Anatomy first, then inguinal, femoral, umbilical, ventral/incisional, and the eponymous zebras you'll see on oral boards.
 
 ## Basic Principles
 - Underlying principle of a good hernia repair: **tension-free**.
@@ -131,12 +131,12 @@ When primary fascial closure can't be achieved:
 - **Littre:** **Meckel's diverticulum** inside a hernia sac.
 - **Pantaloon:** coexisting direct and indirect hernias straddling the inferior epigastric vessels.
 - **Sliding:** a retroperitoneal structure (bladder, cecum, sigmoid) forms part of the sac wall. **Do not open the sac** — reduce en bloc.
-- **Richter's:** only part of the antimesenteric bowel wall is in the sac. Can **strangulate without obstruction** — classic pimp answer.
+- **Richter's:** only part of the antimesenteric bowel wall is in the sac. Can **strangulate without obstruction** — classic oral-board answer.
 - **Obturator:** groin pain and **medial thigh pain with internal rotation of the hip** (**Howship–Romberg sign**). Seen in thin, elderly women. Often presents as SBO.
 
 ---
 
-## Common Pimp Questions
+## Rapid-Fire Questions
 
 - **Q:** Direct vs indirect hernia — how do you tell?  
   **A:** Relative to the **inferior epigastric vessels**. Lateral = indirect (through the internal ring). Medial = direct (through Hesselbach's floor).

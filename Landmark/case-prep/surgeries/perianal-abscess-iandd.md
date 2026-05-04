@@ -15,7 +15,7 @@ permalink: /landmark/perianal-abscess-iandd/
 3. Break loculations; irrigate.  
 4. Leave open for drainage or place loose seton if tract identified.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Most common etiology?   **A:** Cryptoglandular.  
 - **Q:** Antibiotics?   **A:** Only if cellulitis or immunosuppressed (PMID 30337355).
 

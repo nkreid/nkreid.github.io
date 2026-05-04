@@ -17,7 +17,7 @@ permalink: /landmark/hemorrhoidectomy/
 5. Leave skin bridges between wounds (prevent stenosis).  
 6. Closed (Ferguson) = primary mucosal closure; open = leave to heal.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Pectinate line significance?    
   **A:** Visceral vs somatic pain sensation.  
 - **Q:** Complications?    

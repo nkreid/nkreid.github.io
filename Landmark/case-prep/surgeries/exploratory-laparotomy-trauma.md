@@ -76,7 +76,7 @@ Retroperitoneum divided into **three zones**:
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Indications for emergent laparotomy in blunt trauma?  
   **A:** Peritonitis, free air, instability with +FAST (PMID 29324194).  
 - **Q:** What does the Pringle maneuver occlude?  

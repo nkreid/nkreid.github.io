@@ -16,7 +16,7 @@ permalink: /landmark/total-mesorectal-excision/
 4. Transect rectum and perform stapled anastomosis.  
 5. Optional diverting ileostomy.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Why TME critical?  Complete en bloc removal reduces local recurrence (Heald 1982).  
 - **Q:** CRM significance?  Circumferential margin ≤ 1 mm → positive.
 

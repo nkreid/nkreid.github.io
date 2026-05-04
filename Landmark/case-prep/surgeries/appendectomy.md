@@ -17,7 +17,7 @@ permalink: /landmark/appendectomy/
 5. Transect appendix; bag retrieval.  
 6. Irrigate if perforated; close fascia ≥10 mm ports.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Lap vs open outcomes?  
   **A:** Lap = ↓ wound infection, ↑ abscess (PMID 21263308).  
 - **Q:** When ileocecectomy?  

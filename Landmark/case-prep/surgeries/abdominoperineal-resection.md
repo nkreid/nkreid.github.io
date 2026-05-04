@@ -20,7 +20,7 @@ permalink: /landmark/abdominoperineal-resection/
 8. Close pelvic floor; place drain.  
 9. Mature permanent end colostomy.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Why choose APR over low anterior resection?  
   **A:** Tumor involves sphincters or very distal margin precluding anastomosis.  
 - **Q:** What is TME and why is it critical?  

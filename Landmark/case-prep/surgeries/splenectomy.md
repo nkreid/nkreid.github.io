@@ -16,7 +16,7 @@ permalink: /landmark/splenectomy/
 4. Inspect accessory spleens.  
 5. Extract bagged spleen.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Vaccines post-splenectomy?  Pneumo, Meningo, Hib.  
 - **Q:** Accessory spleen locations?  Hilum, gastrosplenic ligament, pancreas tail (PMID 30146412).
 

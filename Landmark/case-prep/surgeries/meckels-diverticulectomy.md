@@ -16,7 +16,7 @@ permalink: /landmark/meckels-diverticulectomy/
 4. Inspect mucosa for ectopic gastric tissue.  
 5. Leak test; close mesenteric defect.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Rule of 2’s?   **A:** 2% prevalence, 2 inches long, 2 feet from ICV, 2% symptomatic.  
 - **Q:** Most common ectopic tissue?   **A:** Gastric (60–85%).  
 

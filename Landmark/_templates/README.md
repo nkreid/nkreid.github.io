@@ -12,7 +12,7 @@ starts with an underscore, so files here will not be published.
 | Content type | Template | Destination folder | Canonical example |
 |--------------|----------|--------------------|-------------------|
 | Operative prep brief | `case-prep.md` | `Landmark/case-prep/surgeries/` | `surgeries/mals.md` |
-| ABSITE / PIMP topic review | `topic-review.md` | `Landmark/topic-review/topics/` | (none yet — these templates establish it) |
+| ABSITE topic review | `topic-review.md` | `Landmark/topic-review/topics/` | (none yet — these templates establish it) |
 | Landmark paper review | `paper-review.md` | `Landmark/paper-review/papers/` | (none yet) |
 
 ## Conventions

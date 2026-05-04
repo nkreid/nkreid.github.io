@@ -34,7 +34,7 @@ permalink: /landmark/port-a-cath/
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Ideal catheter tip location?  
   **A:** At the cavoatrial junction (T6–T7 vertebral level; carina).  
 - **Q:** Why avoid subclavian entry?  

@@ -16,7 +16,7 @@ permalink: /landmark/parathyroidectomy/
 4. Excise and send frozen section.  
 5. Check intra-op PTH drop > 50 % → success.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Most common location?   **A:** Inferior posterior to thyroid (lower pole).  
 - **Q:** Hungry bone syndrome?   **A:** Rapid Ca drop post-op (PMID 31051264).
 

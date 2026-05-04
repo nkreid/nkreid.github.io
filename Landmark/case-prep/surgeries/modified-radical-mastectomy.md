@@ -16,7 +16,7 @@ permalink: /landmark/modified-radical-mastectomy/
 4. Perform axillary dissection (level I–II).  
 5. Hemostasis and drains.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Difference between MRM and simple mastectomy?   **A:** MRM includes axillary node dissection.  
 - **Q:** Lymphedema rate?   ___ (PMID 31178992).  
 

@@ -38,7 +38,7 @@ redirect_from:
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Classic symptom triad for MALS?  
   **A:** Postprandial epigastric pain, weight loss, and epigastric bruit.²  
 
@@ -95,7 +95,8 @@ redirect_from:
 ## Quick Reference Table
 
 <style>
-.qr-table{width:100%;max-width:720px;margin:1rem auto;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:720px;}
+.qr-table{width:100%;min-width:520px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
 .qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
 .qr-table th.label,.qr-table td.label{text-align:left;width:50%;}
 .qr-table th.value,.qr-table td.value{text-align:center;width:25%;}
@@ -103,6 +104,7 @@ redirect_from:
 .qr-table tbody tr:nth-child(even){background:#f8fafc;}
 </style>
 
+<div class="qr-table-wrap">
 <table class="qr-table">
   <thead>
     <tr>
@@ -144,6 +146,7 @@ redirect_from:
     </tr>
   </tbody>
 </table>
+</div>
 
 
 ---

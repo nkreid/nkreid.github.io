@@ -17,7 +17,7 @@ permalink: /landmark/adrenalectomy/
 5. Mobilize gland circumferentially.  
 6. Extract in bag; inspect bed.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Which adrenal easier laparoscopically?  
   **A:** Left — longer vein to renal vein.  
 - **Q:** When is open preferred?  

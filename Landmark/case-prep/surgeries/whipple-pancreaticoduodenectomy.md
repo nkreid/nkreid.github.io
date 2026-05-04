@@ -17,7 +17,7 @@ permalink: /landmark/whipple-pancreaticoduodenectomy/
 5. Remove specimen en bloc (GB, duodenum, pancreatic head).  
 6. Reconstruct: pancreaticojejunostomy → hepaticojejunostomy → gastrojejunostomy.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Mortality at high-volume centers? < 3 % (PMID 32659392).  
 - **Q:** Most serious complication? Pancreatic fistula (PMID 33012357).  
 

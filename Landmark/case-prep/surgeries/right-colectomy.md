@@ -21,7 +21,7 @@ permalink: /landmark/right-colectomy/
 3. Skeletonize vessels, divide ileocolic.  
 4. Extracorporeal stapled anastomosis.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Blood supply?  Ileocolic, right colic, middle colic branches of SMA.  
 - **Q:** Duodenum injury prevention?  Stay anterior to Gerota’s fascia.  
 - **Q:** Lymph node harvest goal?  ≥ 12 (PMID 30928102).

@@ -17,7 +17,7 @@ permalink: /landmark/hiatal-paraesophageal-hernia/
 5. Consider mesh reinforcement if large defect.  
 6. Confirm no wrap obstruction.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Why posterior crural closure?    
   **A:** Restores anatomy and prevents recurrence.  
 - **Q:** How to avoid gas bloat syndrome?    

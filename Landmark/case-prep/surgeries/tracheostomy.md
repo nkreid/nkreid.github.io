@@ -63,7 +63,7 @@ pdf: /assets/pdfs/TRACHEOSTOMY.pdf
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 
 - **Q:** Why must tracheostomy be placed below the 1st ring?  
   **A:** To avoid post-op **subglottic stenosis**.¹  

@@ -51,7 +51,7 @@ redirect_from:
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** …  
   **A:** …
 
@@ -104,12 +104,14 @@ redirect_from:
   Copy this whole block as-is; just edit the rows.
 -->
 <style>
-.qr-table{width:100%;max-width:720px;margin:1rem auto;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:720px;}
+.qr-table{width:100%;min-width:520px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
 .qr-table th,.qr-table td{padding:8px 14px;text-align:left;border-top:1px solid #e5e7eb;}
 .qr-table thead th{background:#f8fafc;font-weight:700;}
 .qr-table tbody tr:nth-child(even){background:#f8fafc;}
 </style>
 
+<div class="qr-table-wrap">
 <table class="qr-table">
   <thead>
     <tr>
@@ -123,6 +125,7 @@ redirect_from:
     <tr><td>Row label</td><td>…</td><td>…</td></tr>
   </tbody>
 </table>
+</div>
 
 ---
 

@@ -17,7 +17,7 @@ permalink: /landmark/graham-patch/
 5. Tie sutures to secure patch.  
 6. Irrigate and drain if gross contamination.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Name the triad for perforated ulcer?    
   **A:** Sudden pain, rigid abdomen, free air under diaphragm.  
 - **Q:** Why laparoscopic preferred when feasible?    

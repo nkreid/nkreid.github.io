@@ -16,7 +16,7 @@ permalink: /landmark/simple-mastectomy-slnb/
 4. Perform SLNB if indicated.  
 5. Hemostasis, drains, closure.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** SLNB mapping dyes?  Tc-99 and blue dye.  
 - **Q:** Drain duration?  Remove when < 30 mL/day.
 

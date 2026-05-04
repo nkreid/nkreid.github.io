@@ -21,7 +21,7 @@ permalink: /landmark/ventral-hernia/
 3. Introduce composite mesh with ≥ 5 cm overlap.  
 4. Fix mesh circumferentially with tackers or sutures.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Component separation purpose? Medialize rectus flaps for closure (PMID 31579994).  
 - **Q:** Recurrence after lap vs open? Similar if mesh used.  
 

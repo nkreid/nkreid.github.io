@@ -20,7 +20,7 @@ toc: false
   </a>
   <a class="landing-card" href="/case-prep/">
     <h2>Case Prep</h2>
-    <p>Drill operative strategy with structured briefs covering anatomy, simplified steps, and quick pimp questions for common cases.</p>
+    <p>Drill operative strategy with structured briefs covering anatomy, simplified steps, and rapid-fire questions for common cases.</p>
     <span class="cta">Prep for Cases →</span>
   </a>
 </div>

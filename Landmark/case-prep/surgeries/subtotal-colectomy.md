@@ -15,7 +15,7 @@ permalink: /landmark/subtotal-colectomy/
 3. Preserve small bowel & rectum (if subtotal).  
 4. Create end ileostomy or ileorectal anastomosis.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Toxic megacolon indication?  Failure of medical therapy > 24 h (PMID 33389680).  
 - **Q:** Rectal stump management?  Stapled and oversewn subcutaneously.
 

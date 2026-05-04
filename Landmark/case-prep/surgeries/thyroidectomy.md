@@ -47,7 +47,7 @@ pdf: /assets/pdfs/Thyroidectomy.pdf
 
 ---
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 
 - **Q:** Where does the RLN run?  
   **A:** In the tracheoesophageal groove, entering the larynx just behind Berry’s ligament.¹  

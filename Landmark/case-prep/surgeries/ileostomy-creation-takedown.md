@@ -21,7 +21,7 @@ permalink: /landmark/ileostomy-creation-takedown/
 3. Perform stapled side-to-side or end-to-end anastomosis.  
 4. Close fascia.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Complications?    
   **A:** Dehydration, prolapse, retraction (PMID 30711242).  
 - **Q:** Timing of reversal?    

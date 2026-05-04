@@ -22,7 +22,7 @@ permalink: /landmark/colostomy-creation-reversal/
 3. Create end-to-end or stapled anastomosis.  
 4. Close fascia and skin ± drain.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Commonest site for end colostomy? LLQ (sigmoid).  
 - **Q:** Major complication after closure? Leak ___ (PMID 23932216).  
 - **Q:** Typical interval before reversal? 8–12 weeks.

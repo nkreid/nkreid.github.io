@@ -19,7 +19,7 @@ permalink: /landmark/cholecystectomy/
 7. Bag specimen; irrigate; check hemostasis.  
 (Open: right subcostal incision; Kocher maneuver if needed.)
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** What defines Critical View of Safety?  
   **A:** (1) Clear hepatocystic triangle, (2) lower gallbladder separated from bed, (3) only two structures entering GB.  
 - **Q:** Rate of CBD injury? ___ (PMID 10482271).  

@@ -15,7 +15,7 @@ permalink: /landmark/transverse-colectomy/
 3. Divide colon proximal & distal to lesion.  
 4. Create functional end-to-end anastomosis.  
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Main blood supply? Middle colic artery from SMA.  
 - **Q:** Margins for cancer? ≥ 5 cm proximal/distal (PMID 31943861).  
 

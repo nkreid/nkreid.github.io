@@ -20,7 +20,7 @@ permalink: /landmark/gastrostomy-peg/
 2. Purse-string suture; insert tube and tie.  
 3. Fix stomach to abdominal wall.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** When PEG contraindicated?    
   **A:** Obstructed pharynx/esophagus, massive ascites.  
 - **Q:** Common complication?    

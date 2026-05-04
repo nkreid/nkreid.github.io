@@ -20,7 +20,7 @@ permalink: /landmark/distal-gastrectomy-reconstruction/
    - **Roux-en-Y:** for reflux control.  
 6. Leak test; drain placement.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** When to choose Billroth I vs II?  
   **A:** Billroth I for benign, II/Roux for malignant or short duodenal stump.  
 - **Q:** Common post-gastrectomy syndromes?  

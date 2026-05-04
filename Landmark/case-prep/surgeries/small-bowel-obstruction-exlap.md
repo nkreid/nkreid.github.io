@@ -16,7 +16,7 @@ permalink: /landmark/small-bowel-obstruction-exlap/
 4. Identify transition point; release adhesion or volvulus.  
 5. Assess viability; resect non-viable segments.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Most common cause?  Post-op adhesions (~65%) (PMID 30566054).  
 - **Q:** Viability signs?  Peristalsis, color, arterial pulsation.
 

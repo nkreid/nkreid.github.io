@@ -16,7 +16,7 @@ permalink: /landmark/lumpectomy-slnb/
 4. Separate axillary incision; identify blue/hot nodes → excise.  
 5. Place clips and close dead space.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** What if > 2 positive nodes?   **A:** ALND unless Z0011 criteria met (PMID 21388309).  
 - **Q:** False-negative rate?   ___ (PMID 32700504).
 

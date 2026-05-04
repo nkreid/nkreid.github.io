@@ -17,7 +17,7 @@ permalink: /landmark/femoral-hernia/
 5. Close femoral ring (Cooper’s ligament sutures or mesh plug).  
 6. Close layers; avoid constricting femoral vein.
 
-## Key Pimp Questions
+## Rapid-Fire Questions
 - **Q:** Which hernia most likely to incarcerate?    
   **A:** Femoral hernia (narrow neck and rigid borders; PMID 25134072).  
 - **Q:** Borders of femoral canal?    
