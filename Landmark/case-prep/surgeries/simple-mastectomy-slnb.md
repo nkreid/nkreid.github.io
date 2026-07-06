@@ -2,6 +2,7 @@
 layout: landmark
 title: "Total Mastectomy ± Sentinel Lymph Node Biopsy"
 permalink: /landmark/simple-mastectomy-slnb/
+pdf: https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf
 redirect_from:
   - /Landmark/case-prep/surgeries/simple-mastectomy-slnb/
   - /landmark/case-prep/surgeries/simple-mastectomy-slnb/
@@ -10,6 +11,11 @@ redirect_from:
 ---
 
 > Total (simple) mastectomy removes the entire breast including the nipple-areolar complex (NAC) and the pectoral fascia, without axillary content. Sentinel lymph node biopsy is added for invasive disease and select DCIS. For contralateral prophylactic decisions and adjuvant therapy discussions, see the [breast topic review](/landmark/topic-review/breast/). For the composite operation with axillary content, see [modified radical mastectomy](/landmark/modified-radical-mastectomy/).
+
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Suggested Reading — VUMC Global Surgical Atlas</div>
+  <div><a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf" target="_blank" rel="noopener" style="font-weight:600;">Mastectomy</a> by Dayalan Clarke, MS, MD, FRCS(Ed) — <em>Open Manual of Surgery in Resource-Limited Settings</em>, Vanderbilt University Medical Center. Step-level walkthrough with intra-operative photos. CC BY-SA 3.0. Key contributions to the pearls below: the parallax method for marking the ellipse, ceiling-vector retraction, and the three-part local anesthetic block.</div>
+</div>
 
 ## Procedure Snapshot
 - **Indications:**
@@ -190,16 +196,19 @@ redirect_from:
 ---
 
 ## Clinical Pearls
-- **Draw the incision on the awake patient** whenever possible — position matters for cosmesis and reconstruction planning.
-- **Keep flaps at the plane just superficial to breast parenchyma.** Not too thin, not too thick.
+- **Mark the ellipse with the parallax method** (Clarke, VUMC). Points A (medial, at nipple level, 1–2 cm lateral to midline) and B (lateral, not past the mid-axillary line — avoids a lateral dog-ear). Draw the superior curve. Then hold a pen halfway between your eye and the breast, at the level of the superior curve. Without moving your head or hand, gently pull the nipple upward — the point where the pen now overlaps the inferior breast is **point C**, the low mark of the inferior ellipse. This method sizes the ellipse for tension-free closure without redundant skin.
+- **Retract the skin flap toward the ceiling, not toward the head.** The correct traction vector opens the plane between superficial fascia (white strands) and breast parenchyma; the wrong vector fights you the whole case (Clarke, VUMC).
+- **Keep flaps at the plane just superficial to breast parenchyma.** Not too thin, not too thick. Identify the plane by looking for the **white strands of the superficial fascia**.
 - **Always take the pectoral fascia.**
 - **Preserve pectoralis major** — no functional cost, distinguishes from Halsted radical.
 - **Coordinate with plastics before the case** if reconstruction is planned — incision choice, flap orientation, and pocket handling all differ.
-- **Drains manage seroma.** Universal after mastectomy.
+- **Drains manage seroma.** Universal after mastectomy. **10 or 14 F low-suction drain** through a separate stab incision.
+- **Three-part local anesthetic block** for post-op analgesia (Clarke, VUMC): **10 mL interpectoral** (between pec major and pec minor) + **10 mL serratus** (superior border of serratus, under direct vision) + **20 mL into the drain** after closure. If you inject into the drain, **do not connect suction for 30 minutes** so the local can be absorbed.
 - **Consider PMRT indications** before offering mastectomy — some patients still need radiation.
 - **NSM candidacy is oncologic**, not just cosmetic — protect from decision drift.
 - **SOZO at baseline** if the patient will have any axillary intervention.
 - **Never miss a nipple-base frozen** on NSM — positive → excise the NAC same day.
+- **If the skin won't close** after mastectomy — undermine cranially and caudally; a **split-thickness skin graft** is the inelegant but effective bail-out.
 
 ---
 
@@ -214,8 +223,9 @@ redirect_from:
 ---
 
 ## References
-1. Fisher B, Anderson S, Bryant J, et al. *Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation (NSABP B-06).* **NEJM.** 2002; 347(16): 1233–1241.
-2. Veronesi U, Cascinelli N, Mariani L, et al. *Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy (Milan).* **NEJM.** 2002; 347(16): 1227–1232.
-3. NCCN Clinical Practice Guidelines in Oncology — Breast Cancer. NCCN.org.
-4. Ridner SH, Dietrich MS, Cowher MS, et al. *A randomized trial evaluating bioimpedance spectroscopy versus tape measurement for the prevention of lymphedema following treatment for breast cancer (PREVENT).* **Ann Surg Oncol.** 2019; 26(10): 3250–3259.
-5. Recht A, Comen EA, Fine RE, et al. *Postmastectomy radiotherapy: an ASCO/ASTRO/SSO focused guideline update.* **JCO.** 2016; 34(36): 4431–4442.
+1. Clarke D. *Mastectomy.* **Open Manual of Surgery in Resource-Limited Settings**, VUMC Global Surgical Atlas, 2023. [PDF](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf). CC BY-SA 3.0.
+2. Fisher B, Anderson S, Bryant J, et al. *Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation (NSABP B-06).* **NEJM.** 2002; 347(16): 1233–1241.
+3. Veronesi U, Cascinelli N, Mariani L, et al. *Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy (Milan).* **NEJM.** 2002; 347(16): 1227–1232.
+4. NCCN Clinical Practice Guidelines in Oncology — Breast Cancer. NCCN.org.
+5. Ridner SH, Dietrich MS, Cowher MS, et al. *A randomized trial evaluating bioimpedance spectroscopy versus tape measurement for the prevention of lymphedema following treatment for breast cancer (PREVENT).* **Ann Surg Oncol.** 2019; 26(10): 3250–3259.
+6. Recht A, Comen EA, Fine RE, et al. *Postmastectomy radiotherapy: an ASCO/ASTRO/SSO focused guideline update.* **JCO.** 2016; 34(36): 4431–4442.

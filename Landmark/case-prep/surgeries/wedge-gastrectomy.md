@@ -2,12 +2,18 @@
 layout: landmark
 title: "Wedge Gastrectomy (Partial / Sleeve of Stomach)"
 permalink: /landmark/wedge-gastrectomy/
+pdf: https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Partial%20Wedge%20gastrectomy.pdf
 redirect_from:
   - /Landmark/case-prep/surgeries/wedge-gastrectomy/
   - /landmark/case-prep/surgeries/wedge-gastrectomy/
 ---
 
 > Robotic wedge gastrectomy is the default workflow below; laparoscopic and open approaches are covered as shorter parallel notes. Most commonly done for a GIST or small benign mass. For lymphomas, adenocarcinoma, or hereditary CDH1 syndromes — this is the wrong operation; see the [stomach topic review](/landmark/topic-review/stomach/).
+
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Suggested Reading — VUMC Global Surgical Atlas</div>
+  <div><a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Partial%20Wedge%20gastrectomy.pdf" target="_blank" rel="noopener" style="font-weight:600;">Partial &ldquo;Wedge&rdquo; Gastrectomy</a> — <em>Open Manual of Surgery in Resource-Limited Settings</em>, Vanderbilt University Medical Center. Focus is open technique for resource-limited settings; complementary to the robotic-primary workflow below. CC BY-SA 3.0.</div>
+</div>
 
 ## Procedure Snapshot
 - **Indication:** Small (< 5 cm), non-ulcerated gastric mass amenable to complete excision with negative margins and without compromising the GE junction or pylorus. Most common: **GIST**. Also: benign polyps, ectopic pancreas, small carcinoid (well-differentiated Type I / II < 2 cm), leiomyoma, Dieulafoy lesion refractory to endoscopy, small perforation not amenable to omental patch.
@@ -314,8 +320,9 @@ redirect_from:
 ---
 
 ## References
-1. Joensuu H, Vehtari A, Riihimäki J, et al. *Risk of recurrence of gastrointestinal stromal tumour after surgery: an analysis of pooled population-based cohorts.* **Lancet Oncol.** 2012; 13(3): 265–274.
-2. Miettinen M, Lasota J. *Gastrointestinal stromal tumors: pathology and prognosis at different sites.* **Semin Diagn Pathol.** 2006; 23(2): 70–83.
-3. Casali PG, Blay JY, Abecassis N, et al. *Gastrointestinal stromal tumours: ESMO–EURACAN–GENTURIS Clinical Practice Guideline.* **Ann Oncol.** 2022; 33(1): 20–33.
-4. NCCN Clinical Practice Guidelines in Oncology — Soft Tissue Sarcoma, GIST section. NCCN.org.
-5. Deerenberg EB, Harlaar JJ, Steyerberg EW, et al. *Small bites vs large bites for closure of abdominal midline incisions (STITCH).* **Lancet.** 2015; 386(10000): 1254–1260.
+1. *Partial "Wedge" Gastrectomy.* **Open Manual of Surgery in Resource-Limited Settings**, VUMC Global Surgical Atlas. [PDF](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Partial%20Wedge%20gastrectomy.pdf). CC BY-SA 3.0.
+2. Joensuu H, Vehtari A, Riihimäki J, et al. *Risk of recurrence of gastrointestinal stromal tumour after surgery: an analysis of pooled population-based cohorts.* **Lancet Oncol.** 2012; 13(3): 265–274.
+3. Miettinen M, Lasota J. *Gastrointestinal stromal tumors: pathology and prognosis at different sites.* **Semin Diagn Pathol.** 2006; 23(2): 70–83.
+4. Casali PG, Blay JY, Abecassis N, et al. *Gastrointestinal stromal tumours: ESMO–EURACAN–GENTURIS Clinical Practice Guideline.* **Ann Oncol.** 2022; 33(1): 20–33.
+5. NCCN Clinical Practice Guidelines in Oncology — Soft Tissue Sarcoma, GIST section. NCCN.org.
+6. Deerenberg EB, Harlaar JJ, Steyerberg EW, et al. *Small bites vs large bites for closure of abdominal midline incisions (STITCH).* **Lancet.** 2015; 386(10000): 1254–1260.

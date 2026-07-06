@@ -478,6 +478,13 @@ landmark_category: "General Surgery"
 - [Graham Patch](/landmark/case-prep/surgeries/graham-patch/) — for perforated duodenal ulcer.
 - [Gastrojejunostomy](/landmark/case-prep/surgeries/gastrojejunostomy/) — for gastric outlet obstruction.
 
+## Suggested Reading — VUMC Global Surgical Atlas
+Open-access step-level chapters from Vanderbilt's *Open Manual of Surgery in Resource-Limited Settings* (CC BY-SA 3.0):
+- [Partial "Wedge" Gastrectomy](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Partial%20Wedge%20gastrectomy.pdf)
+- [Graham Patch Closure of Duodenal Ulcer](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Graham%20Patch%20Closure%20of%20Duodenal%20Ulcer.pdf)
+- [Antrectomy and Billroth 1 Reconstruction](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Antrectomy%20and%20Billroth%201%20Reconstruction.pdf)
+- [Gastroduodenotomy and Oversew Bleeding Duodenal Ulcer](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Duodenotomy%20and%20oversew%20bleeding%20duodenal%20ulcer.pdf)
+
 ## Figures
 
 ![Figure from page 40](./images/07_05-stomach_p40_i1.png)

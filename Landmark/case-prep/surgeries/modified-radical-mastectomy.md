@@ -9,6 +9,16 @@ redirect_from:
 
 > **MRM = Total (Simple) Mastectomy + Level I–II Axillary Lymph Node Dissection**, performed en bloc through a single incision. Preserves the pectoralis muscles (this is what makes it "modified" versus the historic Halsted radical). For step-level technique, this page anchors two component pages: the mastectomy portion follows the [total mastectomy](/landmark/simple-mastectomy-slnb/) workflow, and the axillary portion follows the [ALND](/landmark/axillary-lymph-node-dissection/) workflow. This page focuses on MRM-specific indications, sequencing, and pearls that don't fit neatly on either component page.
 
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Suggested Reading — VUMC Global Surgical Atlas</div>
+  <div>MRM combines two chapters of Vanderbilt&rsquo;s <em>Open Manual of Surgery in Resource-Limited Settings</em>. Read both back-to-back:</div>
+  <ul style="margin:6px 0 0 1.25rem;">
+    <li><a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf" target="_blank" rel="noopener" style="font-weight:600;">Mastectomy</a> by Dayalan Clarke</li>
+    <li><a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf" target="_blank" rel="noopener" style="font-weight:600;">Axillary Dissection</a> by Peter Bird</li>
+  </ul>
+  <div style="margin-top:6px;">Both CC BY-SA 3.0. Step-level walkthroughs with intra-operative photos from real cases.</div>
+</div>
+
 ## Procedure Snapshot
 - **Definition:**
   - **Total mastectomy** — removes all breast tissue including NAC and pectoral fascia.
@@ -131,8 +141,10 @@ For breast dissection anatomy see [total mastectomy](/landmark/simple-mastectomy
 ---
 
 ## References
-1. Halsted WS. *The results of operations for the cure of cancer of the breast performed at the Johns Hopkins Hospital from June 1889 to January 1894.* **Ann Surg.** 1894; 20: 497. (historic — original radical).
-2. Patey DH, Dyson WH. *The prognosis of carcinoma of the breast in relation to the type of operation performed.* **Br J Cancer.** 1948; 2(1): 7–13. (modified radical, first described).
-3. Fisher B, Anderson S, Bryant J, et al. *Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation (NSABP B-06).* **NEJM.** 2002; 347(16): 1233–1241.
-4. NCCN Clinical Practice Guidelines in Oncology — Breast Cancer. NCCN.org.
-5. Recht A, Comen EA, Fine RE, et al. *Postmastectomy radiotherapy: an ASCO/ASTRO/SSO focused guideline update.* **JCO.** 2016; 34(36): 4431–4442.
+1. Bird P. *Axillary Dissection.* **Open Manual of Surgery in Resource-Limited Settings**, VUMC Global Surgical Atlas. [PDF](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf). CC BY-SA 3.0.
+2. Clarke D. *Mastectomy.* **Open Manual of Surgery in Resource-Limited Settings**, VUMC Global Surgical Atlas, 2023. [PDF](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf). CC BY-SA 3.0.
+3. Halsted WS. *The results of operations for the cure of cancer of the breast performed at the Johns Hopkins Hospital from June 1889 to January 1894.* **Ann Surg.** 1894; 20: 497. (historic — original radical).
+4. Patey DH, Dyson WH. *The prognosis of carcinoma of the breast in relation to the type of operation performed.* **Br J Cancer.** 1948; 2(1): 7–13. (modified radical, first described).
+5. Fisher B, Anderson S, Bryant J, et al. *Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation (NSABP B-06).* **NEJM.** 2002; 347(16): 1233–1241.
+6. NCCN Clinical Practice Guidelines in Oncology — Breast Cancer. NCCN.org.
+7. Recht A, Comen EA, Fine RE, et al. *Postmastectomy radiotherapy: an ASCO/ASTRO/SSO focused guideline update.* **JCO.** 2016; 34(36): 4431–4442.

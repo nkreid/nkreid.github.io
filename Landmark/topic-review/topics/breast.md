@@ -529,6 +529,11 @@ Detailed workflow lives on the [lumpectomy + SLNB case prep](/landmark/lumpectom
 ## Related Landmark Papers
 - [ACOSOG Z0011 (Giuliano 2011 / 2017)](/landmark/paper-review/) — no benefit to completion ALND for ≤ 2 positive SLNs in BCT patients.
 
+## Suggested Reading — VUMC Global Surgical Atlas
+Open-access step-level chapters from Vanderbilt's *Open Manual of Surgery in Resource-Limited Settings* (CC BY-SA 3.0). Photograph-driven walkthroughs from real operations — excellent operator-level companion to the ABSITE-style content above.
+- [Axillary Dissection](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf) — Peter Bird.
+- [Mastectomy](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Mastectomy%20.pdf) — Dayalan Clarke.
+
 ## Figures
 
 ![Figure from page 164](./images/14_12-breast_p164_i1.png)

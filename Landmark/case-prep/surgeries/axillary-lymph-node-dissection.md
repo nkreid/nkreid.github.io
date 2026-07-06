@@ -2,12 +2,18 @@
 layout: landmark
 title: "Axillary Lymph Node Dissection (Levels I–II)"
 permalink: /landmark/axillary-lymph-node-dissection/
+pdf: https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf
 redirect_from:
   - /Landmark/case-prep/surgeries/axillary-lymph-node-dissection/
   - /landmark/case-prep/surgeries/axillary-lymph-node-dissection/
 ---
 
 > Standard breast ALND removes level I and II nodes (lateral and posterior to pectoralis minor). Level III added for advanced disease or for **melanoma** at any level of involvement. Done as a stand-alone case after a positive SLN in select settings, or as the axillary component of a [modified radical mastectomy](/landmark/modified-radical-mastectomy/).
+
+<div style="border:1px solid #97D3CD;background:#E4F2EA;border-radius:10px;padding:14px 18px;margin:1.25rem 0;">
+  <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#0C2C47;margin-bottom:6px;"><i class="fa-solid fa-file-pdf"></i> Suggested Reading — VUMC Global Surgical Atlas</div>
+  <div><a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf" target="_blank" rel="noopener" style="font-weight:600;">Axillary Dissection</a> by Peter Bird, MBBS, FRACS (AIC Kijabe Hospital, Kenya) — <em>Open Manual of Surgery in Resource-Limited Settings</em>, Vanderbilt University Medical Center. Excellent step-level walkthrough with photographs from a real dissection. CC BY-SA 3.0. Key contributions to the pearls below: the &ldquo;false nerve&rdquo; of serratus anterior, the vasa-nervorum trick for nerve identification, and the do-not-paralyze rule.</div>
+</div>
 
 ## Procedure Snapshot
 - **Indications:**
@@ -209,13 +215,18 @@ redirect_from:
 ---
 
 ## Clinical Pearls
+- **"Axillary dissection, not axillary clearance."** Terminology matters — the goal at every level is complete removal of nodes at that level, not "clearing" every last strand of lymphatic tissue (Peter Bird, VUMC).
+- **Do not let anesthesia paralyze the patient.** You need motor responses to identify the long thoracic and thoracodorsal nerves. Ask before intubation.
+- **The "false nerve" of serratus anterior.** A white fibrous fascial band runs along the medial axillary wall on serratus and is easily mistaken for the long thoracic. The **true long thoracic nerve** sits a few millimeters deeper, on the floor of the dissection near subscapularis, and is identifiable by its **vasa nervorum** (a tiny surface vessel that runs with any real nerve). If you can't see a small vessel on the "nerve," it isn't the nerve.
+- **~ 10% of medial pectoral nerves perforate through pec minor** rather than wrapping around its lateral border. Look for it in both places before dividing anything laterally.
 - **Axillary vein is your ceiling.** Never dissect above it.
 - **Do not skeletonize the vein.** Preserve adventitia to reduce arm edema.
 - **Nerve stimulator** is cheap insurance if the anatomy is fibrotic or post-radiation.
 - **Ligate large lymphatic channels with clips** — reduces prolonged drainage.
 - **Take ≥ 10 nodes** for adequate staging.
-- **Level III for melanoma always**; only for grossly involved breast cancer.
-- **Drain through a separate stab incision**, not the main wound — better cosmesis and lower dehiscence risk.
+- **Level III for melanoma always**; only for grossly involved breast cancer. If going Level III, **feel Rotter's (interpectoral) nodes** between pec major and pec minor and remove any that are enlarged.
+- **16–18 F closed-suction drain** through a separate stab incision, not the main wound — better cosmesis and lower dehiscence risk.
+- **Frozen shoulder is harder to treat than to prevent.** POD 1 physical therapy is mandatory; verify shoulder ROM at every post-op visit.
 - **SOZO baseline preop** on every ALND — you own the lymphedema surveillance conversation from that visit forward.
 
 ---
@@ -232,8 +243,9 @@ redirect_from:
 ---
 
 ## References
-1. Giuliano AE, McCall L, Beitsch P, et al. *Locoregional recurrence after sentinel lymph node dissection with or without axillary dissection in patients with sentinel lymph node metastases (Z0011).* **Ann Surg.** 2010; 252(3): 426–432.
-2. Donker M, van Tienhoven G, Straver ME, et al. *Radiotherapy or surgery of the axilla after a positive sentinel node in breast cancer (AMAROS): a randomised, multicentre, open-label, phase 3 non-inferiority trial.* **Lancet Oncol.** 2014; 15(12): 1303–1310.
-3. Boughey JC, Suman VJ, Mittendorf EA, et al. *Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: ACOSOG Z1071.* **JAMA.** 2013; 310(14): 1455–1461.
-4. Ridner SH, et al. *Bioimpedance spectroscopy vs tape measurement for the prevention of lymphedema (PREVENT).* **Ann Surg Oncol.** 2019; 26(10): 3250–3259.
-5. Faries MB, Thompson JF, Cochran AJ, et al. *Completion dissection or observation for sentinel-node metastasis in melanoma (MSLT-II).* **NEJM.** 2017; 376(23): 2211–2222.
+1. Bird P. *Axillary Dissection.* **Open Manual of Surgery in Resource-Limited Settings**, VUMC Global Surgical Atlas. [PDF](https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Axillary%20Dissection.pdf). CC BY-SA 3.0.
+2. Giuliano AE, McCall L, Beitsch P, et al. *Locoregional recurrence after sentinel lymph node dissection with or without axillary dissection in patients with sentinel lymph node metastases (Z0011).* **Ann Surg.** 2010; 252(3): 426–432.
+3. Donker M, van Tienhoven G, Straver ME, et al. *Radiotherapy or surgery of the axilla after a positive sentinel node in breast cancer (AMAROS): a randomised, multicentre, open-label, phase 3 non-inferiority trial.* **Lancet Oncol.** 2014; 15(12): 1303–1310.
+4. Boughey JC, Suman VJ, Mittendorf EA, et al. *Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: ACOSOG Z1071.* **JAMA.** 2013; 310(14): 1455–1461.
+5. Ridner SH, et al. *Bioimpedance spectroscopy vs tape measurement for the prevention of lymphedema (PREVENT).* **Ann Surg Oncol.** 2019; 26(10): 3250–3259.
+6. Faries MB, Thompson JF, Cochran AJ, et al. *Completion dissection or observation for sentinel-node metastasis in melanoma (MSLT-II).* **NEJM.** 2017; 376(23): 2211–2222.
