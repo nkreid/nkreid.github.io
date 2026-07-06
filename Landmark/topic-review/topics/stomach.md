@@ -4,262 +4,479 @@ title: "Stomach"
 redirect_from:
   - /absite/07_05-stomach/
 permalink: /landmark/topic-review/stomach/
+absite_chapter: "5"
+landmark_category: "General Surgery"
 ---
 
-High Yield Anatomy
-- What are the types of hiatal hernias?
- - Type 1 (> 90%) - sliding
- - Type 2 - purely paraesophageal (needs repair)
- - Type 3 - combined sliding and paraesophageal (needs repair)
- - Type 4 - entire stomach in the chest plus another organ, most commonly colon (needs repair)
-- What are the types of gastric ulcers? Table 1 - Types of gastric ulcers
+> **High-yield ABSITE review** organized by disease process. Anatomy first, then GERD, hiatal hernia, PUD, volvulus, adenocarcinoma, GIST, neuroendocrine tumors, MALToma, and post-gastrectomy syndromes.
 
-- What is the Siewert-Stein Classification of esophago-gastric junction (EGJ) tumors
- - Type I — distal part of the esophagus (located between 1-5 cm above the anatomic EGJ)
- - Type II — cardia (within 1 cm above and 2 cm below the EGJ)
- - Type III — subcardial stomach (2-5 cm below EGJ) Figure 1 - Vascular anatomy of the stomach
+## Anatomy
 
-Gastric Volvulus
- - What are the features?
-- Often associated with paraesophageal hernias
-- High morbidity and mortality
- - What are the three types?
-- Organoaxial (most common) — rotation along the axis of the stomach from the GE junction to the pylorus
-- Mesoaxial (less common) — rotation along short axis of stomach bisecting the lesser and greater curvature
-- Combined
- - How are these treated?
-- Typically with emergent surgery → hernia repair, gastropexy, partial gastrectomy if devitalized
-- Endoscopic decompression can be attempted in frail (risk of perforation) with double PEG tubes Gastroesophageal reflux disease (GERD)
- - What are the alarm symptoms?
-- Dysphagia, odynophagia, weight loss, anemia, GI bleeding
-- Concern for malignancy → upper endoscopy
- - How is GERD medically managed?
-- Lifestyle modification: weight loss, elevate head of bed, avoid aggravating foods
-- Proton pump inhibitors (PPI)
-- If no improvement over several weeks on PPI → need EGD
-- What are the indications for surgical evaluation?
-- Failure of medical management
-- Desire to avoid lifelong PPI
-- Extra-esophageal manifestations - asthma, hoarseness, cough, chest pain, aspiration
+- **Vascular supply — five arteries:**
+  - **Left gastric** (celiac → lesser curve). Most important cephalad. Often has an aberrant / accessory / replaced **left hepatic artery** — palpate before dividing.
+  - **Right gastric** (proper hepatic → lesser curve).
+  - **Left gastroepiploic** (splenic → greater curve).
+  - **Right gastroepiploic** (gastroduodenal → greater curve).
+  - **Short gastrics** (splenic → fundus).
+  - **All five can be sacrificed** and the stomach survives on any single remaining vessel — this is why gastric conduits work.
+- **Venous drainage** parallels arteries → portal system. **Left gastric vein (coronary vein)** is a key porto-systemic collateral (varices).
+- **Vagal anatomy:** anterior (left) vagus gives off the **hepatic branch**; posterior (right) vagus gives off the **celiac branch**. The **criminal nerve of Grassi** is the most posterior branch of the right vagus, arising above the GE junction — commonly missed in truncal vagotomy → recurrent ulcer.
+- **Cells and secretions:**
+  - **Parietal cells** (fundus/body) — HCl, intrinsic factor.
+  - **Chief cells** (fundus/body) — pepsinogen.
+  - **G cells** (antrum) — gastrin.
+  - **D cells** (antrum) — somatostatin (inhibits gastrin).
+  - **Enterochromaffin-like (ECL) cells** — histamine.
+  - **Mucous cells** — mucin, bicarbonate.
+- **Siewert–Stein classification** — for esophago-gastric junction (EGJ) tumors:
+  - **Type I:** distal esophagus, 1–5 cm above the anatomic EGJ. Treat like esophageal cancer (esophagectomy).
+  - **Type II:** cardia, within 1 cm above and 2 cm below EGJ. Extended total gastrectomy with distal esophagectomy.
+  - **Type III:** subcardial stomach, 2–5 cm below EGJ. Total or subtotal gastrectomy.
 
-If atypical symptoms and GI surgical history, think bile reflux. Work up with impedance probe and management is usually Roux-en-Y reconstruction.
- - What is the pre-operative work up?
-- Barium swallow
-- Upper endoscopy
-- Ambulatory pH testing
-- Esophageal manometry to rule out underlying motility disorder (can’t do full Nissen if dysmotility)
- - What are the components of 24-hour esophageal pH monitoring?
-- Percent total time pH < 4
-- Percent upright time pH < 4
-- Percent supine time pH < 4
-- Number of reflux episodes
-- Number of reflux episodes ≥ 5 min
-- Longest reflux episode (minutes)
-- Demeester score > 14.72 = reflux
- - Operative management
-- What are the overall surgical goals?
-- Restoration of normal anatomic position of the stomach and GE junction
-- Recreation of anti-reflux valve
-- Any hiatal hernia must be completely reduced → requires mediastinal dissection to ensure adequate esophageal mobilization
-- Any defect in diaphragmatic crura must be adequately closed
-- Complete mobilization of the fundus
-- 2 cm long “floppy” fundoplication performed over large (54F) bougie
+---
 
- - Partial fundoplication/alternates to 360° Nissen
-- Dor (anterior 180-200°)
-- Toupet (posterior 270°)
-- Thal (270° anterior)
-- Belsey (270° anterior transthoracic)
-- Lind (300° posterior)
-- Hill repair
- - Insufficient evidence to support one over another. Some data shows less postop dysphagia with partial wrap compared to 360° wraps, however, may have inadequate control of reflux.
-- In the OR, anesthesia is having trouble ventilating patient . What are you worried about?
-- Capnothorax
- - Enlarge tear to avoid tension capnothorax
- - Place red rubber catheter with one end into pleural tear and other end into abdomen (equalizes pressures)
- - At end of procedure bring one end outside of abdomen and place to water seal while Valsalva administered
- - Can also needle decompress intra-operatively - be sure to prep lower chest High end tidal CO2 during mediastinal dissection is most likely capnothorax. May also be hypoventilation, CO2 embolus, or malignant hyperthermia.
-- What if the post op CXR shows a 2 cm pneumothorax?
-- Don’t do anything, will self-resolve
-- How do you manage these patients postoperatively?
-- Schedule anti-emetics immediately postop (avoid nausea/retching)
-- Soft diet for a few weeks
-- Avoid meat, raw vegetables, bread, carbonated beverages for 4-6 weeks
+## GERD
 
-- What is the management of postop dysphagia?
-- Very common
-- Severe dysphagia → esophagram
-- Dysphagia persisting past 6 weeks postop → esophagram (concern for recurrent hernia, slipped wrap) → if not present, dilation Hiatal Hernia
- - How are these diagnosed?
-- Often seen on CXR
-- Barium swallow, CT chest, and EGD and are used in various combinations depending on individual patient presentation .
- - What is the management?
-- Repair of type I in the absence of reflux disease is not indicated → same operative indications as for GERD
-- All symptomatic paraesophageal hernias (types 2-4) should be repaired, especially those with obstructive symptoms or those that have volvulized Type I = sliding, Type II = paraesophageal, Type III - both, Type IV = another organ
-- Asymptomatic paraesophageal hernias should be repaired on a routine, elective basis if the patient is a good surgical candidate
-- Watchful waiting is an option for asymptomatic or minimally symptomatic patients who are poor surgical candidates
-- Laparoscopic repair is the preferred approach, although may also be repaired via open or trans-thoracic approach
-- Hernia sac needs to be mobilized and excised (key step that decreases early recurrence)
-- Use of mesh in large (> 5-8 cm) hiatal hernia decreases short-term recurrence . However, many questions remain regarding the long-term safety.
+- **Alarm symptoms** — dysphagia, odynophagia, weight loss, anemia, GI bleeding. Any one of these → **upper endoscopy** to rule out malignancy.
+- **Medical management:**
+  - Lifestyle — weight loss, HOB elevation, avoid trigger foods.
+  - **PPI trial** — 8-week course. If no improvement → EGD.
+- **Indications for surgical evaluation:**
+  - Failed medical management, patient preference to avoid lifelong PPI, extra-esophageal manifestations (asthma, hoarseness, chronic cough, chest pain, aspiration).
+- **Bile reflux clue** — atypical symptoms plus prior GI surgery → work up with impedance probe; management is **Roux-en-Y** conversion.
+- **Preop workup:**
+  - Barium swallow (anatomy, motility, hiatal hernia).
+  - Upper endoscopy (esophagitis, Barrett's, mass).
+  - **Ambulatory pH testing** — DeMeester score **> 14.72 = reflux**.
+  - **Esophageal manometry** — must rule out dysmotility (achalasia, scleroderma) before a full 360° wrap.
+- **DeMeester components:** % total time pH < 4, % upright < 4, % supine < 4, number of reflux episodes, number ≥ 5 min, longest episode.
+- **Surgical goals:**
+  - Restore normal anatomic position of stomach + GE junction.
+  - Recreate anti-reflux valve.
+  - Fully reduce any hiatal hernia (requires mediastinal dissection).
+  - Close crural defect.
+  - Complete fundic mobilization.
+  - **2 cm "floppy" fundoplication** over a **54 F bougie**.
+- **Fundoplication variants:**
+  - **Nissen** — 360° full wrap. Best reflux control, more postop dysphagia.
+  - **Toupet** — posterior 270°.
+  - **Dor** — anterior 180–200°.
+  - **Thal** — anterior 270°.
+  - **Belsey Mark IV** — anterior 270°, trans-thoracic.
+  - **Lind** — posterior 300°.
+  - **Hill** repair — gastropexy to arcuate ligament.
+- **Partial wraps** — less postop dysphagia, may have less durable reflux control. Evidence supports either. Use partial wrap when manometry shows any dysmotility.
+- **Intra-op capnothorax** — high end-tidal CO₂, ventilation difficulty during mediastinal dissection. Differential: capnothorax, hypoventilation, CO₂ embolus, malignant hyperthermia.
+  - **Management:** enlarge the pleural tear to avoid tension → place a red rubber catheter with one end in the pleural tear, other end in the abdomen (equalizes pressures) → at end of case, bring one end out and place to water seal while anesthesia does a Valsalva. Needle decompression is a backup — prep the lower chest.
+- **Post-op 2 cm pneumothorax on CXR:** observe, self-resolves.
+- **Post-op care:** scheduled anti-emetics (avoid retching), soft diet for 2 weeks, avoid meat / raw veg / bread / carbonated drinks for 4–6 weeks.
+- **Post-op dysphagia:** common early. Severe or persisting > 6 weeks → esophagram (concern for slipped wrap or recurrent hernia) → dilation if no anatomic issue.
 
-Currently, insufficient evidence to recommend one way or the other regarding routine use of mesh reinforcement, but probably reasonable with large defects .
-- Permanent suture to close crura
-- Fundoplication should be performed at time of repair (same principles as when done for GERD regarding mediastinal mobilization and length of intra- abdominal esophagus needed) → Collis gastroplasty (esophageal lengthening)
- - Gastropexy or gastrostomy tube may be added if needed if not bad enough to need extra length Gastroduodenal Ulcer Disease
- - What is the association with H . pylori?
-- H . pylori is found in 75% of gastric ulcer disease and 95% of duodenal ulcer patients
-- What is the treatment?
-- Triple therapy
- - PPI
- - Clarithromycin
- - Amoxicillin or metronidazole
- - Gastroduodenal Ulcers
-- What are the management principles for bleeding gastric and duodenal ulcers?
-- First step is typical resuscitative measures and early endoscopy, NG tube placement
- - Rapid upper endoscopy is usually diagnostic and therapeutic
-- Endoscopic clips, thermal coagulation, injection of vasoactive or sclerosing agent
- - Endoscopic interventions are 90% effective for controlling initial bleeding
+---
 
- - What is the risk of rebleeding?
-- Actively bleeding pulsatile vessel — up to 80%
-- Visible vessel — up to 50%
-- Adherent clot — 15-25%
-- Clean base — <5%
-- Gastric Ulcer
-- What is important in treating gastric ulcers?
- - Biopsy ulcer to evaluate for malignancy as well as obtain antral biopsies to test for H . pylori .
-- MC cause of gastric bleeding = H . pylori and NSAIDs
-- Underlying malignancy present in approximately 5% of gastric ulcers
-- What do you do if patient rebleeds after 1st endoscopic intervention?
- - Repeat endoscopy (angiography also an option)
- - Once bleeding is controlled, etiology has to be identified and treated
-- Stop NSAIDS, tobacco cessation, PPI, H . Pylori treatment, etc .
-- When do you operate?
- - For bleeding that cannot be controlled endoscopically or hemorrhagic shock → midline laparotomy, anterior gastrotomy, oversew bleeding area, biopsy, and close gastrotomy
-- Duodenal Ulcer
-- What is the management of a bleeding duodenal ulcer?
- - Initial management same as any upper GI bleed → resuscitate, NG tube, rapid EGD for diagnosis/ treatment
+## Hiatal Hernia
 
- - Endoscopy is 1st and 2nd line (like gastric ulcers) → possibly angiography → surgery reserved for uncontrolled bleeding with above and hemodynamic instability
- - What operation?
-- Longitudinal anterior duodenotomy, control bleeding with sutures placed superior and inferior to ulcer taking care to avoid CBD (can ligate GDA above duodenum if bleeding continues) → approximate ulcer crater → close duodenotomy transversely
-- How do you treat perforated ulcers?
- - Initiate fluid resuscitation, NG decompression, acid suppression, and antibiotics for empiric coverage of gram-negative rods, oral flora, anaerobes, and fungus (e .g . ampicillin, ceftriaxone, metronidazole, fluconazole)
- - Omental patch repair
-- May be performed open or laparoscopically
-- Close perforation with seromuscular bite if able to approximate and then secure tongue of omentum over site of perforation with 3-4 sutures A small amount of free air and stable patient may have a contained perforation that does not require OR. However, not a common exam scenario.
-- If patient undergoing operation for complication of gastroduodenal ulcer disease and has hx of treatment with PPI and/or eradication of h . pylori (i .e . refractory ulcer disease), what else should you consider?
-- Acid reducing procedure
- - Truncal vagotomy and pyloroplasty
- - Highly selective vagotomy (HSV) - Preserves motor innervation to pylorus, eliminating need for drainage procedure
+- **Types:**
+  - **I — sliding** (> 90%). GE junction migrates into the chest. Do NOT repair unless GERD indication.
+  - **II — pure paraesophageal.** Fundus herniates alongside a fixed GEJ. Repair.
+  - **III — mixed** (sliding + paraesophageal). Repair.
+  - **IV — another organ in the chest** (colon most common). Repair.
+- **Diagnosis:** often incidental on CXR; confirm with barium swallow, CT chest, EGD.
+- **Indications for repair:**
+  - All symptomatic type II–IV.
+  - Especially those with obstructive symptoms or volvulization.
+  - Asymptomatic PEH → routine elective repair if good surgical candidate.
+  - Watchful waiting for asymptomatic minimally symptomatic patient who is a poor surgical candidate.
+  - Hiatal hernia found at time of sleeve gastrectomy → **repair** concurrently.
+- **Operative principles:**
+  - Laparoscopic preferred; open or trans-thoracic acceptable.
+  - **Excise the sac** — key step, reduces early recurrence.
+  - **Mesh reinforcement** in defects > 5–8 cm — decreases short-term recurrence, long-term safety debated. NCCN / SAGES: reasonable for large defects, not mandatory.
+  - **Permanent suture** to reapproximate crura.
+  - **Fundoplication** at time of repair (see GERD principles above).
+  - **Collis gastroplasty** — esophageal lengthening if inadequate intra-abdominal esophagus (< 2.5 cm).
+  - **Gastropexy or gastrostomy** — alternative to Collis for select patients.
 
- - Vagotomy and antrectomy — Higher morbidity (2/2 need for Bilroth reconstruction) than vagotomy and pyloroplasty or HSV, therefore, reserved for stable patients with anatomic indications (large antral ulcers, pyloric scarring) Marginal ulcer after bariatric surgery perforation treated the same as duodenal ulcer. Gastric Cancer
- - What are the risk factors?
-- H . pylori, smoking, heavy ETOH intake, high salt, nitrates
- - Typically classified as intestinal type or diffuse type (Lauren Classification)
- - Most are sporadic, 5-10% familial component, 3-5% inherited syndrome
-- Hereditary diffuse gastric cancer
-- Autosomal dominant disorder 2/2 germline mutation in CDH1
-- How do you treat these patients?
- - Prophylactic gastrectomy recommended between age 18-40 for CDH1 carriers
-- Women with CDH1 are at increased risk of breast CA similar to BRCA patients
-- What are other hereditary syndromes with increased risk of gastric CA?
-- Lynch syndrome (DNA mismatch genes)
-- Juvenile polyposis syndrome (SMAD4)
-- Peutz-Jehgers Syndrome
-- Familial adenomatous polyposis (APC gene on 5q21)
- - How do you stage these?
-- Routine labs, CT chest/abdomen/pelvis, EUS with FNA, PET/CT
+---
 
- - What is the role of staging laparoscopy?
-- NCCN recommends laparoscopic staging with peritoneal washing for clinical stage > T1b tumors if chemoradiation or surgery being considered (not needed if known metastasis and undergoing definitive chemoradiation or palliative options)
-- Staging Pearls —
- - T stage
-- T1
-- T1a invades lamina propria or muscularis mucosa
-- T1b invades submucosa
-- T2 invades muscularis propria
-- T3 invades subserosa
-- T4 invades through serosa or into adjacent structures
- - N status
-- N1 involves 1-2 nodes
-- N2 involves 3-6 nodes
-- N3 involves 7 or more nodes
- - M1 = distant metastasis Staging similar to esophageal cancer, but esophagus has no serosa.
- - What is unresectable disease?
-- Peritoneal involvement, distal metastases, root of mesentery involvement or para-aortic nodal disease confirmed by biopsy, encasement of major vascular structure (excluding splenic vessels)
- - Who gets neoadjuvant therapy?
-- cT2 or higher and any N Similar to esophageal and rectal cancer
+## Peptic Ulcer Disease
 
- - What are the surgical principles?
-- Resection with at least 4 cm margins and lymph node harvest of at least 15
-- Type of resection (total vs subtotal gastrectomy) and extent of lymph node dissection (D1 vs D2) is somewhat controversial
-- Subtotal gastrectomy is preferred for distal lesions (Siewert III)
-- Proximal tumors (Siewert II) will generally need total gastrectomy with esophagojejunostomy, distal portion of esophagus may need to be resected for adequate margins
-- Tumors crossing GE junction are classified and treated as esophageal cancer
-- NO prophylactic splenectomy (only if spleen or hilum grossly involved with tumor)
-- T4 tumors require en bloc resection of involved structures
-- What are the types of lymph node dissection?
-- D1 dissection = removal of N1 nodes (perigastric nodes along greater/lesser curve, stations 1-6)
-- D2 dissection = removal of N1 and N2 nodes (nodes along left gastric, common hepatic, celiac and splenic arteries, stations 7-11)
-- Gastrectomy with D2 dissection is the standard in Asia, however, Western studies have failed to demonstrate survival benefit of D2 dissection over D1 dissection, and D2 dissection may be associated with increased morbidity/mortality → current NCCN recommendation is for R0 resection with at least D1 or modified D2 lymph node dissection
- - R0 = negative microscopic margin
- - R1 = negative gross margin, positive microscopic margin
- - R2 = positive gross margin
+- **H. pylori:** present in ~**75% of gastric ulcers**, ~**95% of duodenal ulcers**.
+- **Triple therapy:** PPI + clarithromycin + amoxicillin (or metronidazole). 14 days.
+- **Gastric ulcer types (modified Johnson):**
+  - **Type I** — lesser curve, incisura. **Low acid**, mucosal defect. MC. Treat with **distal gastrectomy** (includes ulcer + antrum).
+  - **Type II** — gastric ulcer + duodenal ulcer. **High acid.** Vagotomy + antrectomy.
+  - **Type III** — prepyloric. **High acid.** Vagotomy + antrectomy.
+  - **Type IV** — high on lesser curve near GEJ. **Low acid.** Csendes or subtotal gastrectomy with Roux-en-Y.
+  - **Type V** — anywhere, NSAID-induced. Stop NSAIDs, PPI.
+- **Underlying malignancy** present in ~**5% of gastric ulcers** — always **biopsy** the ulcer edge and antrum (H. pylori test).
 
- - When is adjuvant therapy recommended?
-- Adjuvant 5-fluorouracil for T3, T4, or node positive disease following R0 resection Post Gastrectomy Syndromes
- - What is retained antrum syndrome?
-- Retained antral tissue within duodenal stump after gastric resection
-- G cells bathed in alkaline fluid → continuous gastrin release → acid production in proximal stomach remnant and ulceration Check gastrin levels to rule out a gastrin-secreting tumor.
-- Treatment = PPI; vagotomy and resection of retained antrum
- - What is dumping syndrome?
-- Tachycardia, diaphoresis, dizziness, flushing
-- Early dumping syndrome (20-30 min after meal)
-- Occurs due to abrupt hyperosmolar load to small intestine
-- Late dumping syndrome (1-4 hours after meal)
-- Due to rapid carbohydrate load to small intestine resulting in large insulin surge and rebound hypoglycemia
-- Majority managed with small meals, no sugary drinks → for refractory dumping syndrome try octreotide
- - What is alkaline reflux gastritis?
-- After Bilroth I and Bilroth II reconstructions
-- Diagnosis = impedance studies
-- What is medical management?
-- Pro kinetic agents, bile acid binding resins
-- What is surgical management?
-- Conversion to RNY
+### Bleeding ulcer
+- **Initial:** resuscitate, NG tube, PPI drip, urgent EGD.
+- **Endoscopic control 90% effective.** Techniques: clips, thermal, injection of vasoactive / sclerosing agent.
+- **Rebleed risk by finding:**
+  - Actively bleeding pulsatile vessel — **up to 80%**.
+  - Visible vessel — **~50%**.
+  - Adherent clot — **15–25%**.
+  - Clean base — **< 5%**.
+- **Rebleed after 1st EGD:** repeat EGD (or angiography). Identify and treat etiology (NSAIDs, tobacco, H. pylori, PPI).
+- **Surgical indications:** uncontrollable bleeding with endoscopy or persistent hemodynamic instability.
+  - **Gastric ulcer:** midline laparotomy → anterior gastrotomy → oversew, biopsy, close.
+  - **Duodenal ulcer:** longitudinal anterior duodenotomy → three-point suture ligation (above, below, and U-stitch under the ulcer to control GDA and its branches — the pancreaticoduodenal artery). Ligate GDA above duodenum if bleeding continues. Close duodenotomy **transversely**.
 
-At least 50 cm for Roux limb will avoid recurrent bile reflux.
-- What is the Braun enterostomy?
- - Anastomosis between afferent and efferent limb
- - What is afferent limb syndrome?
-- Acute or chronic obstruction of afferent jejunal limb following Bilroth II reconstruction
-- Increased luminal pressure of afferent limb can result in what symptoms?
-- Obstructive jaundice, cholangitis, pancreatitis from back pressure up biliopancreatic system
-- Duodenal stump blow out
-- Bacterial overgrowth in afferent limb → bacteria deconjugate bile acids → steatorrhea, malnutrition, and vitamin B-12 deficiency leading to megaloblastic anemia .
-- Treatment = conversion to Roux-en-Y or Bilroth I; bacterial overgrowth can be managed first with antibiotics (high relapse rate though) If B2 patient presents with bowel obstruction, no NGT and decompression → emergent surgery. Similar to bypass patients with internal hernia.
+### Perforated ulcer
+- Fluid resuscitation, NG decompression, PPI, empiric antibiotics (ampicillin, ceftriaxone, metronidazole, fluconazole).
+- **Graham patch** — omental tongue tacked over the perforation with 3–4 sutures. Open or laparoscopic. Approximate the perforation edges if the tissue permits.
+- Small amount of free air + stable patient → possible contained perforation → non-operative trial (rare on exams).
+- **Refractory ulcer** (recurrent despite PPI + H. pylori eradication) → add an **acid-reducing procedure:**
+  - **Truncal vagotomy + pyloroplasty.**
+  - **Highly selective (parietal cell) vagotomy** — preserves pyloric innervation, no drainage procedure.
+  - **Vagotomy + antrectomy** — highest recurrence prevention but most morbid (Billroth reconstruction). Reserved for stable patients with anatomic indications (large antral ulcer, pyloric scarring).
+- **Marginal ulcer after RYGB or gastric bypass** — treated same as duodenal ulcer perforation (omental patch + medical optimization).
 
-Figure 2 - Gastric reconstruction options with associated complications Quick Hits
-- What do you do if you need more esophageal length during paraesophageal hernia repair?
- - Collis gastroplasty
-- Unable to swallow secretions after Nissen, what’s the problem and management?
- - Wrap too tight, return to OR
-- Types of ulcer associated with increased acid output?
- - Type II and III
-- Types of ulcer associated with decreased mucosal protection?
- - Type I and IV
-- Hiatal hernia discovered at time of sleeve gastrectomy . What do you do?
- - Repair
-- Patient with history of antrectomy and Bilroth II reconstruction in distant past presents with intermittent abdominal pain and
+---
 
-distention which is relieved after bilious emesis, megaloblastic anemia on laboratory work up . What is this?
- - Afferent limb syndrome
-- What is the diagnosis for a patient with multiple duodenal ulcers and gastrin levels >1000 pg/ml?
- - Zollinger Ellison syndrome
-- Gastric mass with biopsy showing expansion of the marginal zone compartment with development of sheets of neoplastic small lymphoid cells . Diagnosis and treatment?
- - Maltoma
- - Treatment = antibiotics (triple therapy for H . pylori)
-- Will typically regress once H . pylori is eradicated
+## Gastric Volvulus
+
+- Often associated with paraesophageal hernia; high morbidity / mortality.
+- **Three types:**
+  - **Organoaxial** (most common) — rotation along long axis (GEJ to pylorus).
+  - **Mesoaxial** — rotation along short axis (bisecting lesser/greater curvature).
+  - **Combined.**
+- **Borchardt's triad:** severe epigastric pain, retching without vomiting, inability to pass an NG tube.
+- **Treatment:** emergent surgery — reduction, hernia repair, gastropexy ± partial gastrectomy if devitalized. In frail patients, endoscopic decompression with double PEG-tube fixation is an option.
+
+---
+
+## Gastric Adenocarcinoma
+
+- **Risk factors:** H. pylori, tobacco, heavy ETOH, high salt, nitrates, atrophic gastritis, pernicious anemia, prior gastric surgery.
+- **Lauren classification:**
+  - **Intestinal type** — glandular, better prognosis, associated with H. pylori / dietary risk.
+  - **Diffuse type** — signet-ring cells, "linitis plastica" (leather-bottle stomach), worse prognosis, often hereditary.
+- **Hereditary syndromes:**
+  - **Hereditary diffuse gastric cancer (HDGC)** — autosomal dominant, **CDH1 (E-cadherin)** germline mutation. **Prophylactic total gastrectomy age 18–40.** Women also at increased breast cancer risk (like BRCA).
+  - **Lynch syndrome** (mismatch repair).
+  - **Juvenile polyposis** (SMAD4).
+  - **Peutz–Jeghers** (STK11).
+  - **FAP** (APC gene, 5q21).
+- **Staging:** CBC, CMP, CT chest/abdomen/pelvis, **EUS ± FNA**, PET/CT, upper endoscopy with biopsy.
+  - **Staging laparoscopy with peritoneal washings** per NCCN for clinical **> T1b tumors** being considered for surgery or chemoRT (skip if known metastatic disease going to palliative therapy).
+- **T stage:**
+  - **T1a** — lamina propria / muscularis mucosa.
+  - **T1b** — submucosa.
+  - **T2** — muscularis propria.
+  - **T3** — subserosa.
+  - **T4** — through serosa or adjacent structures.
+- **N stage:** N1 = 1–2 nodes, N2 = 3–6, N3 ≥ 7. **M1** = distant.
+- **Unresectable:** peritoneal disease, distant mets, root of mesentery involvement, para-aortic nodal disease (biopsied), encasement of major vessels (excluding splenic).
+- **Neoadjuvant:** cT2 or higher, or any N+ (parallel to esophageal / rectal).
+- **Surgical principles:**
+  - **≥ 4 cm margins**, lymph node harvest **≥ 15**.
+  - **Subtotal gastrectomy** for distal (Siewert III / antral) lesions.
+  - **Total gastrectomy** with **esophagojejunostomy** for proximal (Siewert II) lesions; may need distal esophagectomy for margins.
+  - Tumors crossing the GEJ = treat as **esophageal cancer**.
+  - **No prophylactic splenectomy** — only if spleen or hilum grossly involved.
+  - T4 tumors → **en bloc resection** of involved structures.
+- **Lymphadenectomy:**
+  - **D1** — perigastric nodes (stations 1–6).
+  - **D2** — adds nodes along left gastric, common hepatic, celiac, splenic (stations 7–11).
+  - Standard in Asia is D2; Western trials failed to show survival benefit and D2 had higher morbidity → NCCN recommends **R0 with ≥ D1 or modified D2**.
+- **R-status:** **R0** = negative micro margin; **R1** = negative gross, positive micro; **R2** = positive gross.
+- **Adjuvant chemo (5-FU based)** for T3, T4, or node-positive disease post R0.
+
+---
+
+## GIST (Gastrointestinal Stromal Tumor)
+
+- **Origin:** interstitial cells of Cajal (pacemaker cells).
+- **Most common site:** **stomach (60–70%)**, then small bowel (~25%), then colon/rectum/esophagus.
+- **Genetics:**
+  - **KIT (CD117) gain-of-function mutation** — ~75%.
+  - **PDGFRA** mutation — ~10%. **D842V substitution is imatinib-resistant** → use **avapritinib**.
+  - **Wild-type / SDH-deficient** — ~15% (includes Carney triad, NF1-associated).
+- **IHC:** **CD117 positive** (specific), **DOG1 positive**, CD34 often positive. Negative for smooth muscle actin, desmin, S-100 (rules out leiomyoma / schwannoma).
+- **Presentation:** incidental on imaging, GI bleed, obstruction (large tumors), or vague abdominal pain. Rarely lymph-node positive.
+- **Miettinen–Lasota risk stratification** — based on **size** (≤ 2, 2–5, 5–10, > 10 cm), **mitotic count** (≤ 5 vs > 5 per 50 HPF), and **location** (gastric better than non-gastric):
+  - Gastric < 2 cm + mitoses ≤ 5 → essentially benign.
+  - Gastric 5–10 cm + mitoses ≤ 5 → intermediate.
+  - Any > 10 cm, or mitoses > 10, or any non-gastric with unfavorable features → high risk.
+- **Surgery:**
+  - **Wedge (partial) gastrectomy** with R0 negative margins. Micro margin adequate — no defined cm requirement like adenocarcinoma. See the [wedge gastrectomy case prep](/landmark/wedge-gastrectomy/) for technique.
+  - **Do NOT do a lymphadenectomy** — GISTs almost never spread to nodes.
+  - **Do NOT rupture the tumor** — intraop rupture automatically makes it high-risk and mandates adjuvant imatinib.
+- **Neoadjuvant imatinib** — consider for large (> 5 cm), poorly positioned, or unresectable GIST to shrink for organ preservation (e.g., distal GEJ mass).
+- **Adjuvant imatinib** — indicated for intermediate / high-risk disease for **≥ 3 years**.
+- **Metastatic disease** — imatinib first-line, sunitinib second-line, regorafenib third-line, ripretinib fourth-line.
+- **Surveillance:** CT abdomen/pelvis with contrast every 3–6 months for 5 years, then annually.
+
+---
+
+## Neuroendocrine Tumors of the Stomach
+
+### Gastric carcinoid (Type I / II / III)
+
+- **Type I (~70–80%)** — associated with **chronic atrophic gastritis** and **hypergastrinemia** (achlorhydria → G-cell hyperplasia → ECL hyperplasia → carcinoid).
+  - Multiple small (< 1 cm), well-differentiated, **excellent prognosis**.
+  - Treatment thresholds:
+    - **< 1 cm and ≤ 5 lesions:** endoscopic surveillance ± endoscopic resection.
+    - **1–2 cm or > 5 lesions:** endoscopic vs surgical resection; consider antrectomy to remove gastrin drive.
+    - **> 2 cm or invasion / positive nodes:** formal partial gastrectomy with regional LND.
+- **Type II (~5%)** — associated with **MEN1 + Zollinger–Ellison syndrome**. Gastrin-driven from a duodenal or pancreatic gastrinoma.
+  - Treatment: **address the gastrinoma first**; then follow the same size-based algorithm as Type I.
+- **Type III (~15–25%)** — **sporadic, no hypergastrinemia**. Solitary, larger, **aggressive**, high metastatic potential (~50%).
+  - **Formal (subtotal or total) gastrectomy with lymphadenectomy** regardless of size.
+- **Type IV (poorly differentiated neuroendocrine carcinoma)** — treated as small-cell / large-cell carcinoma with platinum-based chemotherapy.
+- **Staging workup:** chromogranin A, 5-HIAA (rarely functional for gastric), **Ga-68 DOTATATE PET/CT**, EGD with EUS, biopsy for grading (Ki-67, mitotic count).
+
+### Zollinger–Ellison Syndrome (gastrinoma)
+
+- **Clinical:** multiple refractory ulcers, ulcers in unusual locations (jejunum), diarrhea, PPI-refractory reflux.
+- **Diagnosis:**
+  - **Fasting gastrin > 1000 pg/mL** *with* gastric pH < 2 = essentially diagnostic.
+  - Intermediate gastrin (150–1000) → **secretin stimulation test**: paradoxical rise in gastrin > 200 = positive.
+  - **Hold PPI ≥ 7 days** before gastrin measurement (false-positive elevation).
+- **Location:** ~**60% duodenal**, ~30% pancreatic (head), remainder ectopic. In **Passaro's / gastrinoma triangle** — bounded by cystic duct / CBD superiorly, junction of pancreatic neck-body medially, junction of D2/D3 inferiorly.
+- **Association:** **MEN1** (~25% of gastrinomas). Screen for parathyroid and pituitary.
+- **Localization:** **Ga-68 DOTATATE PET/CT** (best), EUS, CT, MRCP, intra-op ultrasound.
+- **Treatment:**
+  - Medical control: **high-dose PPI**.
+  - **Surgical resection** for localized disease: enucleation of small duodenal or pancreatic head tumors; formal resection for larger or malignant.
+  - MEN1 patients: parathyroidectomy first if hypercalcemia (reduces gastrin secretion).
+  - Metastatic disease: PPI + **somatostatin analogs** (octreotide / lanreotide), **DOTATATE** peptide receptor radionuclide therapy, everolimus/sunitinib.
+
+---
+
+## MALToma (Gastric MALT Lymphoma)
+
+- Low-grade B-cell lymphoma of mucosa-associated lymphoid tissue.
+- **Strongly associated with H. pylori.**
+- **Biopsy** shows expansion of the marginal zone with sheets of neoplastic small lymphoid cells.
+- **Treatment:** **triple therapy for H. pylori** → regression in ~80% of early-stage disease.
+- Non-regressing or advanced: radiation, rituximab-based chemotherapy.
+- **Surgery is not first line** — reserved for complications (bleeding, perforation, obstruction) or high-grade transformation to DLBCL.
+
+---
+
+## Post-Gastrectomy Syndromes
+
+- **Retained antrum syndrome** — antral tissue left in the duodenal stump after gastric resection. G cells bathed in alkaline fluid → continuous gastrin release → recurrent ulceration in the gastric remnant.
+  - Check **gastrin level** to rule out gastrinoma.
+  - Treatment: PPI; definitive is vagotomy + resection of retained antrum.
+- **Dumping syndrome:**
+  - **Early (20–30 min post-meal):** tachycardia, diaphoresis, dizziness, flushing, cramping. Due to abrupt hyperosmolar load into small bowel.
+  - **Late (1–4 hr post-meal):** hypoglycemic symptoms. Rapid carbohydrate load → insulin surge → rebound hypoglycemia.
+  - **Treatment:** small frequent meals, avoid sugary drinks. Refractory → **octreotide**.
+- **Alkaline reflux gastritis** — after Billroth I / II reconstruction. Diagnose with impedance studies. Medical management: prokinetics, bile-acid binding resins. Surgical: **conversion to Roux-en-Y** with ≥ **50 cm Roux limb** to prevent recurrent bile reflux.
+- **Afferent limb syndrome** — Billroth II complication. Obstruction of the afferent limb → increased pressure → obstructive jaundice, cholangitis, pancreatitis; can cause duodenal stump blow-out; bacterial overgrowth → deconjugation of bile acids → steatorrhea, malnutrition, B12 deficiency, megaloblastic anemia.
+  - **B2 patient with SBO symptoms + bilious emesis + megaloblastic anemia → afferent limb syndrome.**
+  - **Treatment:** conversion to RY or Billroth I. Antibiotics can control overgrowth temporarily but relapses are common. **Do NOT decompress with an NG** — go to OR (like an internal-hernia bypass patient).
+- **Braun enterostomy** — side-to-side anastomosis between afferent and efferent limbs of a Billroth II; diverts bile away from the gastric remnant, mitigates afferent-limb and alkaline reflux issues.
+- **Marginal ulcer** — at the gastrojejunal anastomosis (RYGB, Billroth II). Treated medically first; perforation managed like a duodenal ulcer perforation (Graham patch).
+
+---
+
+## Rapid-Fire Questions
+- **Q:** Types of hiatal hernia?
+  **A:** I = sliding (most common), II = pure paraesophageal, III = mixed, IV = another organ (usually colon).
+
+- **Q:** Siewert I, II, III?
+  **A:** I = 1–5 cm above EGJ (esophageal cancer), II = within 1 cm above / 2 cm below (extended total gastrectomy), III = 2–5 cm below (subtotal/total gastrectomy).
+
+- **Q:** Gastric ulcer types and acid states?
+  **A:** I = lesser curve, **low acid**; II = gastric + duodenal, **high acid**; III = prepyloric, **high acid**; IV = high lesser curve, **low acid**; V = NSAID-related.
+
+- **Q:** Most missed vagal branch in truncal vagotomy?
+  **A:** **Criminal nerve of Grassi** — most posterior branch of the right (posterior) vagus above the GEJ.
+
+- **Q:** DeMeester score cutoff for reflux?
+  **A:** **> 14.72**.
+
+- **Q:** Which fundoplication for a patient with dysmotility?
+  **A:** **Partial wrap** (Toupet or Dor) — 360° Nissen risks severe dysphagia.
+
+- **Q:** Rebleed risk from a clean-based ulcer?
+  **A:** **< 5%.** Adherent clot 15–25%, visible vessel 50%, actively bleeding vessel up to 80%.
+
+- **Q:** Approach to a duodenal ulcer bleeder in the OR?
+  **A:** Longitudinal anterior duodenotomy → three-point suture ligation controlling the GDA and pancreaticoduodenal branches → close **transversely**.
+
+- **Q:** How much margin do you need for gastric adenocarcinoma?
+  **A:** **≥ 4 cm**, with lymph node harvest **≥ 15**.
+
+- **Q:** Prophylactic gastrectomy — who and when?
+  **A:** **CDH1 (hereditary diffuse gastric cancer) carriers, ages 18–40.**
+
+- **Q:** GIST margin required?
+  **A:** **R0 (negative microscopic margin)**; no defined cm margin. **No lymphadenectomy.**
+
+- **Q:** Adjuvant imatinib duration for high-risk GIST?
+  **A:** **≥ 3 years.**
+
+- **Q:** Ki-67 or mitotic count that flips a GIST to high risk?
+  **A:** Mitoses > 10 per 50 HPF, or any size > 10 cm, or non-gastric with unfavorable features, or intraop rupture.
+
+- **Q:** Which GIST mutation is imatinib-resistant?
+  **A:** **PDGFRA D842V.** Use **avapritinib**.
+
+- **Q:** Three types of gastric carcinoid?
+  **A:** Type I — atrophic gastritis + hypergastrinemia (MC, best prognosis). Type II — MEN1 + ZES. Type III — sporadic, aggressive, formal gastrectomy + LND.
+
+- **Q:** ZES workup?
+  **A:** Fasting **gastrin > 1000** with pH < 2 = diagnostic. Intermediate values → **secretin stimulation** (paradoxical rise > 200). **Hold PPI ≥ 7 days** first.
+
+- **Q:** Gastrinoma triangle borders?
+  **A:** Cystic duct / CBD superiorly, junction of pancreatic neck-body medially, junction of D2/D3 inferiorly (Passaro's triangle).
+
+- **Q:** Gastric mass biopsy shows expansion of marginal zone with sheets of small lymphoid cells — diagnosis?
+  **A:** **MALToma** — treat with H. pylori triple therapy first.
+
+- **Q:** Bilroth II patient with intermittent pain + megaloblastic anemia + bilious emesis relieving symptoms?
+  **A:** **Afferent limb syndrome.**
+
+- **Q:** Post-op capnothorax during PEH repair — first move?
+  **A:** Enlarge the tear (avoid tension), place red rubber catheter through it, at end of case pull one end out and put to water seal during Valsalva.
+
+- **Q:** Post-Nissen patient can't swallow secretions — problem and management?
+  **A:** Wrap too tight — return to OR.
+
+- **Q:** Post-op day 2 PEH repair, CXR shows 2 cm pneumothorax — what do you do?
+  **A:** **Nothing.** Will self-resolve.
+
+- **Q:** Zollinger–Ellison — most common inherited syndrome association?
+  **A:** **MEN1** (parathyroid, pituitary, pancreas). Screen for hypercalcemia.
+
+---
+
+## Quick Reference Table — Gastric Malignancies
+
+<style>
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:860px;}
+.qr-table{width:100%;min-width:640px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
+.qr-table th.label,.qr-table td.label{text-align:left;width:22%;}
+.qr-table th.value,.qr-table td.value{text-align:center;width:19%;}
+.qr-table thead th{background:#f8fafc;font-weight:700;}
+.qr-table tbody tr:nth-child(even){background:#f8fafc;}
+</style>
+
+<div class="qr-table-wrap">
+<table class="qr-table">
+  <thead>
+    <tr>
+      <th class="label">Feature</th>
+      <th class="value">Adenocarcinoma</th>
+      <th class="value">GIST</th>
+      <th class="value">Type I / II Carcinoid</th>
+      <th class="value">Type III Carcinoid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td class="label">Origin cell</td><td class="value">Glandular</td><td class="value">Interstitial cells of Cajal</td><td class="value">ECL cells (gastrin-driven)</td><td class="value">ECL (sporadic)</td></tr>
+    <tr><td class="label">Marker / IHC</td><td class="value">CK, mucin</td><td class="value">CD117, DOG1</td><td class="value">Chromogranin, synaptophysin</td><td class="value">Chromogranin, synaptophysin</td></tr>
+    <tr><td class="label">Margin needed</td><td class="value">≥ 4 cm</td><td class="value">R0 (no cm)</td><td class="value">Endoscopic / limited</td><td class="value">Formal resection margin</td></tr>
+    <tr><td class="label">Lymphadenectomy</td><td class="value">D1 or modified D2 (≥ 15)</td><td class="value">No</td><td class="value">Selective / no</td><td class="value">Yes</td></tr>
+    <tr><td class="label">Systemic therapy</td><td class="value">5-FU based</td><td class="value">Imatinib</td><td class="value">Observation ± SSA</td><td class="value">Platinum for NEC</td></tr>
+    <tr><td class="label">Preferred op</td><td class="value">Subtotal / total gastrectomy</td><td class="value">Wedge (organ preserving)</td><td class="value">Endoscopic ± wedge / antrectomy</td><td class="value">Subtotal / total gastrectomy</td></tr>
+  </tbody>
+</table>
+</div>
+
+---
+
+## Quick-Reference Cards
+
+<style>
+.quick-cards .qr-card{border:1px solid var(--border,#e5e7eb);border-radius:10px;margin:12px 0;background:#fff;overflow:hidden;}
+.quick-cards .qr-card summary{cursor:pointer;list-style:none;padding:12px 14px;font-weight:700;}
+.quick-cards .qr-card[open] summary{border-bottom:1px solid var(--border,#e5e7eb);}
+.quick-cards .qr-body{padding:10px 14px;}
+.quick-cards .kv{margin:0;padding:0;list-style:none;}
+.quick-cards .kv li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #f1f5f9;}
+.quick-cards .kv li:last-child{border-bottom:0;}
+.quick-cards .key{flex:0 0 40%;font-weight:600;}
+.quick-cards .val{flex:1 1 auto;}
+</style>
+
+<div class="quick-cards">
+
+  <details class="qr-card" open>
+    <summary>Gastric cells and their secretions</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Parietal (fundus/body)</div><div class="val">HCl, intrinsic factor.</div></li>
+        <li><div class="key">Chief (fundus/body)</div><div class="val">Pepsinogen.</div></li>
+        <li><div class="key">G cell (antrum)</div><div class="val">Gastrin — targeted in ZES / Type I & II carcinoid.</div></li>
+        <li><div class="key">D cell (antrum)</div><div class="val">Somatostatin — brake on gastrin.</div></li>
+        <li><div class="key">ECL (fundus/body)</div><div class="val">Histamine — proliferates in atrophic gastritis → Type I carcinoid.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Gastric ulcer — Modified Johnson classification</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Type I</div><div class="val">Lesser curve, incisura. Low acid. Distal gastrectomy.</div></li>
+        <li><div class="key">Type II</div><div class="val">Gastric + duodenal. High acid. Vagotomy + antrectomy.</div></li>
+        <li><div class="key">Type III</div><div class="val">Prepyloric. High acid. Vagotomy + antrectomy.</div></li>
+        <li><div class="key">Type IV</div><div class="val">High lesser curve near GEJ. Low acid. Csendes / subtotal + RY.</div></li>
+        <li><div class="key">Type V</div><div class="val">NSAID-induced, any location. Stop NSAIDs + PPI.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>GIST — post-op flow</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Path review</div><div class="val">Confirm R0. Report size, mitotic count, location. IHC (CD117, DOG1).</div></li>
+        <li><div class="key">Risk stratify</div><div class="val">Miettinen–Lasota (size, mitoses, site, rupture).</div></li>
+        <li><div class="key">Low risk</div><div class="val">Surveillance only.</div></li>
+        <li><div class="key">Intermediate / high risk</div><div class="val">Adjuvant imatinib ≥ 3 years.</div></li>
+        <li><div class="key">Metastatic</div><div class="val">Imatinib → sunitinib → regorafenib → ripretinib.</div></li>
+        <li><div class="key">D842V</div><div class="val">Avapritinib (imatinib doesn't work).</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Neuroendocrine tumor — Type-based algorithm</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Type I</div><div class="val">Atrophic gastritis + high gastrin. Multiple small. &lt; 1 cm → endoscopy. 1–2 cm → endo ± antrectomy. &gt; 2 cm / N+ → partial gastrectomy.</div></li>
+        <li><div class="key">Type II</div><div class="val">MEN1 + ZES. Fix the gastrinoma first, then follow Type I algorithm.</div></li>
+        <li><div class="key">Type III</div><div class="val">Sporadic, aggressive. Formal gastrectomy + LND regardless of size.</div></li>
+        <li><div class="key">Type IV (NEC)</div><div class="val">Poorly differentiated. Platinum-based chemo.</div></li>
+        <li><div class="key">Workup</div><div class="val">Ga-68 DOTATATE PET/CT, chromogranin A, EGD + EUS, Ki-67.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Post-gastrectomy syndrome cheat sheet</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Retained antrum</div><div class="val">Ulcer + high gastrin post gastric surgery. Resect retained antrum ± vagotomy.</div></li>
+        <li><div class="key">Early dumping</div><div class="val">20–30 min post-meal. Small meals, no sugars, octreotide if refractory.</div></li>
+        <li><div class="key">Late dumping</div><div class="val">1–4 hr, hypoglycemia. Same management.</div></li>
+        <li><div class="key">Alkaline reflux gastritis</div><div class="val">Post-B1/B2. Convert to RY with ≥ 50 cm limb.</div></li>
+        <li><div class="key">Afferent limb syndrome</div><div class="val">B2 with SBO + jaundice + megaloblastic anemia. Emergent OR, convert to RY or B1.</div></li>
+        <li><div class="key">Braun enterostomy</div><div class="val">Afferent-to-efferent side-to-side at B2 — diverts bile.</div></li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+
+---
+
+## Related Case Preps
+- [Wedge Gastrectomy (robotic)](/landmark/wedge-gastrectomy/) — for GIST, Type I / II carcinoid < 2 cm, small benign masses.
+- [Distal Gastrectomy + Reconstruction](/landmark/case-prep/surgeries/distal-gastrectomy-reconstruction/) — for distal adenocarcinoma (Siewert III / antral).
+- [Hiatal / Paraesophageal Hernia](/landmark/case-prep/surgeries/hiatal-paraesophageal-hernia/) — for PEH repair with fundoplication.
+- [Graham Patch](/landmark/case-prep/surgeries/graham-patch/) — for perforated duodenal ulcer.
+- [Gastrojejunostomy](/landmark/case-prep/surgeries/gastrojejunostomy/) — for gastric outlet obstruction.
 
 ## Figures
 
