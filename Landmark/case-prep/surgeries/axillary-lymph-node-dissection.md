@@ -72,7 +72,7 @@ redirect_from:
    - Continue dissection medially, sweeping fatty lymphatic tissue toward the specimen.
    - Take Level I (lateral to pec minor) first, then **retract pectoralis minor laterally** to expose and take Level II (behind pec minor).
    - Ligate large lymphatic channels with clips to reduce postop lymphocele.
-   - Remove en bloc; **orient with a suture** (short → superior, long → lateral, or per institutional protocol).
+   - Remove en bloc; **orient with two sutures — short → superior, long → lateral**.
 
 8. **Add Level III (Melanoma, Grossly Involved Breast Cancer)**
    - Divide the pectoralis minor at its insertion on the coracoid — or retract firmly with a right angle to expose Level III (medial to pec minor).

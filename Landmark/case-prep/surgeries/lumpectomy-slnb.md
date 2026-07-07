@@ -120,7 +120,7 @@ The sentinel node hypothesis: lymphatic drainage from the tumor bed follows a st
 
 3. **Partial mastectomy (lesion excision)**
    - Excise the lesion with a **1 cm gross margin** of surrounding normal tissue as a **single specimen**.
-   - **Orient the specimen** with sutures: short → superior, long → lateral (or the standard your institution uses). A three-suture technique also works (short, long, deep) — critical for margin re-excision planning.
+   - **Orient the specimen with two sutures — short → superior, long → lateral**. A third stitch on the deep margin is a useful adjunct — critical for margin re-excision planning.
    - **Send specimen radiograph** for lesions with clips or calcifications to confirm target excision.
    - Place **radiopaque clips** on the walls of the cavity (superior, inferior, medial, lateral, deep) — guides post-op radiation boost.
 

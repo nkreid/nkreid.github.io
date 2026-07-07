@@ -67,7 +67,7 @@ redirect_from:
    - Send for pathology.
 
 6. **Specimen Handling**
-   - Remove the specimen en bloc; **orient with a suture** (a single stitch at the 12 o'clock skin edge is standard).
+   - Remove the specimen en bloc; **orient with two sutures — short → superior, long → lateral** — so pathology can reliably call every margin.
    - Confirm complete removal of breast tissue by palpation of the chest wall.
    - **Weigh** the specimen (some centers) and send to pathology.
 

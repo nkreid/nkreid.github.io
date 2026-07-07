@@ -48,7 +48,7 @@ The MRM combines two operations through one continuous elliptical incision.
 3. **Elevate the breast off the pectoralis major** with the pectoral fascia.
 4. **Continue laterally into the axilla — do not divide the specimen.** Enter the clavipectoral fascia and continue the dissection en bloc with the axillary content still attached to the breast.
 5. **Complete the axillary dissection** as described in the [ALND page](/landmark/axillary-lymph-node-dissection/): axillary vein as ceiling, preserve long thoracic and thoracodorsal, take level I and II en bloc with the breast.
-6. **Deliver the specimen** — breast + axillary content in a single continuous specimen. Orient with a suture at 12 o'clock.
+6. **Deliver the specimen** — breast + axillary content in a single continuous specimen. **Orient with two sutures — short → superior, long → lateral** — so pathology can reliably call every margin.
 7. **Hemostasis, two JP drains** (one along the mastectomy pocket, one in the axilla — often exit through separate stab incisions).
 8. **Close the flap** in two layers as in total mastectomy.
 
