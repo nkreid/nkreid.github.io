@@ -4,361 +4,398 @@ title: "Trauma"
 redirect_from:
   - /absite/16_14-trauma/
 permalink: /landmark/topic-review/trauma/
+absite_chapter: "14"
+landmark_category: "Trauma"
 ---
 
-Initial Assessment
-- Always start with ABCDE’s (Primary Survey). A lot of trauma questions on the ABSITE just want you to be able to prioritize. Always address the airway first!!!
- - Can’t intubate, can’t ventilate → Crichothyroidotomy (See Image)
+> **High-yield ABSITE review** organized by the trauma survey. Primary survey first, then head, spine, neck, thoracic, abdominal, urologic, and extremity injuries, followed by shock/damage-control resuscitation and special populations (pediatric, pregnant).
 
-- Disability - Looking for signs of intracranial pressure, not meant to be a complete neurologic assessment . GCS and pupil exam are the most important factors .
- - GCS - What component has the most prognostic ability?
-- Answer: Motor Score
- - GCS < 8 → Intubate
- - Pupillary Exam
-- Unilateral fixed dilated pupil → Ipsilateral space occupying lesion (blood) with compression of optic nerve
-- Bilateral pinpoint pupils → Pontine hemorrhage
+## Primary Survey (ABCDE)
+- Most trauma questions are really asking you to **prioritize** — always address the airway first.
+- **Can't intubate, can't ventilate** → cricothyroidotomy.
+- **Disability** — looking for signs of elevated ICP, not a complete neuro exam. **GCS** and **pupillary exam** are the two things that matter most.
+  - Of the three GCS components, **motor score** has the most prognostic value.
+  - **GCS < 8 → intubate.**
+- **Pupillary exam**
+  - Unilateral fixed, dilated pupil → ipsilateral space-occupying lesion (blood) compressing CN III.
+  - Bilateral pinpoint pupils → pontine hemorrhage.
 
-Head Trauma
-- Who needs an ICP Monitor?
- - GCS < 8 with abnormal head CT
- - 2 main types of ICP monitors: Ventriculostomy and “bolt”
-- Ventriculostomy - Drain placed in ventricle . Has the advantage of being able to drain CSF if needed to decrease ICP .
-- Bolt - Placed intraparenchymal .
-- Golden Rule of Head Trauma = avoid hypotension and hypoxia to avoid secondary brain injury
-- Cushing’s Reflex - Bradycardia, Hypertension, Altered Respirations
- - Late finding, indicates impending herniation
- - Initial management - Elevate HOB, ventilate to pC02 35, Mannitol and/or Hypertonic Saline, Sedate and Paralyze
-- Epidural Hematoma
- - Presentation: Hit in head, lucid interval followed by rapid GCS deterioration
- - Head CT shows lenticular lucency that is contained by suture lines
-- Subdural Hematoma
- - Presentation: Older person on Coumadin with GLF
- - Crescent shaped lucency that crosses suture lines
-- Intraparenchymal Hemorrhage (most common in trauma)
- - Common after blunt injury (e .g . MVC)
-- Subarachnoid Hemorrhage
- - Worst headache of life, spontaneous
-- Cerebral Perfusion Pressure (CPP) = MAP - ICP
- - CPP is surrogate for cerebral blood flow
- - Ideally keep CPP > 60 and ICP < 20
+---
 
- - Main regulator of CPP?
-- PaCO2
- - In TBI, autoregulation is lost. Thus, CPP is exquisitely sensitive to changes in MAP .
-- Interventions to reduce ICP
- - Elevate head of bed
- - Remove c-collar or anything around neck
- - Hyperventilation (short term)
- - Hypertonic Saline or Mannitol (Hypertonic saline preferred in trauma due to hypotension that can result from mannitol administration)
- - Sedation/Paralysis
-- Adjuncts in the treatment of head injury
- - Seizure prophylaxis for trauma with intracranial bleed .
-- 1-week prophylaxis, prevents early seizures
- - Early enteral feeding within 24-48hrs
- - Correct coagulopathy
-- Reversal agents for coagulopathy
-- Coumadin -- PCC for rapid reversal . FFP is also okay . Add Vit K
-- Pradaxa (Dabigatran) - Dialysis or Praxbind (idarucizumab)
-- Apixaban/Rivaroxaban - PCC gives partial reversal
- - What about Steroids?
-- No benefit and potential harm Spine Trauma
-- Who can be cleared clinically?
- - No distracting injury
- - GCS 15, non-intoxicated
- - No midline tenderness, no neurologic deficits
+## Head Trauma
 
-- Radiographic clearance?
- - Generally, patients with a normal CT scan and no localizing symptoms can be cleared (somewhat controversial)
-- Spinal cord injury syndromes
- - Central cord syndrome - Typically upper extremity weakness (cape and gloves
-- Generally elderly patient with spinal stenosis
- - Brown Sequard (hemi-section)
-- Ipsilateral motor deficit and contralateral pain/temperature deficit below level of injury
-- Generally, results from penetrating (stab) injury
- - Anterior cord syndrome
-- Motor deficit below level of injury
-- Results from vascular injury to anterior spinal artery
- - Spinal Cord Injury Without Radiographic Abnormality (SCIWORA)
-- Seen in pediatric population
-- Neurogenic shock vs . Spinal Shock
- - Neurogenic shock
-- Affects hemodynamics . Hypotensive and Bradycardic .
- - Spinal Shock
-- Sensory/Motor affects . No effect on hemodynamics .
-- Absent bulbocavernosus and cremasteric reflex.
-- Some functions may return with spinal shock .
-- Intact reflexes indicate deficits are likely permanent.
-- Management
- - No steroids for spinal injury
- - Stable vs unstable
-- `2 of 3 columns disrupted = unstable and requires operative fixation
+### ICP Monitoring
+- Who needs one? **GCS < 8 with an abnormal head CT.**
+- Two types: **ventriculostomy** (drain in the ventricle — can also drain CSF to lower ICP) and the **bolt** (intraparenchymal).
+- **Golden rule of head trauma:** avoid hypotension and hypoxia — both worsen secondary brain injury.
+- **Cushing's reflex:** bradycardia, hypertension, altered respirations. A **late** finding indicating impending herniation.
+  - Initial management: elevate the HOB, ventilate to a pCO₂ of ~35, mannitol and/or hypertonic saline, sedate and paralyze.
 
-Neck Trauma
-- Zones of the neck
- - Zone 1 - clavicles to cricoid cartilage
- - Zone 2 - cricoid cartilage to the angle of the mandible
- - Zone 3 - Angle of mandible to skull base
-- Penetrating neck injury and patient hypotensive → OR
-- Penetrating neck injury with hard sign of vascular injury → OR
-- Penetrating neck injury and patient stable without hard sign of vascular injury → CT neck including CT angiogram
- - If concerned for esophageal injury → add esophagram or EGD
-- Esophageal injury
- - Extend myotomy to see mucosal injury extent, repair in 2 layers, buttress, drain
- - Can’t locate injury during neck exploration → widely drain
-- Blunt cerebrovascular injury (BCVI)
- - Consider screening imaging (CTA) for:
-- Severe cervical hyperextension/rotation or hyperflexion mechanism
-- Hanging mechanism
-- Neurological examination not explained by brain imaging
-- Diffuse axonal injury
-- Skull base fractures involving the foramen lacerum
-- Horner’s syndrome
-- LeFort II or III facial fractures
-- Cervical spine fracture, particularly C1-C3
-- Epistaxis from a suspected arterial source after trauma
-- Blunt head trauma with GCS < 8
-- Cervical bruit, hematoma
-- An isolated cervical seat belt sign without other risk factors
+### Lesion Patterns
+| Lesion | Presentation | Imaging |
+|---|---|---|
+| **Epidural hematoma** | Hit to the head, lucid interval, then rapid GCS decline | Lenticular (biconvex) lucency, **contained by suture lines** |
+| **Subdural hematoma** | Older patient on anticoagulation, ground-level fall | Crescent-shaped lucency, **crosses suture lines** |
+| **Intraparenchymal hemorrhage** | Most common lesion after blunt injury (e.g., MVC) | — |
+| **Subarachnoid hemorrhage** | "Worst headache of life," often spontaneous | — |
 
-and normal physical examination has failed to be identified as an independent risk factor in two retrospective studies and should not be used as the sole criteria to stratify patients for screening .
- - Distal internal carotid is most common site for BCVI
- - Antiplatelet therapy is generally treatment for most BCVI
- - Endovascular intervention for pseudoaneurysm of AV fistula Thoracic Trauma
-- Indications for OR following thoracic trauma based on chest tube output
- - Controversial and data limited
- - In general, for boards to OR if:
-- >1500ml output after initial placement
-- 200ml/hr output over 4 hours
-- Flail Chest - 3 consecutive rib fractures in 2 locations
- - Cause of hypoxia with flail chest → underlying pulmonary contusion
- - Management:
-- Pain control (epidural)
-- Consider PPV, rib plating
-- Sternal fracture
- - Be concerned about blunt cardiac injury
- - EKG is required for all suspected blunt cardiac injuries → Sinus tach and PVCs are the most common abnormalities
- - Utility of Troponin as screening tool for BCVI is controversial -- However, a normal ECG and normal Troponin essentially rule out blunt cardiac injury
- - If patient demonstrated hemodynamic instability or persistent new arrhythmia → Echocardiogram
-- Blunt Aortic injury (BAI)
- - The proximal descending aorta, where the relatively mobile
+### Cerebral Perfusion Pressure (CPP)
+- **CPP = MAP − ICP**; a surrogate for cerebral blood flow. Target **CPP > 60**, **ICP < 20**.
+- Main regulator of CPP: **PaCO₂**.
+- In TBI, cerebral autoregulation is lost — CPP becomes exquisitely sensitive to swings in MAP.
 
-aortic arch can move against the fixed descending aorta (ligamentum arteriosum), is at greatest risk from the shearing forces of sudden deceleration, although other segments or vessels can be affected .
- - Physical exam - Hypotension, upper extremity hypertension, unequal blood pressures, external evidence of major chest trauma, thoracic outlet hematoma, fractured sternum, fractured thoracic spine, left flail chest
- - Must maintain a high index of suspicion based on mechanism of injury or initial imaging
- - CXR has low sensitivity - However, findings concerning for BAI include 1) widened mediastinum (8cm), 2) Depression of mainstem bronchus, 3) deviation of NG tube to the right, 4) Apical Cap, Disruption of calcium ring (broken halo)
-- In short -Any clinical suspicion based on mechanism or a “funny looking” mediastinum on CXR needs further imaging
-- CT angiography of the chest is comparable with aortography and is the diagnostic study of choice
- - Classification scheme for grading the severity of aortic injury
-- Type I (intimal tear)
-- Type II (intramural hematoma)
-- Type III (pseudoaneurysm)
-- Type IV (rupture)
- - Management
-- Patients should be immediately started on anti- hypertensive regimens to maintain systolic blood pressure within a “normal” range, generally less that 120mm Hg (B-Blocker, typically esmolol, with or without nitroprusside)
-- Most blunt aortic injuries surviving to hospital are partial- transections, and should be managed with blood pressure control until the definitive repair.
-- Thus, the priority in the management of hemodynamically unstable patients with potential aortic injury is to rapidly identify and control on-going
+### ICP-Lowering Interventions
+Elevate the head of bed; remove the c-collar or anything constricting the neck; short-term hyperventilation; hypertonic saline or mannitol (**hypertonic saline preferred in trauma** — mannitol can worsen hypotension); sedation/paralysis.
 
-hemorrhage from other sites, and to avoid over- resuscitation .
-- In patients diagnosed with BAI, it is strongly recommended to use of endovascular repair over open repair
- - Post endovascular repair of BAI develops left hand ischemia?
-- Patient needs Carotid to subclavian bypass (subclavian is covered routinely during endovascular repair of BAI) Abdominal Trauma
-- Blunt Abdominal Trauma
- - Focused Abdominal Sonography for Trauma (FAST) exam -- Only looking for free fluid in abdomen or pericardium
-- Fluid = blood, succus, or urine
-- CT scan is more sensitive/specific than FAST
-- FAST can have false negative - should be repeated in unstable patients
- - Most common injuries following blunt abdominal trauma -- Solid organ injury
-- Hollow viscus or pancreas are the most commonly missed injury
- - Abdominal seat belt sign - Should be concerned for bowel injury or pancreatic injury
- - Solid organ injury and hemodynamically unstable → OR
- - Solid organ injury and hemodynamically stable → Generally non-operative management - ICU monitoring, trend labs, supportive care
-- Take to OR for ongoing transfusion requirement or if patient becomes unstable
- - CT scan with free fluid and no solid organ injury → Hollow viscus injury until proven otherwise
- - Hemodynamically stable with blush on CT (Spleen, liver, kidney) → Angioembolization
+### Adjuncts
+- **Seizure prophylaxis** for trauma with intracranial bleed — 1 week, prevents early (not late) seizures.
+- **Early enteral feeding** within 24–48 hours.
+- **Correct coagulopathy.**
+  - Coumadin → **PCC** for rapid reversal (FFP acceptable alternative); add vitamin K.
+  - Dabigatran (Pradaxa) → dialysis or **idarucizumab (Praxbind)**.
+  - Apixaban/rivaroxaban → PCC (only partial reversal).
+- **Steroids?** No benefit, potential harm — don't give them.
 
-- Abdominal stab wounds
- - Work-up and Management
-- Hemodynamically unstable, evisceration, peritoneal signs → OR
-- Anterior stab wounds
-- Local wound exploration
- - Look for violation of anterior rectus sheath .
-- If truly negative and no other injuries - Can discharge patient
-- If violation of anterior sheath:
-- Can observe with serial exams if hemodynamically stable and examinable +/- CT
-- If hemodynamically stable and unexaminable → CT vs laparoscopic exploration looking for violation of posterior fascia/peritoneum (controversial)
-- Flank stab wounds
-- Concerned about retroperitoneal structures
-- Triple contrast CT scan - Oral, Rectal, and IV
-- Thoracoabdominal Stab wound
-- Be concerned for diaphragm injury, even if completely stable and negative imaging
- - Frequently missed on CT -- Best evaluated with laparoscopy
-- Bowel injury
- - Destructive = >50% circumference bowel wall involvement or devascularized
-- Treatment: Resection and anastomosis
- - Non-Destructive = <50% and no vascular compromise
-- Treatment: Primary Repair
- - Damage control setting with destructive bowel injury
-- Staple off bowel, leave in discontinuity (No anastomosis),
+---
 
-temporary abdominal closure, and take to ICU for resuscitation
- - Penetrating Colon Injury
-- Treatment: Primary repair for non-destructive injury; Resection and anastomosis for destructive injury
-- Old teaching was a diversion for left-sided injury . Decision to divert is now based more on patients’ physiologic status. Left-sided injury no longer mandates diversion .
- - Bucket Handle Injury
-- Typically from blunt injury
-- Mesentery of bowel in torn from bowel but bowel intact
-- Treatment: Resection
-- Pancreatic Injury
- - Key factors for management: Involvement of pancreatic duct, Location (Head, Body, or Tail), associated duodenal injury
- - Distal injury with no ductal injury → Leave drains
- - Distal injury with duct injury → Distal pancreatectomy with splenectomy
-- Can consider spleen sparing in hemodynamically stable children
- - Laceration to head of pancreas with or without ductal injury → Drainage only
-- Retroperitoneal Hematoma
- - Zone 1 - Central (aorta, vena cava)
- - Zone 2 - Lateral (renal)
- - Zone 3 - Pelvis (Iliac)
- - Penetrating injury - explore all 3
- - Blunt Injury
-- Zone 1 - explore
-- Zone 2 - explore only expanding/pulsatile hematoma
-- Zone 3 - Generally don’t explore (pack and angiography)
+## Spine Trauma
 
-- Pelvic Fracture
- - Be concerned about injury to adjacent structures (rectum, bladder, vagina, urethra)
- - Open book pelvic fracture with hypotension → Pelvic binder 1st step
-- Angiography in stable patient
-- OR for Preperitoneal packing in unstable patient Shock
-- Shock is defined as “end organ hypoperfusion”
-- Classes of Hemorrhage
- - Class I = 0-15% blood loss
-- Generally, no physiologic signs
- - Class II = 15-30% blood loss
-- Tachycardia, Narrowed pulse pressure
- - Class III = 30-40% blood loss
-- Hypotension
- - Class IV = >40% blood loss
-- Earliest sign of shock: Tachycardia and narrowed pulse pressure (Class II)
-- Triad of death: Hypothermia, Coagulopathy, Acidosis
-- Damage control principles: Control sepsis/spillage and hemorrhage, temporary closure, and resuscitate
- - Return to OR when physiologically corrected
-- Abdominal Compartment Syndrome
- - 1st signs: Increased peak pressures on vent, decreased Up
- - Confirm with bladder pressure
-- Absolute pressure >20 is concerning for ACS
- - Treatment is decompressive laparotomy
-- Be cautious about decompressive laparotomy in burn patients following massive resuscitation as it is associated
+### Clinical Clearance
+No distracting injury, GCS 15 and non-intoxicated, no midline tenderness, no neurologic deficits.
 
-with high mortality . In burn patients, drain placement to drain ascites for ACS is preferred .
-- Damage Control Resuscitation
- - Avoid crystalloid if at all possible . Key is permissive hypotension .
- - Balanced blood product resuscitation of platelets, PRBC, and FFP in a 1:1:1 ratio
- - Bleeding trauma patient requiring massive blood product resuscitation
-- Give TXA - 1g within 3 hours of injury with subsequent 1g given over 8 hours
-- Decreases fibrinolysis
-- Answer is NEVER Factor VII - No longer given in trauma
-- TEG/ROTEM can guide resuscitation if available . Used more and more and may start showing up on ABSITE/ Boards (See Image) .
-- Time - How long it takes to start clot
- - If prolonged → Give FFP
-- Angle - How fast they are forming a strong clot
- - If low → Give Cryoprecipitate
-- Amplitude - Size of clot
- - If low → Platelets
-- LY30 - Measure Lysis
- - If high → Give TXA
+### Radiographic Clearance
+Somewhat controversial, but a normal CT with no localizing symptoms can generally clear the spine.
 
-Urologic Trauma
-- Bladder Injury
- - Frequently associated with pelvic fractures
- - Will always have hematuria (Renal injury may not have hematuria)
- - Management:
-- Intraperitoneal injury → Operative repair
-- Extraperitoneal injury → Foley drainage
-- Ureteral Injury
- - Management
-- Mid Ureteral Injury - spatulate ends, primary anastomosis over double J stent with fine absorbable suture
-- Distal Ureteral Injury- Re-implant into bladder .
-- If it doesn’t reach?
- - Psoas Hitch
+### Cord Injury Syndromes
+| Syndrome | Deficit | Classic Cause |
+|---|---|---|
+| **Central cord** | Upper extremity weakness ("cape and gloves") | Elderly with spinal stenosis, hyperextension injury |
+| **Brown-Séquard** (hemisection) | Ipsilateral motor loss + contralateral pain/temperature loss below the level | Penetrating (stab) injury |
+| **Anterior cord** | Motor deficit below the level | Vascular injury to the anterior spinal artery |
+| **SCIWORA** | Spinal cord injury without radiographic abnormality | Pediatric population |
 
-- Urethra Injury
- - Physical Exam - Blood at meatus, scrotal/perineal hematoma, high riding prostate
- - Diagnosis - Retrograde Urethrogram . Extremity Trauma
-- Hard signs of vascular injury
- - Pulsatile bleeding, expanding hematoma, absent pulses, bruit/thrill
-- Soft signs
- - Non-expanding hematoma, decreased pulses (ABI <0 .9), proximity to neurovascular structures
-- Soft signs of injury → CT angiogram
-- Extremity arterial trauma - Generally answer is repair with reversed saphenous
-- Extremity venous injury - Generally primary repair if possible or simply ligate
- - Popliteal artery and vein → Don’t forget to add fasciotomy after repair Special Populations Pearls
-- Pediatric Trauma Patients
- - Airway
-- Airway is narrow, short, and more anterior than in adults
-- Intubate with cuffed tubed (recently changed dogma)
-- uncuffed tube in infants only
-- ET tube size
-- Size of patient’s pinky nail bed width
-- Age/4 + 4 = ET tube size
-- Bradycardia is common with direct laryngoscopy → Have atropine ready
- - 20cc/kg bolus for crystalloid; 10cc/kg bolus for blood
+### Neurogenic vs Spinal Shock
+- **Neurogenic shock:** hemodynamic — hypotensive and bradycardic.
+- **Spinal shock:** sensory/motor only, no hemodynamic effect. Absent bulbocavernosus and cremasteric reflexes; some function may return. **Intact reflexes → deficits are likely permanent.**
+- **No steroids** for spinal cord injury.
+- Stability: **2 of 3 columns disrupted = unstable**, requires operative fixation.
 
-products
-- Pregnant Trauma Patients
- - Physiologic changes in pregnancy
-- Increase in circulating blood volume with physiological dilution/anemia
-- Increased respirations, decreased tidal volume results in respiratory alkalosis
- - Place patient left side down to take pressure off IVC
- - Abdominal trauma in pregnant patient
-- Be concern for placental abruption and maternal-fetal hemorrhage
-- Give RhoGAM if mother Rh- if concern for maternal- fetal hemorrhage
- - Kleihauer Betke Test can be used - looks for fetal blood cells in maternal circulation
- - Who needs fetal monitoring?
-- For viable pregnancies → Generally 24weeks gestation or greater Quick Hits
-- Bubbles seen in Coronary vessels during resuscitative thoracotomy?
- - Air embolism, typically from pulmonary injury
-- MVC with lumbar chance fracture and seat belt sign?
- - Hollow viscus injury, maybe pancreatic injury
-- Kid with handle bar blow to abdomen?
- - Duodenal hematoma
-- Left thoracoabdominal stab injury with negative imaging and normal exam?
- - Laparoscopy looking for diaphragm injury
-- Posterior knee dislocation?
+---
 
- - Popliteal artery injury
-- Patient found down, oliguric, Cr 3 .5?
- - Rhabdomyolysis
-- Tracheostomy patient and nurse reports 10cc of bright red blood from tracheostomy site
- - Tracheoinnominate fistula with sentinel bleed
-- Severe TBI patient with Na 155 and 5L Up?
- - Diabetes insipidus
- - Treatment? → DDAVP
-- Trauma patient paralyzed from head down with no cremasteric reflex?
- - Spinal shock
-- Stab wound to abdomen, benign exam, eviscerated omentum?
- - Laparotomy
-- Liver bleeding unchanged after Pringle maneuver?
- - Hepatic Vein or retrohepatic vena cava injury
-- Chest x-ray with apical cap?
- - Blunt thoracic aortic injury
-- Major arterial bleeding posterior in neck exploration?
- - Vertebral artery injury
-- Stab wound to flank?
- - Kidney or colon injury, hence need for triple contrast CT
-- Trauma patient with elevated LY30 on TEG?
- - Give TXA
-- Gateway structure to carotid bifurcation?
- - Common facial vein
-- Gateway structure for great vessels during median sternotomy?
- - Innominate Vein
+## Neck Trauma
 
-- Hematemesis 2 weeks after MVC with Grade IV liver laceration .
- - Haemobilia
- - Treatment? → angioembolization
-- Open pelvic fracture with complex perineal wound?
- - Diverting colostomy
-- GSW to pelvis with rectal wall hematoma seen on rigid proctoscopy?
- - Diverting colostomy
+### Zones
+| Zone | Boundaries |
+|---|---|
+| **I** | Clavicles → cricoid cartilage |
+| **II** | Cricoid cartilage → angle of the mandible |
+| **III** | Angle of mandible → skull base |
+
+### Management by Presentation
+- Hypotensive, or a **hard sign** of vascular injury → **OR**.
+- Stable, no hard sign → **CT neck with CTA**.
+- Concern for esophageal injury → add esophagram or EGD.
+- **Esophageal injury:** extend the myotomy to define the full mucosal defect, repair in 2 layers, buttress, drain. Can't localize the injury on exploration → widely drain instead.
+
+### Blunt Cerebrovascular Injury (BCVI)
+- **Distal internal carotid** is the most common site.
+- Treatment is generally **antiplatelet therapy**; endovascular intervention for a pseudoaneurysm or AV fistula.
+- Screen with CTA when any of the criteria in the card below are present — an isolated cervical seat-belt sign with an otherwise normal exam is **not**, by itself, an indication (two retrospective studies failed to show it as an independent risk factor).
+
+---
+
+## Thoracic Trauma
+
+- **Chest tube output → OR?** Controversial, data-limited, but classic thresholds: **>1500 mL initial output**, or **>200 mL/hr over 4 hours**.
+- **Flail chest:** 3+ consecutive rib fractures in 2 locations. Hypoxia comes from the **underlying pulmonary contusion**, not the flail segment itself. Manage with pain control (epidural), consider positive-pressure ventilation and rib plating.
+- **Sternal fracture** → concern for **blunt cardiac injury**. EKG required for all suspected BCI (sinus tach and PVCs most common findings). A normal ECG + normal troponin essentially rules it out. Hemodynamic instability or persistent new arrhythmia → echocardiogram.
+
+### Blunt Aortic Injury (BAI)
+- Greatest risk at the **proximal descending aorta**, where the mobile arch meets the fixed descending aorta at the ligamentum arteriosum (shearing from sudden deceleration).
+- Exam: hypotension, upper-extremity hypertension, unequal blood pressures, external chest trauma, thoracic outlet hematoma, sternal or thoracic spine fracture, left flail chest.
+- CXR is insensitive but concerning findings include a widened mediastinum (>8 cm), depressed mainstem bronchus, NG tube deviated right, apical cap, and disruption of the calcium/aortic "ring" (broken halo).
+- **CTA is the diagnostic study of choice.**
+- Grading: **I** intimal tear, **II** intramural hematoma, **III** pseudoaneurysm, **IV** rupture.
+- Management: immediate BP control (esmolol ± nitroprusside, target SBP <120), priority is controlling hemorrhage elsewhere and avoiding over-resuscitation, **endovascular repair preferred over open**.
+- Left arm ischemia after endovascular repair → **carotid-to-subclavian bypass** (subclavian is routinely covered during the endograft).
+
+---
+
+## Abdominal Trauma
+
+### Blunt Abdominal Trauma
+- **FAST** looks only for free fluid (blood, succus, or urine) in the abdomen/pericardium. CT is more sensitive/specific; FAST can be falsely negative and should be repeated in an unstable patient.
+- Most common injury overall: **solid organ**. Most commonly **missed**: hollow viscus or pancreas.
+- **Abdominal seat-belt sign** → suspect bowel or pancreatic injury.
+- Solid organ injury + unstable → **OR**. Stable → nonoperative management (ICU monitoring, serial labs, supportive care); go to OR for ongoing transfusion requirement or new instability.
+- CT with free fluid but no solid organ injury → **hollow viscus injury until proven otherwise**.
+- Stable with a contrast "blush" (spleen, liver, kidney) → **angioembolization**.
+
+### Abdominal Stab Wounds
+- Unstable, evisceration, or peritoneal signs → **OR**.
+- **Anterior stab wound:** local wound exploration for anterior rectus sheath violation. Truly negative + no other injuries → discharge. Violated sheath + stable/examinable → serial exams ± CT. Violated sheath + stable but unexaminable → CT vs. laparoscopic exploration for posterior fascia/peritoneal violation (controversial).
+- **Flank stab wound:** concern for retroperitoneal structures → **triple-contrast CT** (oral, rectal, IV).
+- **Thoracoabdominal stab wound:** concern for diaphragm injury even with a stable exam and negative imaging — frequently missed on CT, **best evaluated with laparoscopy**.
+
+### Hollow Viscus & Colon Injury
+- **Destructive** injury (>50% circumference or devascularized) → resection and anastomosis.
+- **Non-destructive** (<50%, no vascular compromise) → primary repair.
+- Damage-control setting with destructive bowel injury: staple off in discontinuity (no anastomosis), temporary abdominal closure, ICU for resuscitation.
+- **Penetrating colon injury:** primary repair for non-destructive, resection + anastomosis for destructive. Old teaching mandated diversion for left-sided injuries — that's no longer true; the decision is based on physiologic status, not injury side.
+- **Bucket-handle injury:** blunt mechanism, mesentery torn away from otherwise-intact bowel → resection.
+
+### Pancreatic Injury
+Key factors: ductal involvement, location (head/body/tail), associated duodenal injury.
+- Distal injury, no ductal injury → drains only.
+- Distal injury with ductal injury → **distal pancreatectomy + splenectomy** (can consider spleen-sparing in stable children).
+- Head injury with or without ductal involvement → drainage only.
+
+### Retroperitoneal Hematoma
+| Zone | Location | Blunt Injury | Penetrating Injury |
+|---|---|---|---|
+| **I** | Central (aorta, vena cava) | Explore | Explore |
+| **II** | Lateral (renal) | Explore only if expanding/pulsatile | Explore |
+| **III** | Pelvic (iliac) | Generally don't explore — pack + angiography | Explore |
+
+### Pelvic Fracture
+- Watch for injury to adjacent structures: rectum, bladder, vagina, urethra.
+- Open-book fracture + hypotension → **pelvic binder first**. Angiography if stable; **OR for preperitoneal packing** if unstable.
+
+---
+
+## Shock & Damage Control Resuscitation
+
+- Shock = **end-organ hypoperfusion**.
+- **Triad of death:** hypothermia, coagulopathy, acidosis.
+- **Damage control principles:** control contamination and hemorrhage, temporary closure, resuscitate — return to OR once physiology is corrected.
+
+### Abdominal Compartment Syndrome
+- First signs: rising peak ventilator pressures, falling urine output. Confirm with **bladder pressure** — absolute pressure **>20 mmHg** is concerning.
+- Treatment: **decompressive laparotomy** — except in burn patients after massive resuscitation (high mortality); drain ascites instead.
+
+### Damage Control Resuscitation
+- Avoid crystalloid when possible; **permissive hypotension**.
+- Balanced product resuscitation: **platelets : PRBC : FFP ≈ 1:1:1**.
+- **TXA** for the bleeding patient needing massive transfusion — 1 g within 3 hours of injury, then 1 g over the next 8 hours. Decreases fibrinolysis.
+- **Factor VII is never the answer** in trauma resuscitation anymore.
+- **TEG/ROTEM** can guide resuscitation and is increasingly tested (see quick-reference card below).
+
+---
+
+## Urologic Trauma
+
+- **Bladder injury:** frequently associated with pelvic fractures; **always** has hematuria (renal injury may not). Intraperitoneal → operative repair. Extraperitoneal → Foley drainage.
+- **Ureteral injury:** mid-ureteral → spatulate and primary anastomosis over a double-J stent. Distal → reimplant into the bladder; if it won't reach, **psoas hitch**.
+- **Urethral injury:** exam shows blood at the meatus, scrotal/perineal hematoma, high-riding prostate. Diagnose with a **retrograde urethrogram**.
+
+## Extremity Trauma
+
+- **Hard signs of vascular injury:** pulsatile bleeding, expanding hematoma, absent pulses, bruit/thrill → **OR**.
+- **Soft signs:** non-expanding hematoma, decreased pulses (ABI <0.9), proximity to neurovascular structures → **CTA**.
+- Extremity arterial injury → repair, generally with **reversed saphenous vein** graft.
+- Extremity venous injury → primary repair if possible, otherwise ligate.
+- **Popliteal artery/vein repair → don't forget fasciotomy.**
+
+---
+
+## Special Populations
+
+### Pediatric Trauma
+- Airway is narrow, short, and more anterior than in adults.
+- Intubate with a **cuffed** tube (updated dogma) — uncuffed only in infants.
+- ET tube size: width of the patient's pinky nail bed, or **age/4 + 4**.
+- Direct laryngoscopy commonly causes bradycardia — have atropine ready.
+- Fluid bolus: **20 mL/kg crystalloid**; **10 mL/kg** for blood products.
+
+### Pregnant Trauma
+- Physiologic baseline: increased circulating volume (dilutional anemia), increased respiratory rate with decreased tidal volume → respiratory alkalosis.
+- Position **left-side down** to relieve IVC compression.
+- Abdominal trauma → watch for **placental abruption** and maternal-fetal hemorrhage; give **RhoGAM** if mother is Rh-negative and hemorrhage is a concern.
+- **Kleihauer-Betke test** detects fetal cells in maternal circulation.
+- Fetal monitoring is generally indicated for viable pregnancies (**≥24 weeks**).
+
+---
+
+## Rapid-Fire Questions
+
+- **Q:** Bubbles seen in the coronary vessels during a resuscitative thoracotomy?
+  **A:** **Air embolism**, typically from a pulmonary injury.
+
+- **Q:** MVC with a lumbar Chance fracture and a seatbelt sign?
+  **A:** Hollow viscus injury — think pancreatic injury too.
+
+- **Q:** Kid with a handlebar blow to the abdomen?
+  **A:** **Duodenal hematoma.**
+
+- **Q:** Left thoracoabdominal stab wound, negative imaging, benign exam?
+  **A:** **Laparoscopy** to rule out diaphragm injury.
+
+- **Q:** Posterior knee dislocation — what are you worried about?
+  **A:** **Popliteal artery injury.**
+
+- **Q:** Patient found down, oliguric, Cr 3.5?
+  **A:** **Rhabdomyolysis.**
+
+- **Q:** Tracheostomy patient with 10 mL of bright red blood from the stoma?
+  **A:** **Tracheoinnominate fistula** — a sentinel bleed.
+
+- **Q:** Severe TBI, Na 155, 5 L urine output?
+  **A:** **Diabetes insipidus** — treat with **DDAVP**.
+
+- **Q:** Trauma patient paralyzed from the neck down, no cremasteric reflex?
+  **A:** **Spinal shock.**
+
+- **Q:** Stab wound to the abdomen, benign exam, but omentum is eviscerating?
+  **A:** **Laparotomy** — evisceration is an indication regardless of exam.
+
+- **Q:** Liver bleeding unchanged after a Pringle maneuver?
+  **A:** **Hepatic vein or retrohepatic IVC injury.**
+
+- **Q:** CXR with an apical cap?
+  **A:** Think **blunt thoracic aortic injury**.
+
+- **Q:** Major arterial bleeding from posterior during neck exploration?
+  **A:** **Vertebral artery injury.**
+
+- **Q:** Stab wound to the flank?
+  **A:** Concern for **kidney or colon injury** — triple-contrast CT.
+
+- **Q:** Trauma patient with an elevated LY30 on TEG?
+  **A:** **Give TXA** — high LY30 means excessive fibrinolysis.
+
+- **Q:** Hematemesis 2 weeks after an MVC with a Grade IV liver laceration?
+  **A:** **Hemobilia** — treat with angioembolization.
+
+- **Q:** Open pelvic fracture with a complex perineal wound?
+  **A:** **Diverting colostomy.**
+
+- **Q:** GSW to the pelvis with a rectal wall hematoma on rigid proctoscopy?
+  **A:** **Diverting colostomy.**
+
+---
+
+## Quick Reference Table — Hemorrhagic Shock Classification
+
+<style>
+.qr-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem auto;max-width:720px;}
+.qr-table{width:100%;min-width:520px;border-collapse:collapse;font-size:0.95rem;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;}
+.qr-table th,.qr-table td{padding:8px 14px;border-top:1px solid #e5e7eb;}
+.qr-table th.label,.qr-table td.label{text-align:left;width:40%;}
+.qr-table th.value,.qr-table td.value{text-align:center;width:20%;}
+.qr-table thead th{background:#f8fafc;font-weight:700;}
+.qr-table tbody tr:nth-child(even){background:#f8fafc;}
+</style>
+
+<div class="qr-table-wrap">
+<table class="qr-table">
+  <thead>
+    <tr>
+      <th class="label">Class</th>
+      <th class="value">Blood Loss</th>
+      <th class="label">Key Finding</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td class="label">I</td><td class="value">0–15%</td><td class="label">No physiologic signs</td></tr>
+    <tr><td class="label">II</td><td class="value">15–30%</td><td class="label">Tachycardia, narrowed pulse pressure (earliest sign)</td></tr>
+    <tr><td class="label">III</td><td class="value">30–40%</td><td class="label">Hypotension</td></tr>
+    <tr><td class="label">IV</td><td class="value">&gt;40%</td><td class="label">Profound shock, hemodynamic collapse</td></tr>
+  </tbody>
+</table>
+</div>
+
+---
+
+## Quick-Reference Cards
+
+<style>
+.quick-cards .qr-card{border:1px solid var(--border,#e5e7eb);border-radius:10px;margin:12px 0;background:#fff;overflow:hidden;}
+.quick-cards .qr-card summary{cursor:pointer;list-style:none;padding:12px 14px;font-weight:700;}
+.quick-cards .qr-card[open] summary{border-bottom:1px solid var(--border,#e5e7eb);}
+.quick-cards .qr-body{padding:10px 14px;}
+.quick-cards .kv{margin:0;padding:0;list-style:none;}
+.quick-cards .kv li{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #f1f5f9;}
+.quick-cards .kv li:last-child{border-bottom:0;}
+.quick-cards .key{flex:0 0 44%;font-weight:600;}
+.quick-cards .val{flex:1 1 auto;}
+</style>
+
+<div class="quick-cards">
+
+  <details class="qr-card" open>
+    <summary>BCVI screening criteria (Denver/EAST)</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Mechanism</div><div class="val">Severe cervical hyperextension/rotation/hyperflexion; hanging mechanism.</div></li>
+        <li><div class="key">Neuro exam</div><div class="val">Deficit not explained by brain imaging; diffuse axonal injury; GCS &lt;8 with blunt head trauma.</div></li>
+        <li><div class="key">Fractures</div><div class="val">Skull base through the foramen lacerum; cervical spine fracture, especially C1–C3; LeFort II/III facial fracture.</div></li>
+        <li><div class="key">Exam findings</div><div class="val">Horner's syndrome, cervical bruit or hematoma, epistaxis from a suspected arterial source.</div></li>
+        <li><div class="key">Not sufficient alone</div><div class="val">Isolated cervical seat-belt sign with a normal exam — not an independent risk factor.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Damage control indications ("lethal triad")</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Hypothermia</div><div class="val">&lt;35°C.</div></li>
+        <li><div class="key">Coagulopathy</div><div class="val">INR &gt;1.5.</div></li>
+        <li><div class="key">Acidosis</div><div class="val">pH &lt;7.2.</div></li>
+        <li><div class="key">Also</div><div class="val">Ongoing instability despite transfusion.</div></li>
+        <li><div class="key">Approach</div><div class="val">Pack, staple bowel in discontinuity, temporary abdominal closure, resuscitate in ICU, return to OR once corrected.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>TEG/ROTEM interpretation</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">R / Time (clot starts)</div><div class="val">Prolonged → give <strong>FFP</strong>.</div></li>
+        <li><div class="key">Angle (clot forms)</div><div class="val">Low → give <strong>cryoprecipitate</strong>.</div></li>
+        <li><div class="key">MA / Amplitude (clot strength)</div><div class="val">Low → give <strong>platelets</strong>.</div></li>
+        <li><div class="key">LY30 (lysis)</div><div class="val">High → give <strong>TXA</strong>.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Retroperitoneal hematoma zones</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Zone I — Central</div><div class="val">Aorta, vena cava, pancreas, duodenum. Explore for blunt or penetrating.</div></li>
+        <li><div class="key">Zone II — Lateral</div><div class="val">Renal. Explore penetrating; observe blunt unless expanding/pulsatile.</div></li>
+        <li><div class="key">Zone III — Pelvic</div><div class="val">Iliac vessels. Explore penetrating; pack + angiography for blunt, avoid dissection.</div></li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="qr-card">
+    <summary>Reversal agents for coagulopathy</summary>
+    <div class="qr-body">
+      <ul class="kv">
+        <li><div class="key">Warfarin</div><div class="val">PCC (preferred) or FFP, + vitamin K.</div></li>
+        <li><div class="key">Dabigatran</div><div class="val">Idarucizumab (Praxbind) or dialysis.</div></li>
+        <li><div class="key">Apixaban/Rivaroxaban</div><div class="val">PCC — partial reversal only.</div></li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+
+---
+
+## Related Case Preps
+- [Exploratory Laparotomy for Trauma](/landmark/exploratory-laparotomy-trauma/) — the four-quadrant packing, systematic "trauma survey," and damage-control decision-making described above, applied step by step.
+- [Splenectomy](/landmark/splenectomy/) — trauma splenectomy, AAST grading, and the nonop-vs-OR decision for blunt splenic injury.
+
+## References
+1. American College of Surgeons Committee on Trauma. *Advanced Trauma Life Support (ATLS)*, 10th ed.
+2. Rotondo MF, et al. "Damage control": an approach for improved survival in exsanguinating penetrating abdominal injury. *J Trauma*. 1993.
+3. Biffl WL, et al. Western Trauma Association critical decisions in trauma: screening for and treatment of blunt cerebrovascular injuries. *J Trauma*. 2010.
+4. Stassen NA, et al. Selective nonoperative management of blunt splenic injury: an Eastern Association for the Surgery of Trauma practice management guideline. *J Trauma Acute Care Surg*. 2012.
+5. CRASH-2 Collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage. *Lancet*. 2010.
 
 ## Figures
 
