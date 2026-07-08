@@ -9,7 +9,7 @@ permalink: /landmark/exploratory-laparotomy-trauma/
 ## Procedure Snapshot
 - **Indication/urgency:** Hemodynamic instability or peritonitis after blunt or penetrating trauma; positive FAST/DPL with instability.  
 - **Expected duration:** Variable — 45 min (damage control) to several hours (definitive).  
-- **Special instruments:** Long Deaver and Balfour retractors, vascular clamps, Satinsky/DeBakey forceps, rapid infuser, cell saver, hemostatic agents, temporary abdominal closure (TAC/VAC) kit.
+- **Special instruments:** Self-retaining retractor (Bookwalter), vascular clamps, rapid infuser, Abthera (temporary abdominal closure) or materials for DIY TAC.
 
 ---
 
@@ -27,6 +27,13 @@ permalink: /landmark/exploratory-laparotomy-trauma/
 2. Remove each pack systematically to identify source of hemorrhage.  
 3. If bleeding uncontrolled → **damage control phase** (pack and close temporarily).
 
+**Packing technique tips:**
+- Use folded laparotomy sponges, not loose packing material.
+- Pack firmly but avoid excessive pressure that compromises venous outflow.
+- Work in an organized fashion: start in one quadrant, pack down to the retroperitoneum, then move to the next.
+- When removing packs, do it one at a time while maintaining pressure — this localizes the bleeding source rather than converting a tamponaded bleed into uncontrolled hemorrhage.
+- After identifying the source, decide: can you control this with direct pressure/cautery/suture, or should you pack it (solid organ/venous bleeding) and move on?
+
 ---
 
 ### 3. Systematic Exploration (Top-to-Bottom "Trauma Survey")
@@ -35,10 +42,10 @@ permalink: /landmark/exploratory-laparotomy-trauma/
 - **Liver:**  
   - Mobilize right lobe (divide triangular ligament).  
   - Control bleeding: direct pressure, Pringle maneuver (occlude hepatoduodenal ligament).  
-  - If bleeding persists → hepatic vein/retrohepatic IVC → pack or shunt (PMID 18255323).
+  - If bleeding persists → hepatic vein/retrohepatic IVC injury → **pack and go to IR for angiographic embolization** (PMID 18255323). Blind dissection here converts a salvageable situation into a surgical catastrophe.
 - **Diaphragm:** Inspect both domes (esp. with penetrating thoracoabdominal trauma).  
 - **Stomach:** Palpate entire length, anterior then posterior (rotate).  
-- **Spleen:** Divide splenocolic, splenorenal, and splenophrenic ligaments; control hilum early if needed. See [Splenectomy](/landmark/splenectomy/) for grading and the nonop-vs-OR decision.
+- **Spleen:** Inspect for active bleeding or grade of injury. Only divide splenocolic, splenorenal, and splenophrenic ligaments if you need access for repair or if splenectomy is necessary. See [Splenectomy](/landmark/splenectomy/) for grading and the nonop-vs-OR decision.
 
 #### B. **Retroperitoneum and Zones of Injury**
 Retroperitoneum divided into **three zones**:
@@ -54,10 +61,15 @@ Retroperitoneum divided into **three zones**:
 
 #### C. **Mid and Lower Abdomen**
 - **Small Bowel:** "Run the bowel" from ligament of Treitz → ileocecal valve.  
-  - Examine mesentery for tears/hematoma.  
-  - Repair serosal tears; resect ischemic segments.  
-- **Colon:** Inspect mesocolon for hematomas; perform resection/anastomosis or diversion as indicated.  
-- **Mesentery/Root:** Look for bucket-handle tears (PMID 29324194).  
+  - **Serosal tears (partial thickness):** Repair with running 4-0 absorbable (Vicryl) for hemostasis; no anastomosis needed.  
+  - **Full-thickness defects:** Close in two layers: running 4-0 absorbable inner layer (mucosa), interrupted 4-0 absorbable outer seromuscular (Lembert). If multiple defects or extensive injury → resect the segment.  
+  - **Resection:** Divide mesentery with ties or vessel sealing device. Anastomose end-to-end with hand sewing (two-layer Lembert technique) or GIA stapler (60-mm, blue or white load for small bowel — 4.8 mm staple height). Close mesenteric defect to avoid internal hernia.  
+  - **Examine mesentery for tears/hematoma** — missed mesenteric injuries are a common source of postop morbidity.  
+- **Colon:** Inspect mesocolon for hematomas and vascular injury.  
+  - **Serosal tears:** Repair with running 4-0 absorbable.  
+  - **Full-thickness injury:** Primary repair (4-0 absorbable two-layer) if <50% circumference and well-vascularized; otherwise resect.  
+  - **Resection:** GIA stapler (60-mm, **green load** for colon — 4.8 mm staple height) for colorectal anastomosis, or hand-sewn Lembert technique. Perform loop colostomy if patient unstable (damage control) or if anastomosis unsafe (massive contamination, multiple injuries).  
+- **Mesentery/Root:** Look for bucket-handle tears (PMID 29324194) — divide injured mesentery with ties or cautery.  
 
 #### D. **Pelvis**
 - Inspect bladder (fill test with saline via Foley).  
@@ -73,8 +85,9 @@ Retroperitoneum divided into **three zones**:
   - Acidosis (pH < 7.2)  
   - Ongoing instability despite transfusion (PMID 18255323)
 - **Technique:**  
-  - Pack bleeding sites, staple bowel ends (no anastomosis), temporary abdominal closure (VAC or Bogota bag).  
+  - Pack bleeding sites, staple bowel ends (no anastomosis), apply Abthera (temporary abdominal closure).  
   - Return to OR 24–48 h later for definitive repair.
+  - **Barker Vac (DIY TAC):** If Abthera unavailable, construct a temporary closure with a plastic sheet over the bowel, white countable towel in the wound, ioban seal around edges, and connect to standard wound vac suction.
 
 ---
 
@@ -114,7 +127,7 @@ Retroperitoneum divided into **three zones**:
 ## Post-Op Considerations
 - ICU admission.  
 - Correct coagulopathy, acidosis, hypothermia ("lethal triad").  
-- If TAC: monitor output and bowel perfusion; plan second-look <48 hr.  
+- If Abthera (temporary abdominal closure) in place: monitor output and bowel perfusion; plan second-look <48 hr.  
 - Early nutrition (enteral preferred).  
 - Consider DVT prophylaxis once hemostasis achieved.
 
@@ -193,8 +206,8 @@ Retroperitoneum divided into **three zones**:
     <div class="qr-body">
       <ul class="kv">
         <li><div class="key">Bowel</div><div class="val">Staple off in discontinuity — no anastomosis.</div></li>
-        <li><div class="key">Bleeding</div><div class="val">Pack; consider shunt for major vascular/hepatic injury.</div></li>
-        <li><div class="key">Closure</div><div class="val">Temporary abdominal closure (VAC or Bogota bag).</div></li>
+        <li><div class="key">Bleeding</div><div class="val">Pack solid organs; IR for uncontrolled hepatic/vascular bleeding.</div></li>
+        <li><div class="key">Closure</div><div class="val">Abthera (temporary abdominal closure) or Barker Vac (plastic sheet + white towel + ioban + wound vac).</div></li>
         <li><div class="key">Disposition</div><div class="val">ICU resuscitation, correct triad, return to OR in 24–48 h.</div></li>
       </ul>
     </div>
